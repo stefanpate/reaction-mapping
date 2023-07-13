@@ -95,10 +95,31 @@ rxn_dict_to_metacyc_id = []
 subs_sans_seeds = []
 rxn_ct = 0
 for rxn in rxn_id_list:
-    reactants, products = meta[rxn].left, meta[rxn].right
-    reactant_dict, reactants_sans_seeds = check_subs_for_seeds(reactants)
-    product_dict, products_sans_seeds = check_subs_for_seeds(products)
-    subs_sans_seeds += reactants_sans_seeds + products_sans_seeds
+    # Left to right irrev
+    if meta[rxn].reaction_direction in ['|PHYSIOL-LEFT-TO-RIGHT|', '|IRREVERSIBLE-LEFT-TO-RIGHT|', '|LEFT-TO-RIGHT|']:
+        reactants, products = meta[rxn].left, meta[rxn].right
+        reactant_dict, reactants_sans_seeds = check_subs_for_seeds(reactants)
+        product_dict, products_sans_seeds = check_subs_for_seeds(products)
+        subs_sans_seeds += reactants_sans_seeds + products_sans_seeds
+    # Right to left irrev
+    elif meta[rxn].reaction_direction in ['|PHYSIOL-RIGHT-TO-LEFT|', '|IRREVERSIBLE-RIGHT-TO-LEFT|', '|RIGHT-TO-LEFT|']:
+        reactants, products = meta[rxn].right, meta[rxn].left
+        reactant_dict, reactants_sans_seeds = check_subs_for_seeds(reactants)
+        product_dict, products_sans_seeds = check_subs_for_seeds(products)
+        subs_sans_seeds += reactants_sans_seeds + products_sans_seeds
+    # Rev
+    elif meta[rxn].reaction_direction == '|REVERSIBLE|':
+        # Left to right
+        reactants, products = meta[rxn].left, meta[rxn].right
+        reactant_dict, reactants_sans_seeds = check_subs_for_seeds(reactants)
+        product_dict, products_sans_seeds = check_subs_for_seeds(products)
+        subs_sans_seeds += reactants_sans_seeds + products_sans_seeds
+
+        # Right to left
+        reactants, products = meta[rxn].right, meta[rxn].left
+        reactant_dict, reactants_sans_seeds = check_subs_for_seeds(reactants)
+        product_dict, products_sans_seeds = check_subs_for_seeds(products)
+        subs_sans_seeds += reactants_sans_seeds + products_sans_seeds
 
     if (len(reactant_dict) > 0) & (len(product_dict) > 0):
         key = f"rxn{rxn_ct:03}"

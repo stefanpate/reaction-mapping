@@ -1,40 +1,73 @@
 import csv
 import json
+import sys
 import numpy as np
 from itertools import combinations, permutations
 from rdkit import Chem
 from rdkit.Chem import AllChem
 
+# Run from cmd
+# E.g., python map_rxns_to_rules_simple.py minimal1224_all_uniprot.tsv 200_random_metacyc_rxns_seed_1234.json temp_mapped_rxns.csv temp_rdkit_issues_mapping.csv
+# rules_path = sys.argv[1]
+# rxn_dict_path = sys.argv[2]
+# save_to = sys.argv[3]
+# rdkit_issues_path = sys.argv[4]
+
+# Run from editor
 rules_path = 'minimal1224_all_uniprot.tsv'
-save_to = 'mapped_reactions_simple.csv'
-rxn_dict_path = 'rxn_dict_metacyc_ids.json'
-rdkit_issues_path = 'rxns_with_rdkit_issues.csv'
+save_to = 'filtered_mapped_rxns.csv'
+rxn_dict_path = '50_random_metacyc_rxns_filtered_rnd_seed_1234.json'
+missing_smiles_path = 'filtered_missing_smiles.csv'
+parse_issues_path = 'filtered_smiles_parse_issues.csv'
 
 def map_rxn2rule(rxn, rule):
     '''
-    Maps reactions to SMARTS-encoded
-    reaction rule
+    Maps reactions to SMARTS-encoded reaction rule.
+    Args:
+        - rxn: 
+        - rule: smarts string
     Returns:
-        - did_map, did_have_smiles_stereochem_issue
+        - did_map (bool)
+        - missing_smiles (bool)
+        - smiles_parse_issue (bool)
     '''
-    reactants, products = list(rxn[0].values()), list(rxn[1].values())
-    reactants, products = sanitize(reactants), sanitize(products)
-    if (reactants is None) | (products is None):
-        return False, True
-    else:
-        products = sorted(products)
-        operator = Chem.rdChemReactions.ReactionFromSmarts(rule)
-        reactants_mol = tuple([Chem.MolFromSmiles(elt) for elt in reactants])
-        n_rule_reactants = count_reactants(rule)
-        for reactant_subset in combinations(reactants_mol, n_rule_reactants):
-            for perm in permutations(reactant_subset):
-                outputs = operator.RunReactants(perm)
-                for output in outputs:
-                    output = [Chem.MolToSmiles(elt) for elt in output]
-                    output = sorted(output)
-                    if output == products:
-                        return True, False
-    return False, False
+    pre_sani_reactants, pre_sani_products = list(rxn[0].values()), list(rxn[1].values()) # Get lists of smiles
+
+    # Initialize flags
+    did_map = False
+    missing_smiles = False
+    smiles_parse_issue = False
+
+    # Check for missing smiles
+    if (None in pre_sani_reactants) or (None in pre_sani_products):
+        missing_smiles = True
+    
+    reactants, products = sanitize(pre_sani_reactants), sanitize(pre_sani_products) # Remove stereochem
+    
+    if ((len(reactants) != len(pre_sani_reactants)) or (len(products) != len(pre_sani_products))) and (not missing_smiles) :
+        smiles_parse_issue = True
+    
+    products = sorted(products)
+    operator = Chem.rdChemReactions.ReactionFromSmarts(rule) # Make reaction object from smarts string
+    reactants_mol = tuple([Chem.MolFromSmiles(elt) for elt in reactants]) # Convert reactant smiles to mol obj
+    n_rule_reactants = count_reactants(rule) # No. reactants in rule
+
+    # For every combo of reaction reactants
+    for reactant_subset in combinations(reactants_mol, n_rule_reactants):
+        
+        # For every permutation of that subset of reactants
+        for perm in permutations(reactant_subset):
+            outputs = operator.RunReactants(perm) # Apply rule to that permutation of reactants
+            for output in outputs:
+                output = [Chem.MolToSmiles(elt) for elt in output] # Convert pred products to smiles
+                output = sorted(output)
+
+                # Compare predicted to actual products. If mapped, return
+                if output == products: 
+                    did_map = True
+                    return did_map, missing_smiles, smiles_parse_issue
+    
+    return did_map, missing_smiles, smiles_parse_issue
 
 def count_reactants(rule_smarts):
     '''
@@ -74,6 +107,10 @@ def sanitize(list_of_smiles):
                 sanitized_smiles.append(Chem.MolToSmiles(temp_mol))
             except:
                 pass
+
+    n_start, n_sanitized = len(list_of_smiles), len(sanitized_smiles)
+    # if n_start != n_sanitized:
+    #     print('smiles issue')
     
     return sanitized_smiles
 
@@ -90,40 +127,50 @@ rules = rules[1:] # Remove header
 with open(rxn_dict_path, 'r') as f:
     rxn_dict = json.load(f)
 
-# # Test with this guy
-# test_rxn = rxn_dict['|RXN-12920|']
-# rxn_dict = {}
-# rxn_dict['|RXN-12920|'] = test_rxn
+n_rxns = len(list(rxn_dict.keys()))
 
 # Map reactions to rules
 rxn_to_rule = []
-rxns_rdkit_issue = []
-mapped_rxns = []
+rxns_parse_issue = []
+rxns_missing_smiles = []
+rxn_ctr = 0
+mapped_rxn_binary = np.zeros(shape=(n_rxns,))
 for k,v in rxn_dict.items():
     row = [k]
     for elt in rules:
         rule_name, rule_smarts = elt
-        found_match, rdkit_issue = map_rxn2rule(v, rule_smarts)
+        found_match, missing_smiles, parse_issue = map_rxn2rule(v, rule_smarts)
 
         if found_match:
             print(f"{k} => {rule_name}")
             row.append(rule_name)
-            
-            if k not in mapped_rxns:
-                mapped_rxns.append(k)
+            mapped_rxn_binary[rxn_ctr] = 1
 
-        if (rdkit_issue) and ([k] not in rxns_rdkit_issue):
-            rxns_rdkit_issue.append([k])
+        if (parse_issue) and ([k] not in rxns_parse_issue):
+            rxns_parse_issue.append([k])
+
+        if (missing_smiles) and ([k] not in rxns_missing_smiles):
+            rxns_missing_smiles.append([k])
         
     rxn_to_rule.append(row)
 
-print(f"{len(mapped_rxns)} / {len(rxn_dict)} reactions mapped")
+    # Print progress
+    if rxn_ctr % 20 == 0:
+        print(f"{mapped_rxn_binary.sum()} / {rxn_ctr} reactions mapped")
+
+    rxn_ctr += 1 # Update progress
+
+print(f"{mapped_rxn_binary.sum()} / {n_rxns} reactions mapped") # Final result
 
 # Save results
 with open(save_to, 'w') as f:
     writer = csv.writer(f)
     writer.writerows(rxn_to_rule)
 
-with open(rdkit_issues_path, 'w') as f:
+with open(parse_issues_path, 'w') as f:
     writer = csv.writer(f)
-    writer.writerows(rxns_rdkit_issue)
+    writer.writerows(rxns_parse_issue)
+
+with open(missing_smiles_path, 'w') as f:
+    writer = csv.writer(f)
+    writer.writerows(rxns_missing_smiles)
