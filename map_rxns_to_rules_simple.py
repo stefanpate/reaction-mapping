@@ -16,22 +16,24 @@ from rdkit.Chem import AllChem
 # Run from editor
 rules_path = 'minimal1224_all_uniprot.tsv'
 save_to = 'filtered_mapped_rxns.csv'
-rxn_dict_path = '50_random_metacyc_rxns_filtered_rnd_seed_1234.json'
+rxn_dict_path = '100_random_metacyc_rxns_filtered_rnd_seed_1234.json'
 missing_smiles_path = 'filtered_missing_smiles.csv'
 parse_issues_path = 'filtered_smiles_parse_issues.csv'
+stoich_path = 'stoich_metacyc_rxns_directed_221214.json'
 
-def map_rxn2rule(rxn, rule):
+def map_rxn2rule(rxn, rule, max_products=1000):
     '''
     Maps reactions to SMARTS-encoded reaction rule.
     Args:
-        - rxn: 
+        - rxn: List of lists, each sublist with smiles of 
+        substrates with the correct multiplicity / stoichiometry
         - rule: smarts string
     Returns:
         - did_map (bool)
         - missing_smiles (bool)
         - smiles_parse_issue (bool)
     '''
-    pre_sani_reactants, pre_sani_products = list(rxn[0].values()), list(rxn[1].values()) # Get lists of smiles
+    pre_sani_reactants, pre_sani_products = rxn # Get lists of smiles
 
     # Initialize flags
     did_map = False
@@ -57,7 +59,7 @@ def map_rxn2rule(rxn, rule):
         
         # For every permutation of that subset of reactants
         for perm in permutations(reactant_subset):
-            outputs = operator.RunReactants(perm) # Apply rule to that permutation of reactants
+            outputs = operator.RunReactants(perm, maxProducts=max_products) # Apply rule to that permutation of reactants
             for output in outputs:
                 output = [Chem.MolToSmiles(elt) for elt in output] # Convert pred products to smiles
                 output = sorted(output)
@@ -68,6 +70,33 @@ def map_rxn2rule(rxn, rule):
                     return did_map, missing_smiles, smiles_parse_issue
     
     return did_map, missing_smiles, smiles_parse_issue
+
+def apply_stoich(rxn_id, rxn, stoich_dict):
+    '''
+    Take reaction dicts and append incremental smiles
+    according to stoichiometry.
+    Args:
+        - rxn_id: string metacyc identifier
+        - rxn: list of two dicts, with id:smi entries for substrates
+    Returns:
+        - reactants_smi, products_smi: two lists of substrate smiles w/ right multiplicity
+    '''
+    if rxn_id in stoich_dict.keys():
+        output = []
+        for i,elt in enumerate(rxn): # Each side of reaction
+            temp = []
+            for k,v in elt.items(): # Each id:smi
+                coeff = stoich_dict[rxn_id][i][k]
+                single_substrate = [v for i in range(coeff)]
+                temp += single_substrate
+
+            output.append(temp)
+
+    else: # Can't find stoich
+        output = [list(rxn[0].values()), list(rxn[1].values())]
+
+    return output
+
 
 def count_reactants(rule_smarts):
     '''
@@ -127,6 +156,10 @@ rules = rules[1:] # Remove header
 with open(rxn_dict_path, 'r') as f:
     rxn_dict = json.load(f)
 
+# Read in stoichiometry
+with open(stoich_path, 'r') as f:
+    stoich_dict = json.load(f)
+
 n_rxns = len(list(rxn_dict.keys()))
 
 # Map reactions to rules
@@ -137,9 +170,10 @@ rxn_ctr = 0
 mapped_rxn_binary = np.zeros(shape=(n_rxns,))
 for k,v in rxn_dict.items():
     row = [k]
+    rxn = apply_stoich(k, v, stoich_dict)
     for elt in rules:
         rule_name, rule_smarts = elt
-        found_match, missing_smiles, parse_issue = map_rxn2rule(v, rule_smarts)
+        found_match, missing_smiles, parse_issue = map_rxn2rule(rxn, rule_smarts)
 
         if found_match:
             print(f"{k} => {rule_name}")
