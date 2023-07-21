@@ -14,14 +14,14 @@ from rdkit.Chem import AllChem
 # rdkit_issues_path = sys.argv[4]
 
 # Run from editor
-rules_path = 'minimal1224_all_uniprot.tsv'
-save_to = 'filtered_mapped_rxns.csv'
-rxn_dict_path = '100_random_metacyc_rxns_filtered_rnd_seed_1234.json'
+rules_path = 'test_rule.csv'
+save_to = 'test_rxn_mapping.csv'
+rxn_dict_path = 'test_rxn.json'
 missing_smiles_path = 'filtered_missing_smiles.csv'
 parse_issues_path = 'filtered_smiles_parse_issues.csv'
 stoich_path = 'stoich_metacyc_rxns_directed_221214.json'
 
-def map_rxn2rule(rxn, rule, max_products=1000):
+def map_rxn2rule(rxn, rule, max_products=10000):
     '''
     Maps reactions to SMARTS-encoded reaction rule.
     Args:
@@ -52,22 +52,25 @@ def map_rxn2rule(rxn, rule, max_products=1000):
     products = sorted(products)
     operator = Chem.rdChemReactions.ReactionFromSmarts(rule) # Make reaction object from smarts string
     reactants_mol = tuple([Chem.MolFromSmiles(elt) for elt in reactants]) # Convert reactant smiles to mol obj
-    n_rule_reactants = count_reactants(rule) # No. reactants in rule
+    rule_substrate_cts = count_reactants(rule) # [n_reactants, n_products] in a rule
+    rxn_substrate_cts = [len(reactants), len(products)]
 
-    # For every combo of reaction reactants
-    for reactant_subset in combinations(reactants_mol, n_rule_reactants):
+    # Check if number of reactants / products strictly match
+    # rule to reaction
+    if rule_substrate_cts != rxn_substrate_cts:
+        return did_map, missing_smiles, smiles_parse_issue
         
-        # For every permutation of that subset of reactants
-        for perm in permutations(reactant_subset):
-            outputs = operator.RunReactants(perm, maxProducts=max_products) # Apply rule to that permutation of reactants
-            for output in outputs:
-                output = [Chem.MolToSmiles(elt) for elt in output] # Convert pred products to smiles
-                output = sorted(output)
+    # For every permutation of that subset of reactants
+    for perm in permutations(reactants_mol):
+        outputs = operator.RunReactants(perm, maxProducts=max_products) # Apply rule to that permutation of reactants
+        for output in outputs:
+            output = [Chem.MolToSmiles(elt) for elt in output] # Convert pred products to smiles
+            output = sorted(output)
 
-                # Compare predicted to actual products. If mapped, return
-                if output == products: 
-                    did_map = True
-                    return did_map, missing_smiles, smiles_parse_issue
+            # Compare predicted to actual products. If mapped, return
+            if output == products: 
+                did_map = True
+                return did_map, missing_smiles, smiles_parse_issue
     
     return did_map, missing_smiles, smiles_parse_issue
 
@@ -103,24 +106,27 @@ def count_reactants(rule_smarts):
     Counts number of reactants in a SMARTS-
     encoded operator
     '''
-    reactants = rule_smarts.split('>>')[0]
-    dot_split = reactants.split('.') # Reactants separated by '.'
+    sides = rule_smarts.split('>>')
+    cts = []
+    for side in sides:
+        dot_split = side.split('.') # Reactants separated by '.'
 
-    # But must catch where pieces of a single compound
-    # are split by '.', in which case they'll be surrounded by ()
-    left_split_parens = []
-    right_split_parens = []
-    for i, elt in enumerate(dot_split):
-        if (elt[0] == '(') & (elt[-1] != ')'):
-            left_split_parens.append(i)
-        elif (elt[0] != '(') & (elt[-1] == ')'):
-            right_split_parens.append(i)
-            
-    left_split_parens, right_split_parens = np.array(left_split_parens), np.array(right_split_parens)
-    overcount = (right_split_parens - left_split_parens).sum()
+        # But must catch where pieces of a single compound
+        # are split by '.', in which case they'll be surrounded by ()
+        left_split_parens = []
+        right_split_parens = []
+        for i, elt in enumerate(dot_split):
+            if (elt[0] == '(') & (elt[-1] != ')'):
+                left_split_parens.append(i)
+            elif (elt[0] != '(') & (elt[-1] == ')'):
+                right_split_parens.append(i)
+                
+        left_split_parens, right_split_parens = np.array(left_split_parens), np.array(right_split_parens)
+        overcount = (right_split_parens - left_split_parens).sum()
 
-    n_reactants = len(dot_split) - overcount
-    return int(n_reactants)
+        n = len(dot_split) - overcount
+        cts.append(int(n))
+    return cts
 
 def sanitize(list_of_smiles):
     sanitized_smiles = []
@@ -136,10 +142,6 @@ def sanitize(list_of_smiles):
                 sanitized_smiles.append(Chem.MolToSmiles(temp_mol))
             except:
                 pass
-
-    n_start, n_sanitized = len(list_of_smiles), len(sanitized_smiles)
-    # if n_start != n_sanitized:
-    #     print('smiles issue')
     
     return sanitized_smiles
 
@@ -171,8 +173,10 @@ mapped_rxn_binary = np.zeros(shape=(n_rxns,))
 for k,v in rxn_dict.items():
     row = [k]
     rxn = apply_stoich(k, v, stoich_dict)
+    print(k)
     for elt in rules:
         rule_name, rule_smarts = elt
+        print(rule_name)
         found_match, missing_smiles, parse_issue = map_rxn2rule(rxn, rule_smarts)
 
         if found_match:
