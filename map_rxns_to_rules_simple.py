@@ -66,6 +66,7 @@ def map_rxn2rule(rxn, rule, max_products=10000):
         for output in outputs:
             output = [Chem.MolToSmiles(elt) for elt in output] # Convert pred products to smiles
             output = sorted(output)
+            print(products, output)
 
             # Compare predicted to actual products. If mapped, return
             if output == products: 
@@ -131,18 +132,9 @@ def count_reactants(rule_smarts):
 def sanitize(list_of_smiles):
     sanitized_smiles = []
     for elt in list_of_smiles:
-        try:
-            temp_mol = Chem.MolFromSmiles(elt)
-            Chem.rdmolops.RemoveStereochemistry(temp_mol)
-            sanitized_smiles.append(Chem.MolToSmiles(temp_mol))
-        except:
-            try:
-                temp_mol = Chem.MolFromSmiles(elt, sanitize=False)
-                Chem.rdmolops.RemoveStereochemistry(temp_mol)
-                sanitized_smiles.append(Chem.MolToSmiles(temp_mol))
-            except:
-                pass
-    
+        temp_mol = Chem.MolFromSmiles(elt)
+        Chem.rdmolops.RemoveStereochemistry(temp_mol)
+        sanitized_smiles.append(Chem.MolToSmiles(temp_mol))    
     return sanitized_smiles
 
 # Read in rules
@@ -173,10 +165,10 @@ mapped_rxn_binary = np.zeros(shape=(n_rxns,))
 for k,v in rxn_dict.items():
     row = [k]
     rxn = apply_stoich(k, v, stoich_dict)
-    print(k)
+    # print(k)
     for elt in rules:
         rule_name, rule_smarts = elt
-        print(rule_name)
+        # print(rule_name)
         found_match, missing_smiles, parse_issue = map_rxn2rule(rxn, rule_smarts)
 
         if found_match:
@@ -200,15 +192,15 @@ for k,v in rxn_dict.items():
 
 print(f"{mapped_rxn_binary.sum()} / {n_rxns} reactions mapped") # Final result
 
-# Save results
-with open(save_to, 'w') as f:
-    writer = csv.writer(f)
-    writer.writerows(rxn_to_rule)
+# # Save results
+# with open(save_to, 'w') as f:
+#     writer = csv.writer(f)
+#     writer.writerows(rxn_to_rule)
 
-with open(parse_issues_path, 'w') as f:
-    writer = csv.writer(f)
-    writer.writerows(rxns_parse_issue)
+# with open(parse_issues_path, 'w') as f:
+#     writer = csv.writer(f)
+#     writer.writerows(rxns_parse_issue)
 
-with open(missing_smiles_path, 'w') as f:
-    writer = csv.writer(f)
-    writer.writerows(rxns_missing_smiles)
+# with open(missing_smiles_path, 'w') as f:
+#     writer = csv.writer(f)
+#     writer.writerows(rxns_missing_smiles)
