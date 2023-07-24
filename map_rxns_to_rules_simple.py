@@ -14,14 +14,14 @@ from rdkit.Chem import AllChem
 # rdkit_issues_path = sys.argv[4]
 
 # Run from editor
-rules_path = 'test_rule.csv'
+rules_path = 'minimal1224_all_uniprot.tsv'
 save_to = 'test_rxn_mapping.csv'
-rxn_dict_path = 'test_rxn.json'
+rxn_dict_path = '100_random_metacyc_rxns_rnd_seed_1234.json'
 missing_smiles_path = 'filtered_missing_smiles.csv'
 parse_issues_path = 'filtered_smiles_parse_issues.csv'
 stoich_path = 'stoich_metacyc_rxns_directed_221214.json'
 
-def map_rxn2rule(rxn, rule, max_products=10000):
+def map_rxn2rule(rxn, rule, max_products=1000):
     '''
     Maps reactions to SMARTS-encoded reaction rule.
     Args:
@@ -66,7 +66,6 @@ def map_rxn2rule(rxn, rule, max_products=10000):
         for output in outputs:
             output = [Chem.MolToSmiles(elt) for elt in output] # Convert pred products to smiles
             output = sorted(output)
-            print(products, output)
 
             # Compare predicted to actual products. If mapped, return
             if output == products: 
@@ -192,15 +191,15 @@ for k,v in rxn_dict.items():
 
 print(f"{mapped_rxn_binary.sum()} / {n_rxns} reactions mapped") # Final result
 
-# # Save results
-# with open(save_to, 'w') as f:
-#     writer = csv.writer(f)
-#     writer.writerows(rxn_to_rule)
+# Save results
+with open(save_to, 'w') as f:
+    writer = csv.writer(f)
+    writer.writerows(rxn_to_rule)
 
-# with open(parse_issues_path, 'w') as f:
-#     writer = csv.writer(f)
-#     writer.writerows(rxns_parse_issue)
+with open(parse_issues_path, 'w') as f:
+    writer = csv.writer(f)
+    writer.writerows(rxns_parse_issue)
 
-# with open(missing_smiles_path, 'w') as f:
-#     writer = csv.writer(f)
-#     writer.writerows(rxns_missing_smiles)
+with open(missing_smiles_path, 'w') as f:
+    writer = csv.writer(f)
+    writer.writerows(rxns_missing_smiles)
