@@ -10,6 +10,7 @@
 |Hydroxymethylbilane-Synthase-ES|
 |Hydroxymethylbilane-Synthase-ES2|
 |CPD-23515|
+|5-HYDROXY-4-IMIDAZOLEACETATE|
 |Sophorosyloxy-Fatty-Acids|
 |Sophorosyloxy-FAs-O-6-Acet|
 |CPD-23508|
@@ -20,6 +21,7 @@
 |Kdo-2-6-Lipid-IVA|
 |Kdo-2-4-Kdo-2-6-Lipid-IVA|
 |2-O-methyl-Nuc-5P|
+|Quinones|
 |L-Cysteine-Desulfurase-persulfide|
 |TusA-Persulfides|
 |CPD-22025|
@@ -48,7 +50,6 @@
 |CPD-19770|
 |Omega-hydroxylated-ULC-Fatty-Acyl-CoA|
 |Omega-OH-UCL-Ceramides|
-|Maltodextrins|
 |DEXTRAN|
 |Histone-H3-K4m2|
 |Histone-H3-K4m1|
@@ -68,7 +69,6 @@
 |VLC-Alpha-hydroxyphytoceramides|
 |Short-glucans|
 |CPD-18841|
-|CPD-17523|
 |mnm5SeP2U|
 |Linoleate-containing-TGs|
 |Linoleate-Acylceramides|
@@ -77,10 +77,12 @@
 |Tubulin-a-Glu-g-Glu-Glu|
 |Tubulin-n-a-Glu-g-Glu-Glu|
 |CPD-22313|
-|CPD-20735|
 |1-4-Fucan|
 |Cobamides|
 |CPD-24509|
+|BARBITURATE|
+|CPD-20240|
+|CPD-12036|
 |CPD-22017|
 |C-nitro-compounds|
 |Nitroaromatic-Red-Compounds|
@@ -99,8 +101,6 @@
 |CPD-21785|
 |CPD-22801|
 |CPD-22802|
-|CPD-2182|
-|CPD-8093|
 |Acetoin-Dehydrogenase-E2-Dihydrolipoate|
 |CPD-21775|
 |Protein-His-FADH2|
@@ -109,6 +109,7 @@
 |Poly-Gamma-Glutamylcysteine-Glycines|
 |Histone-H3-K27m3|
 |Histone-H3-K27m2|
+|CPD-10204|
 |Carotenoid-psi-end-group|
 |Carotenoid-epsilon-end-group|
 |CPD1A0-6182|
@@ -121,7 +122,6 @@
 |CPD-23450|
 |HIF-alpha-subunit-L-Proline|
 |HIF-alpha-subunit-4-OH-Proline|
-|CPD-20736|
 |Histone-H3-K79|
 |Histone-H3-K79m1|
 |CPD-24513|
@@ -136,19 +136,16 @@
 |CPD-22484|
 |CPD-24909|
 |CPD-22850|
-|CHONDROITIN-4-SULFATE|
 |CPD-8945|
 |CPD-22259|
 |CPD-24485|
 |RhD-Persulfides|
-|diacyl-3-Glc-16-Glc-16-Glc-glycerol|
 |3prime-Methoxy-Flavones|
 |CPD-22745|
 |CPD-22004|
 |CPD-24159|
 |Mycofactocinones|
 |Mycofactocinols|
-|Protein-L-glutamine|
 |EGF-Domain-Protein-GlcNAC-beta13-Fuc-Ser-Thr|
 |CPD-21612|
 |1-arachidonoyl-PC|
@@ -160,7 +157,6 @@
 |Protein-L-amino-acid-L-cysteine|
 |Protein-Thiazoline|
 |Galactogen|
-|Nigerans|
 |3-Dehydro-D-Galactosides|
 |1-6-alpha-D-glucan|
 |CPD-22883|
@@ -183,7 +179,6 @@
 |bDGal-14-RGI|
 |Glucans|
 |78-Dihydropteridines|
-|1-PHOSPHATIDYL-MYO-INOSITOL-2-MANNOSE|
 |CPD-25367|
 |Chondroitin-Protein|
 |MOCS3-S-sulfanylcysteine|
@@ -211,7 +206,6 @@
 |1-Palmitoyl-2-Acyl-Glycerols|
 |CPD-24238|
 |Monoacylglycerols|
-|PROCOLLAGEN-5-GALACTOSYLOXY-L-LYSINE|
 |CPD-22987|
 |CPD-21722|
 |CPD-21723|
@@ -221,15 +215,12 @@
 |Man-13-Man-13-ManP-Man-12-Man-12-Man-Proteins|
 |Protein-Methyloxazoline|
 |Protein-Methyloxazole|
-|CPD-8088|
-|CPD-8089|
 |CPD-21611|
 |CPD-21609|
 |2-Lyso-N-Arachidonoyl-Plasmalogens|
 |1-Cys-Peroxiredoxin-S-S-G|
 |CPD-22894|
 |CPD-22895|
-|CPD-8572|
 |Histone-H3-K4m3|
 |CPD-24114|
 |CPD2DNV-7|
@@ -272,6 +263,7 @@
 |CPD-24773|
 |CPD-21645|
 |CPD-21646|
+|CPD-18933|
 |CPD-22251|
 |CPD-22077|
 |CPD-24130|
@@ -289,7 +281,6 @@
 |CPD-22791|
 |CPD-22793|
 |NifB-with-L-cluster|
-|1-183-2-183-SN-GLYCEROL-PHOSPHOCHOLINE|
 |malonyl-RedN|
 |ReN-3-oxo-3-1H-pyrrol-2-yl-propanoate|
 |CPD-21585|
@@ -314,7 +305,6 @@
 |5-Hydroxy-23S-rRNA-Cytosines2501|
 |MALTOOLIGOSYLTREHALOSE|
 |CPD-22599|
-|CPD-20737|
 |CPD-24515|
 |Short-Chain-2-Me-Fatty-Acyl-CoA|
 |Phosphatidylinositols|
@@ -326,6 +316,7 @@
 |Phospholipid-elaidate|
 |CPD-22486|
 |Enzyme-PLP-Lys|
+|CPD-18940|
 |CPD-22257|
 |SoxY-S-Thiocysteine|
 |MOCS3-Cysteine-Persulfide|
@@ -343,7 +334,6 @@
 |Deamido-bleomycins|
 |CPD-24009|
 |CPD-22003|
-|Cyanophycin-aspartate|
 |Methionine-synthase-cob-I-alamins|
 |CPD-21591|
 |N-Acyl-1-lyso-PE|
@@ -369,7 +359,6 @@
 |Hydroxymethylbilane-Synthase-ES3|
 |Hydroxymethylbilane-Synthase-ES4|
 |CPD-24044|
-|SSEA3|
 |Globo-H|
 |Pre-Mycobactin|
 |Galili-antigens|
@@ -379,7 +368,6 @@
 |CPD-18885|
 |TUM1-S-sulfanylcysteine|
 |CPD-24195|
-|Chondroitin-sulfates|
 |CPD-22007|
 |CPD-22406|
 |CPD-25368|
@@ -452,8 +440,6 @@
 |CPD-21833|
 |CPD-22044|
 |CPD-25318|
-|CPD-8091|
-|CPD-8092|
 |Lignins|
 |Lignin-Acetylated-Glucuronoxylan|
 |VLC-MIP2C|
@@ -464,7 +450,6 @@
 |CPD-19759|
 |CPD-24294|
 |Alpha-3-glucosyl-alpha-16-glucans|
-|1-2-DIPALMITOYLPHOSPHATIDYLCHOLINE|
 |N1-methylpseudouridine-in-rRNA|
 |N1-Methyl-N3-aminocarboxypropyl-pseudoU-rRNAs|
 |CPD-23967|
@@ -488,13 +473,13 @@
 |Methyl-Coenzyme-M-Reductase-Glycine|
 |Methyl-Coenzyme-M-Reductase-Thioglycines|
 |CPD-21607|
-|CPD-8090|
 |Protein-His-pppAACA-mRNAs|
 |N-Arachidonoyl-1-lyso-PE|
 |CPD-9065|
 |CPD-21749|
 |CPD-24434|
 |Protein-His-FIN5O|
+|Aliphatic-N-Acetyl-Diamines|
 |CPD-24230|
 |CPD-24021|
 |CPD-22708|
@@ -512,7 +497,6 @@
 |CPD-24795|
 |Histone-H4-K20|
 |Histone-H4-K20m1|
-|Release-factor-L-glutamine|
 |CPD-22763|
 |1-Acyl-2-Arachindonoyl-PIs|
 |CPD3O-4153|
@@ -521,8 +505,6 @@
 |mRNA-uridines|
 |mRNA-Pseudouridines|
 |CPD-25366|
-|Lipopolysaccharides|
-|CPD-8158|
 |CPD-21824|
 |CPD-24258|
 |CPD-23343|
@@ -548,7 +530,6 @@
 |EGF-Prot-Glc-L-Serine|
 |CPD-22889|
 |CPD-24283|
-|Acetylated-Alginate|
 |CPD-25268|
 |CPD-22766|
 |Medium-Chain-3S-Hydroxy-2-Methyl-CoAs|
@@ -559,8 +540,6 @@
 |Fucopyranoses|
 |CPD-22857|
 |CPD-24788|
-|CPD-19886|
-|Chondroitin-GalNAc-6S|
 |CPD-22101|
 |CPD-24263|
 |CPD-23342|
@@ -575,6 +554,7 @@
 |a-1-6-D-glucan-with-a-1-2-branch|
 |CPD-24770|
 |CPD-23714|
+|5-METHYL-BARBITURATE|
 |7-dihydroxy-bacteriochlorophyllide-d|
 |CPD-24242|
 |CPD-24848|
@@ -594,6 +574,7 @@
 |DIACYLGLYCEROL-PYROPHOSPHATE|
 |Long-Chain-2-Methyl-3-oxoacyl-CoAs|
 |Long-Chain-2-Me-Fatty-Acyl-CoA|
+|OXIDIZED-PHOTINUS-LUCIFERIN|
 |Ultra-Long-Chain-Acyl-CoAs|
 |CPD-24193|
 |CPD-24864|
@@ -602,11 +583,11 @@
 |N-Oleoyl-PE|
 |CPD-22021|
 |CPD-24173|
-|Chondroitin-Sulfate-A|
 |Polyhydroxyalkanoates|
 |CPD-22277|
 |CPD-21647|
 |CPD-24085|
+|Hydroperoxy-icosatetraenoates|
 |Oxoicosatetraenoates|
 |CPD2DNV-13|
 |Lipid-I|
@@ -630,7 +611,6 @@
 |CPD-18842|
 |CPD-24125|
 |CPD-22139|
-|Lipid-A-4prime-2-aminoethyl-PP|
 |CPD-18882|
 |Large-branched-glucans|
 |CPD-22224|
@@ -642,7 +622,6 @@
 |Phenylalkanoyl-CoAs|
 |CPD-24745|
 |Mono-trans-poly-cis-polyprenyl-PP|
-|CPD-16877|
 |CPD-24516|
 |CPD-24280|
 |CPD-23386|
@@ -654,7 +633,6 @@
 |CPD-23956|
 |2-acylphloroglucinol-1-glucosides|
 |CPD-24856|
-|CPD-8159|
 |CPD-24488|
 |CPD-22136|
 |CPD-24260|
@@ -706,7 +684,6 @@
 |CPD-8564|
 |Bacteriochlorophyllide-f|
 |CPD-22012|
-|6-Phosphogluco-Maltodextrins|
 |CPD-24765|
 |Oxyoxazolidine-Intermediate|
 |CPD-24165|
@@ -716,7 +693,6 @@
 |CPD-24347|
 |CPD-23257|
 |CPD-23278|
-|Chondroitin-Sulfate-C|
 |CPD-22248|
 |Hexose-1-Phosphate|
 |CPD-24244|
@@ -750,6 +726,7 @@
 |Medium-Chain-Acyl-Ethyl-Esters|
 |CPD-23938|
 |Loaded-MCD-Chaperones|
+|CPD0-920|
 |CPD-22253|
 |CPD-24483|
 |CPD-24086|
@@ -770,11 +747,9 @@
 |CPD-23912|
 |CPD-21589|
 |CPD-12379|
-|CPD-2181|
 |Alkyl-4-O-methyl-D-glucopyranuronate|
 |Long-chain-cholesterol-esters|
 |CPD-21773|
-|CPD-12644|
 |CPD-24913|
 |CPD-24295|
 |CPD-25302|
@@ -798,7 +773,6 @@
 |CPD-21730|
 |CPD-24012|
 |CPD-22838|
-|POLYVINYL-ALCOHOL|
 |CPD-21610|
 |CPD2B4Q-17|
 |CPD-24229|
@@ -825,9 +799,9 @@
 |CPD-24018|
 |CPD-19769|
 |CPD1G-1532|
-|Poly-6-Phosphogluco-Maltodextrins|
 |OLIGOPHOSPHATE|
 |CPD-23279|
+|CPD-17479|
 |Protein-L-Ornithines|
 |CPD-24135|
 |CPD2B4Q-6|
@@ -842,7 +816,9 @@
 |CPD-22118|
 |CPD-24901|
 |CPD-24541|
+|Hydroperoxy-Fatty-Acids|
 |CPD-22002|
+|CPD-10337|
 |Rha-EF-P-L-arginine|
 |CPD-22684|
 |1-3-Fucan|
@@ -850,8 +826,9 @@
 |Beta-Tubulin-acetyl-L-lysine|
 |CPD-22327|
 |CPD-21817|
+|CPD-11791|
+|CPD-11792|
 |CPD-9094|
-|1-ACYL-2-LINOLEOYL-SN-GLYCERO-3-PHOSPHOC|
 |CPD-23449|
 |a-lyso-cardiolipin|
 |CPD-24083|
@@ -872,9 +849,7 @@
 |CPD-24512|
 |O-Antigens|
 |2-AEP-Glycoconjugates|
-|Phosphocholine-Glycoconjugates|
 |CPD-23260|
-|Pup-C-terminal-L-glutamine|
 |CPD-23945|
 |CPD-21822|
 |Branched-Unphos-Amylopectin-Tails|
@@ -917,6 +892,7 @@
 |CPD-25272|
 |CPD-23870|
 |CPD-23869|
+|CPD-10336|
 |CPD-22685|
 |CPD-22683|
 |N1-METHYLADENINE-RNA|
@@ -963,6 +939,7 @@
 |CPD-24008|
 |a-1-palmitoyl-2-acyl-phosphatidylserine|
 |Cutin-Monomers|
+|CPD-12138|
 |CPD-22751|
 |CPD-18850|
 |CPD-24558|
@@ -971,10 +948,7 @@
 |CPD-22690|
 |CPD-22513|
 |CPD-24103|
-|Protein-C-terminal-L-glutamine|
-|Phosphomannans|
 |Medium-Chain-2-Methyl-Fatty-Acids|
-|CPD0-1101|
 |CPD-24030|
 |CPD-22676|
 |GlcNAc-14-GlcNAc-16-Gal-14-GlcNAc-R|

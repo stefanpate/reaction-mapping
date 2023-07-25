@@ -15,13 +15,13 @@ from rdkit.Chem import AllChem
 
 # Run from editor
 rules_path = 'minimal1224_all_uniprot.tsv'
-save_to = 'test_rxn_mapping.csv'
+save_to = 'test_rxn_mapping_stoich_no_stereo.csv'
 rxn_dict_path = '100_random_metacyc_rxns_rnd_seed_1234.json'
 missing_smiles_path = 'filtered_missing_smiles.csv'
 parse_issues_path = 'filtered_smiles_parse_issues.csv'
 stoich_path = 'stoich_metacyc_rxns_directed_221214.json'
 
-def map_rxn2rule(rxn, rule, max_products=1000):
+def map_rxn2rule(rxn, rule, max_products=5000):
     '''
     Maps reactions to SMARTS-encoded reaction rule.
     Args:
@@ -164,10 +164,8 @@ mapped_rxn_binary = np.zeros(shape=(n_rxns,))
 for k,v in rxn_dict.items():
     row = [k]
     rxn = apply_stoich(k, v, stoich_dict)
-    # print(k)
     for elt in rules:
         rule_name, rule_smarts = elt
-        # print(rule_name)
         found_match, missing_smiles, parse_issue = map_rxn2rule(rxn, rule_smarts)
 
         if found_match:

@@ -1,1 +1,4 @@
-{"|RXN0-5204|": [{"|PepB-Aminopeptidase-Substrates|": "*C(=O)C(*)NC(=O)C(*)N", "|WATER|": "O"}, {"|Amino-Acids-20|": "*C(N)C(=O)O", "|Peptide-Holder-Alternative|": "CNC(=O)C(C)NC(=O)C(C)NC(=O)C(C)N"}]}
+{"|RXN0-8808|": [{"|LYS|": "NCCCCC(N)C(=O)O",
+  "|WATER|": "O"},
+ {"|ALLYSINE|": "NC(CCCC=O)C(=O)O",
+  "|AMMONIUM|": "N"}]}
