@@ -4,7 +4,7 @@ import sys
 import numpy as np
 from itertools import combinations, permutations
 from rdkit import Chem
-from rdkit.Chem import AllChem
+from rdkit.Chem import AllChem, CanonSmiles
 
 # Run from cmd
 # E.g., python map_rxns_to_rules_simple.py minimal1224_all_uniprot.tsv 200_random_metacyc_rxns_seed_1234.json temp_mapped_rxns.csv temp_rdkit_issues_mapping.csv
@@ -13,12 +13,17 @@ from rdkit.Chem import AllChem
 # save_to = sys.argv[3]
 # rdkit_issues_path = sys.argv[4]
 
-# Run from editor
-rules_path = 'minimal1224_all_uniprot.tsv'
-save_to = 'test_rxn_mapping_stoich_no_stereo.csv'
-rxn_dict_path = '100_random_metacyc_rxns_rnd_seed_1234.json'
-missing_smiles_path = 'filtered_missing_smiles.csv'
-parse_issues_path = 'filtered_smiles_parse_issues.csv'
+# Set
+rules_path = 'test_rule.csv'
+save_to = 'mapping_w_paired_cofactor_replacement.csv'
+rxn_dict_path = 'test_rxn.json'
+replace_unpaired_cofactors = False
+replace_paired_cofactors = True
+
+# Set and forget
+paired_cofactor_path = 'mc_paired_cofactors_lut.json'
+unpaired_cofactor_path = 'mc_unpaired_cofactors_lut.json'
+cofactor_to_smi_path = 'cofactor_class_to_smi.json'
 stoich_path = 'stoich_metacyc_rxns_directed_221214.json'
 
 def map_rxn2rule(rxn, rule, max_products=5000):
@@ -63,8 +68,13 @@ def map_rxn2rule(rxn, rule, max_products=5000):
     # For every permutation of that subset of reactants
     for perm in permutations(reactants_mol):
         outputs = operator.RunReactants(perm, maxProducts=max_products) # Apply rule to that permutation of reactants
+
         for output in outputs:
-            output = [Chem.MolToSmiles(elt) for elt in output] # Convert pred products to smiles
+            try:
+                output = [CanonSmiles(Chem.MolToSmiles(elt)) for elt in output] # Convert pred products to smiles
+            except:
+                output = [Chem.MolToSmiles(elt) for elt in output]
+            
             output = sorted(output)
 
             # Compare predicted to actual products. If mapped, return
@@ -76,7 +86,7 @@ def map_rxn2rule(rxn, rule, max_products=5000):
 
 def apply_stoich(rxn_id, rxn, stoich_dict):
     '''
-    Take reaction dicts and append incremental smiles
+    Take reaction list-of-dicts and append incremental smiles
     according to stoichiometry.
     Args:
         - rxn_id: string metacyc identifier
@@ -133,9 +143,64 @@ def sanitize(list_of_smiles):
     for elt in list_of_smiles:
         temp_mol = Chem.MolFromSmiles(elt)
         Chem.rdmolops.RemoveStereochemistry(temp_mol)
-        sanitized_smiles.append(Chem.MolToSmiles(temp_mol))    
+        sanitized_smiles.append(Chem.MolToSmiles(temp_mol))
     return sanitized_smiles
 
+def substitute_cofactor_smiles(rxn, class2smi, paired_cofactors, unpaired_cofactors):
+    '''
+    Replaces the smiles values in the rxn dicts with 
+    strings from cofactor lookup tables.
+    Args:
+        - rxn: List of reaction dicts [{'rid':'smi', }, {'pid':'smi', }]
+        - paired_cofactors: Dict {'class_pair1,class_pair1':[['id1', 'id2'],],}
+        - unpaired_cofactors: {'class_name':['id1',]}
+        - cofactor2smi: LUT from cofactor class key to smiles {'class_name':'smi',}
+    Returns:
+        - rxn: W/ updated smiles
+    '''
+    rxn_ids_only = [[r for r in rxn[0].keys()], [p for p in rxn[1].keys()]] # To keep track of replacements
+    
+    # Defensive copy of rxn list-of-dicts...
+    # passing the value of a dict actually
+    # passes read & write permission, not 
+    # just a view
+    temp = [elt.copy() for elt in rxn]
+    rxn = temp
+
+    # Replace smiles of unpaired cofactors
+    if unpaired_cofactors is not None:
+        for i, side in enumerate(rxn):
+            for id in side.keys():
+                for k, v in unpaired_cofactors.items():
+                    if id in v:
+                        side[id] = class2smi[k]
+                        rxn_ids_only[i].remove(id) # Remove ids identified as single cofactors
+
+    # Replace smiles of paired cofactors
+    if paired_cofactors is not None:
+        for r in rxn_ids_only[0]:
+            for k, v in paired_cofactors.items(): # Over 'name1_name2':list of pairs, pairs
+                    for elt in v: # Each pair of ids
+                        if r in elt:
+                            for p in rxn_ids_only[1]:
+                                if p in elt:
+                                    r_idx, p_idx = elt.index(r), elt.index(p)
+                                    r_class, p_class = k.split(',')[r_idx], k.split(',')[p_idx]
+                                    r_smi, p_smi = class2smi[r_class], class2smi[p_class]
+                                    rxn[0][r], rxn[1][p] = r_smi, p_smi
+
+    return rxn
+
+def save_json(data, save_to):
+    with open(save_to, 'w') as f:
+        json.dump(data, f)
+    
+def load_json(path):
+    with open(path, 'r') as f:
+        data = json.load(f)
+    return data
+
+#################################################################################################
 # Read in rules
 rules = []
 with open(rules_path, 'r') as f:
@@ -145,13 +210,21 @@ with open(rules_path, 'r') as f:
 
 rules = rules[1:] # Remove header
 
-# Read in reactions
-with open(rxn_dict_path, 'r') as f:
-    rxn_dict = json.load(f)
+rxn_dict = load_json(rxn_dict_path) # Read in reactions
+stoich_dict = load_json(stoich_path) # Read in stoichiometry
 
-# Read in stoichiometry
-with open(stoich_path, 'r') as f:
-    stoich_dict = json.load(f)
+# Read in cofactors
+cofactor_class_to_smi = load_json(cofactor_to_smi_path)
+
+if replace_unpaired_cofactors:
+    unpaired_cofactors = load_json(unpaired_cofactor_path)
+else:
+    unpaired_cofactors = None
+
+if replace_paired_cofactors:
+    paired_cofactors = load_json(paired_cofactor_path)
+else:
+    paired_cofactors = None
 
 n_rxns = len(list(rxn_dict.keys()))
 
@@ -161,9 +234,10 @@ rxns_parse_issue = []
 rxns_missing_smiles = []
 rxn_ctr = 0
 mapped_rxn_binary = np.zeros(shape=(n_rxns,))
-for k,v in rxn_dict.items():
+for k, rxn in rxn_dict.items():
     row = [k]
-    rxn = apply_stoich(k, v, stoich_dict)
+    rxn = substitute_cofactor_smiles(rxn, cofactor_class_to_smi, paired_cofactors, unpaired_cofactors)
+    rxn = apply_stoich(k, rxn, stoich_dict)
     for elt in rules:
         rule_name, rule_smarts = elt
         found_match, missing_smiles, parse_issue = map_rxn2rule(rxn, rule_smarts)
@@ -189,15 +263,7 @@ for k,v in rxn_dict.items():
 
 print(f"{mapped_rxn_binary.sum()} / {n_rxns} reactions mapped") # Final result
 
-# Save results
-with open(save_to, 'w') as f:
-    writer = csv.writer(f)
-    writer.writerows(rxn_to_rule)
-
-with open(parse_issues_path, 'w') as f:
-    writer = csv.writer(f)
-    writer.writerows(rxns_parse_issue)
-
-with open(missing_smiles_path, 'w') as f:
-    writer = csv.writer(f)
-    writer.writerows(rxns_missing_smiles)
+# # Save results
+# with open(save_to, 'w') as f:
+#     writer = csv.writer(f)
+#     writer.writerows(rxn_to_rule)
