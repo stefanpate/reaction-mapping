@@ -1,0 +1,15 @@
+UNIQUE-ID - 2.3.1.63-RXN
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (22 21 23 24 25 26 27 28 29 30 8 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 11 49 50 51 52 55 54 53 57 56 59 58 60 61 62 63 64 65 66 67 68 20 1 2 0 3 4 5 6 7 9 10 15 12 13 14 16 17 18 19) ((("Organyl-acyl-glycero-phosphocholines" 0 20) ("CO-A" 21 68)) (("ACYL-COA" 0 50) ("1-Alkyl-sn-glycero-3-phosphocholines" 51 68))))
+DBLINKS - (METANETX-RXN "MNXR139938" NIL |kothari| 3789143028 NIL NIL)
+DBLINKS - (LIGAND-RXN "R03438" NIL |taltman| 3459474596 NIL NIL)
+EC-NUMBER - EC-2.3.1.63
+^OFFICIAL? - T
+GIBBS-0 - 325.0658    
+LEFT - ACYL-COA
+LEFT - 1-Alkyl-sn-glycero-3-phosphocholines
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+RIGHT - Organyl-acyl-glycero-phosphocholines
+RIGHT - CO-A

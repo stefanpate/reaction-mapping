@@ -1,0 +1,14 @@
+UNIQUE-ID - RXN-20016
+TYPES - Protein-Modification-Reactions
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+COMMENT - In this reaction the DsbC disulfide isomerase acts to reduce a periplasmic protein that contains incorrect disulfide bonds; the product of the reaction 'a protein with reduced sulfide groups' then becomes available as a substrate for the thiol:disulfide oxidoreductase |FRAME: MONOMER0-4152 "DsbA"|.
+CREDITS - O0-13
+CREDITS - amackie
+LEFT - a-reduced-DsbC-protein
+LEFT - Proteins-with-incorrect-disulfides
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNDETERMINED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - an-oxidized-DsbC-protein
+RIGHT - Protein-Red-Disulfides
+RXN-LOCATIONS - CCO-PERI-BAC

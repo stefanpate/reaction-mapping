@@ -1,0 +1,18 @@
+UNIQUE-ID - RXN-9189
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (8 1 2 3 4 5 6 7 0 9 10) (((|Aminated-Amine-Donors| 0 1) (CPD-9735 2 10)) ((|Deaminated-Amine-Donors| 0 1) (CPD-9757 2 10))))
+CANNOT-BALANCE? - NIL
+CITATIONS - Kean81
+COMMENT - This reaction is hypothesized to occur in ackee plants (|FRAME:TAX-259381|).
+DBLINKS - (METANETX-RXN "MNXR122690" NIL |kothari| 3789143035 NIL NIL)
+EC-NUMBER - EC-2.6.1
+GIBBS-0 - 39.928616    
+IN-PATHWAY - PWY-5826
+LEFT - CPD-9735
+LEFT - Aminated-Amine-Donors
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - REVERSIBLE
+RIGHT - CPD-9757
+RIGHT - Deaminated-Amine-Donors

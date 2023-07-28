@@ -1,0 +1,16 @@
+UNIQUE-ID - RXN-12495
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 5 4 2 3 6 7 12 8 13 9 10 11 17 14 18 15 16 19) (((|Carotenoid-epsilon-end-group| 0 19)) ((|Carotenoid-psi-end-group| 0 19))))
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR117591" NIL |kothari| 3789143036 NIL NIL)
+EC-NUMBER - EC-5.5.1.18
+^OFFICIAL? - T
+GIBBS-0 - -28.59002    
+LEFT - Carotenoid-psi-end-group
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Carotenoid-epsilon-end-group

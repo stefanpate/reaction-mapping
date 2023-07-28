@@ -1,0 +1,15 @@
+UNIQUE-ID - RXN-14625
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 3 2 4 5 6 7 8 9 10 11 12 13 14 15 16 35 17 18 19 20 36 21 22 23 37 38 39 24 40 25 26 27 28 29 41 30 32 42 43 44 33 31 46 34 45) (((|Protopanaxatriol-type-6OH-ginsenosides| 0 34) (|Glucopyranose| 35 46)) ((|6-Glc-Protopanaxatriol-ginsenosides| 0 45) (WATER 46 46))))
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR118811" NIL |kothari| 3789143035 NIL NIL)
+GIBBS-0 - 99.598206    
+IN-PATHWAY - RXN-14580
+LEFT - 6-Glc-Protopanaxatriol-ginsenosides
+LEFT - WATER
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+RIGHT - Protopanaxatriol-type-6OH-ginsenosides
+RIGHT - Glucopyranose

@@ -1,0 +1,16 @@
+UNIQUE-ID - RXN-17370
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12) (((CPD-18779 0 12)) ((CPD-18776 0 12))))
+COMMENT - Even though this reaction appears like an epimerization reaction, it is actually a spontaneous tautomerization, resulting from the shifting of the double bond between the hydroxyl groups at positions 1 and 3, with concomitant shifting of the double bond within the ring |CITS: [25965179]|.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR143982" NIL |kothari| 3789143034 NIL NIL)
+GIBBS-0 - 0.    
+IN-PATHWAY - PWY-7751
+LEFT - CPD-18776
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - REVERSIBLE
+RIGHT - CPD-18779
+SPONTANEOUS? - T

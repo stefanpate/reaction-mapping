@@ -1,0 +1,27 @@
+UNIQUE-ID - RXN-1828
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+CANNOT-BALANCE? - T
+CITATIONS - 5001952
+CITATIONS - 13622683
+CITATIONS - 4972097
+COMMENT - The enzyme transfers a segment of a (1&rarr;4)-&alpha;-D-glucan to a new position in an acceptor, which may be glucose or a (1&rarr;4)-&alpha;-D-glucan.
+/
+/This entry covers the former separate entry for EC 2.4.1.3 (amylomaltase). The plant enzyme has been termed D-enzyme. An enzymic activity of this nature forms part of the mammalian and yeast glycogen debranching system (see |FRAME: 3.2.1.33-RXN "EC 3.2.1.33, amylo-&alpha;-1,6-glucosidase"|).
+CREDITS - gong
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR121563" NIL |kothari| 3789143028 NIL NIL)
+EC-NUMBER - EC-2.4.1.25
+^OFFICIAL? - T
+ENZYMATIC-REACTION - ENZRXN-19156
+ENZYMATIC-REACTION - ENZRXN-2338
+LEFT - Long-linear-glucans
+LEFT - ALPHA-GLUCOSE
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - REVERSIBLE
+RIGHT - Short-Alpha-14-Glucans
+^COEFFICIENT - 2

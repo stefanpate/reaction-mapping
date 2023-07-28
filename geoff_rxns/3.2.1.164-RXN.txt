@@ -1,0 +1,21 @@
+UNIQUE-ID - 3.2.1.164-RXN
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :UNBALANCED
+CANNOT-BALANCE? - T
+COMMENT - This reaction describes endo-hydrolysis of a polymeric compound. The substrate should be shown as (1,6-&beta;-D-galactosyl)<sub>(n+m)</sub>, while the two products should be (1,6-&beta;-D-galactosyl)<sub>n</sub> and (1,6-&beta;-D-galactosyl)<sub>m</sub>, respectively. These numbers are not displayed properly due to limitations in the software.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR115358" NIL |kothari| 3789143036 NIL NIL)
+EC-NUMBER - EC-3.2.1.164
+^OFFICIAL? - T
+ENZYMATIC-REACTION - ENZRXN-26526
+GIBBS-0 - -937.9353    
+LEFT - beta-1-6-Galactan
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - beta-1-6-Galactan
+^COEFFICIENT - 2

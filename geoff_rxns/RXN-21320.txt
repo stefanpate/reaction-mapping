@@ -1,0 +1,14 @@
+UNIQUE-ID - RXN-21320
+TYPES - Small-Molecule-Reactions
+TYPES - Unknown-Conversions
+CANNOT-BALANCE? - T
+COMMENT - During the DHAP-ethylene shunt type m ethionine salvage pathway, |FRAME: CPD-7677| is converted to ethene and an unknown organo-sulfur intermediate, which is subsequently converted to |FRAME: CPD-7671| |CITS: [29636438]|
+CREDITS - SRI
+CREDITS - caspi
+IN-PATHWAY - PWY-8132
+LEFT - CPD-7677
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - ETHYLENE-CMPD
+RIGHT - CPD-7671

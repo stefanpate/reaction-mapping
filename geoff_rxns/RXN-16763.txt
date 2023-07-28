@@ -1,0 +1,19 @@
+UNIQUE-ID - RXN-16763
+TYPES - Chemical-Reactions
+TYPES - Complex-Processes
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (1 0 48 49 2 3 4 5 50 51 6 7 8 9 52 55 53 54 10 11 56 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 60 57 58 28 59 29 30 31 34 33 32 36 35 38 37 39 40 41 42 43 44 45 46 47) ((("CO-A" 0 47) ("CPD-8097" 48 60)) (("CPD-18078" 0 60))))
+CITATIONS - 18547395
+COMMENT - This conversion involves a trans-cis isomerization followed by a subsequent lactonization to close the side chain. Exact mechanism is unknown. No enzyme has been identified.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR120362" NIL |kothari| 3789143037 NIL NIL)
+GIBBS-0 - -3.5299072    
+IN-PATHWAY - PWY-5349
+IN-PATHWAY - PWY-7398
+LEFT - CPD-18078
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-8097
+RIGHT - CO-A

@@ -1,0 +1,15 @@
+UNIQUE-ID - RXN-16450
+TYPES - Protein-Modification-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 2 3 1 4 5 6 7 8 10 9 11 15 16 12 13 14) ((("CPD-6952" 0 14) (("WATER" 1) 15 15) (("WATER" 2) 16 16)) (("Protein-Ala-Ser-Gly" 0 16))))
+COMMENT - The cofactor |FRAME: CPD-6952| is formed autocatalytically by the elimination of two water molecules from the tripeptide Ala-Ser-Gly |CITS: [10220322]|.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR120097" NIL |kothari| 3789143027 NIL NIL)
+GIBBS-0 - 25.800491    
+LEFT - Protein-Ala-Ser-Gly
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-6952
+RIGHT - WATER
+^COEFFICIENT - 2

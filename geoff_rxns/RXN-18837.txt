@@ -1,0 +1,17 @@
+UNIQUE-ID - RXN-18837
+TYPES - Small-Molecule-Reactions
+TYPES - Unknown-Conversions
+ATOM-MAPPINGS - :UNBALANCED
+CANNOT-BALANCE? - T
+COMMENT - It has been suggested that |FRAME: CPD-13067| is formed from |FRAME: CHLOROPHYLL-A| by photooxidation of the C1-C20 bond following C20 methoxylation |CITS: [11668566]|. The exact mechanism is not known, and the reaction as shown can not be balanced.
+CREDITS - SRI
+CREDITS - caspi
+GIBBS-0 - -36.40927    
+IN-PATHWAY - PWY-7912
+LEFT - CHLOROPHYLLIDE-A
+LEFT - OXYGEN-MOLECULE
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-13067
+RIGHT - MG+2

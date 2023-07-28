@@ -1,0 +1,28 @@
+UNIQUE-ID - RXN-7984
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :TIMED-OUT
+ATOM-MAPPINGS - 10
+COMMENT - Along with |FRAME: RXN-13193 "EC 1.14.13.90, zeaxanthin epoxidase"|, this enzyme forms part of the xanthophyll (or violaxanthin) cycle for controlling the concentration of |FRAME: CPD1F-130| in chloroplasts.
+/It is activated by a low pH of the thylakoid lumen (produced by high light intensity). Zeaxanthin induces the dissipation of excitation energy in the chlorophyll of the light-harvesting protein complex of photosystem II. In higher plants the enzyme reacts with <i>all-trans</i>-diepoxides, such as |FRAME: CPD1F-133|, and <i>all-trans</i>-monoepoxides, but in the alga |FRAME: TAX-13608| only the diepoxides are good substrates.
+DBLINKS - (METANETX-RXN "MNXR138919" NIL |kothari| 3789143037 NIL NIL)
+DBLINKS - (RHEA "15354" NIL |kothari| 3709310379 NIL NIL)
+DBLINKS - (LIGAND-RXN "R07178" NIL |taltman| 3459474588 NIL NIL)
+ENZYMATIC-REACTION - ENZRXN-19214
+ENZYMATIC-REACTION - ENZRXN-19204
+ENZYMATIC-REACTION - ENZRXN-12745
+ENZYMATIC-REACTION - ENZRXN-12744
+GIBBS-0 - -0.80288696    
+IN-PATHWAY - PWY-5945
+IN-PATHWAY - RXN-13185
+LEFT - CPD1F-133
+LEFT - ASCORBATE
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD1F-131
+RIGHT - L-DEHYDRO-ASCORBATE
+RIGHT - WATER
+SYNONYMS - VDE
+SYSTEMATIC-NAME - violaxanthin:ascorbate oxidoreductase

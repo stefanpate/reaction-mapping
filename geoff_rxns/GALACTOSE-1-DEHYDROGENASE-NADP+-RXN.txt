@@ -1,0 +1,23 @@
+UNIQUE-ID - GALACTOSE-1-DEHYDROGENASE-NADP+-RXN
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11) ((("CPD-14779" 0 11)) (("D-galactopyranose" 0 11))))
+CITATIONS - 15691337
+COMMENT - A zinc protein. The enzyme from the archaeon |FRAME: TAX-82076| is involved in glucose and galactose catabolism via the nonphosphorylative variant of the Entner-Doudoroff pathway. It shows 20-fold higher activity with NADP+ compared tor NAD+. The oxidation of D-glucose and D-galactose is catalysed at a comparable rate (cf. |FRAME: EC-1.1.1.119 "EC 1.1.1.119, glucose 1-dehydrogenase (NADP+)"| and |FRAME: EC-1.1.1.120 "EC 1.1.1.120, galactose 1-dehydrogenase (NADP+)"|).
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR106823" NIL |kothari| 3789143036 NIL NIL)
+DBLINKS - (LIGAND-RXN "R07132" NIL |taltman| 3459474596 NIL NIL)
+EC-NUMBER - EC-1.1.1.120
+^OFFICIAL? - T
+EC-NUMBER - EC-1.1.1.360
+^OFFICIAL? - T
+GIBBS-0 - -5.9264526    
+LEFT - D-galactopyranose
+LEFT - NADP
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+RIGHT - CPD-14779
+RIGHT - NADPH
+RIGHT - PROTON

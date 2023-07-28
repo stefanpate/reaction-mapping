@@ -1,0 +1,31 @@
+UNIQUE-ID - RXN0-6366
+TYPES - Chemical-Reactions
+TYPES - Protein-Modification-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (42 43 44 46 47 48 49 50 51 52 55 56 57 58 59 60 61 64 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 45 53 54 63 62 65 12 1 2 0 3 4 5 6 7 10 8 9 11) ((("Ribosomal-protein-S12-Asp89" 0 9) ("Sulfurated-Sulfur-Acceptors" 10 11) (("S-ADENOSYLMETHIONINE" 1) 12 38) (("S-ADENOSYLMETHIONINE" 2) 39 65)) (("CH33ADO" 0 17) ("ADENOSYL-HOMO-CYS" 18 43) ("MET" 44 52) ("Ribosomal-protein-S12-3-methylthio-Asp89" 53 64) ("Unsulfurated-Sulfur-Acceptors" 65 65))))
+CANNOT-BALANCE? - NIL
+COMMENT - The reaction can not be balanced unless a reduction of an electron acceptor is added. However, this was not described in the original literature.
+CREDITS - SRI
+CREDITS - caspi
+CREDITS - keseler
+DBLINKS - (METANETX-RXN "MNXR123282" NIL |kothari| 3789143027 NIL NIL)
+DBLINKS - (RHEA "37088" NIL |kothari| 3709310382 NIL NIL)
+EC-NUMBER - EC-2.8.4.4
+^OFFICIAL? - T
+ENZYMATIC-REACTION - ENZRXN0-7308
+LEFT - S-ADENOSYLMETHIONINE
+^COEFFICIENT - 2
+LEFT - Ribosomal-protein-S12-Asp89
+LEFT - Sulfurated-Sulfur-Acceptors
+LEFT - Donor-H2
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Ribosomal-protein-S12-3-methylthio-Asp89
+RIGHT - ADENOSYL-HOMO-CYS
+RIGHT - Unsulfurated-Sulfur-Acceptors
+RIGHT - MET
+RIGHT - CH33ADO
+RIGHT - Acceptor
+RIGHT - PROTON
+^COEFFICIENT - 2

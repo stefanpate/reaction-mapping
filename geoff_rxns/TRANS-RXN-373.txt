@@ -1,0 +1,18 @@
+UNIQUE-ID - TRANS-RXN-373
+TYPES - Small-Molecule-Reactions
+TYPES - Transport-Reactions
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+COMMENT - During some types of the C4 photosynthetic carbon assimilation cycle, the initial CO<sub>2</sub> fixation occurs in the mesophyll cells, producing |FRAME: OXALACETIC_ACID| that is subsequently converted to |FRAME: L-ASPARTATE|. L-aspartate is transported into bundle sheath cells, where it is converted to |FRAME: MAL|, followed by the release of CO<sub>2</sub> from malate. This reaction aims to describe the transport of |FRAME: L-ASPARTATE| from the mesophyll cells to the bundle sheath cells.
+CREDITS - SRI
+CREDITS - caspi
+GIBBS-0 - 0.    
+IN-PATHWAY - PWY-7117
+IN-PATHWAY - PWY-7115
+LEFT - L-ASPARTATE
+^COMPARTMENT - CCO-IN
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - L-ASPARTATE
+^COMPARTMENT - CCO-OUT
+RXN-LOCATIONS - CCO-SIDE-2-CCO-SIDE-1

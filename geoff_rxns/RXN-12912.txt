@@ -1,0 +1,18 @@
+UNIQUE-ID - RXN-12912
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (7 1 2 3 4 5 6 0 8 9 11 10) (((|Aminated-Amine-Donors| 0 1) (2-KETOGLUTARATE 2 11)) ((|Deaminated-Amine-Donors| 0 1) (GLT 2 11))))
+COMMENT - This reaction describes a generic trans-amination reaction, where an amino group is transferred from |FRAME: GLT| to |FRAME: 2-KETOGLUTARATE|.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR117801" NIL |kothari| 3789143035 NIL NIL)
+EC-NUMBER - EC-2.6.1
+GIBBS-0 - 41.252716    
+LEFT - 2-KETOGLUTARATE
+LEFT - Aminated-Amine-Donors
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - REVERSIBLE
+RIGHT - GLT
+RIGHT - Deaminated-Amine-Donors

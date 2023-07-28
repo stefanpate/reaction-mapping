@@ -1,0 +1,16 @@
+UNIQUE-ID - RXN-13350
+TYPES - Protein-Modification-Reactions
+COMMON-NAME - metaretinochrome:<i>all-trans</i>-retinal-[retinal-binding protein] retinal transferase
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+CREDITS - SRI
+CREDITS - caspi
+ENZYMATIC-REACTION - ENZRXN-20368
+IN-PATHWAY - PWY-7041
+LEFT - Metaretinochromes
+LEFT - All-trans-retinal-RALBPs
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNDETERMINED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - 11C-Retinal-RALBPs
+RIGHT - Retinochromes

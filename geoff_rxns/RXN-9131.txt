@@ -1,0 +1,21 @@
+UNIQUE-ID - RXN-9131
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 15 4 5 6 16 7 17 18 19 20 8 9 10 24 13 12 23 22 21 11 26 25 14 27) (((DIOXINDOLE-3-ACETATE 0 14) (|Glucosylated-Glucose-Acceptors| 15 27)) ((CPD-9642 0 25) (|Non-Glucosylated-Glucose-Acceptors| 26 27))))
+CITATIONS - 11382233
+COMMENT - There is a hexosyl-linked compound present in the flavedo (epicarp) of oranges (|FRAME: TAX-2711|)
+/fed with radiolabeled
+/|FRAME:INDOLE_ACETATE_AUXIN|, |FRAME: DIOXINDOLE-3-ACETATE|
+/or |FRAME: 2-OXINDOLE-3-ACETIC-ACID| |CITS: [11382233]|. There is strong evidence that the hexose
+/present in orange is glucose (see |FRAME:CPD-9642|) but, galactose, mannose, and lactose cannot be conclusively
+/excluded |CITS: [11382233]|.
+DBLINKS - (METANETX-RXN "MNXR122650" NIL |kothari| 3789143035 NIL NIL)
+GIBBS-0 - 102.71123    
+IN-PATHWAY - PWY-5811
+LEFT - DIOXINDOLE-3-ACETATE
+LEFT - Glucosylated-Glucose-Acceptors
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-9642
+RIGHT - Non-Glucosylated-Glucose-Acceptors

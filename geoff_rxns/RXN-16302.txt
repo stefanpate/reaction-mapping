@@ -1,0 +1,21 @@
+UNIQUE-ID - RXN-16302
+TYPES - Chemical-Reactions
+TYPES - Composite-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (12 0 1 2 15 16 3 4 20 5 6 7 23 8 9 10 11 13 14 18 17 19 21 22) (((|Ubiquitin-activating-protein-E1-L-cys| 0 7) (PROTEIN-N-UBIQUITYL-LYSINE 8 23)) ((|S-ubiquitinyl-UAP-E1-L-cysteine| 0 12) (|Protein-L-lysine| 13 23))))
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR119999" NIL |kothari| 3789143028 NIL NIL)
+EC-NUMBER - EC-2.3.2.24
+^OFFICIAL? - T
+GIBBS-0 - 4.981125    
+LEFT - S-ubiquitinyl-UAP-E1-L-cysteine
+LEFT - Protein-L-lysine
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-LIST - RXN-16314
+REACTION-LIST - RXN-16313
+RIGHT - Ubiquitin-activating-protein-E1-L-cys
+RIGHT - PROTEIN-N-UBIQUITYL-LYSINE
+RIGHT - PROTON

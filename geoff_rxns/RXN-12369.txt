@@ -1,0 +1,26 @@
+UNIQUE-ID - RXN-12369
+TYPES - Chemical-Reactions
+TYPES - tRNA-Reactions
+COMMON-NAME - tRNA (guanine<small><sup>10</sup></small>-<em>N</em><small><sup>2</sup></small>)-methyltransferase
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 0 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56) ((("tRNA-Containing-N2-Methylguanine-10" 0 30) ("ADENOSYL-HOMO-CYS" 31 56)) (("Guanine10-in-tRNA" 0 29) ("S-ADENOSYLMETHIONINE" 30 56))))
+CITATIONS - 15210688
+CREDITS - SRI
+CREDITS - kothari
+DBLINKS - (RHEA "43129" NIL |kothari| 3709310382 NIL NIL)
+ENZYMATIC-REACTION - ENZRXN-19190
+GIBBS-0 - -34.742218    
+IN-PATHWAY - RXN-12373
+LEFT - S-ADENOSYLMETHIONINE
+LEFT - Guanine10-in-tRNA
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - tRNA-Containing-N2-Methylguanine-10
+RIGHT - ADENOSYL-HOMO-CYS
+RIGHT - PROTON
+SYNONYMS - PAB1283
+SYNONYMS - Trm-G10
+SYNONYMS - PabTrm-G10
+SYNONYMS - PabTrm-m2 2G10 enzyme
+SYSTEMATIC-NAME - <em>S</em>-adenosyl-<small>L</small>-methionine:tRNA (guanine<small><sup>10</sup></small>-<em>N</em><small><sup>2</sup></small>)-dimethyltransferase

@@ -1,0 +1,20 @@
+UNIQUE-ID - RXN-14352
+TYPES - Small-Molecule-Reactions
+TYPES - Transport-Reactions
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+CITATIONS - 21175634
+COMMENT - Based on analysis of a hexokinase from spinach localized on the outer envelope membrane of the chloroplast, it is hypothesized that the |FRAME: Glucose| transported out of the chloroplast through this transport reaction is immediately phosphorylated to produce glucose-6-phosphate. This compound cannot passively diffuse or be re-imported back into the chloroplasts, thus a concentration gradient can be established to promote the transport of |FRAME: Glucose| out of the stroma and into the cytoplasm |CITS: [10561488]|.
+CREDITS - PMN
+CREDITS - dreher
+DBLINKS - (METANETX-RXN "MNXR140401" NIL |kothari| 3789143027 NIL NIL)
+ENZYMATIC-REACTION - ENZRXN-21545
+GIBBS-0 - 0.    
+LEFT - Glucose
+^COMPARTMENT - CCO-IN
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNDETERMINED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - Glucose
+^COMPARTMENT - CCO-OUT
+RXN-LOCATIONS - CCO-CYTOSOL-CCO-CHLOR-STR

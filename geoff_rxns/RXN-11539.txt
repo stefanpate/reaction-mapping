@@ -1,0 +1,18 @@
+UNIQUE-ID - RXN-11539
+TYPES - Chemical-Reactions
+TYPES - Complex-Processes
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32) (((CPD-12497 0 32)) ((CPD-12498 0 32))))
+CITATIONS - 18685225
+COMMENT - The reversible conversion between 7-oxateasterone and 7-oxatyphasterol was detected in Arabidopsis using the det2 mutant, where the endogenous levels of brassinosteroids were low. The det2 seedlings were fed with one substrate and the increase of the other substrate was detected by GC-MS.
+CREDITS - THE-ARABIDOPSIS-INFORMATION-RESOURCE
+CREDITS - zhang
+DBLINKS - (METANETX-RXN "MNXR112335" NIL |kothari| 3789143036 NIL NIL)
+DBLINKS - (LIGAND-RXN "R08842" NIL |taltman| 3536627212 NIL NIL)
+GIBBS-0 - 0.    
+IN-PATHWAY - PWY-6544
+LEFT - CPD-12498
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-12497

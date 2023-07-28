@@ -1,0 +1,24 @@
+UNIQUE-ID - RXN-20096
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 17 5 3 4 6 7 8 9 10 11 12 13 14 15 16 18 19 20 21 22 23 24 25 28 26 27 30 31 29) ((("CPD-21722" 0 30) ("WATER" 31 31)) (("44-DIMETHYL-5ALPHA-CHOLEST-7-EN-3BET" 0 29) ("OXYGEN-MOLECULE" 30 31))))
+COMMENT - Requires cytochrome <i>b</i><sub>5</sub>.
+/Catalyzes 3 successive oxidations of 4,4-dimethyl-5&alpha;-cholest-7-en-3&beta;-ol.
+/Also acts on 4&alpha;-methyl-5&alpha;-cholest-7-en-3&beta;-ol.
+/The sterol can be based on cycloartenol as well as lanosterol.
+/Formerly EC 1.14.99.16.
+CREDITS - SRI
+CREDITS - caspi
+GIBBS-0 - -89.89882    
+IN-PATHWAY - RXN-20099
+LEFT - 44-DIMETHYL-5ALPHA-CHOLEST-7-EN-3BET
+LEFT - OXYGEN-MOLECULE
+LEFT - NADH
+LEFT - PROTON
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-21722
+RIGHT - WATER
+RIGHT - NAD

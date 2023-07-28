@@ -1,0 +1,21 @@
+UNIQUE-ID - 2.3.1.45-RXN
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 2 3 4 6 7 8 9 10 11 12 13 14 15 17 18 22 20 19 21 23 1 25 24 26 27 28 29 30 31 32 33 5 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 16 52 53 54 55 57 58 56 60 59 62 61 63 64 65 66 67 68 69 70 71) ((("CPD-1803" 0 23) ("CO-A" 24 71)) (("N-ACETYLNEURAMINATE" 0 20) ("ACETYL-COA" 21 71))))
+COMMENT - This reaction can have either <i>N</i>-acetyl-7-<i>O</i>-acetylneuraminate or <i>N</i>-acetyl-9-<i>O</i>-acetylneuraminate as products.
+/
+/Enzyme Commission Comments:  Both free and glycosidically bound <i>N</i>-acetyl- and <i>N</i>-glycolylneuraminates can act as <i>O</i>-acetyl acceptors.
+/
+DBLINKS - (METANETX-RXN "MNXR107183" NIL |kothari| 3789143035 NIL NIL)
+DBLINKS - (RHEA "20808" NIL |kothari| 3571758833 NIL NIL)
+DBLINKS - (LIGAND-RXN "R01807" NIL |taltman| 3459474593 NIL NIL)
+EC-NUMBER - EC-2.3.1.45
+^OFFICIAL? - T
+GIBBS-0 - -3.6099854    
+LEFT - N-ACETYLNEURAMINATE
+LEFT - ACETYL-COA
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+RIGHT - CPD-1803
+RIGHT - CO-A

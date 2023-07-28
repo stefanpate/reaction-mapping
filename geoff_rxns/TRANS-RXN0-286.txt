@@ -1,0 +1,20 @@
+UNIQUE-ID - TRANS-RXN0-286
+TYPES - Small-Molecule-Reactions
+TYPES - TR-19
+COMMON-NAME - lipid II flippase
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+COMMENT - This reaction represents (imperfectly) lipid II flippase activity - the PMF dependent movement or 'flipping' of lipid II from the inner leaflet of a bilayer membrane to the outer leaflet.
+CREDITS - SRI
+CREDITS - paley
+DBLINKS - (METANETX-RXN "MNXR143084" NIL |kothari| 3789143036 NIL NIL)
+ENZYMATIC-REACTION - ENZRXN0-6610
+GIBBS-0 - 0.    
+LEFT - C6
+^COMPARTMENT - CCO-IN
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - C6
+^COMPARTMENT - CCO-OUT
+RXN-LOCATIONS - CCO-PM-BAC-NEG

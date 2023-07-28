@@ -1,0 +1,49 @@
+UNIQUE-ID - RXN-9679
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - sarcosine <em>N</em>-methyltransferase
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (27 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 28 29 30 32 31) ((("ADENOSYL-HOMO-CYS" 0 25) ("DIMETHYL-GLYCINE" 26 32)) (("S-ADENOSYLMETHIONINE" 0 26) ("SARCOSINE" 27 32))))
+CITATIONS - 12466265
+CITATIONS - 11319079
+CITATIONS - 10896953
+COMMENT - Unlike EC 2.1.1.156 (glycine/sarcosine N-methyltransferase), EC 2.1.1.157
+/(sarcosine/dimethylglycine N-methyltransferase) and EC 2.1.1.161 (dimethylglycine N-methyltransferase),
+/this enzyme, from the halophilic methanoarchaeon Methanohalophilus portucalensis, can methylate
+/glycine and all of its intermediates to form the compatible solute betaine |CITS: [17098399]|.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR110928" NIL |kothari| 3789143028 NIL NIL)
+DBLINKS - (LIGAND-RXN "R07243" NIL |kothari| 3779713718 NIL NIL)
+DBLINKS - (RHEA "15454" NIL |kothari| 3709310379 NIL NIL)
+ENZYMATIC-REACTION - ENZRXN-10786
+ENZYMATIC-REACTION - ENZRXN-10787
+ENZYMATIC-REACTION - ENZRXN-8784
+ENZYMATIC-REACTION - ENZRXN-8762
+ENZYMATIC-REACTION - ENZRXN-15290
+GIBBS-0 - -13.110000    
+IN-PATHWAY - RXN-13406
+IN-PATHWAY - RXN-13405
+IN-PATHWAY - P541-PWY
+IN-PATHWAY - RXN-13404
+IN-PATHWAY - PWY-6004
+LEFT - S-ADENOSYLMETHIONINE
+LEFT - SARCOSINE
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - PROTON
+RIGHT - ADENOSYL-HOMO-CYS
+RIGHT - DIMETHYL-GLYCINE
+SYNONYMS - <em>S</em>-adenosyl-<small>L</small>-methionine:<em>N</em>,<em>N</em>-dimethylglycine <em>N</em>-methyltransferase
+SYNONYMS - sarcosine dimethylglycine <em>N</em>-methyltransferase
+SYNONYMS - SDMT
+SYNONYMS - ApDMT
+SYNONYMS - ApGSMT
+SYNONYMS - glycine-sarcosine methyltransferase
+SYNONYMS - GSMT
+SYNONYMS - GMT
+SYNONYMS - glycine sarcosine <em>N</em>-methyltransferase
+SYNONYMS - <em>S</em>-adenosyl-<small>L</small>-methionine:sarcosine <em>N</em>-methyltransferase
+SYNONYMS - GSDMT
+SYNONYMS - glycine sarcosine dimethylglycine <em>N</em>-methyltransferase

@@ -1,0 +1,23 @@
+UNIQUE-ID - RXN-3590
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (1 0 3 2 4 5 20 6 7 8 9 10 11 12 21 13 14 22 23 24 25 26 15 17 18 27 28 29 19 16 31 30) (((CPD-3141 0 19) (|Glucopyranose| 20 31)) ((CPD-3421 0 30) (WATER 31 31))))
+CITATIONS - 240725
+CITATIONS - 11730862
+COMMENT - The isoflavone-7-O-glucoside hydrolysis catalyses the last step in the interconversion of isoflavone conjugates. 
+/The release of the aglycons daidzein and genistein, respectively, facilitates the recurrence of those compounds in the 
+/biosynthetic route towards phytoalexins as immediate defense response or as substrates that may re-enter the cycle
+/to replenish the isoflavone conjugate pool.
+DBLINKS - (METANETX-RXN "MNXR121677" NIL |kothari| 3789143034 NIL NIL)
+ENZYMATIC-REACTION - ENZRXN-5362
+ENZYMATIC-REACTION - ENZRXN-5361
+GIBBS-0 - -4.5671234    
+IN-PATHWAY - PWY-2345
+LEFT - CPD-3421
+LEFT - WATER
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-3141
+RIGHT - Glucopyranose
+RIGHT - PROTON

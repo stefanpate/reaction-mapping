@@ -1,0 +1,15 @@
+UNIQUE-ID - RXN-20759
+TYPES - Small-Molecule-Reactions
+TYPES - Unknown-Conversions
+ATOM-MAPPINGS - :UNBALANCED
+CANNOT-BALANCE? - T
+CITATIONS - 10443484
+COMMENT - An unknown enzyme was partially purified from |FRAME: TAX-3860| seedlings and demonstrated enzymatic activity that led to the formation of |FRAME: L-23-DIAMINOPROPANOATE| from |FRAME: CPD-16449|. The enzyme has yet to be identified and sequenced |CITS: [10443484]|.
+CREDITS - PMN
+CREDITS - xu
+IN-PATHWAY - PWY-8071
+LEFT - CPD-16449
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - L-23-DIAMINOPROPANOATE

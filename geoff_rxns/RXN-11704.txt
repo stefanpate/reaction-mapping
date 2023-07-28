@@ -1,0 +1,16 @@
+UNIQUE-ID - RXN-11704
+TYPES - Small-Molecule-Reactions
+TYPES - Unknown-Conversions
+CANNOT-BALANCE? - T
+CITATIONS - 18248508
+COMMENT - The hydroxyl donor and the reducing agent for this reaction have not yet been determined but this reaction has been observed through radiotracer experiments in two different ecotypes of <i>Arabidopsis thaliana</i> |CITS: [18248508]|.
+CREDITS - THE-ARABIDOPSIS-INFORMATION-RESOURCE
+CREDITS - dreher
+DBLINKS - (METANETX-RXN "MNXR117103" NIL |kothari| 3789143035 NIL NIL)
+GIBBS-0 - -39.48    
+IN-PATHWAY - PWY-6621
+LEFT - CPD-12628
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-12663

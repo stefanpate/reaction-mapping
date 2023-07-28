@@ -1,0 +1,31 @@
+UNIQUE-ID - 4.2.1.58-RXN
+TYPES - Protein-Modification-Reactions
+COMMON-NAME - (3<em>R</em>)-3-hydroxybutanoyl-[acyl-carrier-protein] hydratase
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 2 3 1 4 34 5 7 6 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33) ((("Crotonyl-ACPs" 0 33) ("WATER" 34 34)) (("Beta-3-hydroxybutyryl-ACPs" 0 34))))
+DBLINKS - (METANETX-RXN "MNXR115599" NIL |kothari| 3789143027 NIL NIL)
+DBLINKS - (LIGAND-RXN "R04428" NIL |kothari| 3499573461 NIL NIL)
+EC-NUMBER - EC-4.2.1.59
+ENZYMATIC-REACTION - ENZRXN0-7978
+ENZYMATIC-REACTION - ENZRXN66-19323
+GIBBS-0 - 22.705242    
+IN-PATHWAY - PWY1A0-6120
+IN-PATHWAY - PWY66-430
+IN-PATHWAY - PWY-7388
+IN-PATHWAY - PWY-5971
+LEFT - Beta-3-hydroxybutyryl-ACPs
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - WATER
+RIGHT - Crotonyl-ACPs
+SYNONYMS - crotonoyl-[acyl-carrier-protein] hydratase
+SYNONYMS - &beta;-hydroxybutyryl acyl carrier protein (ACP) dehydrase
+SYNONYMS - &beta;-hydroxybutyryl acyl carrier protein dehydrase
+SYNONYMS - enoyl acyl carrier protein hydrase
+SYNONYMS - crotonyl acyl carrier protein hydratase
+SYNONYMS - 3-hydroxybutyryl acyl carrier protein dehydratase
+SYNONYMS - &beta;-hydroxybutyryl acyl carrier  protein dehydrase
+SYNONYMS - (3<em>R</em>)-3-hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase (but-2-enoyl-[acyl-carrier protein]-forming)
+SYNONYMS - (3<em>R</em>)-3-hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase
+SYSTEMATIC-NAME - (3<em>R</em>)-3-hydroxybutanoyl-[acyl-carrier protein] hydro-lyase (but-2-enoyl-[acyl-carrier protein]-forming)

@@ -1,0 +1,18 @@
+UNIQUE-ID - RXN-19828
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 32 21 22 23 24 25 26 27 28 29 30 31 33 34 35 36 37 38 40 41 39) ((("Ox-NADPH-Hemoprotein-Reductases" 0 18) ("14a-Hydroxymethylsteroids" 19 40) ("WATER" 41 41)) (("Red-NADPH-Hemoprotein-Reductases" 0 18) ("14-alpha-methylsteroids" 19 39) ("OXYGEN-MOLECULE" 40 41))))
+CREDITS - SRI
+CREDITS - caspi
+GIBBS-0 - -81.78476    
+IN-PATHWAY - RXN-13961
+LEFT - 14-alpha-methylsteroids
+LEFT - OXYGEN-MOLECULE
+LEFT - Red-NADPH-Hemoprotein-Reductases
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - 14a-Hydroxymethylsteroids
+RIGHT - WATER
+RIGHT - Ox-NADPH-Hemoprotein-Reductases

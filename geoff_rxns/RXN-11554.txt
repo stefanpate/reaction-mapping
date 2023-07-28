@@ -1,0 +1,24 @@
+UNIQUE-ID - RXN-11554
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :NON-INTEGER-STOICHIOMETRY
+CANNOT-BALANCE? - T
+CITATIONS - 9668050
+CITATIONS - 12213822
+CITATIONS - 12837765
+CITATIONS - 10446189
+CITATIONS - 12460766
+CITATIONS - 19748475
+COMMENT - Heparanase cleaves the linkage between a glucuronic acid unit and an N-sulfo glucosamine unit carrying either a 3-O-sulfo or a 6-O-sulfo group |CITS: [20181948]|. Heparanase-1 cuts macromolecular heparin into fragments of 500020000 Da |CITS: [17635638]|. The enzyme cleaves the heparan sulfate glycosaminoglycans from proteoglycan core proteins and degrades them to small oligosaccharides. Inside cells, the enzyme is important for the normal catabolism of heparan sulfate proteoglycans, generating glycosaminoglycan fragments that are then transported to lysosomes and completely degraded. When secreted, heparanase degrades basement membrane heparan sulfate glycosaminoglycans at sites of injury or inflammation, allowing extravasion of immune cells into nonvascular spaces and releasing factors that regulate cell proliferation and angiogenesis |CITS: [11445547]|.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR117007" NIL |kothari| 3789143036 NIL NIL)
+EC-NUMBER - EC-3.2.1.166
+LEFT - GlcA-n-6-O-sulfoGlcNS
+LEFT - WATER
+^COEFFICIENT - n
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+RIGHT - Short-Heparan-Fragments
+^COEFFICIENT - n

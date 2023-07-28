@@ -1,0 +1,20 @@
+UNIQUE-ID - RXN-20767
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3) (((("Fe2-siderophores" 1) 0 1) (("Fe2-siderophores" 2) 2 3)) ((("Fe3-siderophores" 1) 0 1) (("Fe3-siderophores" 2) 2 3))))
+CREDITS - SRI
+CREDITS - caspi
+EC-NUMBER - EC-1.16.1.10
+^OFFICIAL? - NIL
+IN-PATHWAY - RXN0-6555
+LEFT - Fe2-siderophores
+^COEFFICIENT - 2
+LEFT - NADP
+LEFT - PROTON
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-RIGHT-TO-LEFT
+RIGHT - Fe3-siderophores
+^COEFFICIENT - 2
+RIGHT - NADPH

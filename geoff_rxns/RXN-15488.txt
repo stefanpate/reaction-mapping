@@ -1,0 +1,9 @@
+UNIQUE-ID - RXN-15488
+TYPES - Light-Interactions
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+COMMENT - This is a special reaction used for constructing ETRs in photosynthesis.
+CREDITS - SRI
+CREDITS - kr
+LEFT - Light
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED

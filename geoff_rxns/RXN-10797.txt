@@ -1,0 +1,16 @@
+UNIQUE-ID - RXN-10797
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :UNBALANCED
+CANNOT-BALANCE? - T
+COMMENT - This is a hypothetical reaction based on the identified products during the pathway characterization, and the enzyme responsible for the product formation has not been characterized |CITS: [17229146]|. The reaction details will be added as and when additional information becomes available.
+CREDITS - O-28
+CREDITS - pujar
+DBLINKS - (METANETX-RXN "MNXR116525" NIL |kothari| 3789143035 NIL NIL)
+GIBBS-0 - -54.22224    
+IN-PATHWAY - PWY-6314
+LEFT - CPD-11688
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-4461

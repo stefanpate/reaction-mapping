@@ -1,0 +1,18 @@
+UNIQUE-ID - RXN-8900
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (5 0 6 1 7 2 3 9 4 8) (((CPD-9273 0 4) ((CPD-9273 1) 5 9)) ((CPD-9275 0 8) (WATER 9 9))))
+CITATIONS - 17174334
+COMMENT - Symmetrical thiosulfinates arise from condensation of two molecules of sulfenic acids that share the 
+/same alk(en)yl group, here two molecules of allensulfenates condense to form allicin.
+DBLINKS - (METANETX-RXN "MNXR122537" NIL |kothari| 3789143036 NIL NIL)
+GIBBS-0 - -148.597    
+IN-PATHWAY - PWY-5706
+LEFT - CPD-9273
+^COEFFICIENT - 2
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-9275
+RIGHT - WATER
+SPONTANEOUS? - T

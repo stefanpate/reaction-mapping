@@ -1,0 +1,18 @@
+UNIQUE-ID - RXN-14619
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 3 2 4 5 6 7 8 9 10 11 12 13 14 15 16 17 34 18 19 20 35 21 22 23 24 36 37 38 39 25 26 27 28 29 40 30 41 42 43 32 45 31 33 44) (((|Protopanaxadiol-type-3OH-ginsenosides| 0 33) (|Glucopyranose| 34 45)) ((|3Glc-Protopanaxadiol-ginsenosides| 0 44) (WATER 45 45))))
+CITATIONS - 22450790
+CITATIONS - 19818460
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR118806" NIL |kothari| 3789143036 NIL NIL)
+GIBBS-0 - 99.598206    
+IN-PATHWAY - RXN-14602
+LEFT - 3Glc-Protopanaxadiol-ginsenosides
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+RIGHT - Protopanaxadiol-type-3OH-ginsenosides
+RIGHT - Glucopyranose

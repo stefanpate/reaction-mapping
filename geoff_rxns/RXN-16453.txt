@@ -1,0 +1,20 @@
+UNIQUE-ID - RXN-16453
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (6 17 15 21 4 7 8 10 11 18 20 22 24 26 33 30 0 1 2 3 5 19 9 14 12 13 16 23 25 27 32 31 34 29 28 35) ((("CPD-12145" 0 33) (("WATER" 1) 34 34) (("WATER" 2) 35 35)) ((("PEPTIDE-TRYPTOPHAN" 1) 0 15) (("PEPTIDE-TRYPTOPHAN" 2) 16 31) (("OXYGEN-MOLECULE" 1) 32 33) (("OXYGEN-MOLECULE" 2) 34 35))))
+COMMENT - This reaction likely describes the sum of at least two different reactions. Incorporation of oxygen into Trp 57 has been shown to occur in two independent monooxygenation steps, the second of which requires the MauG protein. Furthermore, the cross-linking of Trp 57 and Trp 108, and the second monooxygenation, appear to be coupled. The numbering of the amino acids is based on the enzyme from |FRAME: TAX-266| |CITS: [12641453][15888309]|.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR120100" NIL |kothari| 3789143035 NIL NIL)
+EC-NUMBER - EC-1.13.12
+GIBBS-0 - -145.2395    
+LEFT - PEPTIDE-TRYPTOPHAN
+^COEFFICIENT - 2
+LEFT - OXYGEN-MOLECULE
+^COEFFICIENT - 2
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-12145
+RIGHT - WATER
+^COEFFICIENT - 2

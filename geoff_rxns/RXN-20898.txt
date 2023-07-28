@@ -1,0 +1,16 @@
+UNIQUE-ID - RXN-20898
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (5 4 8 7 10 9 14 21 16 15 18 17 0 1 2 3 6 11 13 12 20 19) ((("FRUCTOSELYSINE" 0 20) ("WATER" 21 21)) (("CPD-15374" 0 11) ("LYS" 12 21))))
+COMMENT - |FRAME: FRUCTOSELYSINE| is formed by the non-enzymatic reaction of glucose with the &epsilon;-amine of lysine, followed by a spontaneous isomerization of the sugar, referred to as an Amadori rearrangement |CITS: [2675036]|.
+CREDITS - SRI
+CREDITS - caspi
+IN-PATHWAY - PWY1QP9-2
+LEFT - CPD-15374
+LEFT - LYS
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - FRUCTOSELYSINE
+RIGHT - WATER
+SPONTANEOUS? - T

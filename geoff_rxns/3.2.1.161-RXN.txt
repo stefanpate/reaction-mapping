@@ -1,0 +1,22 @@
+UNIQUE-ID - 3.2.1.161-RXN
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (21 23 22 24 1 25 26 28 27 29 0 2 30 31 32 34 35 37 36 38 33 3 39 4 5 6 7 8 9 10 41 12 13 14 15 17 42 44 43 45 11 46 18 19 16 20 40) (((CPD-9004 0 20) (CPD-9716 21 46)) ((CPD-9695 0 45) (WATER 46 46))))
+CITATIONS - 17998137
+COMMENT - Removes disaccharides from the natural substrates dalpatein 7-O-beta D-apiofuranosyl-(1->6)-beta-D-glucopyranoside and 7-hydroxy 2',4',5',6-tetramethoxy-7-O-beta-D-apiofuranosyl-(1->6)-beta-D glucopyranoside (dalnigrein 7-O-beta-D-apiofuranosyl-(1->6)-beta-D glucopyranoside) although it can also remove a single glucose residue from isoflavonoid 7-O-glucosides.  Daidzin and genistin are also substrates.
+CREDITS - O-28
+CREDITS - pujar
+DBLINKS - (METANETX-RXN "MNXR115355" NIL |kothari| 3789143037 NIL NIL)
+EC-NUMBER - EC-3.2.1.161
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN-14730
+GIBBS-0 - -3.113037    
+IN-PATHWAY - PWY-5825
+LEFT - CPD-9695
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-9716
+RIGHT - CPD-9004

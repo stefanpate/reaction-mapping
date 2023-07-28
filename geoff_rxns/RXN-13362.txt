@@ -1,0 +1,15 @@
+UNIQUE-ID - RXN-13362
+TYPES - Protein-Modification-Reactions
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+COMMENT - Upon absorption of a photon, rhodopsin goes through several conformational changes. These stages are named bathorhodopsin, lumirhodopsin, metarhodopsin I and metarhodopsin II. The bound 11-cis cofactor is modified to an <i>all-trans</i> isomer.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR118046" NIL |kothari| 3789143036 NIL NIL)
+IN-PATHWAY - PWY-7042
+LEFT - Rhodopsin-Rh1
+LEFT - Light
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - Metarhodopsin-Rh1
+SPONTANEOUS? - T

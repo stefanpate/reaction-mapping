@@ -1,0 +1,15 @@
+UNIQUE-ID - RXN-9203
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 2 3 4 5 6 7 8 9 10 11 12 13 1 14) (((CPD-9773 0 13) (|Demethylated-methyl-acceptors| 14 14)) ((CPD-9779 0 12) (|Methylated-methyl-acceptors| 13 14))))
+DBLINKS - (METANETX-RXN "MNXR122702" NIL |kothari| 3789143034 NIL NIL)
+GIBBS-0 - 37.872272    
+IN-PATHWAY - PWY-5843
+LEFT - CPD-9779
+LEFT - Methylated-methyl-acceptors
+LEFT - PROTON
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-9773
+RIGHT - Demethylated-methyl-acceptors

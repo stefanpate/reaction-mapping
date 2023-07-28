@@ -1,0 +1,29 @@
+UNIQUE-ID - RXN-3221
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 13 2 3 4 5 7 6 8 9 10 11 12 14 15 16 17 18) (((CPD-3061 0 18)) ((CPD-3041 0 18))))
+CITATIONS - JEZ02
+COMMENT - Functional and structural studies have indicated that chalcone isomerase, catalyzing the first step towards isoflavonoids,
+/accelerates the stereochemically defined intramolecular cyclization of chalcones into biologically active (2S)-flavanones
+/by selectively binding an ionized chalcone in a conformation conducive to ring closure in a diffusion-controlled reaction.
+DBLINKS - (METANETX-RXN "MNXR110347" NIL |kothari| 3789143037 NIL NIL)
+DBLINKS - (LIGAND-RXN "R06556" NIL |taltman| 3459474588 NIL NIL)
+EC-NUMBER - EC-5.5.1.6
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN-4922
+ENZYMATIC-REACTION - ENZRXN-4921
+ENZYMATIC-REACTION - ENZRXN-4904
+ENZYMATIC-REACTION - ENZRXN-4903
+ENZYMATIC-REACTION - ENZRXN-4902
+ENZYMATIC-REACTION - ENZRXN-4901
+ENZYMATIC-REACTION - ENZRXN-4521
+ENZYMATIC-REACTION - ENZRXN-4482
+GIBBS-0 - -9.92    
+IN-PATHWAY - PWY-6325
+IN-PATHWAY - PWY-2002
+LEFT - CPD-3041
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-3061

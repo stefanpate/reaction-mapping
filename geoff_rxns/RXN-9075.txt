@@ -1,0 +1,19 @@
+UNIQUE-ID - RXN-9075
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 22 8 9 11 10 23 12 13 24 25 26 27 14 16 15 28 17 18 19 29 30 31 21 20 33 32 34) (((INDOLE-3-ACETYL-GLU 0 21) (|Glucosylated-Glucose-Acceptors| 22 34)) ((CPD-9573 0 32) (|Non-Glucosylated-Glucose-Acceptors| 33 34))))
+CANNOT-BALANCE? - NIL
+CITATIONS - 17628621
+COMMENT - This reaction is based on a radiotracer study using deuterium-labeled IAA-Glu.|CITS: [17628621]|
+/The in vivo source of glucose is not known, but UDP-glucose may act as the glucose donor.
+DBLINKS - (METANETX-RXN "MNXR122626" NIL |kothari| 3789143036 NIL NIL)
+EC-NUMBER - EC-2.4.1
+GIBBS-0 - 100.33120    
+IN-PATHWAY - PWY-5784
+LEFT - INDOLE-3-ACETYL-GLU
+LEFT - Glucosylated-Glucose-Acceptors
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-9573
+RIGHT - Non-Glucosylated-Glucose-Acceptors

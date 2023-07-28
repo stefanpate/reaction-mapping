@@ -1,0 +1,21 @@
+UNIQUE-ID - RXN-21250
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - DNA-(apurinic or apyrimidinic site) lyase (Fpg type)
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+CITATIONS - 27865982
+CITATIONS - 15102448
+COMMENT - Excision of the nucleobase lesion is a two-step process and involves formation of an enzyme-substrate Schiff base intermediate; subsequent DNA strand nicking occurs via a &beta;,&delta;-elimination leaving a 3'-terminal phosphate and a 5'-terminal phosphate. This reaction is catalysed by the Nei family of bifunctional DNA glycosylases.
+CREDITS - O0-13
+CREDITS - amackie
+ENZYMATIC-REACTION - ENZRXN0-12471
+LEFT - Damaged-DNA-Pyrimidine
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNDETERMINED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - 5-Phospho-terminated-DNAs
+RIGHT - 3-Prime-Phosphate-Terminated-DNAs
+RIGHT - CPD-21221
+RIGHT - Modified-Bases

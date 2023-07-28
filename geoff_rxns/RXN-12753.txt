@@ -1,0 +1,22 @@
+UNIQUE-ID - RXN-12753
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (1 0 3 4 5 6 7 8 9 10 2 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 44 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43) ((("NADH" 0 43) ("WATER" 44 44)) (("CPD-653" 0 44))))
+COMMENT - Studies in the 1950s have shown that glyceraldehyde 3-phosphate dehydrogenase slowly catalyzes the formation of NADHX from NADH |CITS: [Rafter54]|. The equilibrium of this hydration reaction is in favor (100/1) of the hydrated form |CITS: [3061454]|, making the reaction virtually irreversible.
+/
+/In addition, NADHX can be formed spontaneously from NADH under slightly acidic conditions.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR117736" NIL |kothari| 3789143035 NIL NIL)
+ENZYMATIC-REACTION - ENZRXN-19737
+GIBBS-0 - 6.2869263    
+IN-PATHWAY - PWY-6938-1
+IN-PATHWAY - PWY-6938
+LEFT - NADH
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-653
+SPONTANEOUS? - T

@@ -1,0 +1,35 @@
+UNIQUE-ID - CHOLESTANETRIOL-26-MONOOXYGENASE-RXN
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (1 0 2 3 4 5 6 7 8 9 10 11 12 13 14 15 18 19 16 17 23 22 21 20 24 38 25 26 27 28 29 30 31 32 33 34 35 36 37 39 40 41 42 43 44 45 46 47 48 49 50 52 53 54 51 55) ((((|Oxidized-adrenal-ferredoxins| 1) 0 11) ((|Oxidized-adrenal-ferredoxins| 2) 12 23) (5-BETA-CHOLESTANE-3-ALPHA7-TETRAOL 24 54) (WATER 55 55)) (((|Reduced-adrenal-ferredoxins| 1) 0 11) ((|Reduced-adrenal-ferredoxins| 2) 12 23) (5-BETA-CHOLESTANE-3-ALPHA7-ALPHA12-ALP 24 53) (OXYGEN-MOLECULE 54 55))))
+CITATIONS - 4388637
+CITATIONS - 6423637
+CITATIONS - 2722778
+CITATIONS - 2318307
+CITATIONS - 10512735
+CITATIONS - 8496170
+CITATIONS - 11412116
+COMMENT - Requires ferrodoxin. Acts on |FRAME: CHOLESTEROL|, cholest-5-en-3&alpha;,7&alpha;-diol, 7&alpha;-hydroxycholest-4-en-3-one, 5&beta;-cholestane-3&alpha;,7&alpha;-diol as well as |FRAME: 5-BETA-CHOLESTANE-3-ALPHA7-ALPHA12-ALP|. With cholesterol as well as 26-hydroxycholesterol, 24-hydroxy- and 25-hydroxycholesterol are also formed. With prolonged treatment, 26-hydroxycholesterol is converted into the corresponding 27-aldehyde and 27-oic acid.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR115773" NIL |kothari| 3789143028 NIL NIL)
+DBLINKS - (RHEA "14374" NIL |kothari| 3709310379 NIL NIL)
+DBLINKS - (LIGAND-RXN "R04807" NIL |taltman| 3459474592 NIL NIL)
+GIBBS-0 - -79.02527    
+IN-PATHWAY - RXN-13690
+IN-PATHWAY - PWY-6061
+LEFT - 5-BETA-CHOLESTANE-3-ALPHA7-ALPHA12-ALP
+LEFT - Reduced-adrenal-ferredoxins
+^COEFFICIENT - 2
+LEFT - PROTON
+^COEFFICIENT - 2
+LEFT - OXYGEN-MOLECULE
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - 5-BETA-CHOLESTANE-3-ALPHA7-TETRAOL
+RIGHT - Oxidized-adrenal-ferredoxins
+^COEFFICIENT - 2
+RIGHT - WATER
+SYSTEMATIC-NAME - 5&beta;-cholestane-3&alpha;,7&alpha;,12&alpha;-triol,NADPH:oxygen oxidoreductase (26-hydroxylating)

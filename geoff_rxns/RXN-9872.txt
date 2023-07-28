@@ -1,0 +1,23 @@
+UNIQUE-ID - RXN-9872
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - 3-chlorobenzoate 1,2-dioxygenase
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (2 0 3 5 1 6 4 7 11 8 9 10) ((("CPD-3486" 0 9) ("OXYGEN-MOLECULE" 10 11)) (("CPD-10619" 0 11))))
+CITATIONS - [1938949]
+COMMENT - In UM-BBD, this reaction is given the EC number 1.14.12.10 , which however conflicts somewhat with the ENZYME db v.23.0, which shows that reaction as including the decarboxylation step. In UM-BBD, the pathway is drawn as if these are two separate steps, with a demonstratable intermediate compound.
+DBLINKS - (METANETX-RXN "MNXR123043" NIL |kothari| 3789143037 NIL NIL)
+EC-NUMBER - EC-1.14.12
+ENZYMATIC-REACTION - ENZRXN-15647
+GIBBS-0 - -74.27179    
+IN-PATHWAY - PWY-6088
+LEFT - CPD-3486
+LEFT - NADH
+LEFT - PROTON
+LEFT - OXYGEN-MOLECULE
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-10619
+RIGHT - NAD
+SYNONYMS - 3-chlorobenzoic hydroxylase
+SYNONYMS - 3-chlorobenzoate hydroxylase

@@ -1,0 +1,29 @@
+UNIQUE-ID - RXN-7777
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - apigenin 4&prime;-<em>O</em>-methyltransferase
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (28 27 30 29 31 32 33 34 36 35 37 38 39 40 41 45 42 43 44 46 26 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25) ((("ADENOSYL-HOMO-CYS" 0 25) ("CPD-7080" 26 46)) (("NARINGENIN-CMPD" 0 19) ("S-ADENOSYLMETHIONINE" 20 46))))
+CITATIONS - 15961179
+COMMENT - The enzyme catalyses the 4'-methylation of naringenin. In vitro it catalyses the 4'-methylation of apigenin, quercetin, daidzein and genistein.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR122028" NIL |kothari| 3789143037 NIL NIL)
+DBLINKS - (LIGAND-RXN "R03571" NIL |taltman| 3459474595 NIL NIL)
+EC-NUMBER - EC-2.1.1.231
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN-12512
+GIBBS-0 - -5.8141403    
+IN-PATHWAY - PWY-5118
+LEFT - S-ADENOSYLMETHIONINE
+LEFT - NARINGENIN-CMPD
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - PROTON
+^COEFFICIENT - 2
+RIGHT - CPD-7080
+RIGHT - ADENOSYL-HOMO-CYS
+SYNONYMS - flavonoid <em>O</em>-methyltransferase
+SYNONYMS - flavonoid methyltransferase
+SYSTEMATIC-NAME - <em>S</em>-adenosyl-<small>L</small>-methionine:5,7,4&prime;-trihydroxyflavone 4&prime;-<em>O</em>-methyltransferase

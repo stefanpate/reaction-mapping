@@ -1,0 +1,22 @@
+UNIQUE-ID - RXN-12117
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (2 3 0 8 5 7 12 4 14 6 10 1 13 9 11 18 20 19 15 16 17 21 23 22) (((CPD-13069 0 14) (PPI 15 23)) ((CPD-9444 0 23))))
+CITATIONS - 20201526
+COMMENT - This enzyme, characterized from tobacco, is capable of catalysing both cisoid and transoid cyclization pathways |CITS: [20175559]|. When acting on (2E,6E)-farnesyl diphosphate, the enzyme produces |FRAME: ARISTOLOCHENE| as the major product, via the transoid pathway (|FRAME: ARISTOLOCHENE-SYNTHASE-RXN "EC 4.2.3.9, aristolochene synthase"|). When acting on (2Z,6E)-farnesyl-diphosphate, the enzyme produces several products via the cisoid pathway, the major ones being |FRAME: CPD-13069| (44%), |FRAME: CPD-8776| (21.5%) (cf. |FRAME: RXN-8585 "EC 4.2.3.ao"|) and |FRAME: CPD-11392| (15.5%) (cf. |FRAME: RXN-10598 "EC 4.2.3.ap"|) |CITS: [20201526]|.
+/
+CREDITS - SRI
+CREDITS - kothari
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR117353" NIL |kothari| 3789143035 NIL NIL)
+EC-NUMBER - EC-4.2.3
+ENZYMATIC-REACTION - ENZRXN-19073
+GIBBS-0 - -56.69998    
+LEFT - CPD-9444
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-13069
+RIGHT - PPI
+SYSTEMATIC-NAME -  (2Z,6E)-farnesyl-diphosphate diphosphate-lyase (cyclizing, (+)-2-epi-prezizaene-forming)

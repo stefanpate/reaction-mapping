@@ -1,0 +1,30 @@
+UNIQUE-ID - RXN-7719
+TYPES - Protein-Modification-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22) ((("BCAA-dehydrogenase-lipoyl" 0 22)) (("BCAA-dehydrogenase-DH-lipoyl" 0 22))))
+CITATIONS - 13767908
+CITATIONS - 13471525
+CITATIONS - 16746974
+CITATIONS - 10966480
+COMMENT - A flavoprotein (FAD). A component of the multienzyme 2-oxo-acid dehydrogenase complexes. In the pyruvate dehydrogenase complex, it binds to the core of |FRAME: RXN0-1133 "EC 2.3.1.12, dihydrolipoyllysine-residue acetyltransferase"|, and catalyses oxidation of its dihydrolipoyl groups. It plays a similar role in the oxoglutarate and 3-methyl-2-oxobutanoate dehydrogenase complexes. Another substrate is the dihydrolipoyl group in the H-protein of the glycine-cleavage system (click <A href="http://www.enzyme-database.org/reaction/AminoAcid/GlyCleave.html">here</A> for diagram), in which it acts, together with |FRAME: GCVP-RXN "EC 1.4.4.2, glycine dehydrogenase (decarboxylating)"|, and |FRAME: GCVT-RXN "EC 2.1.2.10, aminomethyltransferase"|, to break down glycine. It can also use free dihydrolipoate, dihydrolipoamide or dihydrolipoyllysine as substrate. This enzyme was first shown to catalyse the oxidation of NADH by methylene blue; this activity was called diaphorase. The glycine cleavage system is composed of four components that only loosely associate: the P protein (|FRAME: GCVP-RXN "EC 1.4.4.2"|), the T protein (|FRAME: GCVT-RXN "EC 2.1.2.10"|), the L protein (|FRAME: 1.8.1.4-RXN "EC 1.8.1.4"|) and the lipoyl-bearing H protein |CITS: [15642479]|.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR122012" NIL |kothari| 3789143037 NIL NIL)
+EC-NUMBER - EC-1.8.1.4
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXNCEQ-3313
+ENZYMATIC-REACTION - ENZRXN-16631
+ENZYMATIC-REACTION - ENZRXN-12376
+GIBBS-0 - 19.404053    
+IN-PATHWAY - 1.2.1.25-RXN
+IN-PATHWAY - 2KETO-3METHYLVALERATE-RXN
+IN-PATHWAY - 2KETO-4METHYL-PENTANOATE-DEHYDROG-RXN
+IN-PATHWAY - PWY-5046
+LEFT - BCAA-dehydrogenase-DH-lipoyl
+LEFT - NAD
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - REVERSIBLE
+RIGHT - BCAA-dehydrogenase-lipoyl
+RIGHT - NADH
+RIGHT - PROTON

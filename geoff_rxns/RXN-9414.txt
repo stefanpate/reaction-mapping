@@ -1,0 +1,23 @@
+UNIQUE-ID - RXN-9414
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - monocyclic monoterpene ketone monooxygenase
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 13 12) ((("3-Isopropenyl-4H-hexano-lactones" 0 12) ("WATER" 13 13)) (("1-Hydroxy-2-oxolimonenes" 0 11) ("OXYGEN-MOLECULE" 12 13))))
+DBLINKS - (METANETX-RXN "MNXR122805" NIL |kothari| 3789143036 NIL NIL)
+ENZYMATIC-REACTION - ENZRXN-14992
+GIBBS-0 - -93.320496    
+IN-PATHWAY - RXN-15253
+LEFT - 1-Hydroxy-2-oxolimonenes
+LEFT - NADPH
+LEFT - PROTON
+LEFT - OXYGEN-MOLECULE
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - 3-Isopropenyl-4H-hexano-lactones
+RIGHT - NADP
+RIGHT - WATER
+SYNONYMS - 1-hydroxy-2-oxolimonene 1,2-monooxygenase
+SYNONYMS - dihydrocarvone 1,2-monooxygenase
+SYNONYMS - MMKMO
+SYSTEMATIC-NAME - (-)-menthone,NADPH:oxygen oxidoreductase

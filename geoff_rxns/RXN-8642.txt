@@ -1,0 +1,42 @@
+UNIQUE-ID - RXN-8642
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (1 0 3 2 10 4 6 7 5 12 11 9 8) (((2-KETOGLUTARATE 0 9) (CARBON-DIOXIDE 10 12)) ((OXALO-SUCCINATE 0 12))))
+COMMENT - In eukaryotes, isocitrate dehydrogenase exists in two forms: an NAD(+)-linked enzyme found only in mitochondria and displaying allosteric properties, and a non-allosteric, NADP(+)-linked enzyme that is found in both mitochondria and cytoplasm.  The enzyme from some species can also use NAD(+) but much more slowly.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR105305" NIL |kothari| 3789143035 NIL NIL)
+DBLINKS - (RHEA "19384" NIL |kothari| 3709310380 NIL NIL)
+DBLINKS - (LIGAND-RXN "R00268" NIL |kothari| 3516984298 NIL NIL)
+ENZYMATIC-REACTION - ENZRXN3O-10663
+ENZYMATIC-REACTION - ENZRXN-16642
+ENZYMATIC-REACTION - ENZRXN-16640
+GIBBS-0 - 1.7423706    
+IN-PATHWAY - ISOCITDEH-RXN
+LEFT - OXALO-SUCCINATE
+LEFT - PROTON
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - REVERSIBLE
+RIGHT - 2-KETOGLUTARATE
+RIGHT - CARBON-DIOXIDE
+SYNONYMS - oxalsuccinic decarboxylase
+SYNONYMS - isocitrate (NADP) dehydrogenase
+SYNONYMS - isocitrate (nicotinamide adenine dinucleotide phosphate) dehydrogenase
+SYNONYMS - NADP-specific isocitrate dehydrogenase
+SYNONYMS - NADP-linked isocitrate dehydrogenase
+SYNONYMS - NADP isocitric dehydrogenase
+SYNONYMS - isocitrate dehydrogenase (NADP-dependent)
+SYNONYMS - NADP-dependent isocitric dehydrogenase
+SYNONYMS - triphosphopyridine nucleotide-linked isocitrate dehydrogenase-oxalosuccinate carboxylase
+SYNONYMS - NADP<small><sup>+</sup></small>-linked isocitrate dehydrogenase
+SYNONYMS - IDH (ambiguous)
+SYNONYMS - dual-cofactor-specific isocitrate dehydrogenase
+SYNONYMS - NADP<small><sup>+</sup></small>-ICDH
+SYNONYMS - NADP<small><sup>+</sup></small>-IDH
+SYNONYMS - IDP
+SYNONYMS - IDP1
+SYNONYMS - IDP2
+SYNONYMS - IDP3
+SYSTEMATIC-NAME - isocitrate:NADP<small><sup>+</sup></small> oxidoreductase (decarboxylating)

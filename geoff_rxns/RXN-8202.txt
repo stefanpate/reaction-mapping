@@ -1,0 +1,25 @@
+UNIQUE-ID - RXN-8202
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (2 0 1 4 3 6 7 5 8) (((SO3 0 3) (HS 4 4) (|Disulfides| 5 8)) ((S2O3 0 4) ((|Thiols| 1) 5 6) ((|Thiols| 2) 7 8))))
+COMMENT - The official EC reaction specifies |FRAME: GLUTATHIONE| as the electron donor.
+/However, most publications specify that the enzyme can use many different organic
+/thiols as electron donors, and that |FRAME: GLUTATHIONE| is most likely not the <i>in vivo</i> donor
+/(for example, |CITS: [6849932][3309558]|.
+DBLINKS - (METANETX-RXN "MNXR122177" NIL |kothari| 3789143037 NIL NIL)
+EC-NUMBER - EC-2.8.1.3
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN-13229
+GIBBS-0 - 6.8240128    
+IN-PATHWAY - PWY-5277
+LEFT - S2O3
+LEFT - Thiols
+^COEFFICIENT - 2
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - SO3
+RIGHT - HS
+RIGHT - Disulfides
+RIGHT - PROTON

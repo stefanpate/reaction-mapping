@@ -1,0 +1,20 @@
+UNIQUE-ID - RXN-8391
+TYPES - Protein-Modification-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 46 47 15 49 16 52 54 53 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 48 51 50 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 17 36 37 38 39 40 41 42 43 44 45) (((|Delta4-hexadecenoyl-ACPs| 0 45) (MALONYL-ACP 46 80)) ((|3-oxo-petroselinoyl-ACPs| 0 48) (CARBON-DIOXIDE 49 51) (ACP 52 80))))
+COMMENT - This is a specific instance of a simplified version of fatty acid chain elongation. The real elongation involves
+/4 steps as illustrated in the fatty acid elongation pathway.
+DBLINKS - (METANETX-RXN "MNXR122301" NIL |kothari| 3789143027 NIL NIL)
+EC-NUMBER - EC-2.3.1.179
+ENZYMATIC-REACTION - ENZRXN-13300
+GIBBS-0 - -6.862915    
+IN-PATHWAY - PWY-5367
+LEFT - Delta4-hexadecenoyl-ACPs
+LEFT - MALONYL-ACP
+LEFT - PROTON
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - 3-oxo-petroselinoyl-ACPs
+RIGHT - ACP
+RIGHT - CARBON-DIOXIDE

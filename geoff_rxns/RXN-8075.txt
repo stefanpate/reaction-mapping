@@ -1,0 +1,20 @@
+UNIQUE-ID - RXN-8075
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (1 0 2 3 4 7 5 6 8 9) (((CPD-10807 0 4) (|Pi| 5 9)) ((GAP 0 9))))
+COMMENT - This reaction is a less-well known activity of |FRAME: EC-5.3.1.1| |CITS: [2021650]|. The product, |FRAME: CPD-10807|, spontaneously transforms into |FRAME: METHYL-GLYOXAL|.
+/
+/This elimination reaction is slow relative to the isomerization reaction and was detected only by chance in experiments where the substrate was incubated with large concentrations of the enzyme. However, since the enzyme is present at very high cellular concentrations, the elimination reaction could still generate significant concentrations of cellular methylglyoxal.
+DBLINKS - (METANETX-RXN "MNXR140810" NIL |kothari| 3789143035 NIL NIL)
+EC-NUMBER - EC-4.2.3
+ENZYMATIC-REACTION - ENZRXN-16055
+GIBBS-0 - 2.9100037    
+IN-PATHWAY - PWY-6160
+IN-PATHWAY - PWY-5197
+LEFT - GAP
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-10807
+RIGHT - Pi

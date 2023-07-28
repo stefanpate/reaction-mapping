@@ -1,0 +1,17 @@
+UNIQUE-ID - RXN-11207
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :UNBALANCED
+CANNOT-BALANCE? - T
+CITATIONS - LAMBERT93
+COMMENT - No enzyme that performs this experiment has been identified to date. Therefore, the oxygen donor remains unknown and the reaction is left in an unbalanced state. This is a hypothetical reaction that has not been directly proven by radiotracer or other experimental means |CITS: [LAMBERT93]|.
+CREDITS - THE-ARABIDOPSIS-INFORMATION-RESOURCE
+CREDITS - dreher
+DBLINKS - (METANETX-RXN "MNXR116782" NIL |kothari| 3789143028 NIL NIL)
+GIBBS-0 - -47.99    
+IN-PATHWAY - PWY-6425
+LEFT - CPD-12163
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-12165

@@ -1,0 +1,28 @@
+UNIQUE-ID - RXN-9772
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - L-aspartate : fumarate oxidoreductase (deaminating)
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (10 9 12 11 16 15 13 14 0 1 2 3 4 5 6 7 8) (((IMINOASPARTATE 0 8) (SUC 9 16)) ((FUM 0 7) (L-ASPARTATE 8 16))))
+COMMENT - A flavoprotein (FAD). L-Aspartate oxidase catalyses the first step in the de novo biosynthesis of NAD+ in
+/some bacteria. |FRAME: OXYGEN-MOLECULE "Oxygen"| can be replaced by |FRAME: FUM| as electron
+/acceptor, yielding |FRAME: SUC| |CITS: [11863440]|.
+/The ability of the enzyme to use both |FRAME: OXYGEN-MOLECULE| and fumarate in cofactor reoxidation enables it to function
+/under both aerobic and anaerobic conditions |CITS:[ 11863440]|.
+/|FRAME: IMINOASPARTATE| can either be hydrolysed to form |FRAME: OXALACETIC_ACID| and
+/|FRAME: AMMONIA| or can be used by EC 2.5.1.72, quinolinate synthase, in the production of
+/|FRAME: QUINOLINATE|. The enzyme is a member of the succinate dehydrogenase/fumarate reductase
+/family of enzymes |CITS:[11863440]|.
+DBLINKS - (METANETX-RXN "MNXR96093" NIL |kothari| 3789143027 NIL NIL)
+DBLINKS - (RHEA "30044" NIL |kothari| 3709310381 NIL NIL)
+EC-NUMBER - EC-1.5.99
+ENZYMATIC-REACTION - ENZRXN0-7382
+GIBBS-0 - -38.578247    
+LEFT - L-ASPARTATE
+LEFT - FUM
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - PROTON
+RIGHT - IMINOASPARTATE
+RIGHT - SUC

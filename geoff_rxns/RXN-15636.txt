@@ -1,0 +1,16 @@
+UNIQUE-ID - RXN-15636
+TYPES - Small-Molecule-Reactions
+TYPES - Unknown-Conversions
+ATOM-MAPPINGS - :UNBALANCED
+CANNOT-BALANCE? - T
+COMMENT - This reaction represents a series of unknown conversions. They has been described as reactions analogous to those of fatty acid &beta;-oxidation that involve the removal of a two-carbon unit from the four-carbon side chain of |FRAME: CPD-16865| |CITS: [23001656]|.
+CREDITS - SRI
+CREDITS - fulcher
+DBLINKS - (METANETX-RXN "MNXR119509" NIL |kothari| 3789143037 NIL NIL)
+GIBBS-0 - 16.572826    
+IN-PATHWAY - PWY-7521
+LEFT - CPD-16865
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-16866

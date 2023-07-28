@@ -1,0 +1,20 @@
+UNIQUE-ID - RXN-8646
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 2 1 3 4 5 6 8 9 7) (((5-METHYL-BARBITURATE 0 9)) ((THYMINE 0 8) (WATER 9 9))))
+COMMENT - Forms part of the oxidative pyrimidine-degrading pathway in some microorganisms, along with EC 3.5.2.1 and EC 3.5.1.95.  Mammals, plants and other microorganisms utilize the reductive pathway, comprising EC 1.3.1.1 or EC 1.3.1.2, EC 3.5.2.2 and EC 3.5.1.6, with the ultimate degradation products being an L-amino acid, NH(3) and CO(2).  Formerly EC 1.1.99.19 and EC 1.2.99.1.
+DBLINKS - (METANETX-RXN "MNXR122412" NIL |kothari| 3789143028 NIL NIL)
+DBLINKS - (RHEA "13470" NIL |kothari| 3709310379 NIL NIL)
+DBLINKS - (LIGAND-RXN "R01413" NIL |kothari| 3497119028 NIL NIL)
+EC-NUMBER - EC-1.17.99.4
+^OFFICIAL? - T
+ENZYMATIC-REACTION - ENZRXN-17437
+LEFT - THYMINE
+LEFT - WATER
+LEFT - Acceptor
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - 5-METHYL-BARBITURATE
+RIGHT - Donor-H2
+RIGHT - PROTON

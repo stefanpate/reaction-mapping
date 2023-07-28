@@ -1,0 +1,23 @@
+UNIQUE-ID - TRANS-RXN-209
+TYPES - Small-Molecule-Reactions
+TYPES - TR-12
+COMMON-NAME - Transport of triose phosphate
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+COMMENT - This reaction is catalyzed by a transporter that is located on the chloroplastidic membrane and carries the transport of 
+/phosphate and triose phosphate from within the chloroplast into the cytosol. The cellular location extracellular space will be 
+/replaced with the appropriate term after the PO ontologies become available.
+DBLINKS - (METANETX-RXN "MNXR123942" NIL |kothari| 3789143028 NIL NIL)
+GIBBS-0 - 0.    
+LEFT - GAP
+^COMPARTMENT - CCO-IN
+LEFT - Pi
+^COMPARTMENT - CCO-OUT
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - GAP
+^COMPARTMENT - CCO-IN
+RIGHT - Pi
+^COMPARTMENT - CCO-IN
+RXN-LOCATIONS - CCO-EXTRACELLULAR-CCO-CYTOSOL
+SYNONYMS - Transport of glyceraldehyde-3-phosphate

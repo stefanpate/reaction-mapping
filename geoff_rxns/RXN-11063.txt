@@ -1,0 +1,20 @@
+UNIQUE-ID - RXN-11063
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (6 0 1 2 8 4 5 7 3) ((("PYRUVATE" 0 5) ("CPD-23339" 6 7) ("AMMONIUM" 8 8)) (("CPD-12024" 0 7) ("WATER" 8 8))))
+COMMENT - The exact reaction or series of reactions leading to the formation of |FRAME: CPD-12006| remain to be elucidated. It is possible that a series of reactions involving first a |FRAME: CPD-13774| intermediate and then a methaneseleniol intermediate are required, similar to the enzymatic steps observed for dimethyldisulfide biosynthesis |CITS: [16307305]|.
+CREDITS - O-28
+CREDITS - pujar
+DBLINKS - (METANETX-RXN "MNXR116677" NIL |kothari| 3789143034 NIL NIL)
+EC-NUMBER - EC-4.4.1.11
+GIBBS-0 - 48.186638    
+IN-PATHWAY - PWY-6933
+LEFT - CPD-12024
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-23339
+RIGHT - PYRUVATE
+RIGHT - AMMONIUM

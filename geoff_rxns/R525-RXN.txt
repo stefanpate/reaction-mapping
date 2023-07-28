@@ -1,0 +1,28 @@
+UNIQUE-ID - R525-RXN
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :CURATED
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 6 7 4 5 11 10 9 8 12 13 14 15 18 19 16 17 23 22 21 20 24 25 26 27 30 31 28 29 35 34 33 32 36 37 38 39 42 43 40 41 47 46 45 44 48 49 50 51 54 55 52 53 59 58 57 56 60 61 62 63 66 67 64 65 71 70 69 68 72 73 74 76 75 77 78) (((("Reduced-Putidaredoxins" 1) 0 11) (("Reduced-Putidaredoxins" 2) 12 23) (("Reduced-Putidaredoxins" 3) 24 35) (("Reduced-Putidaredoxins" 4) 36 47) (("Reduced-Putidaredoxins" 5) 48 59) (("Reduced-Putidaredoxins" 6) 60 71) ("CPD-842" 72 76) ("OXYGEN-MOLECULE" 77 78)) ((("Oxidized-Putidaredoxins" 1) 0 11) (("Oxidized-Putidaredoxins" 2) 12 23) (("Oxidized-Putidaredoxins" 3) 24 35) (("Oxidized-Putidaredoxins" 4) 36 47) (("Oxidized-Putidaredoxins" 5) 48 59) (("Oxidized-Putidaredoxins" 6) 60 71) ("CPD-843" 72 75) ("CL-" 76 76) (("WATER" 1) 77 77) (("WATER" 2) 78 78))))
+DBLINKS - (METANETX-RXN "MNXR116234" NIL |kothari| 3789143037 NIL NIL)
+EC-NUMBER - EC-1.14.15
+ENZYMATIC-REACTION - ENZRXN-13327
+ENZYMATIC-REACTION - ENZRXN-13321
+ENZYMATIC-REACTION - ENZRXN-13314
+GIBBS-0 - -79.11283    
+IN-PATHWAY - PWY-5370
+LEFT - CPD-842
+LEFT - Reduced-Putidaredoxins
+^COEFFICIENT - 6
+LEFT - PROTON
+^COEFFICIENT - 5
+LEFT - OXYGEN-MOLECULE
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-843
+RIGHT - CL-
+RIGHT - Oxidized-Putidaredoxins
+^COEFFICIENT - 6
+RIGHT - WATER
+^COEFFICIENT - 2

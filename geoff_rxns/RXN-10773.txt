@@ -1,0 +1,22 @@
+UNIQUE-ID - RXN-10773
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (12 0 13 1 14 15 3 4 16 2 5 17 18 6 19 20 8 9 21 10 11 23 7 22) ((((|Glucopyranose| 1) 0 11) ((|Glucopyranose| 2) 12 23)) ((CELLOBIOSE 0 22) (WATER 23 23))))
+COMMENT - The enzymatic hydrolysis of cellulose involves three types of cellulases (endoglucanases, exoglucanases and &beta;-glucosidases) working in synergy. Endoglucanases (|FRAME: RXN-2043 "EC 3.2.1.4"|) randomly cleave the &beta;-1,4 glycosidic linkages of cellulose; Exoglucanases (such as cellobiohydrolases, |FRAME: 3.2.1.91-RXN EC 3.2.1.91"|) attack cellulose chain ends to produce the constitutive unit of cellulose, cellobiose (a dimer of glucose linked by a &beta;-1,4 glycosidic bond); and &beta;-glucosidases (|FRAME: 3.2.1.21-RXN "EC 3.2.1 21"|) hydrolyse cellobiose into two molecules of glucose.
+DBLINKS - (METANETX-RXN "MNXR96241" NIL |kothari| 3789143028 NIL NIL)
+DBLINKS - (RHEA "30682" NIL |hartmut| 3568733143 NIL NIL)
+DBLINKS - (LIGAND-RXN "R00026" NIL |kothari| 3498227484 NIL NIL)
+EC-NUMBER - EC-3.2.1.21
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN-19045
+ENZYMATIC-REACTION - ENZRXN-19043
+GIBBS-0 - -4.612976    
+IN-PATHWAY - PWY-6788
+LEFT - CELLOBIOSE
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Glucopyranose
+^COEFFICIENT - 2

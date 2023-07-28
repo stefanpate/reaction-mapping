@@ -1,0 +1,16 @@
+UNIQUE-ID - RXN-9168
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (1 2 0 3 4 8 5 7 6) (((OXOPENTENOATE 0 7) (WATER 8 8)) ((CPD-9727 0 8))))
+CITATIONS - kean81
+COMMENT - This reaction is hypothesized to occur in ackee plants |FRAME: TAX-259381| as part of hypoglycin
+/biosynthesis, but, there is no direct evidence for this reaction |CITS: [kean81]|.
+DBLINKS - (METANETX-RXN "MNXR140882" NIL |kothari| 3789143035 NIL NIL)
+GIBBS-0 - 1.2429962    
+IN-PATHWAY - PWY-5826
+LEFT - CPD-9727
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - OXOPENTENOATE
+RIGHT - WATER

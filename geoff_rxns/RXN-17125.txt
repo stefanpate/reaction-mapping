@@ -1,0 +1,20 @@
+UNIQUE-ID - RXN-17125
+TYPES - Small-Molecule-Reactions
+TYPES - Unknown-Conversions
+ATOM-MAPPINGS - :UNBALANCED
+CANNOT-BALANCE? - T
+COMMENT - This transformation is described as the reaction catalyzed by the bzaE enzyme of |FRAME: TAX-1736|. Full details about the reaction, which is not balanced, were not provided |CITS: [26246619]|.
+/
+/It should be noted that a biochemical transformation of this type usually requires more than one enzyme. For example, it may be composed of a hydroxylation accompanied by the release of methanol and CO<sub>2</sub> (see for example |FRAME: EC-3.1.1.82|) followed by methylation.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR120676" NIL |kothari| 3789143037 NIL NIL)
+ENZYMATIC-REACTION - ENZRXN-24261
+GIBBS-0 - 23.19999    
+IN-PATHWAY - PWY-7729
+LEFT - CPD-18495
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - DIMETHYLBENZIMIDAZOLE

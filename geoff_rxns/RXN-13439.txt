@@ -1,0 +1,26 @@
+UNIQUE-ID - RXN-13439
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :TIMED-OUT
+ATOM-MAPPINGS - 240
+CANNOT-BALANCE? - NIL
+COMMENT - Both this enzyme and EC 6.3.2.30 are required for the elongation of cyanophycin, which is a protein-like cell inclusion that is unique to cyanobacteria and acts as a temporary nitrogen store.  Both enzymes are found in the same protein but have different active sites.  Both L-Asp and L-Arg must be present before either enzyme will display significant activity.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR118081" NIL |kothari| 3789143036 NIL NIL)
+EC-NUMBER - EC-6.3.2.29
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN-20448
+GIBBS-0 - -5.7858887    
+IN-PATHWAY - PWY-7052
+LEFT - CPD-14416
+LEFT - L-ASPARTATE
+LEFT - ATP
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-14417
+RIGHT - ADP
+RIGHT - Pi
+RIGHT - PROTON

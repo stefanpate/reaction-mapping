@@ -1,0 +1,16 @@
+UNIQUE-ID - RXN-18430
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 24 23 25 27 28 29 30 31 32 33 34 35 37 38 39 40 41 42 44 43 45 46 47 48 36 26 49 50 51 52 54 55 56 57 58 53 60 59) ((("CPD-19775" 0 59) ("WATER" 60 60)) (("CPD-19776" 0 60))))
+COMMENT - |FRAME: HEME_A "Heme a"| is derived from |FRAME: HEME_O| by two successive hydroxylations. The first hydroxylation forms |FRAME: Heme_I|, the second hydroxylation results in an unstable dihydroxymethyl group, which spontaneously decomposes into a formyl group and a water molecule. However, while heme A synthase is strictly dependent on molecular oxygen, the source of the oxygen atom in |FRAME: HEME_A| was shown not to be molecular oxygen. It may be derived from water, but this has not been proven, and the mechanism for such a reaction is not understood |CITS: [15236569]|. In addition, it is still unknown how electrons enter the bacterial enzyme (both a thioredoxin-like protein and menaquinol have been suggested). For a review see |CITS: [22484221]|.
+IN-PATHWAY - PWY-7856
+IN-PATHWAY - RXN-18399
+LEFT - CPD-19775
+LEFT - WATER
+LEFT - Acceptor
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-19776
+RIGHT - Donor-H2

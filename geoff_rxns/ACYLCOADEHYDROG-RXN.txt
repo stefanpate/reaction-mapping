@@ -1,0 +1,43 @@
+UNIQUE-ID - ACYLCOADEHYDROG-RXN
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 18 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 19 20 22 21 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 59 58 57 60 61 62 63 64 65 66 67 68 69 70 71 72 73) (((|ETF-Reduced| 0 19) (TRANS-D2-ENOYL-COA 20 73)) ((|ETF-Oxidized| 0 19) (|Saturated-Fatty-Acyl-CoA| 20 73))))
+COMMENT - This is a generic reaction that describes the enzymes that catalyse the first step in fatty acids &beta;-oxidation. The enzyme catalyses the oxidation of saturated acyl-CoA thioesters to give a <i>trans</i> 2,3-unsaturated product by removal of the two pro-R-hydrogen atoms. 
+/
+/Several types of such enzymes have been classified based on their preference for the substrate's length. They include |FRAME: EC-1.3.8.1|, |FRAME: EC-1.3.8.7|, |FRAME: EC-1.3.8.8|, and |FRAME: EC-1.3.8.9|.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR115669" NIL |kothari| 3789143035 NIL NIL)
+DBLINKS - (RHEA "44705" NIL |kothari| 3709310382 NIL NIL)
+DBLINKS - (UNIPROT "P16219" RELATED-TO |green| 3381008091 NIL NIL)
+DBLINKS - (UNIPROT "P45952" RELATED-TO |green| 3381008091 NIL NIL)
+DBLINKS - (UNIPROT "P15651" RELATED-TO |green| 3381008091 NIL NIL)
+DBLINKS - (UNIPROT "P11310" RELATED-TO |green| 3381008091 NIL NIL)
+DBLINKS - (UNIPROT "P08503" RELATED-TO |green| 3381008091 NIL NIL)
+DBLINKS - (UNIPROT "Q07417" RELATED-TO |green| 3381008091 NIL NIL)
+DBLINKS - (UNIPROT "Q54857" RELATED-TO |green| 3381008091 NIL NIL)
+DBLINKS - (UNIPROT "P45867" RELATED-TO |green| 3381008091 NIL NIL)
+DBLINKS - (UNIPROT "Q9X3R3" RELATED-TO |green| 3381008091 NIL NIL)
+DBLINKS - (UNIPROT "Q9R9I6" RELATED-TO |green| 3381008091 NIL NIL)
+DBLINKS - (UNIPROT "Q96329" RELATED-TO |green| 3381008091 NIL NIL)
+EC-NUMBER - EC-1.3.8
+ENZYMATIC-REACTION - ACYLCOADEHYDROG-ENZRXN
+GIBBS-0 - 28.192932    
+IN-PATHWAY - FAO-PWY
+LEFT - Saturated-Fatty-Acyl-CoA
+LEFT - ETF-Oxidized
+LEFT - PROTON
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - TRANS-D2-ENOYL-COA
+RIGHT - ETF-Reduced
+SYNONYMS - fatty acyl coenzyme A dehydrogenase
+SYNONYMS - acyl coenzyme A dehydrogenase
+SYNONYMS - fatty-acyl-CoA dehydrogenase
+SYNONYMS - general acyl CoA dehydrogenase
+SYNONYMS - medium-chain acyl-coenzyme A dehydrogenase
+SYNONYMS - long-chain acyl coenzyme A dehydrogenase
+SYNONYMS - long-chain acyl-CoA dehydrogenase
+SYSTEMATIC-NAME - acyl-CoA:acceptor 2,3-oxidoreductase

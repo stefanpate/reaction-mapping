@@ -1,0 +1,53 @@
+UNIQUE-ID - RXN-9951
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - isocitrate dehydrogenase (NADP<small><sup>+</sup></small>)
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 7 6 8 10 9 11 12) ((("OXALO-SUCCINATE" 0 12)) (("THREO-DS-ISO-CITRATE" 0 12))))
+COMMENT - The enzyme catalyzing this reaction has been named oxalosuccinate reductase (OSR) |CITS: [17076668]|.
+/
+/However, in most organisms this is a partial reaction of |FRAME: ISOCITDEH-RXN "EC 1.1.1.42, isocitrate dehydrogenase (NADP+)"|, which catalyzes a two-step reaction:
+/
+/|FRAME:RXN-9951|
+/
+/|FRAME: RXN-8642|
+/
+/with an overall reaction of  |FRAME: ISOCITDEH-RXN|
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR123084" NIL |kothari| 3789143035 NIL NIL)
+DBLINKS - (RHEA "25591" NIL |kothari| 3709310381 NIL NIL)
+DBLINKS - (LIGAND-RXN "R01899" NIL |taltman| 3459474590 NIL NIL)
+ENZYMATIC-REACTION - ENZRXN3O-10662
+ENZYMATIC-REACTION - ENZRXN-16643
+ENZYMATIC-REACTION - ENZRXN-16641
+GIBBS-0 - -1.3665161    
+IN-PATHWAY - ISOCITDEH-RXN
+LEFT - THREO-DS-ISO-CITRATE
+LEFT - NADP
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - REVERSIBLE
+RIGHT - OXALO-SUCCINATE
+RIGHT - NADPH
+RIGHT - PROTON
+SYNONYMS - oxalosuccinate decarboxylase
+SYNONYMS - oxalsuccinic decarboxylase
+SYNONYMS - isocitrate (NADP) dehydrogenase
+SYNONYMS - isocitrate (nicotinamide adenine dinucleotide phosphate) dehydrogenase
+SYNONYMS - NADP-specific isocitrate dehydrogenase
+SYNONYMS - NADP-linked isocitrate dehydrogenase
+SYNONYMS - NADP isocitric dehydrogenase
+SYNONYMS - isocitrate dehydrogenase (NADP-dependent)
+SYNONYMS - NADP-dependent isocitric dehydrogenase
+SYNONYMS - triphosphopyridine nucleotide-linked isocitrate dehydrogenase-oxalosuccinate carboxylase
+SYNONYMS - NADP<small><sup>+</sup></small>-linked isocitrate dehydrogenase
+SYNONYMS - IDH (ambiguous)
+SYNONYMS - dual-cofactor-specific isocitrate dehydrogenase
+SYNONYMS - NADP<small><sup>+</sup></small>-ICDH
+SYNONYMS - NADP<small><sup>+</sup></small>-IDH
+SYNONYMS - IDP
+SYNONYMS - IDP1
+SYNONYMS - IDP2
+SYNONYMS - IDP3
+SYSTEMATIC-NAME - isocitrate:NADP<small><sup>+</sup></small> oxidoreductase (decarboxylating)

@@ -1,0 +1,20 @@
+UNIQUE-ID - RXN-9076
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 13 5 4 6 7 8 14 9 18 15 16 17 10 22 12 11 24 20 21 23 19 25) (((INDOLE_ACETATE_AUXIN 0 12) (|Glucosylated-Glucose-Acceptors| 13 25)) ((CPD-9567 0 23) (|Non-Glucosylated-Glucose-Acceptors| 24 25))))
+CANNOT-BALANCE? - NIL
+CITATIONS - 17628621
+COMMENT - This reaction may occur in rice (|FRAME: TAX-4530|) and Scots pine (|FRAME:TAX-3349|), but it has not been conclusively demonstrated 
+/|CITS:[17628621] [11154354]|.
+/The potential in vivo source of glucose is not known, but UDP-glucose may act as the glucose donor.
+DBLINKS - (METANETX-RXN "MNXR122627" NIL |kothari| 3789143028 NIL NIL)
+EC-NUMBER - EC-2.4.1
+GIBBS-0 - 100.33120    
+IN-PATHWAY - PWY-5784
+LEFT - INDOLE_ACETATE_AUXIN
+LEFT - Glucosylated-Glucose-Acceptors
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-9567
+RIGHT - Non-Glucosylated-Glucose-Acceptors

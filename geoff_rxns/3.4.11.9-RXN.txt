@@ -1,0 +1,22 @@
+UNIQUE-ID - 3.4.11.9-RXN
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (6 7 8 0 9 10 1 2 11 12 4 13 5 14 15 16 17 18 3) ((("Amino-Acids-20" 0 5) ("Protein-With-N-Terminal-Pro" 6 18)) (("Protein-With-N-Terminal-X-Pro" 0 17) ("WATER" 18 18))))
+CREDITS - SRI
+CREDITS - paley
+EC-NUMBER - EC-3.4.11.9
+^OFFICIAL? - T
+ENZYMATIC-REACTION - ENZRXN0-4481
+GIBBS-0 - -48.12523    
+LEFT - Protein-With-N-Terminal-X-Pro
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Amino-Acids-20
+RIGHT - Protein-With-N-Terminal-Pro
+RIGHT - PROTON
+SYNONYMS - Proline aminopeptidase
+SYNONYMS - Aminopeptidase P
+SYNONYMS - Aminoacylproline aminopeptidase

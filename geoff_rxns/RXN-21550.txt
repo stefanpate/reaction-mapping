@@ -1,0 +1,21 @@
+UNIQUE-ID - RXN-21550
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 82 81 83 84 85 86 87 88 89 90 91 92 93 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 35 34 36 37 38 39 40 41 42 43 44 45 46 94 105 96 97 98 99 100 101 95 102 103 104) ((("CPD-23449" 0 96) ("Mo-bis-MGD-Chaperone-L-cysteine" 97 104) ("WATER" 105 105)) (("Loaded-Mo-bis-MGD-Chaperones" 0 96) ("Mo-bis-MGD-Chaperone-Cys-Persulfide" 97 105))))
+CANNOT-BALANCE? - NIL
+COMMENT - Note: this reaction, as defined by the enzyme commission based on the literature, is unbalanced regarding charge, and indicates that an as yet unknown factor must participate in it.
+CREDITS - SRI
+CREDITS - caspi
+EC-NUMBER - EC-2.8.1
+IN-PATHWAY - PWY-8164
+LEFT - Loaded-Mo-bis-MGD-Chaperones
+LEFT - Mo-bis-MGD-Chaperone-Cys-Persulfide
+LEFT - Donor-H2
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Mo-bis-MGD-Chaperone-L-cysteine
+RIGHT - CPD-23449
+RIGHT - WATER
+RIGHT - Acceptor

@@ -1,0 +1,29 @@
+UNIQUE-ID - RXN-8423
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (2 6 3 1 9 5 7 14 4 13 0 8 11 12 10 19 20 18 15 17 16 21 23 22) (((CPD-8240 0 14) (PPI 15 23)) ((FARNESYL-PP 0 23))))
+CITATIONS - 15918888
+COMMENT - <i>Arabidopsis thaliana</i> has at least 32 genes with sequence similarity to known terpene synthase (TPS) genes |CITS: [12207221]|,
+/each of which are expressed in one or more organs |CITS: [16297850]|. 
+/Terpene synthase genes expressed predominantly in flowers have been further investigated for reactions catalyzed. 
+/In flowers, &beta;-acoradiene is produced from farnesyl diphosphate by the TPS encoded by AT5G44630|CITS: [15918888]|.
+/
+/Volatile terpenoids have been identified in floral emissions of <i>Arabidopsis thaliana</i>
+/and associated with pollinator attraction |CITS: [11960742]|,
+/which may serve to produce the limited amount of outcrossing which has been observed
+/in this self-compatible species |CITS: [Abbott89]|. 
+/However, production of floral volatile terpenes may serve other functions,
+/such as protection against oxidative stress |CITS: [11743121]| or defense against pathogens |CITS: [10515903]|. 
+/Alternatively, this may be a trait that has not yet been eliminated by drift or selection after <i>A. thaliana</i>
+/diverged in this clade containing a number of related self-incompatible species |CITS: [11018155]|.
+DBLINKS - (METANETX-RXN "MNXR122321" NIL |kothari| 3789143037 NIL NIL)
+EC-NUMBER - EC-4.2.3
+ENZYMATIC-REACTION - ENZRXN-13344
+GIBBS-0 - -52.47998    
+LEFT - FARNESYL-PP
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-8240
+RIGHT - PPI

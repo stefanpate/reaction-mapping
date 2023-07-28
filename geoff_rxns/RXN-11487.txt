@@ -1,0 +1,24 @@
+UNIQUE-ID - RXN-11487
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :TIMED-OUT
+ATOM-MAPPINGS - 21600
+COMMENT - Highest activity with (2Z,6E)-farnesyl diphosphate as allylic substrate. Broad product specificity with the major product being dodecaprenyl diphosphate. Synthesises even C70 prenyl diphosphate as the maximum chain-length product |CITS: [19447338]|.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR116971" NIL |kothari| 3789143036 NIL NIL)
+DBLINKS - (RHEA "27605" NIL |kothari| 3571758007 NIL NIL)
+EC-NUMBER - EC-2.5.1.88
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN-17884
+GIBBS-0 - -116.999756    
+LEFT - CPD-9444
+LEFT - DELTA3-ISOPENTENYL-PP
+^COEFFICIENT - 9
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - PPI
+^COEFFICIENT - 9
+RIGHT - CPD-12460

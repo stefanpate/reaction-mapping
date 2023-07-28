@@ -1,0 +1,31 @@
+UNIQUE-ID - RXN-9353
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - <em>epi</em>-isozizaene 5-monooxygenase
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17) ((("CPD-9962" 0 15) (("WATER" 1) 16 16) (("WATER" 2) 17 17)) (("CPD-9961" 0 15) ("OXYGEN-MOLECULE" 16 17))))
+COMMENT - This cytochrome-P450 enzyme, from the soil-dwelling bacterium |FRAME: TAX-100226|,
+/catalyses two sequential allylic oxidation reactions. The substrate |FRAME: CPD-9959|,
+/which is formed by the action of EC 4.2.3.37, |FRAME: MONOMER-13904|, is first oxidized to yield the epimeric
+/intermediates (|FRAME: CPD-9961| and |FRAME: CPD-9960|, which can be further oxidized to yield the
+/sesquiterpenoid antibiotic |FRAME: CPD-9962|.
+DBLINKS - (METANETX-RXN "MNXR112347" NIL |kothari| 3789143035 NIL NIL)
+DBLINKS - (RHEA "25989" NIL |kothari| 3709310381 NIL NIL)
+DBLINKS - (LIGAND-RXN "R08854" NIL |taltman| 3536627213 NIL NIL)
+ENZYMATIC-REACTION - ENZRXN-14879
+GIBBS-0 - -104.097534    
+IN-PATHWAY - RXN-13194
+IN-PATHWAY - PWY-5887
+LEFT - CPD-9961
+LEFT - OXYGEN-MOLECULE
+LEFT - NADPH
+LEFT - PROTON
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-9962
+RIGHT - WATER
+^COEFFICIENT - 2
+RIGHT - NADP
+SYNONYMS - CYP170A1
+SYSTEMATIC-NAME - (+)-<em>epi</em>-isozizaene,NADPH:oxygen oxidoreductase (5-hydroxylating)

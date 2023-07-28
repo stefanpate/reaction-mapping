@@ -1,0 +1,24 @@
+UNIQUE-ID - RXN-11310
+TYPES - Chemical-Reactions
+TYPES - tRNA-Reactions
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+CITATIONS - 15228543
+COMMENT - This enzyme from Staphylococcus aureus catalyses the transfer of glycine from a charged tRNA to N-acetylmuramoyl-L-alanyl-D-isoglutaminyl-L-lysyl-D-alanyl-D-alanine-diphosphoundecaprenyl-N-acetylglucosamine (lipid II), attaching it to the N6 of the L-lysine at position 3 of the pentapeptide. This is the first step in the synthesis of the pentaglycine interpeptide bridge that is used in S. aureus for the crosslinking of different glycan strands to each other. Four additional glycine residues are subsequently attached by EC 2.3.2.17 (FemA) and EC 2.3.2.18 (FemB).
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR116846" NIL |kothari| 3789143036 NIL NIL)
+EC-NUMBER - EC-2.3.2.16
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN-17598
+GIBBS-0 - 58.074142    
+IN-PATHWAY - PWY-6462
+LEFT - CPD-12298
+LEFT - Charged-ALA-tRNAs
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-12271
+RIGHT - ALA-tRNAs
+RIGHT - PROTON
+SYNONYMS - femX

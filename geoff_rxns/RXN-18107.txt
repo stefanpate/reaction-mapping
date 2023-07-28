@@ -1,0 +1,19 @@
+UNIQUE-ID - RXN-18107
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33) ((("CPD-19400" 0 33)) (("CPD-15533" 0 33))))
+COMMENT - It has been shown that the 4- and 12a-OH groups of the product are derived from two separate dioxygen molecules, while the 4a-OH group is derived from a water molecule |CITS: [11009387]|. Thus water is both used as a substrate and formed from molecular oxygen during catalysis.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR121411" NIL |kothari| 3789143036 NIL NIL)
+GIBBS-0 - 3.1764526    
+IN-PATHWAY - RXN-15434
+LEFT - CPD-19400
+LEFT - NADPH
+LEFT - PROTON
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-15533
+RIGHT - NADP

@@ -1,0 +1,28 @@
+UNIQUE-ID - RXN-10733
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :TIMED-OUT
+ATOM-MAPPINGS - 21600
+CANNOT-BALANCE? - NIL
+COMMENT - The reaction was based on a literature citation and the structures were reproduced from the paper |CITS: [19348024]|. When the structures become available in pubchem and other sources, the reaction will be rechecked and balanced accordingly.
+CREDITS - O-28
+CREDITS - pujar
+DBLINKS - (METANETX-RXN "MNXR116494" NIL |kothari| 3789143028 NIL NIL)
+EC-NUMBER - EC-2.3.1
+ENZYMATIC-REACTION - ENZRXN-16784
+GIBBS-0 - -8.166504    
+IN-PATHWAY - PWY-6310
+LEFT - MALONYL-COA
+^COEFFICIENT - 7
+LEFT - PROTON
+^COEFFICIENT - 6
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-11554
+RIGHT - CO-A
+^COEFFICIENT - 7
+RIGHT - CARBON-DIOXIDE
+^COEFFICIENT - 7
+RIGHT - WATER

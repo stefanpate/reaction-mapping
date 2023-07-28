@@ -1,0 +1,20 @@
+UNIQUE-ID - RXN-20669
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 24 26 25 17 19 20 21 18 27 22 23) ((("CPD-13852" 0 22) ("Pi" 23 27)) (("CPD0-2643" 0 26) ("WATER" 27 27))))
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 24 25 26 17 19 20 21 23 27 22 18) ((("CPD-13852" 0 22) ("Pi" 23 27)) (("CPD0-2643" 0 26) ("WATER" 27 27))))
+CITATIONS - 22556419
+COMMENT - The human enzyme also hydrolyses 2-hydroxy-dADP, but at a slower rate. In contrast to |FRAME: EC-3.6.1.58 "EC 3.6.1.58, 8-oxo-dGDP phosphatase"|, this enzyme does not have any activity towards sugar-phosphates.
+CREDITS - SRI
+CREDITS - caspi
+EC-NUMBER - EC-3.6.1.58
+^OFFICIAL? - NIL
+LEFT - CPD0-2643
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-13852
+RIGHT - Pi
+RIGHT - PROTON

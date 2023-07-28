@@ -1,0 +1,22 @@
+UNIQUE-ID - 3.3.2.8-RXN
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11) ((("4R-Limonene-1-2-epoxides" 0 10) ("WATER" 11 11)) (("CPD-8222" 0 11))))
+COMMENT - Involved in the monoterpene degradation pathway of the actinomycete Rhodococcus erythropolis.
+/
+/The enzyme hydrolyzes several alicyclic and 1-methyl-substituted epoxides, such as 1-methylcyclohexene oxide, indene oxide and cyclohexene oxide.
+/
+/It differs from the previously described epoxide hydrolases (EC 3.3.2.3, EC 3.3.2.4, EC 3.3.2.6, and EC 3.3.2.7) as it is not inhibited by 2-bromo-4'-nitroacetophenone, diethyl pyrocarbonate, 4-fluorochalcone oxide or 1,10-phenanthroline.
+DBLINKS - (RHEA "10700" NIL |kothari| 3571758670 NIL NIL)
+EC-NUMBER - EC-3.3.2.8
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN-14978
+GIBBS-0 - 10.287018    
+IN-PATHWAY - PWY-5923
+LEFT - 4R-Limonene-1-2-epoxides
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-8222

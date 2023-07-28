@@ -1,0 +1,25 @@
+UNIQUE-ID - RXN-8671
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - 3' hydroxy flavanone 5&prime;-hydroxylase
+ATOM-MAPPINGS - :UNBALANCED
+CANNOT-BALANCE? - T
+COMMENT - The 3',5'-dihydroxyflavanone is formed via the 3'-hydroxyflavanone.  In Petunia hybrida the enzyme acts on naringenin, eriodictyol, dihydroquercetin (taxifolin) and dihydrokaempferol (aromadendrin).  The enzyme catalyzes the hydroxylation of 5,7,4'-trihydroxyflavanone (naringenin) at either the 3' position to form eriodictyol or at both the 3' and 5' positions to form 5,7,3',4',5'-pentahydroxyflavanone (dihydrotricetin).  The enzyme also catalyzes the hydroxylation of 3,5,7,3',4'-pentahydroxyflavanone (taxifolin) at the 5' position, forming ampelopsin.  NADH is not a good substitute for NADPH.
+DBLINKS - (METANETX-RXN "MNXR122420" NIL |kothari| 3789143036 NIL NIL)
+DBLINKS - (LIGAND-RXN "R07370" NIL |kothari| 3497115408 NIL NIL)
+ENZYMATIC-REACTION - ENZRXN-18310
+ENZYMATIC-REACTION - ENZRXN-18309
+ENZYMATIC-REACTION - ENZRXN-18307
+GIBBS-0 - -87.054756    
+IN-PATHWAY - RXN-13192
+LEFT - 3-Hydroxy-Flavanones
+LEFT - Red-NADPH-Hemoprotein-Reductases
+LEFT - OXYGEN-MOLECULE
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - 3-5-Dihydroxy-Flavanones
+RIGHT - Ox-NADPH-Hemoprotein-Reductases
+RIGHT - WATER
+SYSTEMATIC-NAME - flavanone,NADPH:oxygen oxidoreductase

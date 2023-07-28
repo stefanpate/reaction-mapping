@@ -1,0 +1,28 @@
+UNIQUE-ID - RXN-12425
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (32 0 33 2 34 1 35 3 36 5 37 4 38 6 39 40 41 8 10 42 43 9 11 44 7 13 45 14 46 12 15 48 17 47 49 16 50 18 51 52 19 53 54 55 21 23 56 57 22 24 26 59 25 27 61 28 60 62 29 63 30 20 31 64 58) (((CPD-13435 0 31) (CPD-13432 32 64)) ((CPD-13438 0 63) (WATER 64 64))))
+COMMENT - This reaction is defined as the endohydrolysis of 1,3-&alpha;-L-galactosidic linkages in agarose,
+/yielding agarotetraose as the major product
+/
+/
+/The enzyme from Thalassomonas sp. can use agarose, agarohexaose and neoagarohexaose as
+/substrate.  The products of agarohexaose hydrolysis are dimers and tetramers, with agarotetraose
+/being the predominant product, whereas hydrolysis of neoagarohexaose gives rise to two types of trimer.
+/While the enzyme can also hydrolyze the highly sulfated agarose porphyran very efficiently,
+/it cannot hydrolyze &kappa;-carrageenan and &iota;-carrageenan.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR117545" NIL |kothari| 3789143028 NIL NIL)
+EC-NUMBER - EC-3.2.1.158
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN-19252
+GIBBS-0 - 31.24701    
+LEFT - CPD-13438
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-13432
+RIGHT - CPD-13435

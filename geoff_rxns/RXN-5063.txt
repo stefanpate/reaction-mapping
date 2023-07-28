@@ -1,0 +1,29 @@
+UNIQUE-ID - RXN-5063
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 26 25 28 27) (((|Ox-NADPH-Hemoprotein-Reductases| 0 18) (CPD-4862 19 27) (WATER 28 28)) ((|Red-NADPH-Hemoprotein-Reductases| 0 18) (VAL 19 26) (OXYGEN-MOLECULE 27 28))))
+CITATIONS - 10636899
+CITATIONS - 15122013
+COMMENT - A heme-thiolate protein (P-450). This enzyme catalyses two successive N-hydroxylations of L-valine, the first committed steps in the biosynthesis of the cyanogenic glucoside linamarin in Manihot esculenta (cassava). The product of the two hydroxylations, N,N-dihydroxy-L-valine, is extremely labile and dehydrates spontaneously. The dehydrated product is then subject to a decarboxylation that produces the oxime. It is still not known whether the decarboxylation is spontaneous or catalysed by the enzyme. The product, (E)-2-methylpropanal-oxime, undergoes a spontaneous isomerization to the (Z) form. The enzyme can also accept L-isoleucine as substrate, with a lower activity. It is different from |FRAME: 1.14.13.117-RXN "EC 1.14.13.117"| (isoleucine N-monooxygenase), which prefers L-isoleucine.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR121776" NIL |kothari| 3789143035 NIL NIL)
+DBLINKS - (LIGAND-RXN "R10031" NIL |kothari| 3713704632 NIL NIL)
+DBLINKS - (RHEA "30494" NIL |hartmut| 3568041452 NIL NIL)
+GIBBS-0 - -81.22887    
+IN-PATHWAY - PWY-3022
+IN-PATHWAY - 1.14.13.118-RXN
+LEFT - VAL
+LEFT - OXYGEN-MOLECULE
+LEFT - Red-NADPH-Hemoprotein-Reductases
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-4862
+RIGHT - Ox-NADPH-Hemoprotein-Reductases
+RIGHT - WATER
+RIGHT - PROTON
+SYNONYMS - CYP79D1
+SYNONYMS - CYP79D2
+SYSTEMATIC-NAME - <small>L</small>-valine,NADPH:oxygen oxidoreductase (<em>N</em>-hydroxylating)

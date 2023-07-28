@@ -1,0 +1,18 @@
+UNIQUE-ID - RXN-19487
+TYPES - Protein-Modification-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (1 0 2 3 4 5 6 7 8 9 10 11 12 14 15 16 17 18 19 20 21 23 24 25 26 27 28 29 30 39 40 41 32 31 33 42 43 44 45 46 47 48 49 50 38 34 51 52 35 53 13 54 55 56 57 59 60 58 61 62 37 63 36 64 22 65 66 67 68 69 70 71 72 73 74) ((("23-dihydroxybenzoyl-acp" 0 38) ("L-Threonyl-Threonyl-Carrier-Proteins" 39 74)) (("Aryl-Carrier-Proteins" 0 28) ("DHB-threonyl-Threonyl-Carrier-Proteins" 29 74))))
+CREDITS - SRI
+CREDITS - caspi
+EC-NUMBER - EC-2.3.1
+ENZYMATIC-REACTION - ENZRXN-26251
+GIBBS-0 - 4.3570557    
+IN-PATHWAY - PWY-7984
+LEFT - 23-dihydroxybenzoyl-acp
+LEFT - L-Threonyl-Threonyl-Carrier-Proteins
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - DHB-threonyl-Threonyl-Carrier-Proteins
+RIGHT - Aryl-Carrier-Proteins
+RIGHT - PROTON

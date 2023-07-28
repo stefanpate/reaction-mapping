@@ -1,0 +1,23 @@
+UNIQUE-ID - RXN-14382
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+CITATIONS - 12714048
+COMMENT - A pyridoxal-phosphate protein. The sulfur from free L-cysteine is first transferred to a cysteine residue in the active site, and then passed on to various other acceptors. The enzyme is involved in the biosynthesis of iron-sulfur clusters, thio-nucleosides in tRNA, thiamine, biotin, lipoate and pyranopterin (molybdopterin) |CITS: [12382038]|. In Azotobacter vinelandii, this sulfur provides the inorganic sulfide required for nitrogenous metallocluster formation |CITS: [8464885]|.
+/
+/This is one of two reactions catalyzed by the enzyme. The overall reaction is given above.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR118654" NIL |kothari| 3789143034 NIL NIL)
+ENZYMATIC-REACTION - ENZRXN0-6598
+GIBBS-0 - 0.    
+IN-PATHWAY - PWY-6892
+IN-PATHWAY - RXN-9787
+LEFT - L-Cysteine-Desulfurase-persulfide
+LEFT - Sulfur-Carrier-Proteins-ThiI
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - Cysteine-Desulfurase-L-cysteine
+RIGHT - Sulfurylated-ThiI

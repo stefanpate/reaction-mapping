@@ -1,0 +1,15 @@
+UNIQUE-ID - 3.4.18.1-RXN
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (9 1 2 3 4 5 6 11 12 7 8 10 0) ((("Peptides-holder" 0 6) ("L-Amino-Acids" 7 12)) (("Cathepsin-X-Substrates" 0 11) ("WATER" 12 12))))
+EC-NUMBER - EC-3.4.18.1
+^OFFICIAL? - T
+GIBBS-0 - -21.005234    
+LEFT - Cathepsin-X-Substrates
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Peptides-holder
+RIGHT - L-Amino-Acids

@@ -1,0 +1,22 @@
+UNIQUE-ID - TRANS-RXN-210
+TYPES - Small-Molecule-Reactions
+TYPES - TR-12
+COMMON-NAME - Transport of phopshoenolpyruvate
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+COMMENT - This reaction is catalyzed by a transporter located on the chlorplasditic membrane, that enable the transport of phosphoenopyruvate 
+/from within the cytosol to the plastid. The appropriate cellular compartment will be replaced after the plant ontologies become available.
+DBLINKS - (METANETX-RXN "MNXR123943" NIL |kothari| 3789143036 NIL NIL)
+GIBBS-0 - 0.    
+LEFT - PHOSPHO-ENOL-PYRUVATE
+^COMPARTMENT - CCO-IN
+LEFT - Pi
+^COMPARTMENT - CCO-OUT
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - Pi
+^COMPARTMENT - CCO-OUT
+RIGHT - PHOSPHO-ENOL-PYRUVATE
+^COMPARTMENT - CCO-OUT
+RXN-LOCATIONS - CCO-CYTOSOL-CCO-CHLOR-STR
+SYNONYMS - transport of PEP

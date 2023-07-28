@@ -1,0 +1,17 @@
+UNIQUE-ID - RXN-13759
+TYPES - Protein-Modification-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (8 2 3 4 9 0 5 7 6 10 1) (((|pyruvate-water-dikinase| 0 1) (PPI 2 10)) ((|Pi| 0 4) (|pyruvate-water-dikinase-P| 5 10))))
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR118285" NIL |kothari| 3789143036 NIL NIL)
+EC-NUMBER - EC-2.7.4.28
+^OFFICIAL? - T
+GIBBS-0 - -7.2010803    
+LEFT - pyruvate-water-dikinase-P
+LEFT - Pi
+LEFT - PROTON
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+RIGHT - pyruvate-water-dikinase
+RIGHT - PPI

@@ -1,0 +1,17 @@
+UNIQUE-ID - RXN0-7188
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 7 6 9 8 10) (((CPD-8990 0 9) (WATER 10 10)) ((MET 0 8) (HYDROGEN-PEROXIDE 9 10))))
+COMMENT - Free methionine is readily oxidized to methionine sulfoxide by many reactive oxygen species, including the two-electron acceptor hydrogen peroxide, as shown here<BR>Oxidation of L-methionine produces varying amounts of the two diastereoisomeric sulfoxides of L-methionine |CITS: [20259080]|
+CREDITS - SRI
+CREDITS - weaver
+DBLINKS - (METANETX-RXN "MNXR138590" NIL |kothari| 3789143035 NIL NIL)
+GIBBS-0 - -66.257    
+LEFT - MET
+LEFT - HYDROGEN-PEROXIDE
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-8990
+RIGHT - WATER
+SPONTANEOUS? - T

@@ -1,0 +1,21 @@
+UNIQUE-ID - 3.4.21.38-RXN
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+COMMENT - This enzyme catalyzes the selective cleavage of Arg | Ile bonds in |FRAME: Factor-VII "factor VII"| to form |FRAME: Factor-VIIa "factor VIIa"| and and |FRAME: Factor-XI "factor XI"| to form |FRAME: Factor-XIa "factor XIa"|.
+/Also activates plasminogen and plasma prokallikrein. Formed from the proenzyme, |FRAME: Factor-XII "factor XII"|, by plasma kallikrein or |FRAME: Factor-XIIa "factor XIIa"| itself. In peptidase family S1 (trypsin family).
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR115482" NIL |kothari| 3789143027 NIL NIL)
+DBLINKS - (UNIPROT "P00748" RELATED-TO |green| 3381008080 NIL NIL)
+DBLINKS - (UNIPROT "Q04962" RELATED-TO |green| 3381008080 NIL NIL)
+DBLINKS - (UNIPROT "P98140" RELATED-TO |green| 3381008080 NIL NIL)
+EC-NUMBER - EC-3.4.21.38
+^OFFICIAL? - T
+LEFT - WATER
+LEFT - Factor-VII
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNDETERMINED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Factor-VIIa

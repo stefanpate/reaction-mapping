@@ -1,0 +1,32 @@
+UNIQUE-ID - RXN-10460
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 8 9 10 1 11 12 13 3 14 2 15 4 16 17 18 5 19 7 20 6 22 21) (((CPD-10687 0 7) (CPD-568 8 20) (HYDROGEN-PEROXIDE 21 22)) ((CPD-11268 0 19) (WATER 20 20) (OXYGEN-MOLECULE 21 22))))
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (8 0 10 9 11 1 13 12 14 3 15 2 16 4 18 17 19 5 20 7 6 22 21) (((CPD-10687 0 7) (CPD-568 8 20) (HYDROGEN-PEROXIDE 21 22)) ((CPD-11268 0 19) (WATER 20 20) (OXYGEN-MOLECULE 21 22))))
+CITATIONS - 16354669
+COMMENT - A flavoprotein (FAD). This enzyme, encoded by the |FRAME: G-11042| gene, is found in mammalian peroxisomes and oxidizes N(1)-acetylated polyamines at the exo (three-carbon) side of the secondary amine, forming |FRAME: CPD-10687|. Since the products of the reactions are deacetylated polyamines, this process is known as polyamine back-conversion.
+/
+/The enzyme also catalyzes the reaction:
+/|FRAME: RXN-10460| |CITS: [12477380]|.
+/
+/The enzyme has no or very weak activity with |FRAME: SPERMINE| or |FRAME: SPERMIDINE| in absence of aldehydes. However, in presence of aldehydes the enzyme also catalyzes the reactions:
+/
+/|FRAME:RXN-9015| and (with weak efficiency) |FRAME: RXN-12089| |CITS: [15611107]|.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR103520" NIL |kothari| 3789143028 NIL NIL)
+DBLINKS - (RHEA "25869" NIL |kothari| 3709310381 NIL NIL)
+EC-NUMBER - EC-1.5.3.13
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN-16794
+GIBBS-0 - -23.452995    
+LEFT - CPD-11268
+LEFT - OXYGEN-MOLECULE
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-568
+RIGHT - CPD-10687
+RIGHT - HYDROGEN-PEROXIDE

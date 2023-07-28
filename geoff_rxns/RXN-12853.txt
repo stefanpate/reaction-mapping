@@ -1,0 +1,15 @@
+UNIQUE-ID - RXN-12853
+TYPES - Small-Molecule-Reactions
+TYPES - Unknown-Conversions
+ATOM-MAPPINGS - :UNBALANCED
+CANNOT-BALANCE? - T
+COMMENT - It has been suggested that the first step of stilbene biosynthesis in spruce is the formation of |FRAME: CPD-83|, which is further modified by hydroxylation, O-methylation, and O-glucosylation to yield astringin. However, this transformation still awaits confirmation |CITS: [21865488]|.
+CREDITS - O-28
+CREDITS - pujar
+DBLINKS - (METANETX-RXN "MNXR117766" NIL |kothari| 3789143036 NIL NIL)
+GIBBS-0 - -95.24881    
+LEFT - CPD-83
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-13764

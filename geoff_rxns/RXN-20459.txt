@@ -1,0 +1,13 @@
+UNIQUE-ID - RXN-20459
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 24 23 25 26) ((("CPD0-2554" 0 26)) (("S-ADENOSYLMETHIONINE" 0 26))))
+COMMENT - |FRAME: S-ADENOSYLMETHIONINE| is formed by |FRAME: EC-2.5.1.6| and bears an <i>S</i> configuration at the sulfur atom. The chiral sulfonium of AdoMet spontaneously racemizes to form a mixture of <i>S</i> and <i>R</i> isomers of AdoMet under physiological conditions, reducing its activity, as the R isomer is not accepted as a substrate for AdoMet-dependent methyltransferases |CITS: [12419350]|.
+CREDITS - SRI
+CREDITS - caspi
+LEFT - S-ADENOSYLMETHIONINE
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - REVERSIBLE
+RIGHT - CPD0-2554
+SPONTANEOUS? - T

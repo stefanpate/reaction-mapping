@@ -1,0 +1,16 @@
+UNIQUE-ID - RXN-20900
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (11 4 7 6 9 8 19 14 21 20 16 15 0 1 2 3 5 10 13 12 18 17) ((("CPD-21707" 0 20) ("WATER" 21 21)) (("CPD-15382" 0 11) ("LYS" 12 21))))
+COMMENT - |FRAME: CPD-21707| is formed by the non-enzymatic reaction of fructose with the &epsilon;-amine of lysine, followed by a spontaneous isomerization of the sugar, referred to as Heyns rearrangement |CITS: [2537288]|.
+CREDITS - SRI
+CREDITS - caspi
+IN-PATHWAY - PWY1QP9-2
+LEFT - CPD-15382
+LEFT - LYS
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-21707
+RIGHT - WATER
+SPONTANEOUS? - T

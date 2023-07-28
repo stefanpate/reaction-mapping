@@ -1,0 +1,20 @@
+UNIQUE-ID - RXN-15559
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (9 10 11 14 15 17 18 19 8 0 1 2 12 13 3 4 16 5 6 7 20) (((|HECT-Ubiquitin-carrier-protein-E3-L-cys| 0 7) (|S-ubiquitinyl-UCP-E2-L-cysteine| 8 20)) ((|Ubiquitin-carrier-protein-E2-L-cysteine| 0 7) (|S-ubiquitinyl-HECT-E3-UCP-L-cysteine| 8 20))))
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR119448" NIL |kothari| 3789143036 NIL NIL)
+EC-NUMBER - EC-2.3.2.26
+^OFFICIAL? - T
+ENZYMATIC-REACTION - ENZRXN-22865
+GIBBS-0 - 0.    
+IN-PATHWAY - PWY-7511
+LEFT - S-ubiquitinyl-UCP-E2-L-cysteine
+LEFT - HECT-Ubiquitin-carrier-protein-E3-L-cys
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - Ubiquitin-carrier-protein-E2-L-cysteine
+RIGHT - S-ubiquitinyl-HECT-E3-UCP-L-cysteine

@@ -1,0 +1,25 @@
+UNIQUE-ID - RXN-10470
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 25 5 26 9 24 10 13 15 27 28 20 29 30 2 3 4 6 7 8 11 12 14 16 17 18 19 21 22 23 31 32) (((|Thyroglobulin-triiodothyronines| 0 23) (|Thyroglobulin-aminoacrylates| 24 30) ((WATER 1) 31 31) ((WATER 2) 32 32)) ((|Thyroglobulin-3-iodotyrosines| 0 14) (|Thyroglobulin-3-5-diiodotyrosines| 15 30) (HYDROGEN-PEROXIDE 31 32))))
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR116392" NIL |kothari| 3789143036 NIL NIL)
+DBLINKS - (RHEA "48969" NIL |kothari| 3709310382 NIL NIL)
+DBLINKS - (LIGAND-RXN "R08522" NIL |taltman| 3459474593 NIL NIL)
+EC-NUMBER - EC-1.11.1.8
+^OFFICIAL? - T
+ENZYMATIC-REACTION - ENZRXN-16499
+GIBBS-0 - -28.211754    
+IN-PATHWAY - PWY-6241
+LEFT - Thyroglobulin-3-iodotyrosines
+LEFT - Thyroglobulin-3-5-diiodotyrosines
+LEFT - HYDROGEN-PEROXIDE
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - Thyroglobulin-triiodothyronines
+RIGHT - Thyroglobulin-aminoacrylates
+RIGHT - WATER
+^COEFFICIENT - 2

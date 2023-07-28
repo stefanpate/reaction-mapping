@@ -1,0 +1,38 @@
+UNIQUE-ID - RXN-12068
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - <i>N,N</i>-dihydroxy-L-phenylalanine carboxy-lyase
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 2 1 4 3 5 7 6 10 8 11 12 9 13) (((CPD-13031 0 9) (CARBON-DIOXIDE 10 12) (WATER 13 13)) ((CPD-13030 0 13))))
+CITATIONS - 10799553
+COMMENT - A heme-thiolate protein (P-450). This enzyme catalyses two successive N-hydroxylations of L-phenylalanine, the first committed steps in the biosynthesis of benzylglucosinolate. The product of the two hydroxylations, N,N-dihydroxy-L-phenylalanine, is extremely labile and dehydrates spontaneously.The dehydrated product is then subject to a decarboxylation that produces the oxime. It is still not known whether the decarboxylation is spontaneous or catalysed by the enzyme. The product, (E)-phenylacetaldoxime, undergoes a spontaneous isomerization to the (Z) form.
+/
+/The overall reaction is
+/
+/|FRAME: RXN-4602|
+/
+/It can be described by the following sub-reactions:
+/
+/|FRAME: RXN-12066|
+/
+/|FRAME: RXN-12067|
+/
+/|FRAME: RXN-12068| (spontaneous)
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (LIGAND-RXN "R09581" NIL |kothari| 3789150533 NIL NIL)
+DBLINKS - (METANETX-RXN "MNXR112998" NIL |kothari| 3789143036 NIL NIL)
+DBLINKS - (RHEA "25001" NIL |kothari| 3709310381 NIL NIL)
+GIBBS-0 - -6.4728603    
+IN-PATHWAY - PWY-2821
+IN-PATHWAY - PWY-7824
+IN-PATHWAY - RXN-4602
+LEFT - CPD-13030
+LEFT - PROTON
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-13031
+RIGHT - CARBON-DIOXIDE
+RIGHT - WATER
+SYSTEMATIC-NAME - <small>L</small>-phenylalanine,NADPH:oxygen oxidoreductase (<em>N</em>-hydroxylating)

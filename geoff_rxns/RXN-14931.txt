@@ -1,0 +1,16 @@
+UNIQUE-ID - RXN-14931
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 4 3 5) ((("2-Oxo-Acids" 0 5)) (("2R-Hydroxy-Fatty-Acids" 0 5))))
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR119020" NIL |kothari| 3789143027 NIL NIL)
+EC-NUMBER - EC-1.1.5.10
+^OFFICIAL? - T
+GIBBS-0 - 4.6799927    
+LEFT - 2R-Hydroxy-Fatty-Acids
+LEFT - ETR-Quinones
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+RIGHT - 2-Oxo-Acids
+RIGHT - ETR-Quinols

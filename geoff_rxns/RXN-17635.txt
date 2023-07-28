@@ -1,0 +1,15 @@
+UNIQUE-ID - RXN-17635
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 6 7 8 5 9 11 12 10 13 15 14 16 17) (((|Protein-Arginine-Aminocarbinol| 0 17)) ((|Protein-Arginine-Imidazolidine| 0 17))))
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR121054" NIL |kothari| 3789143027 NIL NIL)
+GIBBS-0 - 1.4211235    
+LEFT - Protein-Arginine-Aminocarbinol
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Protein-Arginine-Imidazolidine
+RIGHT - PROTON
+SPONTANEOUS? - T

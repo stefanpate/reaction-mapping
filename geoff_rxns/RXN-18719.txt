@@ -1,0 +1,19 @@
+UNIQUE-ID - RXN-18719
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (6 7 8 9 2 3 10 11 12 13 4 5 14 0 1 15) ((("Peptide-Holder-Alternative" 0 5) ("LYS" 6 15)) (("Peptide-with-N-terminal-Lysine" 0 14) ("WATER" 15 15))))
+CREDITS - SRI
+CREDITS - caspi
+EC-NUMBER - EC-3.4.11.15
+^OFFICIAL? - T
+EC-NUMBER - EC-3.4.11.6
+^OFFICIAL? - T
+GIBBS-0 - 133.68568    
+LEFT - Peptide-with-N-terminal-Lysine
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - LYS
+RIGHT - Peptide-Holder-Alternative

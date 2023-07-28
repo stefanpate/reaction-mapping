@@ -1,0 +1,18 @@
+UNIQUE-ID - RXN-15767
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (6 1 0 2 7 3 9 4 5 8 10 11) (((|Unsaturated-carbonyl-compounds| 0 5) (PYRUVATE 6 11)) ((|n-Acetyl-n-2-keto-compounds| 0 8) (CARBON-DIOXIDE 9 11))))
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR119601" NIL |kothari| 3789143035 NIL NIL)
+EC-NUMBER - EC-2.2.1.12
+ENZYMATIC-REACTION - ENZRXN-23042
+GIBBS-0 - -59.69037    
+LEFT - PYRUVATE
+LEFT - Unsaturated-carbonyl-compounds
+LEFT - PROTON
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+RIGHT - CARBON-DIOXIDE
+RIGHT - n-Acetyl-n-2-keto-compounds

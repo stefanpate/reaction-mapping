@@ -1,0 +1,19 @@
+UNIQUE-ID - RXN-10791
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+COMMENT - This enzyme from the venom of Russells viper (|FRAME: TAX-8707|) specifically activates several components of the blood clotting system, including coagulation factor X, coagulation factor IX and protein C by cleavage of Arg-X bonds.
+/
+/the enzyme comprises a heavy (59 kDa) and a heterogeneous light (18-21 kDa) chain. Contains |FRAME: CA+2| and |FRAME: ZN+2|. The heavy chain contains the zinc-binding endopeptidase domain and a disintegrin. In peptidase family M12 (astacin family).
+CREDITS - SRI
+CREDITS - caspi
+EC-NUMBER - EC-3.4.24.58
+^OFFICIAL? - T
+LEFT - WATER
+LEFT - Factor-IX
+MEMBER-SORT-FN - NUMBERED-CLASS-SORT-FN
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNDETERMINED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Factor-IXa

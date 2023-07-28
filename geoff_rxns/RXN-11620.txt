@@ -1,0 +1,26 @@
+UNIQUE-ID - RXN-11620
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :NON-INTEGER-STOICHIOMETRY
+CANNOT-BALANCE? - T
+CITATIONS - 13271353
+COMMENT - This enzyme catalyzes the random hydrolysis of (1->4)-linkages between N-acetyl-&beta;-D-glucosamine and D-glucuronate residues in hyaluronate.
+/
+/Also hydrolyses 1,4-&beta;-D-glycosidic linkages between N-acetyl-galactosamine or N-acetylgalactosamine sulfate and glucuronic acid in chondroitin, chondroitin 4- and 6-sulfates, and dermatan.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR117053" NIL |kothari| 3789143035 NIL NIL)
+EC-NUMBER - EC-3.2.1.35
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN-18074
+ENZYMATIC-REACTION - ENZRXN-18072
+ENZYMATIC-REACTION - ENZRXN-18068
+LEFT - Chondroitin-sulfates
+LEFT - WATER
+^COEFFICIENT - n
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Chondroitin-sulfate-disaccharides
+^COEFFICIENT - n

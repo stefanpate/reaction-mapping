@@ -1,0 +1,31 @@
+UNIQUE-ID - RXN-8629
+TYPES - Protein-Modification-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21) ((("PROTEIN-LIPOYLLYSINE" 0 21)) (("DIHYDROLIPOYL-GCVH" 0 21))))
+CITATIONS - 13767908
+CITATIONS - 13471525
+CITATIONS - 16746974
+CITATIONS - 10966480
+COMMENT - A flavoprotein (FAD). A component of the multienzyme 2-oxo-acid dehydrogenase complexes. In the pyruvate dehydrogenase complex, it binds to the core of |FRAME: RXN0-1133 "EC 2.3.1.12, dihydrolipoyllysine-residue acetyltransferase"|, and catalyses oxidation of its dihydrolipoyl groups. It plays a similar role in the oxoglutarate and 3-methyl-2-oxobutanoate dehydrogenase complexes. Another substrate is the dihydrolipoyl group in the H-protein of the glycine-cleavage system (click <A href="http://www.enzyme-database.org/reaction/AminoAcid/GlyCleave.html">here</A> for diagram), in which it acts, together with |FRAME: GCVP-RXN "EC 1.4.4.2, glycine dehydrogenase (decarboxylating)"|, and |FRAME: GCVT-RXN "EC 2.1.2.10, aminomethyltransferase"|, to break down glycine. It can also use free dihydrolipoate, dihydrolipoamide or dihydrolipoyllysine as substrate. This enzyme was first shown to catalyse the oxidation of NADH by methylene blue; this activity was called diaphorase. The glycine cleavage system is composed of four components that only loosely associate: the P protein (|FRAME: GCVP-RXN "EC 1.4.4.2"|), the T protein (|FRAME: GCVT-RXN "EC 2.1.2.10"|), the L protein (|FRAME: 1.8.1.4-RXN "EC 1.8.1.4"|) and the lipoyl-bearing H protein |CITS: [15642479]|.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR122405" NIL |kothari| 3789143035 NIL NIL)
+EC-NUMBER - EC-1.8.1.4
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN0-6327
+ENZYMATIC-REACTION - ENZRXN490-631
+ENZYMATIC-REACTION - ENZRXN66-6069
+ENZYMATIC-REACTION - ENZRXNCEQ-3310
+ENZYMATIC-REACTION - ENZRXN-13785
+GIBBS-0 - 19.404022    
+IN-PATHWAY - GLYCINE-SYN2-PWY
+IN-PATHWAY - GCVMULTI-RXN
+IN-PATHWAY - GLYCLEAV-PWY
+LEFT - DIHYDROLIPOYL-GCVH
+LEFT - NAD
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - REVERSIBLE
+RIGHT - PROTEIN-LIPOYLLYSINE
+RIGHT - NADH
+RIGHT - PROTON

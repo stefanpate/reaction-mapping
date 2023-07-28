@@ -1,0 +1,20 @@
+UNIQUE-ID - RXN-2505
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 9 8 10 12 11 18 13 15 16 14 17) (((3-2-CARBOXYPHENYLCATECHOL 0 16) (OXYGEN-MOLECULE 17 18)) ((2-HYDROXY-6-2-CARBOXYPHENYL-6-OXO-24- 0 18))))
+CITATIONS - 8300532
+COMMENT - This is a proposed reaction whereby 3-2-carboxyphenylcatechol (CPC) is transformed to
+/2-hydroxy-6-(2-carboxyphenyl)-6-oxo-2,4-hexadienoate.
+/CPC is the structural analog of 3-(2'-hydroxyphenyl)catechol and of 3-phenylcatechol, which are the effective
+/ring fission substrates for the metapyrocatechases, in reactions that involve a dioxygen |CITS: [8300532]|.
+DBLINKS - (METANETX-RXN "MNXR140730" NIL |kothari| 3789143034 NIL NIL)
+DBLINKS - (LIGAND-RXN "R07801" NIL |kothari| 3497364630 NIL NIL)
+GIBBS-0 - -74.158264    
+IN-PATHWAY - FLUORENE-DEG-9-ONE-PWY
+LEFT - 3-2-CARBOXYPHENYLCATECHOL
+LEFT - OXYGEN-MOLECULE
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - PROTON
+RIGHT - 2-HYDROXY-6-2-CARBOXYPHENYL-6-OXO-24-

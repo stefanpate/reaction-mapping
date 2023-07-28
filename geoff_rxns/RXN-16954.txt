@@ -1,0 +1,24 @@
+UNIQUE-ID - RXN-16954
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9) ((("CPD-18277" 0 9)) (("CPD-18279" 0 9))))
+CITATIONS - [743216]
+COMMENT - This is a specific instance of the generic reaction with EC 1.1.1.90 .
+/
+/Note that there is a closely related reaction, EC 1.1.1.97 , which however uses NADP. In <I>Pseudomonas alcaligenes</I>NCIB 9867 at least, it appears that there is high specificity for NAD |CITS: [743216]|.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR120532" NIL |kothari| 3789143028 NIL NIL)
+EC-NUMBER - EC-1.1.1.90
+ENZYMATIC-REACTION - ENZRXN-24115
+GIBBS-0 - 0.9918213    
+IN-PATHWAY - PWY-7698
+LEFT - CPD-18277
+LEFT - NAD
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-18279
+RIGHT - PROTON
+RIGHT - NADH

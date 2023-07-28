@@ -1,0 +1,24 @@
+UNIQUE-ID - RXN-12424
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :NON-INTEGER-STOICHIOMETRY
+CANNOT-BALANCE? - T
+COMMENT - This enzyme catalyzes the hydrolysis of (1&rarr;4)-&beta;-D-galactosidic linkages in agarose, giving |FRAME: CPD-13434| as the predominant product. Also acts on (the agarose portions in the backbone of) |FRAME: Porphyrans porphyran|, but more slowly |CITS: [12970344]|. This enzyme cleaves the &beta;-(1&rarr;4) linkages of agarose in a random manner with retention of the anomeric-bond configuration, producing &beta;-anomers that give rise progressively to &alpha;-anomers when mutarotation takes place |CITS: [15456406]|. The end products of hydrolysis are |FRAME:CPD-13434| and |FRAME: CPD-13436| in the case of AgaA from the marine bacterium |FRAME: TAX-63186|, and |FRAME:CPD-13434| and |FRAME: CPD-13433| in the case of AgaB  |CITS: [15456406]|.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR117544" NIL |kothari| 3789143034 NIL NIL)
+EC-NUMBER - EC-3.2.1.81
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN-19248
+IN-PATHWAY - PWY-6815
+LEFT - Agaroses
+LEFT - WATER
+^COEFFICIENT - n
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-13434
+^COEFFICIENT - n
+RIGHT - CPD-13436
+^COEFFICIENT - n

@@ -1,0 +1,21 @@
+UNIQUE-ID - RXN-10439
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 49 48 47 17 18 44 45 20 21 50 46 52 22 51 23 24 25 26 27 28 29 32 33 34 35 36 40 19 41 31 30 37 38 39 42 43) ((("AMP" 0 22) ("Jasmonoyl-ACCs" 23 43) ("PPI" 44 52)) (("ATP" 0 30) ("Jasmonic-Acids" 31 45) ("CPD-68" 46 52))))
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 49 48 47 17 18 44 45 20 21 50 19 52 22 51 23 24 25 26 27 28 29 32 33 34 35 36 40 46 41 31 30 37 38 39 42 43) ((("AMP" 0 22) ("Jasmonoyl-ACCs" 23 43) ("PPI" 44 52)) (("ATP" 0 30) ("Jasmonic-Acids" 31 45) ("CPD-68" 46 52))))
+COMMENT - |FRAME: Jasmonoyl-ACCs "Jasmonoyl-1-aminocyclopropane-1 carboxylate"| is a naturally occurring compound in |FRAME: TAX-3702|. However, this reaction has only been demonstrated <i>in vitro</i> |CITS:[15258265]|.
+DBLINKS - (METANETX-RXN "MNXR116374" NIL |kothari| 3789143036 NIL NIL)
+EC-NUMBER - |EC-6.3.2.z|
+^OFFICIAL? - NIL
+GIBBS-0 - -18.625885    
+IN-PATHWAY - PWY-6220
+LEFT - Jasmonic-Acids
+LEFT - CPD-68
+LEFT - ATP
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Jasmonoyl-ACCs
+RIGHT - AMP
+RIGHT - PPI
+RIGHT - PROTON

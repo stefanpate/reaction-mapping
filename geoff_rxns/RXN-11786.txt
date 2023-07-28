@@ -1,0 +1,32 @@
+UNIQUE-ID - RXN-11786
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - nucleoside oxidase (H<sub>2</sub>O<sub>2</sub>-forming)
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20) ((("CPD-12766" 0 18) ("HYDROGEN-PEROXIDE" 19 20)) (("ADENOSINE" 0 18) ("OXYGEN-MOLECULE" 19 20))))
+COMMENT - This is one of the two reactions catalyzed by nucleoside:oxygen 5'-oxidoreductase (H<sub>2</sub>O<sub>2</sub>-forming), |FRAME:1.1.3.39-RXN EC 1.1.3.39|.
+/
+/(1) |FRAME:RXN-11786|
+/
+/(2) |FRAME:RXN-11787|
+/
+/5'-dehydro nucleosides are released from the enzyme after the completion of the first reaction, and
+/serve as substrates for the second reaction.
+/
+/The overall reaction is:
+/
+/|FRAME:1.1.3.39-RXN|
+/
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR109768" NIL |kothari| 3789143036 NIL NIL)
+DBLINKS - (RHEA "18186" NIL |kothari| 3709310380 NIL NIL)
+DBLINKS - (LIGAND-RXN "R05696" NIL |taltman| 3536627204 NIL NIL)
+GIBBS-0 - -70.559006    
+IN-PATHWAY - 1.1.3.39-RXN
+LEFT - ADENOSINE
+LEFT - OXYGEN-MOLECULE
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-12766
+RIGHT - HYDROGEN-PEROXIDE

@@ -1,0 +1,28 @@
+UNIQUE-ID - RXN-12067
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - <i>N</i>-hydroxy-L-phenylalanine <em>N</em>-monooxygenase
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 32 33 31) (((|Ox-NADPH-Hemoprotein-Reductases| 0 18) (CPD-13030 19 32) (WATER 33 33)) ((|Red-NADPH-Hemoprotein-Reductases| 0 18) (CPD-13029 19 31) (OXYGEN-MOLECULE 32 33))))
+CITATIONS - 10799553
+COMMENT - A heme-thiolate protein (P-450). This enzyme catalyses two successive N-hydroxylations of L-phenylalanine, the first committed steps in the biosynthesis of benzylglucosinolate. The product of the two hydroxylations, N,N-dihydroxy-L-phenylalanine, is extremely labile and dehydrates spontaneously.The dehydrated product is then subject to a decarboxylation that produces the oxime. It is still not known whether the decarboxylation is spontaneous or catalysed by the enzyme. The product, (E)-phenylacetaldoxime, undergoes a spontaneous isomerization to the (Z) form.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR117329" NIL |kothari| 3789143036 NIL NIL)
+DBLINKS - (RHEA "24997" NIL |kothari| 3709310381 NIL NIL)
+GIBBS-0 - -97.55476    
+IN-PATHWAY - PWY-2821
+IN-PATHWAY - PWY-7824
+IN-PATHWAY - RXN-4602
+LEFT - CPD-13029
+LEFT - OXYGEN-MOLECULE
+LEFT - Red-NADPH-Hemoprotein-Reductases
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-13030
+RIGHT - Ox-NADPH-Hemoprotein-Reductases
+RIGHT - WATER
+SYNONYMS - phenylalanine <em>N</em>-hydroxylase
+SYNONYMS - CYP79A2
+SYSTEMATIC-NAME - <small>L</small>-phenylalanine,NADPH:oxygen oxidoreductase (<em>N</em>-hydroxylating)

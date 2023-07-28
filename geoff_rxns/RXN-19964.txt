@@ -1,0 +1,16 @@
+UNIQUE-ID - RXN-19964
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (8 10 11 12 15 16 18 19 20 9 0 1 2 13 14 3 4 17 5 6 7 21) ((("RCR-Ubiquitin-carrier-protein-E3-L-cys" 0 7) ("Protein-3-O-Ubiquitinyl-L-threonine" 8 21)) (("Proteins-L-Threonines" 0 8) ("S-ubiquitinyl-UCP-RCR-E3-L-cysteine" 9 21))))
+CREDITS - SRI
+CREDITS - caspi
+GIBBS-0 - -3.6100006    
+IN-PATHWAY - RXN-19962
+LEFT - S-ubiquitinyl-UCP-RCR-E3-L-cysteine
+LEFT - Proteins-L-Threonines
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - RCR-Ubiquitin-carrier-protein-E3-L-cys
+RIGHT - Protein-3-O-Ubiquitinyl-L-threonine

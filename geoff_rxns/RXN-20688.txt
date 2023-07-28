@@ -1,0 +1,16 @@
+UNIQUE-ID - RXN-20688
+TYPES - Protein-Modification-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 43 39 41 26 27 28 29 40 45 30 31 32 33 34 35 36 42 44 48 46 47 37 38) ((("Reduced-Cys2-Peroxiredoxins" 0 23) ("Ox-Glutaredoxins" 24 48)) (("Cys2-Peroxiredoxin-Disulfide" 0 23) ("Red-Glutaredoxins" 24 48))))
+CITATIONS - 12033427
+COMMENT - Peroxiredoxins (Prxs) are a ubiquitous family of antioxidant proteins. They can be divided into three classes: typical 2-Cys, atypical 2-Cys and 1-Cys peroxiredoxins |CITS: [12517450]|. The peroxidase reaction comprises two steps centred around a redox-active cysteine called the peroxidatic cysteine. All three peroxiredoxin classes have the first step in common, in which the peroxidatic cysteine attacks the peroxide substrate and is oxidized to S-hydroxycysteine (a sulfenic acid) (see <A href="http://64.6.226.221/reaction/single/111115a.html">mechanism</A>). The second step of the peroxidase reaction, the regeneration of cysteine from S-hydroxycysteine, distinguishes the three peroxiredoxin classes. For typical 2-Cys Prxs, in the second step, the peroxidatic S-hydroxycysteine from one subunit is attacked by the resolving cysteine located in the C-terminus of the second subunit, to form an intersubunit disulfide bond, which is then reduced by one of several cell-specific thiol-containing reductants (R'-SH) (e.g. thioredoxin, AhpF, tryparedoxin or AhpD), completing the catalytic cycle. In the atypical 2-Cys Prxs, both the peroxidatic cysteine and its resolving cysteine are in the same polypeptide, so their reaction forms an intrachain disulfide bond |CITS: [12517450]|. To recycle the disulfide, known atypical 2-Cys Prxs appear to use thioredoxin as an electron donor |CITS: [10751410]|. The 1-Cys Prxs conserve only the peroxidatic cysteine, so that its oxidized form is directly reduced to cysteine by the reductant molecule |CITS: [9587003]|.
+CREDITS - SRI
+CREDITS - caspi
+IN-PATHWAY - RXN-20687
+LEFT - Red-Glutaredoxins
+LEFT - Cys2-Peroxiredoxin-Disulfide
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Ox-Glutaredoxins
+RIGHT - Reduced-Cys2-Peroxiredoxins

@@ -1,0 +1,15 @@
+UNIQUE-ID - RXN-9955
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 4 3 5 6 9 7 8 11 10 12) (((|3-Isopropenyl-4H-hexano-lactones| 0 12)) ((|3-Isopropenyl-6-oxoheptanoates| 0 12))))
+DBLINKS - (METANETX-RXN "MNXR123085" NIL |kothari| 3789143027 NIL NIL)
+DBLINKS - (RHEA "32602" NIL |kothari| 3571757969 NIL NIL)
+GIBBS-0 - -20.76413    
+IN-PATHWAY - RXN-15253
+LEFT - 3-Isopropenyl-4H-hexano-lactones
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - 3-Isopropenyl-6-oxoheptanoates
+RIGHT - PROTON
+SPONTANEOUS? - T

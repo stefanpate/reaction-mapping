@@ -1,0 +1,19 @@
+UNIQUE-ID - RXN-8137
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 2 1 3 9 6 7 8 4 10 5) (((EPITHIONITRILES 0 5) (SULFATE 6 10)) ((|Alkenyl-Thiohydroximate-O-Sulfates| 0 10))))
+COMMENT - An epithionitrile is formed when the R group of the substrate thiohydroximate-O-sulfate has a terminal alkene group. Otherwise, a simple nitrile is produced.
+DBLINKS - (METANETX-RXN "MNXR122157" NIL |kothari| 3789143035 NIL NIL)
+EC-NUMBER - EC-4.99.1.M5
+^OFFICIAL? - T
+ENZYMATIC-REACTION - ENZRXN-12892
+GIBBS-0 - -58.897118    
+IN-PATHWAY - PWY-5267
+LEFT - Alkenyl-Thiohydroximate-O-Sulfates
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - EPITHIONITRILES
+RIGHT - SULFATE
+RIGHT - PROTON

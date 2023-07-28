@@ -1,0 +1,32 @@
+UNIQUE-ID - L-GULONOLACTONE-OXIDASE-RXN
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - <small>L</small>-gulonolactone oxidase
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 13 12) (((CPD-329 0 11) (HYDROGEN-PEROXIDE 12 13)) ((L-GULONO-1-4-LACTONE 0 11) (OXYGEN-MOLECULE 12 13))))
+CITATIONS - 14405898
+CITATIONS - 7138847
+COMMENT - The product spontaneously isomerizes to L-ascorbate. While most higher animals can synthesize ascorbic acid, primates and guinea pigs cannot |CITS: [8175804]|.
+CREDITS - SRI
+CREDITS - brito
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR140097" NIL |kothari| 3789143028 NIL NIL)
+DBLINKS - (RHEA "12355" NIL |kothari| 3571757980 NIL NIL)
+DBLINKS - (LIGAND-RXN "R03184" NIL |taltman| 3459474593 NIL NIL)
+DBLINKS - (UNIPROT "P10867" RELATED-TO |paley| 3439827039 NIL NIL)
+ENZYMATIC-REACTION - ENZRXN3DJ-35468
+ENZYMATIC-REACTION - ENZRXN-14094
+GIBBS-0 - -29.36    
+IN-PATHWAY - PWY3DJ-35471
+IN-PATHWAY - RXN-13689
+LEFT - OXYGEN-MOLECULE
+LEFT - L-GULONO-1-4-LACTONE
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-329
+RIGHT - HYDROGEN-PEROXIDE
+SYNONYMS - <small>L</small>-gulono-&gamma;-lactone: O<small><sub>2</sub></small> oxidoreductase
+SYNONYMS - <small>L</small>-gulono-&gamma;-lactone:oxidoreductase
+SYNONYMS - GLO
+SYSTEMATIC-NAME - <small>L</small>-gulono-1,4-lactone:oxygen 3-oxidoreductase

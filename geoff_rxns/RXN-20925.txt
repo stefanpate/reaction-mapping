@@ -1,0 +1,12 @@
+UNIQUE-ID - RXN-20925
+TYPES - Small-Molecule-Reactions
+TYPES - Unknown-Conversions
+CANNOT-BALANCE? - T
+COMMENT - Not much is known about the degradation of |FRAME: CPD-4841|. A 1990 study has shown that the compound can be transformed by aerobic marine bacteria to |FRAME: CPD-22553|, which was then photolyzed with a half-life of 100 minutes. The details of this degradation process are not known |CITS: [16348188]|.
+CREDITS - SRI
+CREDITS - caspi
+LEFT - CPD-4841
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-22553

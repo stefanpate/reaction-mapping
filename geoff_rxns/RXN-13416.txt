@@ -1,0 +1,19 @@
+UNIQUE-ID - RXN-13416
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (16 1 17 3 18 5 19 7 20 21 10 23 22 24 25 26 0 2 4 6 8 9 12 11 13 14 15) (((|N-4-aminobutylidene-eIF5A-lysine| 0 15) (|Deoxyhypusine-Synthase-Lysine| 16 26)) ((|N-4-aminobutylidene-enzyme-lysine| 0 15) (EIF5A-LYSINE 16 26))))
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR118073" NIL |kothari| 3789143035 NIL NIL)
+GIBBS-0 - -9.758878    
+IN-PATHWAY - PWY-5905
+IN-PATHWAY - 2.5.1.46-RXN
+LEFT - N-4-aminobutylidene-enzyme-lysine
+LEFT - EIF5A-LYSINE
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - N-4-aminobutylidene-eIF5A-lysine
+RIGHT - Deoxyhypusine-Synthase-Lysine
+RIGHT - PROTON

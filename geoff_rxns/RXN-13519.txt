@@ -1,0 +1,29 @@
+UNIQUE-ID - RXN-13519
+TYPES - Small-Molecule-Reactions
+TYPES - Transport-Reactions
+COMMON-NAME - vectoral H<SUP>+</SUP> export
+ATOM-MAPPINGS - :ILP-IS-EMPTY
+COMMENT - This is a special transport reaction, which does not occur on its own.  Instead, it can be used as a component for composing composite electron transport reactions, when there is a vectoral proton transport component.
+CREDITS - SRI
+CREDITS - kr
+DBLINKS - (METANETX-RXN "MNXR118141" NIL |kothari| 3789143036 NIL NIL)
+GIBBS-0 - 0.    
+IN-PATHWAY - RXN-21817
+IN-PATHWAY - RXN185E-8
+IN-PATHWAY - RXN-21415
+IN-PATHWAY - RXN-21274
+IN-PATHWAY - RXN-21237
+IN-PATHWAY - CYTOCHROME-C-OXIDASE-RXN
+IN-PATHWAY - RXN-12164
+IN-PATHWAY - RXN0-5388
+IN-PATHWAY - NADH-DEHYDROG-A-RXN
+LEFT - PROTON
+^COEFFICIENT - 4
+^COMPARTMENT - CCO-IN
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - PROTON
+^COEFFICIENT - 4
+^COMPARTMENT - CCO-OUT

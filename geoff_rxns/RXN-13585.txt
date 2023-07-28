@@ -1,0 +1,33 @@
+UNIQUE-ID - RXN-13585
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 27 26 28 29 30 31 32 33 34 35 36 37 38 39) ((("CPD-14560" 0 39)) (("UDP-N-ACETYL-2-AMINO-D-GLUCURONATE" 0 39))))
+CITATIONS - 19282284
+CITATIONS - 19348502
+CITATIONS - 20690587
+CITATIONS - 21241053
+COMMENT - This enzyme participates in the biosynthetic pathway for |FRAME: CPD-10314|, an important precursor of B-band
+/lipopolysaccharide. The enzymes from |FRAME: ORG-6217| and |FRAME: TAX-274| form a complex with the enzyme that catalyses the next step in the pathway, |FRAME: RXN-13596 "EC 2.6.1.o (UDP-2-acetamido-2-deoxy-ribo-hexuluronate aminotransferase"|). 
+/The enzyme also possesses an |FRAME: 2-HYDROXYGLUTARATE-DEHYDROGENASE-RXN "EC 1.1.99.2 (2-hydroxyglutarate dehydrogenase)"| activity, and utilizes the |FRAME: 2-KETOGLUTARATE| produced by EC 2.6.1.o to regenerate the tightly bound NAD+.
+/
+/The enzymes from |FRAME: TAX-520| and |FRAME: TAX-536| do not bind |FRAME: NAD NAD+| as tightly and do not require |FRAME: 2-KETOGLUTARATE 2-oxoglutarate| to function.
+CREDITS - SRI
+CREDITS - kothari
+DBLINKS - (METANETX-RXN "MNXR113509" NIL |kothari| 3789143035 NIL NIL)
+DBLINKS - (LIGAND-RXN "R10140" NIL |kothari| 3713704632 NIL NIL)
+DBLINKS - (RHEA "33582" NIL |kothari| 3571757972 NIL NIL)
+EC-NUMBER - EC-1.1.1.335
+^OFFICIAL? - T
+ENZYMATIC-REACTION - ENZRXN-20714
+GIBBS-0 - -0.37817383    
+IN-PATHWAY - PWY-7090
+LEFT - UDP-N-ACETYL-2-AMINO-D-GLUCURONATE
+LEFT - NAD
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-14560
+RIGHT - NADH
+RIGHT - PROTON
+SYSTEMATIC-NAME - UDP-N-acetyl-2-amino-2-deoxy--D-glucuronate:NAD+ 3-oxidoreductase

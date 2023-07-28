@@ -1,0 +1,28 @@
+UNIQUE-ID - 1.2.1.40-RXN
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - 3&alpha;,7&alpha;,12&alpha;-trihydroxycholestan-26-al 26-hydroxylase
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 6 7 4 5 11 10 9 8 12 13 14 15 18 19 17 16 22 23 21 20 25 24 26 27 28 30 29 31 32 33 34 35 36 37 48 39 38 40 41 42 43 44 45 46 47 49 50 54 51 52 53 55 56) ((((|Oxidized-adrenal-ferredoxins| 1) 0 11) ((|Oxidized-adrenal-ferredoxins| 2) 12 23) (CPD-1836 24 55) (WATER 56 56)) (((|Reduced-adrenal-ferredoxins| 1) 0 11) ((|Reduced-adrenal-ferredoxins| 2) 12 23) (3-ALPHA7-ALPHA12-ALPHA-TRIHYDROX 24 54) (OXYGEN-MOLECULE 55 56))))
+CITATIONS - 5914340
+DBLINKS - (METANETX-RXN "MNXR114959" NIL |kothari| 3789143037 NIL NIL)
+DBLINKS - (RHEA "24585" NIL |kothari| 3709310381 NIL NIL)
+DBLINKS - (LIGAND-RXN "R03506" NIL |taltman| 3459474592 NIL NIL)
+DBLINKS - (UNIPROT "Q54101" RELATED-TO |green| 3381008084 NIL NIL)
+GIBBS-0 - -105.649414    
+IN-PATHWAY - RXN-13690
+IN-PATHWAY - PWY-6061
+LEFT - 3-ALPHA7-ALPHA12-ALPHA-TRIHYDROX
+LEFT - Reduced-adrenal-ferredoxins
+^COEFFICIENT - 2
+LEFT - OXYGEN-MOLECULE
+LEFT - PROTON
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-1836
+RIGHT - Oxidized-adrenal-ferredoxins
+^COEFFICIENT - 2
+RIGHT - WATER
+SYNONYMS - cholestanetriol-26-al 26-dehydrogenase
+SYSTEMATIC-NAME - (25<em>R</em>)-3&alpha;,7&alpha;,12&alpha;-trihydroxy-5&beta;-cholestan-26-al:NAD<small><sup>+</sup></small> 26-oxidoreductase

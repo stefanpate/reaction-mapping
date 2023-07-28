@@ -1,0 +1,17 @@
+UNIQUE-ID - RXN-21421
+TYPES - Protein-Modification-Reactions
+TYPES - Protein-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58) ((("Reduced-CcmG-Proteins" 0 23) ("Apocytochromes-c-Disulfide" 24 58)) (("Oxidized-CcmG-Proteins" 0 23) ("Apocytochromes-c" 24 58))))
+CREDITS - SRI
+CREDITS - caspi
+EC-NUMBER - EC-1.8.4.16
+ENZYMATIC-REACTION - ENZRXN-29361
+IN-PATHWAY - PWY-8147
+LEFT - Oxidized-CcmG-Proteins
+LEFT - Apocytochromes-c
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-RIGHT-TO-LEFT
+RIGHT - Reduced-CcmG-Proteins
+RIGHT - Apocytochromes-c-Disulfide

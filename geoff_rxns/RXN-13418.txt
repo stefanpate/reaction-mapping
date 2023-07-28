@@ -1,0 +1,26 @@
+UNIQUE-ID - RXN-13418
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 28 27 26 29 30 32 31 34 38 37 36 39 33 35) (((FMN 0 30) (GLYCOLALDEHYDE 31 34) (WATER 35 35) (SO3 36 39)) ((FMNH2 0 30) (CPD-3745 31 37) (OXYGEN-MOLECULE 38 39))))
+CITATIONS - 10480865
+COMMENT - The enzyme from Escherichia coli catalyses the desulfonation of a wide range of aliphatic sulfonates (unsubstituted C1- to C14-sulfonates as well as substituted C2-sulfonates). Does not desulfonate taurine (2-aminoethanesulfonate) or aromatic sulfonates. Does not use FMN as a bound cofactor. Instead, it uses reduced FMN (i.e., FMNH2) as a substrate. FMNH2 is provided by |FRAME: G6479 SsuE|, the associated FMN reductase (|FRAME: RXN-12444 "EC 1.5.1.38"|).
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR99485" NIL |kothari| 3789143036 NIL NIL)
+EC-NUMBER - EC-1.14.14.5
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN-20418
+GIBBS-0 - -150.05757    
+LEFT - CPD-3745
+LEFT - FMNH2
+LEFT - OXYGEN-MOLECULE
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - GLYCOLALDEHYDE
+RIGHT - SO3
+RIGHT - WATER
+RIGHT - FMN
+RIGHT - PROTON
+^COEFFICIENT - 2

@@ -1,0 +1,20 @@
+UNIQUE-ID - RXN-19718
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 22 21 23 25 24 31 26 27 28 29 30 32 33 35 34 37 36 38) ((("Ox-NADPH-Hemoprotein-Reductases" 0 18) ("CPD-693" 19 37) ("WATER" 38 38)) (("Red-NADPH-Hemoprotein-Reductases" 0 18) ("CPD-692" 19 36) ("OXYGEN-MOLECULE" 37 38))))
+COMMENT - This reaction was not fully characterized. In tomato, feeding experiments with radio labeled ABA-alcohol and O2 showed the formation of ABA, which was inhibited by CO and thus indicated the involvement of a P450 monooxygenase |CITS: [16668451]|.
+CREDITS - SRI
+CREDITS - caspi
+GIBBS-0 - -108.40889    
+IN-PATHWAY - PWY4FS-17
+IN-PATHWAY - RXN4FS-22
+LEFT - CPD-692
+LEFT - Red-NADPH-Hemoprotein-Reductases
+LEFT - OXYGEN-MOLECULE
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-693
+RIGHT - Ox-NADPH-Hemoprotein-Reductases
+RIGHT - WATER
+RIGHT - PROTON

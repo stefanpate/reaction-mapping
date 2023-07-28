@@ -1,0 +1,18 @@
+UNIQUE-ID - RXN0-6359
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3) (((HCN 0 1) (|Sulfurated-Sulfur-Acceptors| 2 3)) ((HSCN 0 2) (|Unsulfurated-Sulfur-Acceptors| 3 3))))
+CREDITS - SRI
+CREDITS - keseler
+DBLINKS - (METANETX-RXN "MNXR140940" NIL |kothari| 3789143028 NIL NIL)
+EC-NUMBER - EC-2.8.1.1
+GIBBS-0 - -15.864122    
+LEFT - Sulfurated-Sulfur-Acceptors
+LEFT - HCN
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Unsulfurated-Sulfur-Acceptors
+RIGHT - HSCN
+RIGHT - PROTON

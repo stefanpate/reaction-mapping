@@ -1,0 +1,16 @@
+UNIQUE-ID - DISULFOXRED-RXN
+TYPES - Protein-Modification-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23) ((("Oxidized-Disulfide-Carrier-Proteins" 0 23) ("Protein-Red-Disulfides" 24 39)) (("Protein-Ox-Disulfides" 0 15) ("Reduced-Disulfide-Carrier-Proteins" 16 39))))
+EC-NUMBER - EC-1.8.4
+ENZYMATIC-REACTION - ENZRXN0-8058
+GIBBS-0 - 7.6293945000000e-6
+LEFT - Oxidized-Disulfide-Carrier-Proteins
+LEFT - Protein-Red-Disulfides
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Reduced-Disulfide-Carrier-Proteins
+RIGHT - Protein-Ox-Disulfides
+RXN-LOCATIONS - CCO-CYTOSOL
+RXN-LOCATIONS - CCO-PERI-BAC

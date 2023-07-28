@@ -1,0 +1,22 @@
+UNIQUE-ID - RXN-19202
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :TIMED-OUT
+ATOM-MAPPINGS - 10
+COMMENT - A flavoprotein (FAD) that is active under conditions of low light. Along with |FRAME: RXN-13185 "EC 1.10.99.3, violaxanthin de-epoxidase"|, this enzyme forms part of the |FRAME: PWY-5945 "xanthophyll (or violaxanthin) cycle"|, which is involved in protecting the plant against damage by excess light. It will also epoxidize lutein in some higher-plant species.
+CREDITS - SRI
+CREDITS - caspi
+EC-NUMBER - EC-1.14.13
+GIBBS-0 - -77.580536    
+IN-PATHWAY - PWY-7949
+LEFT - CPD-20693
+LEFT - OXYGEN-MOLECULE
+LEFT - NADPH
+LEFT - PROTON
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-20680
+RIGHT - NADP
+RIGHT - WATER

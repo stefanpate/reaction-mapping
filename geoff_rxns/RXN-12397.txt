@@ -1,0 +1,29 @@
+UNIQUE-ID - RXN-12397
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :NON-INTEGER-STOICHIOMETRY
+CANNOT-BALANCE? - T
+COMMENT - This enzyme catalyzes the hydrolysis of (1&rarr;4)-D-glucosidic linkages in xyloglucans so as to successively remove oligosaccharides from the chain end.
+/
+/The enzyme removes XXXG heptasaccharides, XXLG/XLXG octasaccharides and XLLG nonasaccharides from the end of tamarind seed xyloglucan polymers in a processive manner. Hydrolysis occurs at the unsubstituted D-glucopyranose residue in the main backbone. It is not known whether the cleavage takes place at the reducing or non-reducing end of the polymer. Very low activity with ?-D-glucans. The enzyme from Chrysosporium lucknowense shifts to an endoglucanase mode when acting on linear substrates without bulky substituents on the polymeric backbone such as barley ?-glucan.
+CREDITS - SRI
+CREDITS - caspi
+EC-NUMBER - EC-3.2.1.155
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN-19172
+ENZYMATIC-REACTION - ENZRXN-19169
+LEFT - Xyloglucan
+LEFT - WATER
+^COEFFICIENT - n
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-13375
+^COEFFICIENT - n
+RIGHT - CPD-13376
+^COEFFICIENT - n
+RIGHT - CPD-13377
+^COEFFICIENT - n
+RIGHT - CPD-13378
+^COEFFICIENT - n

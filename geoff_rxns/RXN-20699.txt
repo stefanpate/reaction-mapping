@@ -1,0 +1,17 @@
+UNIQUE-ID - RXN-20699
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 17 15 16) ((("Mycoredoxin-disulfide" 0 14) ("Alcohols" 15 16) ("WATER" 17 17)) (("Mycoredoxin-Dithiol" 0 14) ("Alkyl-Hydro-Peroxides" 15 17))))
+CREDITS - SRI
+CREDITS - caspi
+EC-NUMBER - EC-1.11.1.29
+^OFFICIAL? - T
+LEFT - Mycoredoxin-Dithiol
+LEFT - Alkyl-Hydro-Peroxides
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Mycoredoxin-disulfide
+RIGHT - WATER
+RIGHT - Alcohols

@@ -1,0 +1,18 @@
+UNIQUE-ID - RXN-18548
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (4 11 10 9 3 2 1 0 13 12 14 15 5 16 7 6 19 17 8 18) ((("Medium-chain-fatty-acids" 0 8) ("CARNITINE" 9 19)) (("O-Medium-Chain-Acyl-L-Carnitines" 0 18) ("WATER" 19 19))))
+CREDITS - SRI
+CREDITS - caspi
+EC-NUMBER - EC-3.1.1.28
+^OFFICIAL? - T
+GIBBS-0 - 141.02856    
+LEFT - O-Medium-Chain-Acyl-L-Carnitines
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CARNITINE
+RIGHT - Medium-chain-fatty-acids
+RIGHT - PROTON

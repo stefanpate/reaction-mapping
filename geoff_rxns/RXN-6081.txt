@@ -1,0 +1,24 @@
+UNIQUE-ID - RXN-6081
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (1 0 3 6 2 5 7 8 4) (((DIACETYL 0 5) (CARBON-DIOXIDE 6 8)) ((2-ACETO-LACTATE 0 8))))
+COMMENT - This is a chemical, non-enzymatic reaction, that happens under aerobic conditions.
+/However, there are some indications that there may be an enzyme that catalyzes the reaction. Heat treatment of
+/crude extracts from <i>Leuconostoc lactis</i> cells reduced the rate of diacetyl formation from 2-acetolactate (ALA)
+/|CITS: [11164316]| . A second study found that non-enzymatic decarboxylation does not fully explain the quantities of
+/diacetyl produced by |FRAME: CPLX-5261|-defficient mutants of this strain |CITS: [Aymes99]|, 
+/and yet a third study found that there was a thermolabile component in the decarboxylation of ALA
+/|CITS: [Rondags98]|.
+DBLINKS - (METANETX-RXN "MNXR121834" NIL |kothari| 3789143036 NIL NIL)
+IN-PATHWAY - PWY-6389
+IN-PATHWAY - PWY-5938
+LEFT - 2-ACETO-LACTATE
+LEFT - Acceptor
+LEFT - PROTON
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - DIACETYL
+RIGHT - CARBON-DIOXIDE
+RIGHT - Donor-H2
+SPONTANEOUS? - T

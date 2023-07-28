@@ -1,0 +1,27 @@
+UNIQUE-ID - RXN-7985
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - violaxanthin de-epoxidase
+ATOM-MAPPINGS - :INVALID
+ATOM-MAPPINGS - ((:NO-HYDROGEN-ENCODING (1 4 0 9 3 2 0 5 0 7 8 0 9 4 5 6 5 7 9 4 8 22 11 20 10 12 13 12 22 15 16 29 14 16 18 29 97 13 17 21 16 20 14 19 20 18 29 20 21 23 20 23 31 14 21 22 24 24 25 27 26 27 24 26 24 26 29 99 28 30 31 30 37 33 34 35 13 34 35 37 28 37 39 28 32 33 38 29 32 38 31 36 99 40 41 40 41 104 105 131 96 97 98 36 98 99 101 32 98 99 100 101 99 100 101 99 100 101 102 103 104 105 106 107 104 105 106 107 131 105 106 105 107) ((("CPD1F-130" 0 95) ("L-DEHYDRO-ASCORBATE" 96 130) ("WATER" 131 132)) (("CPD1F-131" 0 99) ("ASCORBATE" 100 132)))))
+COMMENT - Along with |FRAME: RXN-13193 "EC 1.14.13.90, zeaxanthin epoxidase"|, this enzyme forms part of the xanthophyll (or violaxanthin) cycle for controlling the concentration of |FRAME: CPD1F-130| in chloroplasts.
+/It is activated by a low pH of the thylakoid lumen (produced by high light intensity). Zeaxanthin induces the dissipation of excitation energy in the chlorophyll of the light-harvesting protein complex of photosystem II. In higher plants the enzyme reacts with <i>all-trans</i>-diepoxides, such as |FRAME: CPD1F-133|, and <i>all-trans</i>-monoepoxides, but in the alga |FRAME: TAX-13608| only the diepoxides are good substrates.
+DBLINKS - (METANETX-RXN "MNXR138052" NIL |kothari| 3789143035 NIL NIL)
+DBLINKS - (RHEA "21801" NIL |kothari| 3709310380 NIL NIL)
+DBLINKS - (LIGAND-RXN "R07179" NIL |taltman| 3459474588 NIL NIL)
+ENZYMATIC-REACTION - ENZRXN-12746
+ENZYMATIC-REACTION - ENZRXN-12743
+GIBBS-0 - -0.80285645    
+IN-PATHWAY - PWY-5945
+IN-PATHWAY - RXN-13185
+LEFT - CPD1F-131
+LEFT - ASCORBATE
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD1F-130
+RIGHT - L-DEHYDRO-ASCORBATE
+RIGHT - WATER
+SYNONYMS - VDE
+SYSTEMATIC-NAME - violaxanthin:ascorbate oxidoreductase

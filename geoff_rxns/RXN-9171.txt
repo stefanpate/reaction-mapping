@@ -1,0 +1,26 @@
+UNIQUE-ID - RXN-9171
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (50 0 1 2 3 4 5 6 7 8 9 53 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 57 28 29 30 31 33 32 34 36 35 38 37 39 40 41 42 43 44 45 46 47 48 49 51 52 55 54 60 58 59 56) ((("CO-A" 0 47) ("CPD-9736" 48 60)) (("ACETYL-COA" 0 50) ("CPD-9735" 51 59) ("WATER" 60 60))))
+CITATIONS - Kean81
+COMMENT - This reaction is hypothesized to occur in ackee plants |FRAME: TAX-259381| as part of hypoglycin
+/biosynthesis, but, there is no direct evidence for this reaction. In this plant, the authors hypothesize
+/that the acetyl co-A is derived from acetate, based on the finding that radio-labeled acetate is
+/incorporated into hypoglycin |CITS: [kean81]|. Pyruvate may also serve as a source of the acetyl-coA
+/in this reaction, but much lower rates of incorporation are observed for pyruvate than for acetate
+/in radiotracer experiments |CITS: [kean81]|.
+/
+/
+DBLINKS - (METANETX-RXN "MNXR122673" NIL |kothari| 3789143028 NIL NIL)
+EC-NUMBER - EC-2.3
+GIBBS-0 - -10.171204    
+IN-PATHWAY - PWY-5826
+LEFT - CPD-9735
+LEFT - ACETYL-COA
+LEFT - WATER
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - PROTON
+RIGHT - CPD-9736
+RIGHT - CO-A

@@ -1,0 +1,32 @@
+UNIQUE-ID - 1.14.13.72-RXN
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - methylsterol monooxygenase
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (11 8 3 47 4 0 7 6 9 1 55 10 59 12 14 58 64 66 61 67 60 63 65 21 75 70 26 31 71 74 73 24 32 33 81 35 34 36 41 38 83 84 42 43 53 52 46 92 88 91 51 50 54 45 105 44 15 57 13 56 62 16 22 17 23 20 19 18 69 30 68 72 27 28 29 25 76 77 37 78 79 80 85 117 119 82 86 87 5 89 90 93 2 49 48 94 95 96 97 99 98 100 101 102 103 104 106 107 108 110 109 111 112 113 116 114 115 118 39 40) (((("FERRICYTOCHROME-B5" 1) 0 43) (("FERRICYTOCHROME-B5" 2) 44 87) ("CPD-5847" 88 118) ("WATER" 119 119)) ((("FERROCYTOCHROME-B5" 1) 0 43) (("FERROCYTOCHROME-B5" 2) 44 87) ("44-DIMETHYL-5ALPHA-CHOLEST-7-EN-3BET" 88 117) ("OXYGEN-MOLECULE" 118 119))))
+COMMENT - Requires cytochrome <i>b</i><sub>5</sub>.
+/Catalyzes 3 successive oxidations of 4,4-dimethyl-5&alpha;-cholest-7-en-3&beta;-ol.
+/Also acts on 4&alpha;-methyl-5&alpha;-cholest-7-en-3&beta;-ol.
+/The sterol can be based on cycloartenol as well as lanosterol.
+/Formerly EC 1.14.99.16.
+DBLINKS - (METANETX-RXN "MNXR114930" NIL |kothari| 3789143036 NIL NIL)
+DBLINKS - (RHEA "18736" RELATED-TO |kothari| 3572008307 NIL NIL)
+DBLINKS - (RHEA "18732" RELATED-TO |kothari| 3572008307 NIL NIL)
+GIBBS-0 - -75.28052    
+IN-PATHWAY - RXN-13188
+LEFT - 44-DIMETHYL-5ALPHA-CHOLEST-7-EN-3BET
+LEFT - OXYGEN-MOLECULE
+LEFT - FERROCYTOCHROME-B5
+^COEFFICIENT - 2
+LEFT - PROTON
+^COEFFICIENT - 2
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-5847
+RIGHT - WATER
+RIGHT - FERRICYTOCHROME-B5
+^COEFFICIENT - 2
+SYNONYMS - methylsterol hydroxylase
+SYNONYMS - 4-methylsterol oxidase
+SYNONYMS - 4,4-dimethyl-5&alpha;-cholest-7-en-3&beta;-ol,hydrogen-donor:oxygen oxidoreductase (hydroxylating)
+SYSTEMATIC-NAME - 4,4-dimethyl-5&alpha;-cholest-7-en-3&beta;-ol,NAD(P)H:oxygen oxidoreductase (hydroxylating)

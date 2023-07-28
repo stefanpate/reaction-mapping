@@ -1,0 +1,22 @@
+UNIQUE-ID - RXN-11985
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - jadomycin A synthase
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (26 0 27 28 1 2 3 4 5 7 29 9 8 10 11 12 13 14 30 15 16 17 6 31 32 20 21 22 23 34 19 18 25 24 33) (((CPD-12957 0 25) (ILE 26 34)) ((CPD-12938 0 30) (CARBON-DIOXIDE 31 33) (WATER 34 34))))
+CANNOT-BALANCE? - T
+COMMENT - The key step of the jadomycin biosynthesis is the oxidative opening of the 5,6-bond of an angucyclinone intermediate, which likely leads to the formation of an aldehyde that can easily react with the amino acid isoleucine, thereby forming an aldimine.
+/This amino acid incorporation can be either an enzyme-catalyzed or a spontaneous reaction. However, the product has been shown to be a mixture of 5-diastereomers, supporting a nonenzymatic reaction. In addition, when other amino acids were provided in excess, it was shown that they are incorporated into the jadomycin skeleton, further supporting this assumption |CITS: [15070349]|.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR117275" NIL |kothari| 3789143028 NIL NIL)
+GIBBS-0 - 7.39517200e-2
+IN-PATHWAY - PWY-6679
+LEFT - CPD-12957
+LEFT - ILE
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-12938
+RIGHT - CARBON-DIOXIDE
+RIGHT - WATER
+SPONTANEOUS? - T

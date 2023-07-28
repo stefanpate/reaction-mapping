@@ -1,0 +1,18 @@
+UNIQUE-ID - RXN-13415
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 2 4 6 8 9 12 11 13 14 15 1 3 16 5 17 7 18 10 19 20) (((|N-4-aminobutylidene-enzyme-lysine| 0 15) (CPD-313 16 20)) ((|Deoxyhypusine-Synthase-Lysine| 0 10) (CPD-14378 11 20))))
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR118072" NIL |kothari| 3789143035 NIL NIL)
+GIBBS-0 - -80.92073    
+IN-PATHWAY - PWY-5905
+IN-PATHWAY - 2.5.1.46-RXN
+LEFT - CPD-14378
+LEFT - Deoxyhypusine-Synthase-Lysine
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - N-4-aminobutylidene-enzyme-lysine
+RIGHT - CPD-313

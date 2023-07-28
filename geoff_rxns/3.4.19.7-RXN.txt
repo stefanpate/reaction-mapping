@@ -1,0 +1,17 @@
+UNIQUE-ID - 3.4.19.7-RXN
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (6 7 8 11 9 10 12 15 13 16 4 0 1 2 3 5 14) ((("Peptide-Holder-Alternative" 0 5) ("N-FORMYLMETHIONINE" 6 16)) (("Protein-with-N-terminal-formylmethionine" 0 15) ("WATER" 16 16))))
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR115467" NIL |kothari| 3789143036 NIL NIL)
+EC-NUMBER - EC-3.4.19.7
+^OFFICIAL? - T
+GIBBS-0 - 81.08184    
+LEFT - Protein-with-N-terminal-formylmethionine
+LEFT - WATER
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - N-FORMYLMETHIONINE
+RIGHT - Peptide-Holder-Alternative

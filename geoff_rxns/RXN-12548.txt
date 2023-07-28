@@ -1,0 +1,21 @@
+UNIQUE-ID - RXN-12548
+TYPES - Binding-Reactions
+TYPES - Protein-Modification-Reactions
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+COMMENT - When retinol is delivered to the retinal pigment epithelium (RPE), it binds to a cellular retinol-binding protein (CRBP), and then <i>trans</i>-esterified by |FRAME: 2.3.1.135-RXN "EC 2.3.1.135, phosphatidylcholine&mdash;retinol <em>O</em>-acyltransferase"|.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR117625" NIL |kothari| 3789143027 NIL NIL)
+ENZYMATIC-REACTION - ENZRXN-19429
+ENZYMATIC-REACTION - ENZRXN-19428
+IN-PATHWAY - PWY-6857
+IN-PATHWAY - PWY-6875
+IN-PATHWAY - PWY-6872
+IN-PATHWAY - PWY-6861
+LEFT - CPD-13524
+LEFT - Cellular-Retinol-Binding-Proteins
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CRPB-all-trans-Retinol

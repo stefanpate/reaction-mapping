@@ -1,0 +1,15 @@
+UNIQUE-ID - 3.2.1.111-RXN
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 11 12 1 13 14 15 2 16 3 4 17 18 5 19 20 21 6 22 7 8 24 10 25 23 26 9) (((|L-Fucopyranoses| 0 10) (|N-acetyl-a-D-glucosaminyl-glycoproteins| 11 26)) ((|3-Alpha-L-Fucosyl-NAc-Glycoprotein| 0 25) (WATER 26 26))))
+DBLINKS - (METANETX-RXN "MNXR115321" NIL |kothari| 3789143035 NIL NIL)
+EC-NUMBER - EC-3.2.1.111
+^OFFICIAL? - T
+GIBBS-0 - 99.598175    
+LEFT - 3-Alpha-L-Fucosyl-NAc-Glycoprotein
+LEFT - WATER
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - N-acetyl-a-D-glucosaminyl-glycoproteins
+RIGHT - L-Fucopyranoses

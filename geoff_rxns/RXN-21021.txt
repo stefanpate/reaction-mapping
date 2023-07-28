@@ -1,0 +1,17 @@
+UNIQUE-ID - RXN-21021
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (4 5 6 7 8 9 0 10 12 1 2 13 14 11 3) ((("CPD0-2040" 0 3) ("CPD-22661" 4 14)) (("CPD-22656" 0 12) ("OXYGEN-MOLECULE" 13 14))))
+COMMENT - The product of this reaction was reported to be 2-nitrohydroquinone |CITS: [28936873]|. However, for the reaction to be balanced, the immediate product of the enzyme must be |FRAME: CPD-22661|.
+CREDITS - SRI
+CREDITS - caspi
+ENZYMATIC-REACTION - ENZRXN-27395
+LEFT - CPD-22656
+LEFT - OXYGEN-MOLECULE
+LEFT - PROTON
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD0-2040
+RIGHT - CPD-22661

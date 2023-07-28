@@ -1,0 +1,25 @@
+UNIQUE-ID - RXN-12038
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - GDP-glucose glycosyl-3-phosphoglycerater synthase
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (28 0 1 30 2 3 32 4 33 5 34 6 7 8 36 9 10 11 12 13 14 37 38 15 39 16 40 17 21 22 18 20 23 24 47 19 25 27 26 29 31 35 48 41 42 44 45 43 46 49) ((("GDP" 0 27) ("CPD-9189" 28 49)) (("GDP-D-GLUCOSE" 0 38) ("G3P" 39 49))))
+CITATIONS - 18221489
+CITATIONS - 19421329
+CITATIONS - 6428406
+COMMENT - The enzyme is involved in biosynthesis of 2-(&alpha;-D-glucopyranosyl)-D-glycerate via the two-step pathway in which glucosyl-3-phosphoglycerate synthase catalyses the conversion of |FRAME: GDP-D-GLUCOSE| and |FRAME: G3P| into |FRAME: CPD-9189|, which is then converted to |FRAME: CPD-9190| by (|FRAME: RXN-8852 "EC 3.1.3.-"|), glucosyl-3-phosphoglycerate phosphatase. The activity is dependent on divalent cations (Mn2+, Co2+, or Mg2+). The enzyme from |FRAME: TAX-309805| shows moderate flexibility on the sugar donor concerning the nucleotide moiety (UDP-glucose, ADP-glucose, GDP-glucose) but is strictly specific for glucose. The enzyme is also strictly specific for 3-phospho-D-glycerate as acceptor |CITS: [17189358]|. The enzyme from |FRAME: TAX-29291| is strictly specific for GDP-glucose and 3-phospho-D-glycerate |CITS: [16428406]|. This enzyme catalyses the first glucosylation step in methylglucose lipopolysaccharide biosynthesis in mycobacteria |CITS: [19015727][19052364]|.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR117306" NIL |kothari| 3789143037 NIL NIL)
+DBLINKS - (RHEA "31318" NIL |hartmut| 3569837443 NIL NIL)
+EC-NUMBER - EC-2.4.1.266
+GIBBS-0 - 4.3877563    
+IN-PATHWAY - PWY-5662
+LEFT - GDP-D-GLUCOSE
+LEFT - G3P
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-9189
+RIGHT - GDP
+RIGHT - PROTON

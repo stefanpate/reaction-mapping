@@ -1,0 +1,25 @@
+UNIQUE-ID - RXN-12587
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 8 5 6 7 9) (((|Cysteine-Desulfurase-L-cysteine| 0 7) (|Sulfurated-Sulfur-Acceptors| 8 9)) ((|L-Cysteine-Desulfurase-persulfide| 0 8) (|Unsulfurated-Sulfur-Acceptors| 9 9))))
+CITATIONS - 12714048
+COMMENT - A pyridoxal-phosphate protein. The sulfur from free L-cysteine is first transferred to a cysteine residue in the active site, and then passed on to various other acceptors. The enzyme is involved in the biosynthesis of iron-sulfur clusters, thio-nucleosides in tRNA, thiamine, biotin, lipoate and pyranopterin (molybdopterin) |CITS: [12382038]|. In Azotobacter vinelandii, this sulfur provides the inorganic sulfide required for nitrogenous metallocluster formation |CITS: [8464885]|.
+/
+/This is one of two reactions catalyzed by the enzyme. The overall reaction is given above.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR117646" NIL |kothari| 3789143034 NIL NIL)
+DBLINKS - (LIGAND-RXN "R11529" NIL |kothari| 3713704632 NIL NIL)
+DBLINKS - (RHEA "43891" NIL |kothari| 3709310382 NIL NIL)
+ENZYMATIC-REACTION - ENZRXN-19524
+ENZYMATIC-REACTION - ENZRXN3O-10843
+GIBBS-0 - -7.17    
+IN-PATHWAY - RXN-12588
+LEFT - L-Cysteine-Desulfurase-persulfide
+LEFT - Unsulfurated-Sulfur-Acceptors
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - REVERSIBLE
+RIGHT - Cysteine-Desulfurase-L-cysteine
+RIGHT - Sulfurated-Sulfur-Acceptors

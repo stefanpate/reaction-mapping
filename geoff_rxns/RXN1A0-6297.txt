@@ -1,0 +1,44 @@
+UNIQUE-ID - RXN1A0-6297
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :TIMED-OUT
+ATOM-MAPPINGS - 240
+CITATIONS - 2394677
+CITATIONS - Taguchi2007
+CITATIONS - 10805574
+CITATIONS - McDaniel1994
+CITATIONS - Fu1994
+CITATIONS - 10519556
+CITATIONS - 16793516
+CITATIONS - 7608065
+CITATIONS - 10091691
+CITATIONS - KEGGsco01056
+COMMENT - Malonate starter and extender units are loaded onto the 4'-phosphopantetheine arm of the act ACP by either
+/FabD (malonyl CoA:acyl carrier protein malonyltransferase) (|CITS: [7608065]||CITS: [10872449]||CITS: [14966533]||CITS: [9518007]|) or itself
+/(|CITS: [9862793]||CITS: [16285746]||CITS: [16793516]|).  The first (starter) malonyl group was initially thought to be
+/decarboxylated to an acetyl group by |FRAME: SCO5088-MONOMER| |CITS: [10519556]||CITS: [14966533]|. 
+/However,  later structural studies concluded that CLF is non-catalytic and that this decarboxylation is catalyzed by
+/|FRAME: SCO5087-MONOMER| |CITS: [15286722]|.  The starter acetyl group is initially bound by the ACP, but is
+/transferred to the active-site cysteine of KS<sub>&alpha;</sub> in preparation for elongation |CITS: [16793516]|
+/|CITS: [2583128]||CITS: [2684656]|.  A second malonyl group is transferred to the ACP and then undergoes
+/KS<sub>&alpha;</sub>-catalyzed condensation with the acetyl starter unit |CITS: [7972098]||CITS: [1527048]|.  The
+/addition of 6 more malonyl groups results in the octaketide.
+DBLINKS - (METANETX-RXN "MNXR123430" NIL |kothari| 3789143037 NIL NIL)
+EC-NUMBER - EC-2.3.1
+ENZYMATIC-REACTION - ENZRXN1UA-8154
+GIBBS-0 - -129.15332    
+IN-PATHWAY - PWY1A0-6325
+LEFT - MALONYL-COA
+^COEFFICIENT - 8
+LEFT - Polyketide-ACP-Proteins
+LEFT - PROTON
+^COEFFICIENT - 8
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - Hepta-oxo-hexadecanoyl-ACPs
+RIGHT - CARBON-DIOXIDE
+^COEFFICIENT - 8
+RIGHT - CO-A
+^COEFFICIENT - 8

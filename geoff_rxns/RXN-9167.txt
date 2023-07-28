@@ -1,0 +1,18 @@
+UNIQUE-ID - RXN-9167
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+TYPES - Unknown-Conversions
+ATOM-MAPPINGS - :UNBALANCED
+CANNOT-BALANCE? - T
+CITATIONS - kean81
+COMMENT - In ackee plants |FRAME: TAX-259381|, it is believed that the C1 unit added in this reaction comes
+/from methionine, based on the incorporation of radio-labeled methionine into |FRAME: CPD-9699|.
+/The authors believe that the C1 is carried by THF as a methoxy group |CITS: [kean81]|.
+DBLINKS - (METANETX-RXN "MNXR122669" NIL |kothari| 3789143036 NIL NIL)
+GIBBS-0 - -14.067741    
+IN-PATHWAY - PWY-5826
+LEFT - 2-OXOBUTANOATE
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-9727

@@ -1,0 +1,24 @@
+UNIQUE-ID - RXN-8208
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - delphinidin 3-<i>O</i>-(6''-<i>O</i>-malonyl)-&beta;-glucoside 3&prime;-<em>O</em>-glucosyltransferase
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (36 37 38 39 40 41 2 42 43 44 45 46 47 49 48 50 4 51 52 53 54 7 55 9 56 11 57 58 13 59 17 60 61 62 64 65 66 67 19 68 21 69 23 70 71 72 63 73 31 74 0 1 3 5 6 8 10 12 14 15 16 18 20 22 24 27 32 28 25 26 29 30 33 35 34) ((("CPD-12575" 0 35) ("CPD-7862" 36 74)) (("CPD-7870" 0 49) ("UDP" 50 74))))
+COMMENT - Ternatins are a group of polyacetylated delphinidin glucosides that confer blue color to the petals of butterfly pea (|FRAME: TAX-43366|). This enzyme catalyses two reactions in the biosynthesis of |FRAME: CPD-7864|: the conversion of |FRAME: CPD-7862| to |FRAME: CPD-7870|d, followed by the conversion of the later to |FRAME: CPD-7864|, by transferring two glucosyl groups in a stepwise manner |CITS: [17668234]|.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR143633" NIL |kothari| 3789143035 NIL NIL)
+DBLINKS - (RHEA "26499" NIL |kothari| 3709310381 NIL NIL)
+DBLINKS - (LIGAND-RXN "R07913" NIL |kothari| 3495549813 NIL NIL)
+ENZYMATIC-REACTION - ENZRXN-13056
+GIBBS-0 - 8.97583    
+IN-PATHWAY - PWY-5295
+IN-PATHWAY - RXN-13411
+LEFT - CPD-12575
+LEFT - CPD-7862
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-7870
+RIGHT - UDP
+SYSTEMATIC-NAME - UDP-glucose:delphinidin 3-<em>O</em>-(6&prime;&prime;-<em>O</em>-malonyl)-&beta;-<small>D</small>-glucoside 3&prime;-<em>O</em>-glucosyltransferase

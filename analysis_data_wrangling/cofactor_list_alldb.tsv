@@ -1,0 +1,67 @@
+molfile	replacement
+acetyl-CoA	ACETYL-COA
+carbon monoxide	CO
+carbon dioxide	CO2
+hydrogencarbonate	CO3
+coenzyme A	CoA
+H+	H+
+hydrogen peroxide	H2O2
+bromide	HBr
+hydrogen cyanide	HCN
+isocyanide	HCN
+chloride	HCl
+fluoride	HF
+iodide	HI
+ammonia	NH3
+O2	O2
+diphosphoric acid	PPI
+phosphoric acid	Pi
+sulfate	SULFATE
+sulfite	SULFITE
+D2O	WATER
+water	WATER
+CARBON-DIOXIDE	CO2
+PROTON	H+
+F-	HF
+CPD-12287	HBr
+Bromide	HBr
+HCL	HCl
+CL-	HCl
+CPD-387	HI
+AMMONIA	NH3
+AMMONIUM	NH3
+OXYGEN-MOLECULE	O2
+PI	Pi
+PPI	PPI
+H2SO3	SULFITE
+SO3	SULFITE
+SULFATE	SULFATE
+HSO4	SULFATE
+HYDROGEN-PEROXIDE	H2O2
+CO-A	CoA
+ACETYL-COA	ACETYL-COA
+CO3	CO3
+WATER	WATER
+CARBON-MONOXIDE	CO
+HCN	HCN
+cpd00022	ACETYL-COA
+cpd00204	CO
+cpd00011	CO2
+cpd00242	CO3
+cpd00010	CoA
+cpd00067	H+
+cpd00025	H2O2
+cpd00966	HBr
+cpd00150	HCN
+cpd19012	HCN
+cpd00099	HCl
+cpd00552	HF
+cpd00534	HI
+cpd00013	NH3
+cpd19013	NH3
+cpd00007	O2
+cpd00012	PPI
+cpd00009	Pi
+cpd00048	SULFATE
+cpd00081	SULFITE
+cpd00001	WATER

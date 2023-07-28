@@ -1,0 +1,23 @@
+UNIQUE-ID - RXN-12549
+TYPES - Binding-Reactions
+TYPES - Protein-Modification-Reactions
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+COMMENT - Following de-esterification by the liver, retinol is complexed with a 21-kDa retinol-binding protein (RBP) and secreted into the circulation as a complex with transthyretin whereby it is distributed to other tissues. Both proteins are thought to transport and protect retinol from oxidation and/or isomerization during the distribution process.
+/
+/In the eye, and more specifically in the retinal pigment epithelium (RPE), this retinol complex interacts with the basal membrane of RPE cells probably via an RBP receptor, where retinol is delivered into the cytoplasm to initiate a unique and
+/highly specialized process for the RPE, the visual cycle |CITS: [9920938]|.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR117626" NIL |kothari| 3789143036 NIL NIL)
+ENZYMATIC-REACTION - ENZRXN-19434
+IN-PATHWAY - PWY-6857
+IN-PATHWAY - PWY-6861
+IN-PATHWAY - PWY-6872
+IN-PATHWAY - PWY-6875
+LEFT - CPD-13524
+LEFT - Retinol-Binding-Proteins
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - REVERSIBLE
+RIGHT - RPB-Retinol

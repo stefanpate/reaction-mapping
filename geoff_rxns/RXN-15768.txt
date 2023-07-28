@@ -1,0 +1,20 @@
+UNIQUE-ID - RXN-15768
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - pyruvate:&alpha;,&beta;-unsaturated carbonyl compound acetaldehydetransferase (decarboxylating)
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 7 6 8 1 9 3 10 11 2 5 4) (((PYRUVATE 0 5) (|E-2-keto-alk-3-ene| 6 11)) ((|4-Acetyl-2-keto-compounds| 0 8) (CARBON-DIOXIDE 9 11))))
+CITATIONS - 24957249
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR119602" NIL |kothari| 3789143035 NIL NIL)
+EC-NUMBER - EC-2.2.1.12
+ENZYMATIC-REACTION - ENZRXN-23040
+GIBBS-0 - -59.69036    
+LEFT - PYRUVATE
+LEFT - E-2-keto-alk-3-ene
+LEFT - PROTON
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+RIGHT - CARBON-DIOXIDE
+RIGHT - 4-Acetyl-2-keto-compounds

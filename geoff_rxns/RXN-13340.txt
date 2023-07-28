@@ -1,0 +1,21 @@
+UNIQUE-ID - RXN-13340
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (1 0 3 2 5 4 7 6 10 9 12 11 15 14 17 16 8 13 18 19 26 20 29 23 22 21 28 27 24 25) (((CPD-14320 0 25) (CARBON-DIOXIDE 26 28) (AMMONIUM 29 29)) ((CPD-19471 0 29))))
+COMMENT - This reaction is an overall summary of two different reactions, connected by an unknown intermediate. |FRAME: CPD-11890| is enzymatically converted by the product of |FRAME: G-15141| to an unidentified, short-lived, dimeric intermediate which is then enzymatically converted to |FRAME: CPD-14320| by the product of |FRAME: G-15143| (reviewed in |CITS: [21779844]|).
+CREDITS - SRI
+CREDITS - fulcher
+DBLINKS - (METANETX-RXN "MNXR118030" NIL |kothari| 3789143036 NIL NIL)
+ENZYMATIC-REACTION - ENZRXN-25236
+GIBBS-0 - 28.528225    
+IN-PATHWAY - PWY-7040
+LEFT - CPD-19471
+LEFT - PROTON
+^COEFFICIENT - 2
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-14320
+RIGHT - AMMONIUM
+RIGHT - CARBON-DIOXIDE

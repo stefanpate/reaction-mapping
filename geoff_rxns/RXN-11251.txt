@@ -1,0 +1,16 @@
+UNIQUE-ID - RXN-11251
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :UNBALANCED
+CANNOT-BALANCE? - T
+COMMENT - This is a hypothetical reaction proposed to be part of a phenylphenalenone biosynthesis pathway |CITS: [10703053]|. No putative source for the additional oxygen in the product is described in the paper |CITS: [10703053]|.
+CREDITS - THE-ARABIDOPSIS-INFORMATION-RESOURCE
+CREDITS - dreher
+DBLINKS - (METANETX-RXN "MNXR116805" NIL |kothari| 3789143035 NIL NIL)
+GIBBS-0 - -39.48    
+IN-PATHWAY - PWY-6438
+LEFT - CPD-12205
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-12202

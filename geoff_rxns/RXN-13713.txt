@@ -1,0 +1,40 @@
+UNIQUE-ID - RXN-13713
+TYPES - Composite-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - 5&beta;-cholestane-3&alpha;,7&alpha;-diol 26-monooxygenase
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (1 0 2 3 5 4 7 6 9 8 11 10 12 13 15 14 19 18 17 16 22 23 20 21 25 24 27 26 29 28 31 30 33 32 35 34 37 36 39 38 41 40 42 43 44 45 47 46 48 49 51 50 54 55 53 52 58 59 57 56 61 60 62 63 65 64 66 67 68 69 71 70 73 96 72 74 75 76 78 77 79 80 81 82 83 84 85 86 88 87 89 90 91 92 93 94 95 97 98 99 100 103 104 105 102 101 106) ((((|Oxidized-adrenal-ferredoxins| 1) 0 11) ((|Oxidized-adrenal-ferredoxins| 2) 12 23) ((|Oxidized-adrenal-ferredoxins| 3) 24 35) ((|Oxidized-adrenal-ferredoxins| 4) 36 47) ((|Oxidized-adrenal-ferredoxins| 5) 48 59) ((|Oxidized-adrenal-ferredoxins| 6) 60 71) (CPD-1834 72 102) ((WATER 1) 103 103) ((WATER 2) 104 104) ((WATER 3) 105 105) ((WATER 4) 106 106)) (((|Reduced-adrenal-ferredoxins| 1) 0 11) ((|Reduced-adrenal-ferredoxins| 2) 12 23) ((|Reduced-adrenal-ferredoxins| 3) 24 35) ((|Reduced-adrenal-ferredoxins| 4) 36 47) ((|Reduced-adrenal-ferredoxins| 5) 48 59) ((|Reduced-adrenal-ferredoxins| 6) 60 71) (CPD-7238 72 100) ((OXYGEN-MOLECULE 1) 101 102) ((OXYGEN-MOLECULE 2) 103 104) ((OXYGEN-MOLECULE 3) 105 106))))
+CITATIONS - 5914340
+CITATIONS - 6423637
+CITATIONS - 2722778
+CITATIONS - 2322231
+CITATIONS - 4388637
+CITATIONS - 8496170
+CITATIONS - 9660774
+CITATIONS - 10512735
+CITATIONS - 11412116
+COMMENT - The enzyme requires ferredoxin and ferredoxin reductase. It catalyses the first three sterol side chain oxidations in bile acid biosynthesis via the neutral (classic) pathway. Can also act on |FRAME: CHOLESTEROL|, cholest-5-en-3&beta;,7&alpha;-diol, |FRAME: CPD-1087|, and |FRAME: CPD-7238|. The enzyme can also hydroxylate cholesterol at positions 24 and 25.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR118264" NIL |kothari| 3789143028 NIL NIL)
+EC-NUMBER - EC-1.14.15.15
+ENZYMATIC-REACTION - ENZRXN-26503
+GIBBS-0 - -274.67688    
+LEFT - CPD-7238
+LEFT - Reduced-adrenal-ferredoxins
+^COEFFICIENT - 6
+LEFT - PROTON
+^COEFFICIENT - 5
+LEFT - OXYGEN-MOLECULE
+^COEFFICIENT - 3
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+REACTION-LIST - RXN-9842
+REACTION-LIST - RXN-9843
+REACTION-LIST - RXN-9844
+RIGHT - CPD-1834
+RIGHT - Oxidized-adrenal-ferredoxins
+^COEFFICIENT - 6
+RIGHT - WATER
+^COEFFICIENT - 4

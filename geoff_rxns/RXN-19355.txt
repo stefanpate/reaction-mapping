@@ -1,0 +1,21 @@
+UNIQUE-ID - RXN-19355
+TYPES - Chemical-Reactions
+TYPES - Composite-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (12 0 1 2 15 16 3 4 20 5 6 7 23 8 9 10 11 13 14 18 17 19 21 22) ((("Ubiquitin-carrier-protein-E2-L-cysteine" 0 7) ("PROTEIN-N-UBIQUITYL-LYSINE" 8 23)) (("S-ubiquitinyl-UCP-E2-L-cysteine" 0 12) ("Protein-L-lysine" 13 23))))
+CREDITS - SRI
+CREDITS - caspi
+EC-NUMBER - EC-2.3.2.31
+^OFFICIAL? - T
+GIBBS-0 - 4.981125    
+LEFT - S-ubiquitinyl-UCP-E2-L-cysteine
+LEFT - Protein-L-lysine
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+REACTION-LIST - RXN-19353
+REACTION-LIST - RXN-19354
+RIGHT - Ubiquitin-carrier-protein-E2-L-cysteine
+RIGHT - PROTEIN-N-UBIQUITYL-LYSINE
+RIGHT - PROTON

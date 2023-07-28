@@ -1,0 +1,22 @@
+UNIQUE-ID - RXN-13719
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - (<i>R</i>)-2-hydroxybutanoate dehydrogenase (NADP+)
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 6 5) ((("2-OXOBUTANOATE" 0 6)) (("CPD-12253" 0 6))))
+CITATIONS - 17049749
+COMMENT - This enzyme, characterized from the halophilic archaeon |FRAME: TAX-2252|, catalyses a reversible stereospecific reduction of 2-ketocarboxylic acids into the corresponding D-2-hydroxycarboxylic acids. The enzyme can also use NADH as reductant, but with much lower efficiency.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR118266" NIL |kothari| 3789143035 NIL NIL)
+EC-NUMBER - EC-1.1.1.272
+^OFFICIAL? - NIL
+GIBBS-0 - 2.293518    
+LEFT - CPD-12253
+LEFT - NADP
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - REVERSIBLE
+RIGHT - 2-OXOBUTANOATE
+RIGHT - NADPH
+RIGHT - PROTON

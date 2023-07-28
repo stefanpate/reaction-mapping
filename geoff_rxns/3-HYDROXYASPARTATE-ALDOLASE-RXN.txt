@@ -1,0 +1,17 @@
+UNIQUE-ID - 3-HYDROXYASPARTATE-ALDOLASE-RXN
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (5 0 6 1 7 2 9 8 3 4) (((GLYOX 0 4) (GLY 5 9)) ((CPD-12739 0 9))))
+COMMENT - A pyridoxal-phosphate protein. The enzyme, purified from the bacterium Paracoccus denitrificans IFO 13301, is strictly D-specific as to the &alpha;-position of the substrate, but accepts both the threo and erythro forms at the &beta;-position. The erythro form is a far better substrate (about 100 fold). The enzyme can also accept D-allothreonine, D-threonine, D-erythro-3-phenylserine and D-threo-3-phenylserine. Different from |FRAME: RXN-11769 "EC 4.1.3.14"|, L-erythro-3-hydroxyaspartate aldolase. Requires a divalent cation, such as Mg2+, Mn2+ or Co2+.
+DBLINKS - (LIGAND-RXN "R09718" NIL |kothari| 3789150533 NIL NIL)
+DBLINKS - (METANETX-RXN "MNXR113130" NIL |kothari| 3789143037 NIL NIL)
+EC-NUMBER - EC-4.1.3.41
+^OFFICIAL? - T
+ENZYMATIC-REACTION - ENZRXN-18262
+GIBBS-0 - 3.1899872    
+LEFT - CPD-12739
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+RIGHT - GLY
+RIGHT - GLYOX

@@ -1,0 +1,27 @@
+UNIQUE-ID - RXN-8660
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - [histone-H3]-lysine-36 demethylase
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (1 0 3 2 22 6 5 4 23 24 8 20 9 10 11 12 13 14 15 16 17 18 19 21 7) (((SUC 0 7) (CPD-8901 8 19) (FORMALDEHYDE 20 21) (CARBON-DIOXIDE 22 24)) ((2-KETOGLUTARATE 0 9) (CPD-8900 10 22) (OXYGEN-MOLECULE 23 24))))
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (1 0 3 2 22 6 5 4 23 24 8 20 9 10 11 12 13 14 15 16 17 18 19 7 21) (((SUC 0 7) (CPD-8901 8 19) (FORMALDEHYDE 20 21) (CARBON-DIOXIDE 22 24)) ((2-KETOGLUTARATE 0 9) (CPD-8900 10 22) (OXYGEN-MOLECULE 23 24))))
+COMMENT - Of the seven potential methylation sites in histones H3 (K4, K9, K27, K36, K79) and H4 (K20, R3) from HeLa cells, the enzyme is specific for Lys-36.  Lysine residues exist in three methylation states (mono-, di- and trimethylated).  The enzyme preferentially demethylates the dimethyl form of Lys-36 (K36me2), which is its natural substrate, to form the monomethyl and unmethylated forms of Lys-36.  It can also demethylate the monomethyl- but not the trimethyl form of Lys-36.
+DBLINKS - (METANETX-RXN "MNXR122415" NIL |kothari| 3789143028 NIL NIL)
+DBLINKS - (RHEA "21789" NIL |kothari| 3709310380 NIL NIL)
+GIBBS-0 - -68.08774    
+LEFT - CPD-8900
+LEFT - 2-KETOGLUTARATE
+LEFT - OXYGEN-MOLECULE
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-8901
+RIGHT - SUC
+RIGHT - FORMALDEHYDE
+RIGHT - CARBON-DIOXIDE
+SYNONYMS - JHDM1A
+SYNONYMS - JmjC domain-containing histone demethylase 1A
+SYNONYMS - H3-K36-specific demethylase
+SYNONYMS - histone-lysine (H3-K36) demethylase
+SYNONYMS - histone demethylase
+SYNONYMS - protein-6-<em>N</em>,6-<em>N</em>-dimethyl-<small>L</small>-lysine,2-oxoglutarate:oxygen oxidoreductase
+SYSTEMATIC-NAME - protein-<em>N</em><small><sup>6</sup></small>,<em>N</em><small><sup>6</sup></small>-dimethyl-<small>L</small>-lysine,2-oxoglutarate:oxygen oxidoreductase

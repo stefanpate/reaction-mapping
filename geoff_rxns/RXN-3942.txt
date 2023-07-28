@@ -1,0 +1,15 @@
+UNIQUE-ID - RXN-3942
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (4 7 12 11 0 1 2 3 5 6 9 8 10 14 13) (((DIOXINDOLE-3-ACETATE 0 14)) ((ACET 0 3) (CPD-6362 4 14))))
+COMMENT - This hypothetical reaction has not been characterized. As written, it is not balanced for charge, indicating that it differs from the real transformation.
+DBLINKS - (METANETX-RXN "MNXR121686" NIL |kothari| 3789143036 NIL NIL)
+IN-PATHWAY - PWY-8087
+LEFT - DIOXINDOLE-3-ACETATE
+LEFT - Donor-H2
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-6362
+RIGHT - ACET
+RIGHT - Acceptor

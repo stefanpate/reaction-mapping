@@ -1,0 +1,19 @@
+UNIQUE-ID - 3.4.21.42-RXN
+TYPES - Chemical-Reactions
+TYPES - Protein-Reactions
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+COMMENT - Cleavage of Arg-|-Ala bond in complement component C4 to form C4a and C4b, and Lys(or Arg)Lys bond in complement component C2 to form C2a and C2b: the "classical" pathway C3 convertase.
+/
+/Activated from proenzyme C1s in plasma by complement subcomponent C1r . In peptidase family S1 (trypsin family).
+DBLINKS - (UNIPROT "Q6P6T1" RELATED-TO |green| 3381008031 NIL NIL)
+DBLINKS - (UNIPROT "P15156" RELATED-TO |green| 3381008031 NIL NIL)
+EC-NUMBER - EC-3.4.21.42
+^OFFICIAL? - T
+LEFT - WATER
+LEFT - C4-Proteins
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNDETERMINED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - C4a-Proteins
+RIGHT - C4b-Proteins

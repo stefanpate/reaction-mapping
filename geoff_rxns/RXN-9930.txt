@@ -1,0 +1,18 @@
+UNIQUE-ID - RXN-9930
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (9 0 2 1 4 7 3 6 5 8 13 10 12 11 15 14) (((CPD-10679 0 14) (WATER 15 15)) ((TETRAHYD-CPD 0 13) (OXYGEN-MOLECULE 14 15))))
+COMMENT - THN synthase, a type III polyketide synthase encoded by the rppA gene of |FRAME: TAX-100226|, catalyzes the
+/sequential conversion of five molecules of malonyl-CoA to |FRAME: TETRAHYD-CPD|, which then undergoes
+/spontaneous oxidation to |FRAME: CPD-10679| |CITS: [12905073][15659395]|.
+GIBBS-0 - -95.74112    
+IN-PATHWAY - PWY-7513
+LEFT - TETRAHYD-CPD
+LEFT - OXYGEN-MOLECULE
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-10679
+RIGHT - WATER
+RIGHT - PROTON
+SPONTANEOUS? - T

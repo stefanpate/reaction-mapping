@@ -1,0 +1,21 @@
+UNIQUE-ID - RXN-14452
+TYPES - Small-Molecule-Reactions
+TYPES - Transport-Reactions
+ATOM-MAPPINGS - :NON-INTEGER-STOICHIOMETRY
+COMMENT - This is a special transport reaction, which does not occur on its own.  Instead, it can be used as a component for composing composite electron transport reactions, when there is a vectoral proton transport component.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR100765" NIL |kothari| 3789143028 NIL NIL)
+IN-PATHWAY - RXN-17801
+IN-PATHWAY - RXN0-5268
+IN-PATHWAY - TRANS-RXN-240
+LEFT - PROTON
+^COEFFICIENT - n
+^COMPARTMENT - CCO-IN
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNDETERMINED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - PROTON
+^COEFFICIENT - n
+^COMPARTMENT - CCO-OUT

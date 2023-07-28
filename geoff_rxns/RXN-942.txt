@@ -1,0 +1,18 @@
+UNIQUE-ID - RXN-942
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (6 9 10 11 13 12 15 14 0 5 1 2 3 4 7 8) (((3-METHYLBENZYLSUCCINATE 0 15)) ((FUM 0 7) (META-XYLENE 8 15))))
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (9 6 11 10 14 15 12 13 0 5 1 2 3 4 7 8) (((3-METHYLBENZYLSUCCINATE 0 15)) ((FUM 0 7) (META-XYLENE 8 15))))
+COMMENT - The formation of (3-methylbenzyl)succinate from meta-xylene and fumarate appears to be the initial reaction in anaerobic meta-xylene degradation.  
+/This type of fumarate addition reaction appears to be a novel way for activating methylbenzenes in the absence of molecular oxygen. as it has been demonstrated to be the initial reaction in anaerobic toluene degradation  |CITS: [9006019][8706665]|  and has been implicated as the initial step in meta-cresol |CITS: [10550470]| and para-cresol  |CITS: [11133971]| degradation.
+DBLINKS - (METANETX-RXN "MNXR122809" NIL |kothari| 3789143035 NIL NIL)
+ENZYMATIC-REACTION - ENZRXN-1024
+GIBBS-0 - -14.21    
+IN-PATHWAY - PWY-142
+LEFT - META-XYLENE
+LEFT - FUM
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - 3-METHYLBENZYLSUCCINATE

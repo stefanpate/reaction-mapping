@@ -1,0 +1,13 @@
+UNIQUE-ID - RXN-8210
+TYPES - Protein-Modification-Reactions
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+CANNOT-BALANCE? - T
+COMMENT - Fukumori et al showed that the sulfur liberated by the thiosulfate-cleaving enzyme of |FRAME: TAX-921|
+/is bound by a small, labile protein, with a molecular mass between 10 and 20 kDa, that could transfer
+/the sulfur to the sulfur-oxidizing protein |CITS: [2612884]|.
+DBLINKS - (METANETX-RXN "MNXR122180" NIL |kothari| 3789143027 NIL NIL)
+LEFT - Elemental-Sulfur
+LEFT - Sulfur-binding-protein
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+RIGHT - Sulfurylated-sulfur-binding-protein

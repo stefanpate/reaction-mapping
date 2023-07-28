@@ -1,0 +1,21 @@
+UNIQUE-ID - RXN-10456
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 54 52 53 17 19 49 50 20 21 55 51 57 22 56 23 24 25 27 32 33 34 36 38 39 41 42 45 18 46 26 28 29 30 31 35 37 40 43 44 47 48) ((("AMP" 0 22) ("Jasmonoyl-Phenylalanines" 23 48) ("PPI" 49 57)) (("ATP" 0 30) ("Jasmonic-Acids" 31 45) ("PHE" 46 57))))
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 54 52 53 17 19 49 50 20 21 55 18 57 22 56 23 24 25 27 32 33 34 36 38 39 41 42 45 51 46 26 28 29 30 31 35 37 40 43 44 47 48) ((("AMP" 0 22) ("Jasmonoyl-Phenylalanines" 23 48) ("PPI" 49 57)) (("ATP" 0 30) ("Jasmonic-Acids" 31 45) ("PHE" 46 57))))
+COMMENT - There is evidence that this reaction takes place in vitro in Arabidopsis thaliana, and JA-Phe is a naturally occurring
+/compound |CITS: [18247047][15258265]|.
+DBLINKS - (METANETX-RXN "MNXR116385" NIL |kothari| 3789143035 NIL NIL)
+EC-NUMBER - |EC-6.3.2.z|
+GIBBS-0 - -20.175873    
+IN-PATHWAY - PWY-6220
+LEFT - Jasmonic-Acids
+LEFT - PHE
+LEFT - ATP
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Jasmonoyl-Phenylalanines
+RIGHT - AMP
+RIGHT - PPI
+RIGHT - PROTON

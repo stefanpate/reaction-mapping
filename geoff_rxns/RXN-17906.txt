@@ -1,0 +1,17 @@
+UNIQUE-ID - RXN-17906
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (41 42 43 22 44 23 45 46 24 25 26 27 28 29 30 31 47 32 49 33 34 35 48 36 50 37 38 39 21 14 16 40 19 51 52 0 2 3 4 1 12 5 6 7 17 15 18 9 8 10 11 20 13) ((("DNA-with-3-prime-pp-5-prime-G-cap" 0 40) ("RNA-Ligase-L-histidine" 41 52)) (("RNA-Ligase-L-histidine-guanylate" 0 34) ("3-Prime-Phosphate-Terminated-DNAs" 35 52))))
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR121250" NIL |kothari| 3789143037 NIL NIL)
+GIBBS-0 - -16.036926    
+IN-PATHWAY - RXN-17908
+LEFT - RNA-Ligase-L-histidine-guanylate
+LEFT - 3-Prime-Phosphate-Terminated-DNAs
+LEFT - PROTON
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - DNA-with-3-prime-pp-5-prime-G-cap
+RIGHT - RNA-Ligase-L-histidine

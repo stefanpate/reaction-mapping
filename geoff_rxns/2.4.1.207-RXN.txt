@@ -1,0 +1,14 @@
+UNIQUE-ID - 2.4.1.207-RXN
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+DBLINKS - (METANETX-RXN "MNXR115122" NIL |kothari| 3789143036 NIL NIL)
+EC-NUMBER - EC-2.4.1.207
+^OFFICIAL? - T
+LEFT - Donor-Xyloglucans
+LEFT - Acceptor-Xyloglucans
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNDETERMINED
+RIGHT - Donor-Xyloglucan-Cleaved-Xyloglucanyls
+RIGHT - Accep-Xyloglucan-With-Xyloglucanyl-Segs

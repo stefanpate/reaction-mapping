@@ -1,0 +1,18 @@
+UNIQUE-ID - RXN-20695
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 28 29 5 30 7 8 9 10 11 12 31 14 15 16 32 18 19 20 21 22 23 33 25 34 35 3 4 6 13 17 36 24 26 27) ((("1-Cys-Peroxiredoxin-S-S-G" 0 27) ("GST-L-cysteine" 28 35) ("WATER" 36 36)) (("GST-S-glutathione" 0 27) ("1-Cys-Peroxiredoxin-L-hydroxycysteine" 28 36))))
+CREDITS - SRI
+CREDITS - caspi
+IN-PATHWAY - RXN-20693
+LEFT - 1-Cys-Peroxiredoxin-L-hydroxycysteine
+LEFT - GST-S-glutathione
+LEFT - Donor-H2
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - 1-Cys-Peroxiredoxin-S-S-G
+RIGHT - GST-L-cysteine
+RIGHT - WATER
+RIGHT - Acceptor

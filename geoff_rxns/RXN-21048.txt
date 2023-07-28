@@ -1,0 +1,18 @@
+UNIQUE-ID - RXN-21048
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+CANNOT-BALANCE? - T
+COMMENT - This reaction describes exo-hydrolysis of a polymeric compound. The substrate should be shown as (1,6-&beta;-D-galactosyl)<sub>(n)</sub>, while the first product should be (1,6-&beta;-D-galactosyl)<sub>(n-2)</sub>. These numbers are not displayed properly due to limitations in the software.
+CREDITS - SRI
+CREDITS - caspi
+EC-NUMBER - EC-3.2.1.213
+^OFFICIAL? - T
+ENZYMATIC-REACTION - ENZRXN-27412
+LEFT - beta-1-6-Galactan
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - beta-1-6-Galactan
+RIGHT - CPD-10299

@@ -1,0 +1,16 @@
+UNIQUE-ID - D-GLUTAMYLTRANSFERASE-RXN
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - D-glutamate transferase
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 2 4 6 8 10 19 12 16 15 1 3 5 7 9 11 14 13 18 17) (((GAMMA-GLUTAMYL-D-GLUTAMATE 0 18) (AMMONIUM 19 19)) ((GLUTAMIDE 0 9) (D-GLT 10 19))))
+COMMENT - D-glutamyltransferase catalyzes two reactions. The first is the transfer of a glutamyl residue from L- or D-glutamine to D-glutamate via a &gamma; linkage, forming &gamma;-glutamyl-D-glutamate, and the second is the transfer of additional glutamyl residues to &gamma;-Glu-Glu peptides,  extending the polypeptide chain.
+DBLINKS - (METANETX-RXN "MNXR115804" NIL |kothari| 3789143034 NIL NIL)
+EC-NUMBER - EC-2.3.2.1
+^OFFICIAL? - T
+GIBBS-0 - -2.9282227    
+LEFT - GLUTAMIDE
+LEFT - D-GLT
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+RIGHT - GAMMA-GLUTAMYL-D-GLUTAMATE
+RIGHT - AMMONIUM

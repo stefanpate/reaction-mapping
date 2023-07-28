@@ -1,0 +1,20 @@
+UNIQUE-ID - RXN-21736
+TYPES - Protein-Modification-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 6 7 14 16 21 22 32 31 2 3 4 5 8 9 10 11 12 13 15 17 18 19 20 23 24 25 26 29 27 28 30 33) ((("Adenylated-Sulfur-Carriers-Gly-Gly" 0 31) ("Sulfurated-Sulfur-Acceptors" 32 33)) (("Thiocarboxylated-Sulfur-Carriers-Gly-Gly" 0 9) ("AMP" 10 32) ("Unsulfurated-Sulfur-Acceptors" 33 33))))
+CREDITS - SRI
+CREDITS - caspi
+EC-NUMBER - EC-2.8.1
+ENZYMATIC-REACTION - ENZRXN-29590
+IN-PATHWAY - PWY-8179
+LEFT - Sulfurated-Sulfur-Acceptors
+LEFT - Adenylated-Sulfur-Carriers-Gly-Gly
+LEFT - Donor-H2
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Unsulfurated-Sulfur-Acceptors
+RIGHT - Thiocarboxylated-Sulfur-Carriers-Gly-Gly
+RIGHT - AMP
+RIGHT - Acceptor
+RIGHT - PROTON

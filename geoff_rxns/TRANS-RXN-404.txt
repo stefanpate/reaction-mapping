@@ -1,0 +1,19 @@
+UNIQUE-ID - TRANS-RXN-404
+TYPES - Small-Molecule-Reactions
+TYPES - Transport-Reactions
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+CITATIONS - 28698380
+COMMENT - This reaction imperfectly represents the proton motive force dependent flipping of trehalose monomycolates across a plasma membrane.
+CREDITS - O0-13
+CREDITS - amackie
+LEFT - a-trehalose-monomycolate
+^COMPARTMENT - CCO-IN
+LEFT - PROTON
+^COMPARTMENT - CCO-OUT
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNDETERMINED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - a-trehalose-monomycolate
+^COMPARTMENT - CCO-OUT
+RIGHT - PROTON
+^COMPARTMENT - CCO-IN

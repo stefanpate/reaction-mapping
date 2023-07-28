@@ -1,0 +1,16 @@
+UNIQUE-ID - RXN-11147
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - &alpha;-D-galacturonate 1-phosphate synthase
+CANNOT-BALANCE? - T
+COMMENT - The complete reaction equation is not shown.  This conversion could be catalyzed by a pyrophosphatase, phosphorylase, or uridylyltransferase which would involve different co-substrates, or cofactors (reviewed in |CITS: [18460785]|).
+CREDITS - SRI
+CREDITS - fulcher
+DBLINKS - (METANETX-RXN "MNXR116737" NIL |kothari| 3789143028 NIL NIL)
+GIBBS-0 - 247.79773    
+IN-PATHWAY - PWY-6415
+LEFT - UDP-D-GALACTURONATE
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-501

@@ -1,0 +1,19 @@
+UNIQUE-ID - RXN-10722
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 6 7 5 8 9 10 11 12 15 14 13) (((XANTHURENATE 0 14) (WATER 15 15)) ((CPD-11552 0 15))))
+COMMENT - From the comments for EC 2.6.1.7:  The product 4-(2-aminophenyl)-2,4-dioxobutanoate is converted into kynurenate by a spontaneous reaction.  This reaction is by analogy (see KEGG reaction R03954).
+CREDITS - SRI
+CREDITS - fulcher
+DBLINKS - (METANETX-RXN "MNXR108552" NIL |kothari| 3789143036 NIL NIL)
+DBLINKS - (LIGAND-RXN "R03954" NIL |taltman| 3536627201 NIL NIL)
+GIBBS-0 - -43.954247    
+IN-PATHWAY - PWY-6309
+LEFT - CPD-11552
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - PROTON
+RIGHT - XANTHURENATE
+RIGHT - WATER
+SPONTANEOUS? - T

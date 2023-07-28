@@ -1,0 +1,22 @@
+UNIQUE-ID - RXN-21266
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+CITATIONS - 8555240
+CITATIONS - 15102448
+CITATIONS - 27865982
+COMMENT - Excision of the nucleobase lesion is a two-step process and involves formation of an enzyme-substrate Schiff base intermediate; subsequent DNA strand nicking occurs via a &beta;,&delta;-elimination leaving a 3'-terminal phosphate and a 5'-terminal phosphate. This reaction is catalysed by the Fpg (MutM) family of bifunctional DNA glycosylases.
+CREDITS - O0-13
+CREDITS - amackie
+EC-NUMBER - EC-3.2.2.23
+ENZYMATIC-REACTION - ENZRXN0-12474
+LEFT - a-purine-base-lesion-in-DNA
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNDETERMINED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - 3-Prime-Phosphate-Terminated-DNAs
+RIGHT - 5-Phospho-terminated-DNAs
+RIGHT - CPD-21221
+RIGHT - Modified-Bases

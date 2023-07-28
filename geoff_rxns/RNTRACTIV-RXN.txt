@@ -1,0 +1,22 @@
+UNIQUE-ID - RNTRACTIV-RXN
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - anaerobic ribonucleoside-triphosphate reductase activating enzyme
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 28 27 26 29 30 31 32 33 34 35 36 55 56 57 37 38 39 58 40 41 42 43 44 45 46 59 60 47 48 49 50 51 52 53 62 61 54 63) ((("Flavodoxins-Semiquinones" 0 30) ("Ribonuc-tri-P-reductases-active" 31 36) ("CH33ADO" 37 54) ("MET" 55 63)) (("Reduced-flavodoxins" 0 30) ("Ribonuc-tri-P-reductases-inactive" 31 36) ("S-ADENOSYLMETHIONINE" 37 63))))
+DBLINKS - (METANETX-RXN "MNXR116264" NIL |kothari| 3789143036 NIL NIL)
+EC-NUMBER - EC-1.97.1
+ENZYMATIC-REACTION - RNTRACTIV-ENZRXN
+GIBBS-0 - -17.658913    
+LEFT - S-ADENOSYLMETHIONINE
+LEFT - Ribonuc-tri-P-reductases-inactive
+LEFT - Reduced-flavodoxins
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Ribonuc-tri-P-reductases-active
+RIGHT - CH33ADO
+RIGHT - MET
+RIGHT - Flavodoxins-Semiquinones
+RIGHT - PROTON
+SYNONYMS - anaerobic ribonucleoside-triphosphate reductase (glycyl-dependent) activating enzyme

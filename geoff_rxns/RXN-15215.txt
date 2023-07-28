@@ -1,0 +1,20 @@
+UNIQUE-ID - RXN-15215
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (9 0 10 1 11 2 12 13 14 15 16 3 17 4 18 19 20 21 5 23 6 7 8 22) ((("Glycoprotein-L-serine-or-L-threonine" 0 8) ("N-acetyl-D-glucosamine" 9 23)) (("D-Glc-NAc--Glycoproteins" 0 22) ("WATER" 23 23))))
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR119219" NIL |kothari| 3789143036 NIL NIL)
+EC-NUMBER - EC-3.2.1.169
+^OFFICIAL? - T
+ENZYMATIC-REACTION - ENZRXN-22457
+GIBBS-0 - 130.41156    
+IN-PATHWAY - PWY-7437
+LEFT - D-Glc-NAc--Glycoproteins
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - N-acetyl-D-glucosamine
+RIGHT - Glycoprotein-L-serine-or-L-threonine

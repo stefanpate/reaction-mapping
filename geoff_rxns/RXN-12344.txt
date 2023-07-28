@@ -1,0 +1,22 @@
+UNIQUE-ID - RXN-12344
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :NON-INTEGER-STOICHIOMETRY
+CITATIONS - 16666240
+COMMENT - This enzyme catalyzes the endohydrolysis of (1&rarr;4)-&beta;-D-xylosyl links in some glucuronoarabinoxylans.
+/It has high activity towards feruloylated arabinoxylans from cereal plant cell walls.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR117494" NIL |kothari| 3789143035 NIL NIL)
+EC-NUMBER - EC-3.2.1.136
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN-19112
+LEFT - Glucuronoxylans
+LEFT - WATER
+^COEFFICIENT - n
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNDETERMINED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Glucuronoxylan-Oligosaccharides
+^COEFFICIENT - n

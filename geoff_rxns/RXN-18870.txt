@@ -1,0 +1,13 @@
+UNIQUE-ID - RXN-18870
+TYPES - Protein-Modification-Reactions
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+COMMENT - This reaction only occurs <i>in vitro</i> in the absence of |FRAME: GFP "a green fluorescent protein"|. <i>In vivo</i>, the energy is transferred from the excited state blue fluorescent protein to the green fluorescent protein by <A href="https://en.wikipedia.org/wiki/F%C3%B6rster_resonance_energy_transfer">F&ouml;rster resonance energy transfer</A> (FRET), a non-radiative energy-transfer process |CITS: [4151620]|.
+CREDITS - SRI
+CREDITS - caspi
+LEFT - Excited-blue-fluorescent-proteins
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - BFP
+RIGHT - Light
+SPONTANEOUS? - T

@@ -1,0 +1,26 @@
+UNIQUE-ID - RXN-8508
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 22 21 23 24 25 26 27 29 28 30 36 31 32 33 34 35 38 37 40 39 41) ((("Ox-NADPH-Hemoprotein-Reductases" 0 18) ("CPD-8692" 19 40) ("WATER" 41 41)) (("Red-NADPH-Hemoprotein-Reductases" 0 18) ("CPD-8691" 19 39) ("OXYGEN-MOLECULE" 40 41))))
+COMMENT - A heme-thiolate protein (P-450). This enzyme catalyzes a step in the pathway of |FRAME: CPD-8694| biosynthesis. The activity has been demonstrated in cell-free stem extracts of |FRAME: TAX-46611| (grand fir) and |FRAME: TAX-3339| (lodgepole pine) |CITS: [8311462]|, and the gene encoding the enzyme has been identified in |FRAME: TAX-3352| (loblolly pine) |CITS: [15911762]|. The recombinant enzyme catalyzed the oxidation of multiple diterpene alcohol and aldehydes, including levopimaradienol, isopimara-7,15-dienol, isopimara-7,15-dienal, dehydroabietadienol, and dehydroabietadienal. It is not able to oxidize abietadiene.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR113458" NIL |kothari| 3789143035 NIL NIL)
+DBLINKS - (LIGAND-RXN "R10077" NIL |kothari| 3713704632 NIL NIL)
+DBLINKS - (RHEA "31986" NIL |kothari| 3571757963 NIL NIL)
+GIBBS-0 - -83.5948    
+IN-PATHWAY - RXN-12799
+IN-PATHWAY - PWY-5411
+LEFT - CPD-8691
+LEFT - Red-NADPH-Hemoprotein-Reductases
+LEFT - OXYGEN-MOLECULE
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-8692
+RIGHT - Ox-NADPH-Hemoprotein-Reductases
+RIGHT - WATER
+SYNONYMS - CYP720B1
+SYNONYMS - PtAO
+SYSTEMATIC-NAME - abietadienol,NADPH:oxygen oxidoreductase (18-hydroxylating)

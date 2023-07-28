@@ -1,0 +1,16 @@
+UNIQUE-ID - RXN-16424
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 12 13 14 15 16 17 18 19 20 24 23 22 10 9 11 25 26 21 27 8) (((|Phosphorylated-Phosphoglucosamine-Mutase| 0 11) (D-GLUCOSAMINE-6-P 12 27)) ((|Phosphoglucosamine-Mutase| 0 7) (CPD0-1096 8 27))))
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR120074" NIL |kothari| 3789143036 NIL NIL)
+GIBBS-0 - -11.519348    
+IN-PATHWAY - 5.4.2.10-RXN
+LEFT - Phosphorylated-Phosphoglucosamine-Mutase
+LEFT - D-GLUCOSAMINE-6-P
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+RIGHT - CPD0-1096
+RIGHT - Phosphoglucosamine-Mutase

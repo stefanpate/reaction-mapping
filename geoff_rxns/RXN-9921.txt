@@ -1,0 +1,16 @@
+UNIQUE-ID - RXN-9921
+TYPES - Protein-Modification-Reactions
+COMMON-NAME - [protein]-threonine phosphatase
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 9 11 12 6 7 13 8 10) (((|Protein-Phosphothreonines| 0 12) (WATER 13 13)) ((|Proteins-L-Threonines| 0 8) (|Pi| 9 13))))
+DBLINKS - (METANETX-RXN "MNXR123079" NIL |kothari| 3789143037 NIL NIL)
+EC-NUMBER - EC-3.1.3
+GIBBS-0 - -3.0541382    
+LEFT - Protein-Phosphothreonines
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Proteins-L-Threonines
+RIGHT - Pi
+SYNONYMS - [protein]-L-threonine phosphatase

@@ -1,0 +1,13 @@
+UNIQUE-ID - RXN-21230
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17) ((("67-DIHYDROPTERIDINE" 0 17)) (("78-Dihydropteridines" 0 17))))
+COMMENT - |FRAME: 78-Dihydropteridines| is a more stable tautomeric form than |FRAME: 67-DIHYDROPTERIDINE|, and thus the latter slowly converts to the former.
+CREDITS - SRI
+CREDITS - caspi
+LEFT - 67-DIHYDROPTERIDINE
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - 78-Dihydropteridines
+SPONTANEOUS? - T

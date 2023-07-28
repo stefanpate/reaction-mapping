@@ -1,0 +1,14 @@
+UNIQUE-ID - RXN-19146
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (6 7 10 8 9 11 14 13 4 0 1 2 3 5 12) ((("Proteins-with-N-Terminal-L-Glutamate" 0 14)) (("Protein-N-terminal-5-oxo-prolines" 0 13) ("WATER" 14 14))))
+CREDITS - SRI
+CREDITS - caspi
+GIBBS-0 - 17.86525    
+IN-PATHWAY - PWY-7942
+LEFT - Proteins-with-N-Terminal-L-Glutamate
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Protein-N-terminal-5-oxo-prolines
+RIGHT - WATER
+SPONTANEOUS? - T

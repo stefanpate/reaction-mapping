@@ -1,0 +1,32 @@
+UNIQUE-ID - RXN-12063
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - <i>N,N</i>-dihydroxy-L-tryptophan carboxy-lyase
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 6 7 8 9 5 13 10 11 15 14 12 16) (((INDOLE-3-ACETALDOXIME 0 12) (CARBON-DIOXIDE 13 15) (WATER 16 16)) ((CPD-13027 0 16))))
+CITATIONS - 10922360
+CITATIONS - 10681464
+CITATIONS - 12464638
+CITATIONS - 12464264
+COMMENT - A heme-thiolate protein (P-450). This enzyme catalyses two successive N-hydroxylations of L-tryptophan, the first steps in the biosynthesis of the both auxin and the indole alkaloid phytoalexin camalexin. The product of the two hydroxylations, N,N-dihydroxy-L-tryptophan, is extremely labile and dehydrates spontaneously.The dehydrated product is then subject to a decarboxylation that produces the oxime. It is still not known whether the decarboxylation is spontaneous or catalysed by the enzyme. The product, (E)-indol-3-ylacetaldoxime, undergoes a spontaneous isomerization to the (Z) form.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR113001" NIL |kothari| 3789143028 NIL NIL)
+DBLINKS - (RHEA "25014" NIL |kothari| 3709310381 NIL NIL)
+DBLINKS - (LIGAND-RXN "R09585" NIL |kr| 3650824949 NIL NIL)
+GIBBS-0 - -6.4728565    
+IN-PATHWAY - CAMALEXIN-SYN
+IN-PATHWAY - PWY-8024
+IN-PATHWAY - PWY-581
+IN-PATHWAY - PWY-601
+IN-PATHWAY - RXN-1402
+LEFT - PROTON
+LEFT - CPD-13027
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - INDOLE-3-ACETALDOXIME
+RIGHT - CARBON-DIOXIDE
+RIGHT - WATER
+SPONTANEOUS? - T
+SYSTEMATIC-NAME - <small>L</small>-tryptophan,NADPH:oxygen oxidoreductase (<em>N</em>-hydroxylating)

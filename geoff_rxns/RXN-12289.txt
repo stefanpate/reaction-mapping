@@ -1,0 +1,29 @@
+UNIQUE-ID - RXN-12289
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - cellulose 1,4-&beta;-cellobiosidase (reducing end)
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (10 1 23 0 24 7 3 25 2 26 6 27 28 5 29 31 8 30 9 32 4 34 11 33 19 13 35 12 36 17 20 16 37 38 15 39 41 18 40 44 21 43 22 45 14 42) ((((CELLOBIOSE 1) 0 22) ((CELLOBIOSE 2) 23 45)) ((CPD-13205 0 44) (WATER 45 45))))
+CANNOT-BALANCE? - NIL
+CITATIONS - 8555231
+CITATIONS - 20967294
+COMMENT - This enzyme catalyzes the hydrolysis of (1&rarr;4)-&beta;-D-glucosidic linkages in cellulose and cellotetraose, releasing cellobiose from the reducing ends of the chains.
+/
+/Some exocellulases, most of which belong to the glycoside hydrolase family 48 (GH48, formerly known as cellulase family L), act at the reducing ends of cellulose and similar substrates. The CelS enzyme from Clostridium thermocellum is the most abundant subunit of the cellulosome formed by the organism.
+CREDITS - SRI
+CREDITS - caspi
+EC-NUMBER - EC-3.2.1
+ENZYMATIC-REACTION - ENZRXN-18951
+ENZYMES-NOT-USED - MONOMER-16421
+ENZYMES-NOT-USED - MONOMER-16451
+ENZYMES-NOT-USED - MONOMER-16499
+ENZYMES-NOT-USED - MONOMER-16500
+GIBBS-0 - -2.4329834    
+LEFT - CPD-13205
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CELLOBIOSE
+^COEFFICIENT - 2
+SYSTEMATIC-NAME - 4-&beta;-<small>D</small>-glucan cellobiohydrolase

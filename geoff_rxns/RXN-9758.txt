@@ -1,0 +1,26 @@
+UNIQUE-ID - RXN-9758
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (1 0 2 4 3 5 7 6) ((("SS-DIMETHYL-BETA-PROPIOTHETIN" 0 7)) (("CPD-10472" 0 6) ("WATER" 7 7))))
+COMMENT - |FRAME: EC-1.2.1.8| (BADH) from sugar beet (|FRAME: TAX-161934|) expressed in tobacco (|FRAME: TAX-4097|) demonstrated not only BADH activity, but also three other aldehyde dehydrogenase activities, acting on 3-|FRAME: CPD-10472|, |FRAME: CPD-6082|, and |FRAME: 4-AMINO-BUTYRALDEHYDE| |CITS: [12223684]|. This suggested that BADH is a broad substrate range enzyme with multiple parallel activities.
+/
+/In another work it was shown that |FRAME: CPD-10472| is a better substrate for BADH from amaranth (|FRAME: TAX-28502|) than |FRAME: BETAINE_ALDEHYDE| |CITS: [8990271]|.
+CREDITS - SRI
+CREDITS - gong
+DBLINKS - (METANETX-RXN "MNXR122979" NIL |kothari| 3789143035 NIL NIL)
+EC-NUMBER - EC-1.2.1.8
+ENZYMATIC-REACTION - ENZRXN-15453
+GIBBS-0 - -12.481201    
+IN-PATHWAY - PWY-6055
+IN-PATHWAY - PWY-6054
+LEFT - CPD-10472
+LEFT - WATER
+LEFT - NAD
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - SS-DIMETHYL-BETA-PROPIOTHETIN
+RIGHT - NADH
+RIGHT - PROTON
+^COEFFICIENT - 2

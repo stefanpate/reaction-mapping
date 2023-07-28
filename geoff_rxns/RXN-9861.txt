@@ -1,0 +1,21 @@
+UNIQUE-ID - RXN-9861
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (1 2 0 3 4 5 6 8 7 10 9) (((2-CL-MUCONATE 0 10)) ((CPD-10639 0 10))))
+COMMENT - The conversion of |FRAME: 2-CL-MUCONATE| to |FRAME: CPD-10639| was demonstrated using purified chloromuconate
+/cycloisomerase enzymes |CITS: [7751312]|. However, it is assumed that the later is not the product of the enzyme in vivo.
+/Rather, any |FRAME: CPD-10639| should be converted back to |FRAME: 2-CL-MUCONATE|, and then converted by
+/the same enzyme to |FRAME: CPD-10638|, which is substrate for chloride elimination, still catalyzed by the same enzyme.
+/The final product, |FRAME: CPD-10608|, is degraded further by a hydrolase.
+DBLINKS - (METANETX-RXN "MNXR123037" NIL |kothari| 3789143034 NIL NIL)
+EC-NUMBER - EC-5.5.1.7
+ENZYMATIC-REACTION - ENZRXN-15675
+ENZYMATIC-REACTION - ENZRXN-15624
+GIBBS-0 - 9.931763    
+LEFT - CPD-10639
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - REVERSIBLE
+RIGHT - 2-CL-MUCONATE
+RIGHT - PROTON

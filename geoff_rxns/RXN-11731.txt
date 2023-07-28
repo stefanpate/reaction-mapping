@@ -1,0 +1,17 @@
+UNIQUE-ID - RXN-11731
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+COMMENT - Hydroxynitrile lyases catalyses the the cleavage of hydroxynitriles into cyanide and the corresponding aldehyde or ketone. In nature the liberation of cyanide serves as a defense mechanism against herbivores and microbial attack in plants. In vitro the enzymes from Manihot esculenta and Hevea brasiliensis accept a broad range of aliphatic and aromatic carbonyl compounds as substrates and catalyse the formation of (S)-hydroxynitriles.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR117126" NIL |kothari| 3789143028 NIL NIL)
+EC-NUMBER - EC-4.1.2.47
+^OFFICIAL? - T
+ENZYMATIC-REACTION - ENZRXN-18221
+LEFT - Aliphatic-S-hydroxynitriles
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNDETERMINED
+RIGHT - HCN
+RIGHT - Aliphatic-aldehydes-or-ketones

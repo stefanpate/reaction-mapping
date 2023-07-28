@@ -1,0 +1,23 @@
+UNIQUE-ID - RXN-13440
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+CANNOT-BALANCE? - T
+COMMENT - Both this enzyme and EC 6.3.2.29 are required for the elongation of cyanophycin, which is a protein-like cell inclusion that is unique to cyanobacteria and acts as a temporary nitrogen store.  Both enzymes are found in the same protein but have different active sites.  Both L-Asp and L-Arg must be present before either enzyme will display significant activity.  Canavanine and lysine can be incoporated into the polymer instead of arginine.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR118082" NIL |kothari| 3789143035 NIL NIL)
+EC-NUMBER - EC-6.3.2.30
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN-20449
+GIBBS-0 - -654.4693    
+IN-PATHWAY - PWY-7052
+LEFT - CPD-14417
+LEFT - ARG
+LEFT - ATP
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Cyanophycin
+RIGHT - ADP
+RIGHT - Pi

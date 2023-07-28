@@ -1,0 +1,18 @@
+UNIQUE-ID - TRANS-RXN-187
+TYPES - Small-Molecule-Reactions
+TYPES - Transport-Reactions
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+COMMENT - This reaction was created with the limited subcellular localization terms and the term 'unknown space' will be replaced with the 
+/appropriate plantontology term, when the PO ontology becomes avialable. This transport is specific to xylem cells, K+ is 
+/released into the xylem.
+ENZYMATIC-REACTION - ENZRXN-16013
+GIBBS-0 - 0.    
+LEFT - K+
+^COMPARTMENT - CCO-OUT
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - K+
+^COMPARTMENT - CCO-IN
+RXN-LOCATIONS - CCO-EXTRACELLULAR-CCO-UNKNOWN-SPACE

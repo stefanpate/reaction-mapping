@@ -1,0 +1,15 @@
+UNIQUE-ID - RXN-9103
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :UNBALANCED
+CANNOT-BALANCE? - T
+COMMENT - The reaction is unbalanced. Multiple steps including hydroxylation and decarboxylation may be involved in the conversion, 
+/but they not have been characterized |CITS: [Muller76]|.
+DBLINKS - (METANETX-RXN "MNXR122646" NIL |kothari| 3789143034 NIL NIL)
+GIBBS-0 - 37.107758    
+IN-PATHWAY - PWY-5801
+LEFT - DIHYDROXYNAPHTHOATE
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-9608

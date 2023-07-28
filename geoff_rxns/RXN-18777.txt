@@ -1,0 +1,25 @@
+UNIQUE-ID - RXN-18777
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :UNBALANCED
+CANNOT-BALANCE? - T
+CITATIONS - ILLINGWORTH66
+CITATIONS - HEHRE51
+CITATIONS - BARKER49
+CITATIONS - 13063502
+COMMENT - Transfers a segment of a 1,4-&alpha;-D-glucan chain to a primary hydroxyl group in a similar glucan chain, forming a 1,6 branch point.
+/
+/Converts amylose into amylopectin. The Common name requires a qualification depending on the product, glycogen or amylopectin, e.g. glycogen branching enzyme, amylopectin branching enzyme. The latter has frequently been termed Q-enzyme.
+CREDITS - SRI
+CREDITS - caspi
+EC-NUMBER - EC-2.4.1.18
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN185E-1255
+GIBBS-0 - -4242.73    
+IN-PATHWAY - PWY-7900
+LEFT - 1-4-alpha-D-Glucan
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - GlgE-Glycogen

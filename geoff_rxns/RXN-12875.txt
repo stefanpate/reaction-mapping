@@ -1,0 +1,18 @@
+UNIQUE-ID - RXN-12875
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+TYPES - Unknown-Conversions
+ATOM-MAPPINGS - :UNBALANCED
+CANNOT-BALANCE? - T
+COMMENT - In many plants |FRAME: L-THREONATE| yields |FRAME: TARTRATE| <i>in vivo</i> |CITS: [16662405]|. At this time nothing is known of the enzyme(s) catalyzing this four-electron oxidation.
+/Theoretically, there could be two H2O2-generating oxidases, with |FRAME: CPD-13061| as intermediate |CITS: [15608627]|.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR117785" NIL |kothari| 3789143027 NIL NIL)
+GIBBS-0 - -74.96951    
+IN-PATHWAY - PWY-6960
+LEFT - L-THREONATE
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - TARTRATE

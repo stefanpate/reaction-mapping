@@ -1,0 +1,16 @@
+UNIQUE-ID - RXN-19952
+TYPES - Protein-Modification-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23) ((("Disulfide-Isomerase-with-Disulfide-Bond" 0 23) ("Protein-Red-Disulfides" 24 39)) (("Protein-Ox-Disulfides" 0 15) ("Reduced-Disulfide-Isomerases" 16 39))))
+CREDITS - SRI
+CREDITS - caspi
+GIBBS-0 - 7.6293945000000e-6
+LEFT - Disulfide-Isomerase-with-Disulfide-Bond
+LEFT - Protein-Red-Disulfides
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Reduced-Disulfide-Isomerases
+RIGHT - Protein-Ox-Disulfides
+RXN-LOCATIONS - CCO-CYTOSOL
+RXN-LOCATIONS - CCO-PERI-BAC

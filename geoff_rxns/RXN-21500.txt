@@ -1,0 +1,18 @@
+UNIQUE-ID - RXN-21500
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 5 9 4 6 7 8 10 11 13 14 15 16 17 12) ((("34-Dihydroxy-5-Polyprenylbenzoates" 0 16) ("WATER" 17 17)) (("4-Hydroxy-3-polyprenylbenzoates" 0 15) ("OXYGEN-MOLECULE" 16 17))))
+CREDITS - SRI
+CREDITS - caspi
+EC-NUMBER - EC-1.14.13.M81
+^OFFICIAL? - T
+LEFT - 4-Hydroxy-3-polyprenylbenzoates
+LEFT - OXYGEN-MOLECULE
+LEFT - NADPH
+LEFT - PROTON
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - 34-Dihydroxy-5-Polyprenylbenzoates
+RIGHT - WATER
+RIGHT - NADP

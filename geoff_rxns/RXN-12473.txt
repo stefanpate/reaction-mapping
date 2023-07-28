@@ -1,0 +1,24 @@
+UNIQUE-ID - RXN-12473
+TYPES - Protein-Modification-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 5 10 11 12 13 1 6 14 15 16 17 18 19 2 20 7 21 22 23 24 3 8 25 26 27 29 30 31 28 32 4 33 34 35 36 37 9 38 39 40) ((("Thiocarboxylated-MPT-synthases" 0 9) ("AMP" 10 32) ("Cysteine-Desulfurase-L-cysteine" 33 40)) (("Carboxyadenylated-MPT-synthases" 0 31) ("L-Cysteine-Desulfurase-persulfide" 32 40))))
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR117582" NIL |kothari| 3789143036 NIL NIL)
+DBLINKS - (RHEA "48613" NIL |kothari| 3709310382 NIL NIL)
+EC-NUMBER - EC-2.8.1.11
+^OFFICIAL? - T
+ENZYMATIC-REACTION - ENZRXN-19567
+ENZYMATIC-REACTION - ENZRXN-19285
+IN-PATHWAY - PWY-6823
+LEFT - Carboxyadenylated-MPT-synthases
+LEFT - L-Cysteine-Desulfurase-persulfide
+LEFT - Donor-H2
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - Thiocarboxylated-MPT-synthases
+RIGHT - Cysteine-Desulfurase-L-cysteine
+RIGHT - AMP
+RIGHT - Acceptor
+RIGHT - PROTON

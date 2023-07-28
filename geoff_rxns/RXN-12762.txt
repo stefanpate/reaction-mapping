@@ -1,0 +1,18 @@
+UNIQUE-ID - RXN-12762
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 4 3 5 7 6 2) ((("CPD-12005" 0 2) ("ACRYLATE" 3 7)) (("CPD-13770" 0 7))))
+COMMENT - This is a hypothetical reaction, the exact details of which have not been verified biochemically. However, there is evidence that it can be carried out by two marine bacteria and a plant species and it is likely analogous to |FRAME: EC-4.4.1.3| |CITS: [ANSEDE97][10759525]|.
+CREDITS - PMN
+CREDITS - dreher
+DBLINKS - (METANETX-RXN "MNXR117741" NIL |kothari| 3789143035 NIL NIL)
+EC-NUMBER - EC-4.4.1
+GIBBS-0 - 1.3058891    
+IN-PATHWAY - PWY-6935
+LEFT - CPD-13770
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-12005
+RIGHT - ACRYLATE
+RIGHT - PROTON

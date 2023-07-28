@@ -1,0 +1,16 @@
+UNIQUE-ID - RXN-9169
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 7 6) (((CPD-9734 0 7)) ((OXOPENTENOATE 0 7))))
+CITATIONS - kean81
+COMMENT - This reaction is hypothesized to occur in ackee plants (|FRAME: TAX-259381|) as part of |FRAME: PWY-5826|, but there is no direct evidence for this reaction |CITS: [kean81]|.
+DBLINKS - (METANETX-RXN "MNXR140883" NIL |kothari| 3789143035 NIL NIL)
+EC-NUMBER - EC-1
+IN-PATHWAY - PWY-5826
+LEFT - OXOPENTENOATE
+LEFT - Acceptor
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-9734
+RIGHT - Donor-H2

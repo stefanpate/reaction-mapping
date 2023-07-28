@@ -1,0 +1,23 @@
+UNIQUE-ID - RXN-12294
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - xyloglucan-specific endo-&beta;-1,4-glucanase (cellotetraose-forming)
+ATOM-MAPPINGS - :NON-INTEGER-STOICHIOMETRY
+COMMENT - The enzyme from |FRAME: TAX-1515| (XghA) is specific for xyloglucan and does not hydrolyse other cell-wall components. 
+/It cleaves glycosidic bonds in xyloglucan and produces mostly cellotetraose units of xyloglucan that included hepta- to nonaglycosides of the composition XXXG, XLXG (or XXLG) and XLLG |CITS: [16207921]|.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR117471" NIL |kothari| 3789143034 NIL NIL)
+EC-NUMBER - EC-3.2.1
+ENZYMATIC-REACTION - ENZRXN-18988
+IN-PATHWAY - PWY-6784
+LEFT - Xyloglucan
+LEFT - WATER
+^COEFFICIENT - n
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNDETERMINED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Xyloglucan-tetraose
+^COEFFICIENT - n
+SYSTEMATIC-NAME - [(1&rarr;6)-&alpha;-<small>D</small>-xylo]-(1&rarr;4)-&beta;-<small>D</small>-glucan glucanohydrolase

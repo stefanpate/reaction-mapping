@@ -1,0 +1,16 @@
+UNIQUE-ID - RXN-21055
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (11 0 12 1 13 14 3 15 4 2 5 16 17 18 19 7 20 8 9 22 10 6 21) ((("CPD-12923" 0 10) ("Glucopyranose" 11 22)) (("CPD-22688" 0 21) ("WATER" 22 22))))
+COMMENT - This reaction was tested with four highly purified &beta;-glucosidases: Aspergillus niger bgl1 (GH Family 3), Phanaerochate chrysosporium bgl1A (GH Family 3), Thermotoga maritima bglA (GH Family 1), and Agrobacterium sp. abg (GH Family 1). All four enzymes were able to catalyze this reaction |CITS: [29468111]|.
+CREDITS - SRI
+CREDITS - caspi
+EC-NUMBER - EC-3.2.1.21
+LEFT - CPD-22688
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-12923
+RIGHT - Glucopyranose

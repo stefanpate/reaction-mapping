@@ -1,0 +1,20 @@
+UNIQUE-ID - RXN-21565
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (8 9 10 11 12 14 15 16 0 1 2 3 4 13 5 6 7) ((("Mo-bis-MGD-Chaperone-L-cysteine" 0 7) ("L-Cysteine-Desulfurase-persulfide" 8 16)) (("Cysteine-Desulfurase-L-cysteine" 0 7) ("Mo-bis-MGD-Chaperone-Cys-Persulfide" 8 16))))
+CITATIONS - 12714048
+COMMENT - A pyridoxal-phosphate protein. The sulfur from free L-cysteine is first transferred to a cysteine residue in the active site, and then passed on to various other acceptors. The enzyme is involved in the biosynthesis of iron-sulfur clusters, thio-nucleosides in tRNA, thiamine, biotin, lipoate and pyranopterin (molybdopterin) |CITS: [12382038]|. In Azotobacter vinelandii, this sulfur provides the inorganic sulfide required for nitrogenous metallocluster formation |CITS: [8464885]|.
+/
+/This is one of two reactions catalyzed by the enzyme. The overall reaction is given above.
+CREDITS - SRI
+CREDITS - caspi
+IN-PATHWAY - PWY-8164
+IN-PATHWAY - RXN-21566
+LEFT - L-Cysteine-Desulfurase-persulfide
+LEFT - Mo-bis-MGD-Chaperone-L-cysteine
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Cysteine-Desulfurase-L-cysteine
+RIGHT - Mo-bis-MGD-Chaperone-Cys-Persulfide

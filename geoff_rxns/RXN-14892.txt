@@ -1,0 +1,17 @@
+UNIQUE-ID - RXN-14892
+TYPES - Chemical-Reactions
+TYPES - Complex-Processes
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :UNBALANCED
+CANNOT-BALANCE? - T
+COMMENT - This unbalanced reaction is used for a display in a Glycan Builder-based pathway.
+CREDITS - SRI
+CREDITS - brito
+DBLINKS - (METANETX-RXN "MNXR119003" NIL |kothari| 3789143036 NIL NIL)
+GIBBS-0 - 675.2112    
+IN-PATHWAY - PWY-6790
+LEFT - 1-5-L-Arabinooligosaccharides
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-12045

@@ -1,0 +1,19 @@
+UNIQUE-ID - 3.4.21.104-RXN
+TYPES - Chemical-Reactions
+TYPES - Protein-Reactions
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+COMMENT - 
+/Selective cleavage after Arg<sub>223</sub> in complement component C2 (-Ser-Leu-Gly-Arg-|-Lys-Ile-Gln-Ile) and after Arg<sub>76</sub> in complement component C4 (-Gly-Leu-Gln-Arg-|-Ala-Leu-Glu-Ile).
+/
+/Mannan-binding lectin (MBL) recognizes patterns of neutral carbohydrates, such as mannose and N-acetylglucosamine, on a wide range of microbial surfaces and is able to initiate activation of the lectin pathway of complement |CITS: [15728497]|.
+/This enzyme displays C1s-like esterolytic activity (cf. EC 3.4.21.42, complement subcomponent C1s). It also cleaves C4 and C2 with efficiencies that are relatively higher than those of EC 3.4.21.42 |CITS: [11527969]|. Belongs in peptidase family S1A.
+EC-NUMBER - EC-3.4.21.104
+^OFFICIAL? - T
+LEFT - WATER
+LEFT - C4-Proteins
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNDETERMINED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - C4a-Proteins
+RIGHT - C4b-Proteins

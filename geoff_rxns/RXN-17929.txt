@@ -1,0 +1,16 @@
+UNIQUE-ID - RXN-17929
+TYPES - Chemical-Reactions
+TYPES - RNA-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 8 21 16 23 31 32 34 36 33 35 37 38 44 42 43 45 46 47 48 49 30 28 26 27 5 9 12 11 15 22 29 24 7 10 14 13 6 20 19 18 17 25 41 39 40 50 51) ((("RNA-Ligase-L-lysine-adenylate" 0 32) ("3-Prime-Phosphate-Terminated-RNAs" 33 51)) (("RNA-Ligase-L-lysine" 0 10) ("RNA-with-3-prime-pp-5-prime-A-cap" 11 51))))
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR121273" NIL |kothari| 3789143036 NIL NIL)
+GIBBS-0 - -17.607971    
+LEFT - RNA-Ligase-L-lysine-adenylate
+LEFT - 3-Prime-Phosphate-Terminated-RNAs
+LEFT - PROTON
+^COEFFICIENT - 2
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+RIGHT - RNA-with-3-prime-pp-5-prime-A-cap
+RIGHT - RNA-Ligase-L-lysine

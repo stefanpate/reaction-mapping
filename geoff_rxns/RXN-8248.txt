@@ -1,0 +1,25 @@
+UNIQUE-ID - RXN-8248
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 30 19 20 21 22 23 24 25 26 27 28 29 32 31) ((("Ox-NADPH-Hemoprotein-Reductases" 0 18) ("CPD-2748" 19 29) ("FORMALDEHYDE" 30 31) ("WATER" 32 32)) (("Red-NADPH-Hemoprotein-Reductases" 0 18) ("NICOTINE" 19 30) ("OXYGEN-MOLECULE" 31 32))))
+COMMENT - This is a hypothetical reaction. While it has been shown that the demethylatioin of |FRAME: NICOTINE| is catalyzed by a P450 enzyme, the fate of the methyl group is not known. This reaction was drafted based on the only P450 methylase that has been characterized to date, |FRAME: EC-1.14.13.70|.
+CREDITS - O-28
+CREDITS - hartmut
+DBLINKS - (METANETX-RXN "MNXR110496" NIL |kothari| 3789143035 NIL NIL)
+DBLINKS - (LIGAND-RXN "R06738" NIL |kothari| 3500050341 NIL NIL)
+EC-NUMBER - EC-1.14.14
+ENZYMATIC-REACTION - ENZRXN-13105
+GIBBS-0 - -181.50362    
+IN-PATHWAY - PWY-5316
+IN-PATHWAY - PWY-7342
+LEFT - NICOTINE
+LEFT - Red-NADPH-Hemoprotein-Reductases
+LEFT - OXYGEN-MOLECULE
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-2748
+RIGHT - Ox-NADPH-Hemoprotein-Reductases
+RIGHT - WATER
+RIGHT - FORMALDEHYDE

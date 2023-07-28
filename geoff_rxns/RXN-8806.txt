@@ -1,0 +1,27 @@
+UNIQUE-ID - RXN-8806
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 4 3) ((("S-12-EPOXYPROPANE" 0 3) ("WATER" 4 4)) (("PROPENE" 0 2) ("OXYGEN-MOLECULE" 3 4))))
+COMMENT - The enzyme from Xanthobacter sp. strain Py2 is a multicomponent enzyme comprising
+/(1) an NADH reductase, which provides the reductant for O(2) activation;
+/(2) a Rieske-type ferredoxin, which is an electron-transfer protein;
+/(3) an oxygenase, which contains the catalytic centre for alkene epoxidation and 
+/4) a small protein of unknown function that is essential for activity.
+DBLINKS - (METANETX-RXN "MNXR109787" NIL |kothari| 3789143028 NIL NIL)
+DBLINKS - (LIGAND-RXN "R05730" NIL |taltman| 3459474588 NIL NIL)
+EC-NUMBER - EC-1.14.13.69
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN-14157
+GIBBS-0 - -91.19880    
+IN-PATHWAY - PWY-5534
+LEFT - PROPENE
+LEFT - OXYGEN-MOLECULE
+LEFT - NADH
+LEFT - PROTON
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - S-12-EPOXYPROPANE
+RIGHT - WATER
+RIGHT - NAD

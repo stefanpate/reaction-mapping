@@ -1,0 +1,15 @@
+UNIQUE-ID - RXN-16451
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (5 6 9 13 15 17 19 18 3 0 11 1 2 4 7 8 10 12 14 16 21 20) (((CPD-12146 0 21)) ((PROT-CYS 0 7) (|Protein-Tyrosines| 8 21))))
+CANNOT-BALANCE? - T
+COMMENT - This reaction cannot be balanced, as it describes only part of the actual reaction, which involves a copper ion, and acetate ion, and several other amino acids in the enzyme's polypeptide |CITS: [15777009]|.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR120098" NIL |kothari| 3789143035 NIL NIL)
+GIBBS-0 - 11.530000    
+LEFT - Protein-Tyrosines
+LEFT - PROT-CYS
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+RIGHT - CPD-12146

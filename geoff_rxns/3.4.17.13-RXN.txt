@@ -1,0 +1,20 @@
+UNIQUE-ID - 3.4.17.13-RXN
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 60 1 2 3 4 5 6 7 8 9 10 11 61 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 30 62 29 31 32 33 34 35 63 36 37 38 39 40 41 42 43 44 45 46 47 48 51 64 65 49 50 53 54 55 56 57 58 59 52) (((CPD-13360 0 59) (D-ALANINE 60 65)) ((CPD-13359 0 64) (WATER 65 65))))
+COMMENT - This enzyme catalyzes hydrolysis of the bond: N-acetyl-D-glucosaminyl-N-acetylmuramoyl-L-Ala-D-glutamyl-6-carboxy-L-lysyl-|-D-alanine.
+/
+/Variants are known from various microorganisms. Involved in peptidoglycan synthesis, catalysing both decarboxylation and transpeptidation. Stimulated by divalent cations such as Mg<sup>2+</sup> and Ca<sup>2+</sup>, but not by Zn<sup>2+</sup>. Inhibited by thiol-blocking reagents, but unaffected by penicillin
+DBLINKS - (METANETX-RXN "MNXR115457" NIL |kothari| 3789143028 NIL NIL)
+DBLINKS - (RHEA "48689" NIL |kothari| 3709310382 NIL NIL)
+EC-NUMBER - EC-3.4.17.13
+^OFFICIAL? - T
+GIBBS-0 - -0.4630127    
+LEFT - CPD-13359
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-13360
+RIGHT - D-ALANINE

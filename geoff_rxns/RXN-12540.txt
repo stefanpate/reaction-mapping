@@ -1,0 +1,21 @@
+UNIQUE-ID - RXN-12540
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - Fenton reaction
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2) (((FE+3 0 0) (CPD-12377 1 1) (OH 2 2)) ((FE+2 0 0) (HYDROGEN-PEROXIDE 1 2))))
+COMMENT - This reaction, which involves hydrogen peroxide and ferrous iron and produces a hydroxyl radical, is known as the Fenton reaction, and was suggested by Haber and Weiss in the 1930s.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR117619" NIL |kothari| 3789143035 NIL NIL)
+GIBBS-0 - 47.877644    
+IN-PATHWAY - DETOX1-PWY-1
+IN-PATHWAY - PWY-6854
+LEFT - HYDROGEN-PEROXIDE
+LEFT - FE+2
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-12377
+RIGHT - OH
+RIGHT - FE+3
+SPONTANEOUS? - T

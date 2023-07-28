@@ -1,0 +1,13 @@
+UNIQUE-ID - RXN-9085
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+CANNOT-BALANCE? - T
+COMMENT - This reaction occurs in multiple steps for which the intermediats are not characterized (identified)
+DBLINKS - (METANETX-RXN "MNXR122636" NIL |kothari| 3789143028 NIL NIL)
+GIBBS-0 - 22.247787    
+IN-PATHWAY - PWY-5793
+LEFT - CPD-9587
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-9588

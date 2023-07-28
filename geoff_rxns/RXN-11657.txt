@@ -1,0 +1,25 @@
+UNIQUE-ID - RXN-11657
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (23 0 24 1 25 2 26 3 34 11 27 4 35 12 33 10 36 13 28 5 32 9 37 14 38 15 39 16 29 6 31 8 40 17 41 18 30 7 42 19 43 20 44 21 45 22 47 46) ((((CPD-12620 1) 0 22) ((CPD-12620 2) 23 45) (OXYGEN-MOLECULE 46 47)) ((CPD-9598 0 46) (WATER 47 47))))
+CITATIONS - 17319686
+COMMENT - Monomeric urushiols would undergo autoxidation in the initial stages of reactions, with radical species formation from conjugated systems oxidation with atmospheric oxygen. A single electron would be abstracted from conjugated urushiols, producing a radical species and a superoxide. This results in the formation of dimeric urushiols with -HC-CH-, ether and peroxide linkages. This reaction requires further investigations |CITS: [17319686]|.
+CREDITS - O-28
+CREDITS - pujar
+DBLINKS - (METANETX-RXN "MNXR117073" NIL |kothari| 3789143034 NIL NIL)
+EC-NUMBER - EC-1.10.3
+ENZYMATIC-REACTION - ENZRXN-20639
+ENZYMATIC-REACTION - ENZRXN-18139
+ENZYMATIC-REACTION - ENZRXN-18138
+ENZYMATIC-REACTION - ENZRXN-18137
+GIBBS-0 - -86.52698    
+IN-PATHWAY - PWY-5787
+LEFT - CPD-12620
+^COEFFICIENT - 2
+LEFT - OXYGEN-MOLECULE
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-9598
+RIGHT - WATER

@@ -1,0 +1,20 @@
+UNIQUE-ID - RXN-11138
+TYPES - Chemical-Reactions
+TYPES - Protein-Reactions
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+COMMENT - TSAVLQ-|-SGFRK-NH2 and SGVTFQ-|-GKFKK the two peptides corresponding to the two self-cleavage sites of the SARS 3C-like proteinase are the two most reactive peptide substrates. The enzyme exhibits a strong preference for substrates containing Gln at P1 position and Leu at P2 position.
+/
+/SARS coronavirus main protease is the key enzyme in SARS coronavirus replicase polyprotein processing. In peptidase family C30.
+CREDITS - SRI
+CREDITS - kothari
+DBLINKS - (METANETX-RXN "MNXR116730" NIL |kothari| 3789143035 NIL NIL)
+EC-NUMBER - EC-3.4.22.69
+^OFFICIAL? - T
+LEFT - WATER
+LEFT - Protein-with-sequence-TSAVLQSGFRK-NH2
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNDETERMINED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Protein-with-sequence-TSAVLQ
+RIGHT - Protein-with-sequence-SGFRK-NH2

@@ -1,0 +1,14 @@
+UNIQUE-ID - RXN-10611
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :UNBALANCED
+CANNOT-BALANCE? - T
+COMMENT - This reaction has been postulated to involve either transamination, or oxidative deamination, with the latter mechanism more likely (reviewed in |CITS: [16131336]|).
+DBLINKS - (METANETX-RXN "MNXR116411" NIL |kothari| 3789143036 NIL NIL)
+GIBBS-0 - -40.226536    
+IN-PATHWAY - PWY-6261
+LEFT - LIOTHYRONINE
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-11404

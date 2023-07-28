@@ -1,0 +1,17 @@
+UNIQUE-ID - RXN-11248
+TYPES - Chemical-Reactions
+TYPES - Complex-Processes
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :UNBALANCED
+CANNOT-BALANCE? - T
+COMMENT - The conversion of |FRAME: CPD-12202| to |FRAME: CPD-12201| was confirmed by feeding a [2-C<sup>13</sup>]-radiolabeled form of  |FRAME: CPD-12202| to |FRAME: TAX-95948| root cultures |CITS:[HOLSCHER95]|. A |FRAME: RXN-11247 "Diels-Alder"| type reaction is proposed to be a necessary intermediate step followed by this reduction  |CITS:[HOLSCHER95]|.
+CREDITS - THE-ARABIDOPSIS-INFORMATION-RESOURCE
+CREDITS - dreher
+DBLINKS - (METANETX-RXN "MNXR116802" NIL |kothari| 3789143035 NIL NIL)
+GIBBS-0 - 37.596817    
+IN-PATHWAY - PWY-6438
+LEFT - CPD-12203
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-12201

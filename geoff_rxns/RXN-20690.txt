@@ -1,0 +1,21 @@
+UNIQUE-ID - RXN-20690
+TYPES - Chemical-Reactions
+TYPES - Composite-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 24 22 23) ((("Lipoyl-Protein-N6-lipoyllysine" 0 21) ("Alcohols" 22 23) ("WATER" 24 24)) (("Dihydro-Lipoyl-Proteins" 0 21) ("Alkyl-Hydro-Peroxides" 22 24))))
+CREDITS - SRI
+CREDITS - caspi
+EC-NUMBER - EC-1.11.1.28
+^OFFICIAL? - T
+LEFT - Dihydro-Lipoyl-Proteins
+LEFT - Alkyl-Hydro-Peroxides
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+REACTION-LIST - RXN-19953
+REACTION-LIST - RXN-19954
+REACTION-LIST - RXN-20689
+RIGHT - Lipoyl-Protein-N6-lipoyllysine
+RIGHT - WATER
+RIGHT - Alcohols

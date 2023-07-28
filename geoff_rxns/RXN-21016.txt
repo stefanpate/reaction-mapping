@@ -1,0 +1,16 @@
+UNIQUE-ID - RXN-21016
+TYPES - Chemical-Reactions
+TYPES - DNA-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (8 9 11 12 7 0 13 14 15 1 2 16 17 19 18 20 21 10 3 4 23 24 25 26 27 28 29 30 31 32 33 34 35 36 38 37 39 40 41 5 42 43 6 44 45 22) ((("a-YedK-protein-L-cysteine" 0 6) ("a-single-stranded-DNA-with-ring-opened-a" 7 45)) (("a-single-stranded-DNA-YedK-thiazolidine-" 0 44) ("WATER" 45 45))))
+COMMENT - The reaction is irreversible.
+CREDITS - O0-13
+CREDITS - amackie
+ENZYMATIC-REACTION - ENZRXN0-8619
+LEFT - a-YedK-protein-L-cysteine
+LEFT - a-single-stranded-DNA-with-ring-opened-a
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - a-single-stranded-DNA-YedK-thiazolidine-
+RIGHT - WATER

@@ -1,0 +1,33 @@
+UNIQUE-ID - RXN-14736
+TYPES - Chemical-Reactions
+TYPES - Composite-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - ecdysone 26-hydroxylase
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 78 59 57 58 60 61 62 63 65 64 66 67 68 69 70 71 72 73 74 75 76 77 81 79 80 82 83 84 85 86 87 90 91 92 93 94 89 88 95 96) (((("Ox-NADPH-Hemoprotein-Reductases" 1) 0 18) (("Ox-NADPH-Hemoprotein-Reductases" 2) 19 37) (("Ox-NADPH-Hemoprotein-Reductases" 3) 38 56) ("CPD-15602" 57 92) (("WATER" 1) 93 93) (("WATER" 2) 94 94) (("WATER" 3) 95 95) (("WATER" 4) 96 96)) ((("Red-NADPH-Hemoprotein-Reductases" 1) 0 18) (("Red-NADPH-Hemoprotein-Reductases" 2) 19 37) (("Red-NADPH-Hemoprotein-Reductases" 3) 38 56) ("CPD-276" 57 90) (("OXYGEN-MOLECULE" 1) 91 92) (("OXYGEN-MOLECULE" 2) 93 94) (("OXYGEN-MOLECULE" 3) 95 96))))
+CANNOT-BALANCE? - NIL
+COMMENT - This reaction is represented as a composite reaction that is composed of the three sub-reactions shown below it. As indicated in the sub-reactions, the monooxygenase reaction mechanism was proposed to proceed via 26-hydroxylation of |FRAME: CPD-276| to form |FRAME: CPD-15601|, oxidation of the latter compound to a putative aldehyde intermediate |FRAME: CPD-15603|, and further oxidation of the aldehyde to |FRAME: CPD-15602| (20-hydroxyecdysonic acid) |CITS: [20932968][8037696]|. The reaction equations are drawn by analogy with |FRAME: RXN-13713 "EC 1.14.13.15"|.
+CREDITS - SRI
+CREDITS - fulcher
+DBLINKS - (METANETX-RXN "MNXR118883" NIL |kothari| 3789143027 NIL NIL)
+EC-NUMBER - EC-1.14.14
+ENZYMATIC-REACTION - ENZRXN-22028
+GIBBS-0 - -282.95535    
+IN-PATHWAY - PWY-7321
+LEFT - CPD-276
+LEFT - Red-NADPH-Hemoprotein-Reductases
+^COEFFICIENT - 3
+LEFT - OXYGEN-MOLECULE
+^COEFFICIENT - 3
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+REACTION-LIST - RXN-14737
+REACTION-LIST - RXN-14738
+REACTION-LIST - RXN-14739
+RIGHT - CPD-15602
+RIGHT - Ox-NADPH-Hemoprotein-Reductases
+^COEFFICIENT - 3
+RIGHT - WATER
+^COEFFICIENT - 4
+RIGHT - PROTON

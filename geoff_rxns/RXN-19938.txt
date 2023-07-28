@@ -1,0 +1,21 @@
+UNIQUE-ID - RXN-19938
+TYPES - Chemical-Reactions
+TYPES - Composite-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 29 26 1 2 30 27 3 4 31 5 35 39 38 40 6 7 8 42 41 43 9 45 10 11 46 47 12 48 13 49 36 14 28 34 32 25 24 33 37 15 16 17 18 19 20 21 22 23 44) ((("5prime-Hydroxy-Adenosine-3prime-RNA" 0 23) ("RNA-3prime-Cytidine-3prime-P" 24 49)) (("RNA-Containing-Cytidine-Adenosine" 0 48) ("WATER" 49 49))))
+CREDITS - SRI
+CREDITS - caspi
+EC-NUMBER - EC-4.6.1.21
+^OFFICIAL? - T
+GIBBS-0 - -5.2382812    
+LEFT - RNA-Containing-Cytidine-Adenosine
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+REACTION-LIST - RXN-19939
+REACTION-LIST - RXN-19935
+RIGHT - RNA-3prime-Cytidine-3prime-P
+RIGHT - 5prime-Hydroxy-Adenosine-3prime-RNA
+RIGHT - PROTON

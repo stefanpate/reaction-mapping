@@ -1,0 +1,21 @@
+UNIQUE-ID - RXN-17880
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 5 7 8 9 4 6 10 11) (((|Protein-nitrosothiol-L-alanine| 0 9) (SUPER-OXIDE 10 11)) ((PROT-CYS 0 7) (NITRIC-OXIDE 8 9) (OXYGEN-MOLECULE 10 11))))
+COMMENT - Research indicates that a principal target of cellular NO is the thiol group of Cys in peptides and proteins |CITS: [15688001]|. In general, cysteine thiols (Cys-SH) can undergo a range of nitric oxide (NO)-dependent electrophilic and oxidative modifications as well as NO-independent oxidation by reactive oxygen species (ROS). These modifications consist of a progression from S-nitrosylation to sulfenic acid (SOH)/disulfide (SS), to sulfinic acid (SO2-), and irreversibly to sulfonic acid (SO3-).
+/
+/The exact mechanism of the reaction is not well known. It may proceed through the formation of a radical intermediate in the presence of an electron acceptor (for example, O2 reduced to superoxide, a nitrite radical reduced to nitrite, or NAD+ reduced to an NAD radical |CITS: [9006926]|. It has also been suggested that that cytochrome c is a mediator of S-nitrosation in biological systems |CITS: [19879353]|.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR121232" NIL |kothari| 3789143035 NIL NIL)
+GIBBS-0 - -46.893005    
+IN-PATHWAY - PWY-7798
+LEFT - PROT-CYS
+LEFT - NITRIC-OXIDE
+LEFT - OXYGEN-MOLECULE
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - Protein-nitrosothiol-L-alanine
+RIGHT - SUPER-OXIDE
+RIGHT - PROTON

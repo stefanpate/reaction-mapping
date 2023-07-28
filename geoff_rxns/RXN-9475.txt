@@ -1,0 +1,29 @@
+UNIQUE-ID - RXN-9475
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - germacradienol lyase
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (1 0 12 13 4 8 5 7 10 3 6 11 9 2 14 15) (((CPD-10160 0 11) (ACETONE 12 15)) ((CPD-10159 0 15))))
+CITATIONS - 16787064
+CITATIONS - 17080683
+CITATIONS - 17873868
+COMMENT - Require Mg2+. |FRAME: CPD-10158 Geosmin| is the cause of the characteristic smell of moist soil. It is a bifunctional enzyme. The N-terminal part of the enzyme is |FRAME: RXN-8648 "EC 4.2.3.22, germacradienol synthase"|, and forms |FRAME: CPD-10159| from FPP. The C-terminal part of the enzyme catalyses the conversion of germacradienol to geosmin via |FRAME: CPD-10160|.
+/
+/The full reaction catalyzed by the C-terminal part of the enzyme is
+/
+/|FRAME: RXN-12237|
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR122841" NIL |kothari| 3789143036 NIL NIL)
+DBLINKS - (RHEA "30462" NIL |hartmut| 3568035906 NIL NIL)
+EC-NUMBER - EC-4.1.99.16
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN-15043
+GIBBS-0 - -27.179993    
+IN-PATHWAY - PWY-5950
+LEFT - CPD-10159
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-10160
+RIGHT - ACETONE

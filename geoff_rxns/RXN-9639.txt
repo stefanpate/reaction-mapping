@@ -1,0 +1,24 @@
+UNIQUE-ID - RXN-9639
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - <i>N,N</i>-dihydroxy-L-isoleucine carboxy-lyase
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 4 3 7 5 8 9 10 6) (((CPD-10273 0 6) (CARBON-DIOXIDE 7 9) (WATER 10 10)) ((CPD-10272 0 10))))
+CITATIONS - 10636899
+CITATIONS - 15122013
+COMMENT - A heme-thiolate protein (P-450). This enzyme catalyses two successive N-hydroxylations of L-isoleucine, the first committed steps in the biosynthesis of the cyanogenic glucoside lotaustralin in the plant Lotus japonicus. The product of the two hydroxylations, N,N-dihydroxy-L-isoleucine, is extremely labile and dehydrates spontaneously.The dehydrated product is then subject to a decarboxylation that produces the oxime. It is still not known whether the decarboxylation is spontaneous or catalysed by the enzyme. The product, (E)-2-methylbutanal oxime, undergoes a spontaneous isomerization to the (Z) form. The enzyme can also accept L-valine as substrate, with a lower activity. It is different from |FRAME: 1.14.13.118-RXN EC 1.14.13.118"| (valine N-monooxygenase), which prefers L-valine.
+DBLINKS - (METANETX-RXN "MNXR113414" NIL |kothari| 3789143036 NIL NIL)
+DBLINKS - (LIGAND-RXN "R10029" NIL |kothari| 3713704632 NIL NIL)
+DBLINKS - (RHEA "30490" NIL |hartmut| 3568041090 NIL NIL)
+GIBBS-0 - -6.4728775    
+IN-PATHWAY - PWY-5990
+IN-PATHWAY - 1.14.13.117-RXN
+LEFT - PROTON
+LEFT - CPD-10272
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-10273
+RIGHT - CARBON-DIOXIDE
+RIGHT - WATER
+SYSTEMATIC-NAME - <small>L</small>-isoleucine,NADPH:oxygen oxidoreductase (<em>N</em>-hydroxylating)

@@ -1,0 +1,18 @@
+UNIQUE-ID - RXN-18707
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (8 9 10 11 12 14 15 16 0 1 2 3 4 13 5 6 7) ((("TusA-L-cysteine" 0 7) ("L-Cysteine-Desulfurase-persulfide" 8 16)) (("Cysteine-Desulfurase-L-cysteine" 0 7) ("TusA-Persulfides" 8 16))))
+CREDITS - SRI
+CREDITS - caspi
+EC-NUMBER - EC-2.8.1
+ENZYMATIC-REACTION - ENZRXN-25689
+GIBBS-0 - 0.    
+IN-PATHWAY - PWY-7892
+LEFT - L-Cysteine-Desulfurase-persulfide
+LEFT - TusA-L-cysteine
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Cysteine-Desulfurase-L-cysteine
+RIGHT - TusA-Persulfides

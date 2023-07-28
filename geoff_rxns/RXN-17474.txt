@@ -1,0 +1,15 @@
+UNIQUE-ID - RXN-17474
+TYPES - Protein-Modification-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (8 9 0 10 1 2 3 12 13 4 5 7 16 11 14 15 6) (((|Proteins-With-C-Terminal-Ser| 0 7) (|Proteins-With-N-Terminal-Asp| 8 16)) ((|Protein-L-Ser-L-Asp| 0 15) (WATER 16 16))))
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR120943" NIL |kothari| 3789143028 NIL NIL)
+EC-NUMBER - EC-3.4.21
+GIBBS-0 - -21.005234    
+LEFT - Protein-L-Ser-L-Asp
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+RIGHT - Proteins-With-C-Terminal-Ser
+RIGHT - Proteins-With-N-Terminal-Asp

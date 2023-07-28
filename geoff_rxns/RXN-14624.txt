@@ -1,0 +1,14 @@
+UNIQUE-ID - RXN-14624
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR118810" NIL |kothari| 3789143037 NIL NIL)
+IN-PATHWAY - RXN-14580
+LEFT - 6-Gly-Glc-Protopanaxatriol-ginsenosides
+LEFT - WATER
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNDETERMINED
+RIGHT - 6-Glc-Protopanaxatriol-ginsenosides
+RIGHT - Monosaccharides

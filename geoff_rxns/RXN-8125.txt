@@ -1,0 +1,21 @@
+UNIQUE-ID - RXN-8125
+TYPES - Protein-Modification-Reactions
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+COMMENT - The enzyme, which is involved in methanogenesis from methylated thiols, such as methane thiol, dimethyl sulfide, and 3-S-methylmercaptopropionate, catalyses two successive steps - the transfer of a methyl group from the substrate to the cobalt cofactor of a methylated-thiol-specific corrinoid protein (MtsB), and the subsequent transfer of the methyl group from the corrinoid protein to coenzyme M. With most other methanogenesis substrates this process is carried out by two different enzymes (for example, |FRAME: RXN-8095 "EC 2.1.1.90, methanol&mdash;corrinoid protein Co-methyltransferase"|, and |FRAME: RXN-8096 "EC 2.1.1.246, methylated methanol-specific corrinoid protein:coenzyme M methyltransferase"|). The cobalt is oxidized during methylation from the Co(I) state to the Co(III) state, and is reduced back to the Co(I) form during demethylation.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR122148" NIL |kothari| 3789143034 NIL NIL)
+EC-NUMBER - EC-2.1.1.251
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN-12869
+GIBBS-0 - -30.793365    
+IN-PATHWAY - PWY-5258
+LEFT - CPD-7670
+LEFT - MtsB-Proteins
+LEFT - PROTON
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - REVERSIBLE
+RIGHT - CPD-7671
+RIGHT - Methylated-MtsB-Proteins

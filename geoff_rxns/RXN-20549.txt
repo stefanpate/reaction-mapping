@@ -1,0 +1,17 @@
+UNIQUE-ID - RXN-20549
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (7 8 0 1 9 10 2 11 3 5 12 13 14 16 4 17 18 19 6 15) ((("N-Acylethanolamines" 0 6) ("1-Alkenyl-phosphoglycerol" 7 19)) (("2-Lyso-N-Acyl-Plasmalogens" 0 18) ("WATER" 19 19))))
+CREDITS - SRI
+CREDITS - caspi
+EC-NUMBER - EC-3.1.4.39
+ENZYMATIC-REACTION - ENZRXN-27098
+LEFT - 2-Lyso-N-Acyl-Plasmalogens
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - 1-Alkenyl-phosphoglycerol
+RIGHT - N-Acylethanolamines
+RIGHT - PROTON

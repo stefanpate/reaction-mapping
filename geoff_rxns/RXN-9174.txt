@@ -1,0 +1,20 @@
+UNIQUE-ID - RXN-9174
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 3 4 2 5 10 6 7 11 12 8 9) (((CPD-9739 0 9) (CARBON-DIOXIDE 10 12)) ((CPD-9738 0 12))))
+CITATIONS - Kean81
+COMMENT - This reaction is hypothesized to occur in ackee plants |FRAME: TAX-259381|
+/as part of hypoglycin biosynthesis, but, there is no direct evidence for this reaction
+/|CITS: [kean81]|. It is based on the assumption that this pathway resembles leucine
+/biosynthesis |CITS: [kean81] [13978769]|.
+DBLINKS - (METANETX-RXN "MNXR122676" NIL |kothari| 3789143035 NIL NIL)
+EC-NUMBER - EC-4.1.1
+GIBBS-0 - -1.8417587    
+IN-PATHWAY - PWY-5826
+LEFT - PROTON
+LEFT - CPD-9738
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-9739
+RIGHT - CARBON-DIOXIDE

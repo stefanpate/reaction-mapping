@@ -1,0 +1,21 @@
+UNIQUE-ID - ACETOINDEHYDROG-RXN
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5) ((("DIACETYL" 0 5)) (("ACETOIN" 0 5))))
+COMMENT - This activity is usually associated with butanediol dehydrogenase activity (EC 1.1.1.4 or EC 1.1.1.76). While the butanediol dehydrogenase activity is reversible, diacetyl reductase activity is irreversible. The product can be either (R)-acetoin |CITS: [10938079]| or (S)-acetoin |CITS: [Ui97][2040298]|, depending on the enzyme. The enzyme from pigeon liver can also accept NADP+ as acceptor |CITS: [4152609]|.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR107452" NIL |kothari| 3789143028 NIL NIL)
+DBLINKS - (LIGAND-RXN "R02343" NIL |taltman| 3459474596 NIL NIL)
+EC-NUMBER - EC-1.1.1
+ENZYMATIC-REACTION - ENZRXN-8948
+GIBBS-0 - 3.541809    
+LEFT - ACETOIN
+LEFT - NAD
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - RIGHT-TO-LEFT
+RIGHT - DIACETYL
+RIGHT - NADH
+RIGHT - PROTON

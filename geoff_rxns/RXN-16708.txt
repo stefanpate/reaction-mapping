@@ -1,0 +1,20 @@
+UNIQUE-ID - RXN-16708
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (11 12 13 0 1 14 15 16 2 3 4 18 5 17 19 7 8 9 10 20 21 6) (((|Pup-C-terminal-L-glutamate| 0 10) (|Protein-L-lysine| 11 21)) ((|N6-Pup-gamma-L-glutamyl-protein-L-lysine| 0 20) (WATER 21 21))))
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR120311" NIL |kothari| 3789143034 NIL NIL)
+EC-NUMBER - EC-3.4.99.M1
+^OFFICIAL? - T
+ENZYMATIC-REACTION - ENZRXN-23886
+GIBBS-0 - -22.253479    
+IN-PATHWAY - PWY-7893
+LEFT - N6-Pup-gamma-L-glutamyl-protein-L-lysine
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Pup-C-terminal-L-glutamate
+RIGHT - Protein-L-lysine

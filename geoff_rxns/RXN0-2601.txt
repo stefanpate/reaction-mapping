@@ -1,0 +1,23 @@
+UNIQUE-ID - RXN0-2601
+TYPES - Chemical-Reactions
+TYPES - DNA-REPAIR
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+CITATIONS - 25869130
+CITATIONS - 15102448
+CITATIONS - 27865982
+COMMENT - Excision of the nucleobase lesion is a two-step process and involves formation of an enzyme-substrate Schiff base intermediate; subsequent DNA strand nicking occurs via a &beta;-elimination leaving a 3'-terminal &alpha;,&beta;-unsaturated aldehyde and a 5'-terminal phosphate. This reaction is catalysed by the Nth (HhH) family of bifunctional DNA glycosylases.
+CREDITS - O0-13
+CREDITS - amackie
+DBLINKS - (METANETX-RXN "MNXR123145" NIL |kothari| 3789143027 NIL NIL)
+EC-NUMBER - EC-3.2.2
+ENZYMATIC-REACTION - ENZRXN-2004
+LEFT - Damaged-DNA-Pyrimidine
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNDETERMINED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - a-DNA-3-alpha-beta-unsaturated-aldehyde
+RIGHT - 5-Phospho-terminated-DNAs
+RIGHT - Modified-Bases
+RIGHT - PROTON

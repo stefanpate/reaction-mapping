@@ -1,0 +1,21 @@
+UNIQUE-ID - RXN-19788
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36) ((("Ox-NADPH-Hemoprotein-Reductases" 0 18) ("CPD-18925" 19 34) (("WATER" 1) 35 35) (("WATER" 2) 36 36)) (("Red-NADPH-Hemoprotein-Reductases" 0 18) ("CPD-21400" 19 34) ("OXYGEN-MOLECULE" 35 36))))
+CITATIONS - 17715131
+COMMENT - A heme-thiolate protein (P-450). The enzyme from the plant |FRAME: TAX-35626| also hydroxylates valencene at C-2 to give the &alpha;-hydroxy compound, nootkatol, and this is converted into nootkatone. 5-Epiaristolochene and epieremophilene are hydroxylated at C-2 to give a 2&beta;-hydroxy derivative which is not further oxidized.
+CREDITS - SRI
+CREDITS - caspi
+GIBBS-0 - -97.23178    
+IN-PATHWAY - RXN-19789
+LEFT - CPD-21400
+LEFT - Red-NADPH-Hemoprotein-Reductases
+LEFT - OXYGEN-MOLECULE
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-18925
+RIGHT - Ox-NADPH-Hemoprotein-Reductases
+RIGHT - WATER
+^COEFFICIENT - 2

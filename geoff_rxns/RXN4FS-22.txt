@@ -1,0 +1,28 @@
+UNIQUE-ID - RXN4FS-22
+TYPES - Chemical-Reactions
+TYPES - Composite-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - <i>cis</i>-abscisic alcohol monooxygenase
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 44 43 50 45 46 47 48 49 51 52 54 53 56 57 58 55 59) (((("Ox-NADPH-Hemoprotein-Reductases" 1) 0 18) (("Ox-NADPH-Hemoprotein-Reductases" 2) 19 37) ("CPD-693" 38 56) (("WATER" 1) 57 57) (("WATER" 2) 58 58) (("WATER" 3) 59 59)) ((("Red-NADPH-Hemoprotein-Reductases" 1) 0 18) (("Red-NADPH-Hemoprotein-Reductases" 2) 19 37) ("CPD4FS-7" 38 55) (("OXYGEN-MOLECULE" 1) 56 57) (("OXYGEN-MOLECULE" 2) 58 59))))
+COMMENT - This reaction was not fully characterized. In tomato, feeding experiments with radio labeled ABA-alcohol and O2 showed the formation of ABA, which was inhibited by CO and thus indicated the involvement of a P450 monooxygenase |CITS: [16668451]|.
+CREDITS - PMN
+CREDITS - zhang
+DBLINKS - (METANETX-RXN "MNXR123659" NIL |kothari| 3789143036 NIL NIL)
+EC-NUMBER - EC-1.14.14
+GIBBS-0 - -202.72061    
+LEFT - CPD4FS-7
+LEFT - Red-NADPH-Hemoprotein-Reductases
+^COEFFICIENT - 2
+LEFT - OXYGEN-MOLECULE
+^COEFFICIENT - 2
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+REACTION-LIST - RXN-19717
+REACTION-LIST - RXN-19718
+RIGHT - CPD-693
+RIGHT - Ox-NADPH-Hemoprotein-Reductases
+^COEFFICIENT - 2
+RIGHT - WATER
+^COEFFICIENT - 3
+RIGHT - PROTON

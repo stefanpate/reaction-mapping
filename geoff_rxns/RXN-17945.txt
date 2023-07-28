@@ -1,0 +1,18 @@
+UNIQUE-ID - RXN-17945
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (9 10 11 12 13 14 19 18 21 22 0 1 2 3 4 6 17 15 16 7 5 20 8) ((("Deoxy-Ribonucleosides" 0 8) ("3-Prime-Nucleoside-Monophosphates" 9 22)) (("Nucleosides" 0 9) ("Deoxy-Ribonucleoside-Monophosphates" 10 22))))
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR121289" NIL |kothari| 3789143035 NIL NIL)
+EC-NUMBER - EC-2.7.1.77
+^OFFICIAL? - NIL
+GIBBS-0 - 0.    
+LEFT - 3-Prime-Nucleoside-Monophosphates
+LEFT - Deoxy-Ribonucleosides
+ORPHAN? - :YES-CONFIRMED
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Nucleosides
+RIGHT - Deoxy-Ribonucleoside-Monophosphates

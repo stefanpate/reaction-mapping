@@ -1,0 +1,14 @@
+UNIQUE-ID - RXN-19939
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 3 4 7 8 10 15 16 17 21 23 24 27 29 32 40 41 42 43 44 45 46 47 48 37 36 2 6 33 1 5 9 35 38 34 11 39 13 12 14 20 22 26 30 25 31 28 19 18) ((("RNA-Containing-Cytidine-Adenosine" 0 48)) (("5prime-Hydroxy-Adenosine-3prime-RNA" 0 23) ("RNA-3-Cytidine-23-Cyclophosphate" 24 48))))
+CREDITS - SRI
+CREDITS - caspi
+GIBBS-0 - 116.44818    
+IN-PATHWAY - RXN-19938
+LEFT - RNA-Containing-Cytidine-Adenosine
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - RNA-3-Cytidine-23-Cyclophosphate
+RIGHT - 5prime-Hydroxy-Adenosine-3prime-RNA

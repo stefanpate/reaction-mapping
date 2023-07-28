@@ -1,0 +1,18 @@
+UNIQUE-ID - RXN-9560
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 3 1 5 4 7 6 9 8 10 2) (((ACETALD 0 2) (CPD-10204 3 10)) ((CPD-10206 0 9) (WATER 10 10))))
+COMMENT - This <A href="https://en.wikipedia.org/wiki/Knoevenagel_condensation">Knoevenagel condensation</A> occurs spontaneously, and has been verified experimentally. The authors suggested that it is unlikely that the reaction is catalyzed by an enzyme, although they could not exclude this possibility |CITS: [27865643]|.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR122865" NIL |kothari| 3789143028 NIL NIL)
+GIBBS-0 - -5.3670006    
+IN-PATHWAY - PWY-7910
+LEFT - CPD-10204
+LEFT - ACETALD
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-10206
+RIGHT - WATER
+SPONTANEOUS? - T

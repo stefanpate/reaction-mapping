@@ -1,0 +1,16 @@
+UNIQUE-ID - RXN-9170
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :UNBALANCED
+CANNOT-BALANCE? - T
+CITATIONS - kean81
+COMMENT - This reaction is hypothesized to occur in ackee plants |FRAME: TAX-259381| as part of
+/hypoglycin biosynthesis, but, there is no direct evidence for this reaction |CITS: [Kean81]|.
+DBLINKS - (METANETX-RXN "MNXR122672" NIL |kothari| 3789143028 NIL NIL)
+GIBBS-0 - 45.87224    
+IN-PATHWAY - PWY-5826
+LEFT - CPD-9734
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-9735

@@ -1,0 +1,22 @@
+UNIQUE-ID - RXN-15169
+TYPES - Small-Molecule-Reactions
+TYPES - TR-14
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (16 17 18 19 20 21 23 24 25 26 10 12 11 22 27 13 0 1 2 3 4 5 6 7 8 9 14 15) (((|Hpr-pi-phospho-L-histidines| 0 15) (|D-galactopyranose| 16 27)) ((|D-galactopyranose-6-phosphate| 0 15) (|Hpr-Histidine| 16 27))))
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR119186" NIL |kothari| 3789143036 NIL NIL)
+DBLINKS - (RHEA "49261" NIL |kothari| 3709310382 NIL NIL)
+EC-NUMBER - EC-2.7.1.204
+GIBBS-0 - -33.6911    
+LEFT - Hpr-pi-phospho-L-histidines
+^COMPARTMENT - CCO-IN
+LEFT - D-galactopyranose
+^COMPARTMENT - CCO-OUT
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - D-galactopyranose-6-phosphate
+^COMPARTMENT - CCO-IN
+RIGHT - Hpr-Histidine
+^COMPARTMENT - CCO-IN

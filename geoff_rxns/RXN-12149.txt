@@ -1,0 +1,19 @@
+UNIQUE-ID - RXN-12149
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - L-rhamnose pyranase
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 4 2 3 5 10 7 8 9 6) (((L-RHAMNOFURANOSE 0 10)) ((|L-rhamnopyranose| 0 10))))
+COMMENT - The pyranose and furanose ring forms of reducing sugars exist in equilibrium in aqueous solution, varying in proportion depending upon the monosaccharide.  The pyranose ring appears to be more stable than the furanose ring in aqueous solution (in |CITS: [MA98]| and reviewed in |CITS: [FRANKS87]|).  Some pyranase reactions can be enzyme-catalyzed (see |FRAME: CPLX0-7646|) |CITS: [15060078]|.
+CREDITS - SRI
+CREDITS - fulcher
+DBLINKS - (LIGAND-RXN "R02438" NIL |kothari| 3789150532 NIL NIL)
+DBLINKS - (METANETX-RXN "MNXR107506" NIL |kothari| 3789143035 NIL NIL)
+GIBBS-0 - 0.23999786    
+IN-PATHWAY - PWY-6713
+IN-PATHWAY - PWY-6714
+LEFT - L-rhamnopyranose
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - REVERSIBLE
+RIGHT - L-RHAMNOFURANOSE
+SPONTANEOUS? - T

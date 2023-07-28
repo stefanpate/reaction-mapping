@@ -1,0 +1,15 @@
+UNIQUE-ID - RXN-18524
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (5 1 4 3 2 0 7 6 8 9 10 11 12 13 14 15 16 17 18 19 20 23 22 21 24 25 26 27 28 29 30 31 32 34 33 35 36 38 37 39) (((CPD-19846 0 39)) ((CPD-7323 0 39))))
+COMMENT - This is a hypothetical reaction in the biosynthesis of |FRAME: CPD-7323|. According to the proposed model, the polyprenyl side-chain of methanophenazine is transferred from |FRAME: ALL-TRANS-PENTAPRENYL-DIPHOSPHATE| (GFPP) to |FRAME: CPD-9546|, followed by the selective reduction of its double bond at position 2 |CITS: [9555882]|.
+CREDITS - SRI
+CREDITS - caspi
+EC-NUMBER - EC-1.3.99
+LEFT - CPD-7323
+LEFT - Acceptor
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-RIGHT-TO-LEFT
+RIGHT - CPD-19846
+RIGHT - Donor-H2

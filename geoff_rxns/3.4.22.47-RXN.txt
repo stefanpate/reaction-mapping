@@ -1,0 +1,15 @@
+UNIQUE-ID - 3.4.22.47-RXN
+TYPES - Protein-Modification-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (6 7 8 9 2 3 10 11 12 13 14 15 4 16 5 17 19 20 0 21 1 18) ((("Peptide-Holder-Alternative" 0 5) ("Peptide-with-C-terminal-Lysine" 6 21)) (("Peptide-containing-Lysine" 0 20) ("WATER" 21 21))))
+DBLINKS - (METANETX-RXN "MNXR115515" NIL |kothari| 3789143027 NIL NIL)
+EC-NUMBER - EC-3.4.22.47
+^OFFICIAL? - T
+GIBBS-0 - -21.005249    
+LEFT - Peptide-containing-Lysine
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Peptide-with-C-terminal-Lysine
+RIGHT - Peptide-Holder-Alternative

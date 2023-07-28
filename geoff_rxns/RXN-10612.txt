@@ -1,0 +1,15 @@
+UNIQUE-ID - RXN-10612
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+TYPES - Unknown-Conversions
+ATOM-MAPPINGS - :UNBALANCED
+CANNOT-BALANCE? - T
+COMMENT - This reaction represents an unknown, multi-step conversion involving deiodinations, and decarboxylation at the alanine side chain of |FRAME: L-THYROXINE| (reviewed in |CITS: [18279024]|).
+DBLINKS - (METANETX-RXN "MNXR116412" NIL |kothari| 3789143037 NIL NIL)
+GIBBS-0 - 64.552414    
+IN-PATHWAY - PWY-6261
+LEFT - L-THYROXINE
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-11405

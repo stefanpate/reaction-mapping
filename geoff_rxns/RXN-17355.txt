@@ -1,0 +1,16 @@
+UNIQUE-ID - RXN-17355
+TYPES - Protein-Modification-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27) (((|PTS-I-pi-phospho-L-histidines| 0 15) (|Hpr-Histidine| 16 27)) ((|Hpr-pi-phospho-L-histidines| 0 15) (|PTS-I-Histidines| 16 27))))
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR120862" NIL |kothari| 3789143035 NIL NIL)
+GIBBS-0 - 0.    
+IN-PATHWAY - 2.7.3.9-RXN
+LEFT - PTS-I-pi-phospho-L-histidines
+LEFT - Hpr-Histidine
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - PTS-I-Histidines
+RIGHT - Hpr-pi-phospho-L-histidines

@@ -1,0 +1,19 @@
+UNIQUE-ID - RXN-13756
+TYPES - Protein-Modification-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 9 11 12 14 15 13 7 8 6 16 17 10) ((("Pyruvate-phosphate-dikinase-Thr-P" 0 12) ("Pi" 13 17)) (("Pyruvate-phosphate-dikinase-L-threonine" 0 8) ("PPI" 9 17))))
+CITATIONS - 6326674
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR118282" NIL |kothari| 3789143027 NIL NIL)
+EC-NUMBER - EC-2.7.4.27
+^OFFICIAL? - T
+GIBBS-0 - -7.2010803    
+LEFT - Pyruvate-phosphate-dikinase-Thr-P
+LEFT - Pi
+LEFT - PROTON
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Pyruvate-phosphate-dikinase-L-threonine
+RIGHT - PPI

@@ -1,0 +1,22 @@
+UNIQUE-ID - RXN-14006
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 2 1 4 3 5 7 6 8 9 10 11 12 13 14) ((("CPD-15020" 0 14)) (("CPD-1063" 0 14))))
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 2 1 4 3 5 7 6 8 12 10 11 9 13 14) ((("CPD-15020" 0 14)) (("CPD-1063" 0 14))))
+CITATIONS - 18826254
+CITATIONS - 23042035
+COMMENT - This RubisCO-like Protein from Rhodospirillum rubrum catalyzes an isomerization reaction (overall a 1,3-proton transfer reaction; but likely two 1,2-proton transfer reactions) that converts 5-methylthio-D-ribulose 1-phosphate to a 3:1 mixture of 1-methylthio-xylulose 5-phosphate and 1-methylthioribulose 5-phosphate.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR118475" NIL |kothari| 3789143037 NIL NIL)
+EC-NUMBER - |EC-5.3.3.i|
+^OFFICIAL? - T
+ENZYMATIC-REACTION - ENZRXN-21246
+GIBBS-0 - 0.    
+IN-PATHWAY - PWY-7174
+LEFT - CPD-1063
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-15020

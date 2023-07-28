@@ -1,0 +1,24 @@
+UNIQUE-ID - RXN-3592
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 31 7 6 8 9 10 11 12 13 14 32 33 15 16 17 18 19 20 22 23 34 35 37 24 25 26 27 28 21 29 30 36) (((CPD-3421 0 30) (MALONATE 31 37)) ((CPD-3422 0 36) (WATER 37 37))))
+CITATIONS - 3740841
+CITATIONS - 4643301
+COMMENT - The isoflavone-7-O-glucoside-6''-malonate malonylesterase is considered to catalyze the first step in the retrieval 
+/of isoflavone aglycons from the conjugate cycle. However, the liberation of malonic acid has not been reported in 
+/<i>Spinacia oleracea</i> and <i>Phaseolus vulgaris</i> indicating that the malonylation of 7-O-glucosides may not 
+/be mandatory for all plants |CITS: [4643301]|. Nevertheless, the high specificity of the enzyme for isoflavone 
+/malonylglucoside (e.g. biochanin A-7-O-glucoside-6"-O-malonate) adds to the body of evidence for an existing 
+/interconversion isoflavone conjugate cycle.
+DBLINKS - (METANETX-RXN "MNXR121679" NIL |kothari| 3789143035 NIL NIL)
+ENZYMATIC-REACTION - ENZRXN-5443
+GIBBS-0 - -3.3912506    
+IN-PATHWAY - PWY-2345
+LEFT - CPD-3422
+LEFT - WATER
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - PROTON
+RIGHT - MALONATE
+RIGHT - CPD-3421

@@ -1,0 +1,13 @@
+UNIQUE-ID - RXN-20653
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (1 2 0 3 4 5 6 7 9 8 10 11 12) ((("Protein-X-Ser-Protein" 0 12)) (("Oxyoxazolidine-Intermediate" 0 12))))
+CREDITS - SRI
+CREDITS - caspi
+IN-PATHWAY - PWY-8057
+LEFT - Protein-X-Ser-Protein
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Oxyoxazolidine-Intermediate
+RIGHT - PROTON

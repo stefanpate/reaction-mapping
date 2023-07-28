@@ -1,0 +1,15 @@
+UNIQUE-ID - RXN-12891
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+COMMENT - The enzyme specifically catalyses mono- or di-methylation (Ala, Ser or Pro) or tri-methylation (Ala or Ser) of the exposed &alpha;-amino group in the [Ala/Pro/Ser]-Pro-Lys motif. The protein from Saccharomyces cerevisiae shows the highest activity towards the Pro-Pro-Lys-motif [1]. The Pro-Lys in positions 2-3 cannot be exchanged for other amino acids |CITS: [20481588][20668449]|.
+CREDITS - SRI
+CREDITS - caspi
+EC-NUMBER - EC-2.1.1
+LEFT - S-ADENOSYLMETHIONINE
+LEFT - NN-dimethyl-terminal-YPK
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNDETERMINED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - ADENOSYL-HOMO-CYS
+RIGHT - NNN-trimethyl-terminal-YPK

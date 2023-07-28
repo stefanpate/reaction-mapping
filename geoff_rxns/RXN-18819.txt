@@ -1,0 +1,19 @@
+UNIQUE-ID - RXN-18819
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 13 14 11 10 12) ((("GLY" 0 4) ("RIBOSE" 5 14)) (("GLY" 0 4) ("CPD-10204" 5 12) (("WATER" 1) 13 13) (("WATER" 2) 14 14))))
+COMMENT - This is a hypothetical <A href="https://en.wikipedia.org/wiki/Maillard_reaction">Maillard reaction</A> between ribose and glycine, resulting in production of |FRAME: CPD-10204| |CITS: [27865643]|.
+CREDITS - SRI
+CREDITS - caspi
+GIBBS-0 - -44.054    
+IN-PATHWAY - PWY-7910
+LEFT - RIBOSE
+LEFT - GLY
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-10204
+RIGHT - WATER
+^COEFFICIENT - 2
+RIGHT - GLY
+SPONTANEOUS? - T

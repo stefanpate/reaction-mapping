@@ -1,0 +1,24 @@
+UNIQUE-ID - RXN-18666
+TYPES - Composite-Reactions
+TYPES - Protein-Modification-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 10 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 32 33 9 36 37 41 11 34 35 39 30 31 29 38 42 40) ((("CysO-Sulfur-carrier-proteins" 0 9) ("Sulfurated-Sulfur-Acceptors" 10 11) ("ATP" 12 42)) (("Thiocarboxylated-CysO" 0 9) ("AMP" 10 32) ("Unsulfurated-Sulfur-Acceptors" 33 33) ("PPI" 34 42))))
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 10 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 32 33 39 36 37 41 11 34 9 35 30 31 29 38 42 40) ((("CysO-Sulfur-carrier-proteins" 0 9) ("Sulfurated-Sulfur-Acceptors" 10 11) ("ATP" 12 42)) (("Thiocarboxylated-CysO" 0 9) ("AMP" 10 32) ("Unsulfurated-Sulfur-Acceptors" 33 33) ("PPI" 34 42))))
+CREDITS - SRI
+CREDITS - caspi
+EC-NUMBER - EC-6.2.1
+ENZYMATIC-REACTION - ENZRXN-21810
+LEFT - CysO-Sulfur-carrier-proteins
+LEFT - Sulfurated-Sulfur-Acceptors
+LEFT - Donor-H2
+LEFT - ATP
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+REACTION-LIST - RXN-14564
+REACTION-LIST - RXN-14565
+RIGHT - Thiocarboxylated-CysO
+RIGHT - Unsulfurated-Sulfur-Acceptors
+RIGHT - Acceptor
+RIGHT - AMP
+RIGHT - PPI

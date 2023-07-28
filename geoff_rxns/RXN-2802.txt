@@ -1,0 +1,26 @@
+UNIQUE-ID - RXN-2802
+TYPES - Small-Molecule-Reactions
+TYPES - Unknown-Conversions
+ATOM-MAPPINGS - :TIMED-OUT
+ATOM-MAPPINGS - 10
+COMMENT - Please note: this is not a true reaction. Rather, this is a sum of the reactions carried out by a glyoxylate regeneration pathway. Most serine cycle methylotrophic bacteria convert |FRAME: ACETYL-COA| to |FRAME: GLYOX| via the |FRAME: PWY-5741| |CITS: [8704985][11872727]|.
+DBLINKS - (METANETX-RXN "MNXR121636" NIL |kothari| 3789143037 NIL NIL)
+GIBBS-0 - 8.779541    
+IN-PATHWAY - PWY-1622
+LEFT - ACETYL-COA
+^COEFFICIENT - 2
+LEFT - ETF-Oxidized
+LEFT - NADPH
+^COEFFICIENT - 2
+LEFT - CARBON-DIOXIDE
+LEFT - PROTON
+^COEFFICIENT - 2
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - GLYOX
+RIGHT - PROPIONYL-COA
+RIGHT - CO-A
+RIGHT - ETF-Reduced
+RIGHT - NADP
+^COEFFICIENT - 2

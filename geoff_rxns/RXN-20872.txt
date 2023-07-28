@@ -1,0 +1,16 @@
+UNIQUE-ID - RXN-20872
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - isodomoic acid A isomerization
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21) ((("CPD-18737" 0 21)) (("CPD-22491" 0 21))))
+CITATIONS - 30262498
+COMMENT - A putative isomerase is hypothesized to catalyze the conversion of |FRAME: CPD-22491| to |FRAME: CPD-18737| but the mechanism has not been fully elucidated yet |CITS: [30262498]|.
+CREDITS - PMN
+CREDITS - xu
+EC-NUMBER - EC-5.3.3
+IN-PATHWAY - PWY-8083
+LEFT - CPD-22491
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-18737

@@ -1,0 +1,24 @@
+UNIQUE-ID - RXN-12508
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - 2-(&alpha;-hydroxyethyl)-TPP:[dihydrolipoyllysine-residue acetyltransferase]-lipoyllysine acetyltransferase
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 27 1 2 3 4 5 7 39 8 9 10 11 6 12 13 14 15 46 17 16 18 19 20 21 22 23 24 25 26 28 29 30 31 32 33 34 35 36 37 38 40 41 42 43 44 45 47 49 48 50 51) ((("THIAMINE-PYROPHOSPHATE" 0 25) ("Pyruvate-dehydrogenase-acetylDHlipoyl" 26 51)) (("2-ALPHA-HYDROXYETHYL-THPP" 0 28) ("Pyruvate-dehydrogenase-lipoate" 29 51))))
+COMMENT - This is a partial reaction of |FRAME: RXN0-1134 "EC 1.2.4.1, pyruvate dehydrogenase (acetyl-transferring)"|, which catalyzes the following reactions:
+/
+/|FRAME: RXN-12583|
+/
+/|FRAME:RXN-12508|
+CREDITS - SRI
+CREDITS - kothari
+DBLINKS - (METANETX-RXN "MNXR117600" NIL |kothari| 3789143035 NIL NIL)
+DBLINKS - (LIGAND-RXN "R03270" NIL |kothari| 3519136234 NIL NIL)
+GIBBS-0 - -42.67447    
+IN-PATHWAY - RXN0-1134
+LEFT - 2-ALPHA-HYDROXYETHYL-THPP
+LEFT - Pyruvate-dehydrogenase-lipoate
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Pyruvate-dehydrogenase-acetylDHlipoyl
+RIGHT - THIAMINE-PYROPHOSPHATE

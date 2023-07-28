@@ -1,0 +1,15 @@
+UNIQUE-ID - RXN-18425
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (32 1 4 3 2 7 6 5 8 9 11 10 15 12 27 28 0 13 17 18 16 24 19 22 20 23 30 25 26 29 14 31 21 36 34 35 33 41 42 40 39 38 43 46 45 44 37) (((|7-dihydroxy-bacteriochlorophyllide-d| 0 46)) ((|Bacteriochlorophyllide-f| 0 45) (WATER 46 46))))
+CREDITS - SRI
+CREDITS - caspi
+GIBBS-0 - 9.825249    
+IN-PATHWAY - RXN-18422
+LEFT - 7-dihydroxy-bacteriochlorophyllide-d
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Bacteriochlorophyllide-f
+RIGHT - WATER

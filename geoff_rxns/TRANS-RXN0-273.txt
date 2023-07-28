@@ -1,0 +1,19 @@
+UNIQUE-ID - TRANS-RXN0-273
+TYPES - Small-Molecule-Reactions
+TYPES - TR-21
+COMMON-NAME - dimethyl sulfoxide diffusion
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+COMMENT - Dimethyl sulfoxide diffuses across cell membranes; dimethyl sulfoxide interacts with phospholipids and may enhance the diffusion of other substances (see |CITS: [9724923]|.
+CREDITS - SRI
+CREDITS - paley
+DBLINKS - (METANETX-RXN "MNXR97533" NIL |kothari| 3789143034 NIL NIL)
+GIBBS-0 - 0.    
+LEFT - DMSO
+^COMPARTMENT - CCO-OUT
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - REVERSIBLE
+RIGHT - DMSO
+^COMPARTMENT - CCO-IN
+RXN-LOCATIONS - CCO-PM-BAC-NEG
+SPONTANEOUS? - T

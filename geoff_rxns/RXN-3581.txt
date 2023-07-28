@@ -1,0 +1,26 @@
+UNIQUE-ID - RXN-3581
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (1 0 3 2 4 5 22 6 7 8 9 10 11 12 24 13 14 27 29 31 33 37 15 17 18 39 41 43 19 16 51 20 21 23 25 26 28 30 32 34 35 36 38 40 42 44 47 52 48 45 46 49 50 53 55 54) ((("CPD-3141" 0 19) ("CPD-12575" 20 55)) (("CPD-3421" 0 30) ("UDP" 31 55))))
+CITATIONS - 6458246
+COMMENT - Plant glucosyltransferases are recognized to possess a pronounced capability to glucosylate a broad range of various
+/compounds, ranging from phenols, aromatic acids, coumarins, cyanogenic glucosides, glucosinolates  to flavonoids, 
+/anthocyanins and monolignols. The glucosylation of selected isoflavones is the first committed reaction towards the 
+/interconversion cycle of isoflavone conjugates. The remarkable high specificity of the purified glucosyltransferase for 
+/such isoflavones underlines the involvement of those conjugates in the flexible production of defense compounds in 
+/legumes.
+DBLINKS - (METANETX-RXN "MNXR143494" NIL |kothari| 3789143036 NIL NIL)
+DBLINKS - (LIGAND-RXN "R02932" NIL |kothari| 3502627122 NIL NIL)
+EC-NUMBER - EC-2.4.1.170
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN-5381
+GIBBS-0 - 8.351685    
+IN-PATHWAY - PWY-2345
+LEFT - CPD-12575
+LEFT - CPD-3141
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-3421
+RIGHT - UDP

@@ -1,0 +1,17 @@
+UNIQUE-ID - RXN-17537
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+CANNOT-BALANCE? - T
+COMMENT - The enzyme encoded by the <i>all2316</i> gene of |FRAME: TAX-103690| (AKR17A1) can degrade |FRAME: CPD-18941|. The main products are |FRAME: PHTHALATE| and |FRAME: CPD-18942|. However, the minor products are not known, and the reaction can not be balanced |CITS: [26372161]|.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR120984" NIL |kothari| 3789143036 NIL NIL)
+LEFT - CPD-18941
+LEFT - NADPH
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+RIGHT - PHTHALATE
+RIGHT - CPD-18942
+RIGHT - NADP
+RIGHT - PROTON
+RIGHT - UNKNOWN

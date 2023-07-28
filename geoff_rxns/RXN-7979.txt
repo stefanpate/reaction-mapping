@@ -1,0 +1,32 @@
+UNIQUE-ID - RXN-7979
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (1 0 3 2 9 6 7 4 5 8 11 10 13 12 15 14 17 16 19 18 21 23 20 22 27 25 24 26 29 28 31 30 37 33 32 39 35 34 36 38 41 40 42 44 43) ((("CPD1F-133" 0 43) ("WATER" 44 44)) (("CPD1F-131" 0 42) ("OXYGEN-MOLECULE" 43 44))))
+COMMENT - A flavoprotein (FAD) that is active under conditions of low light. Along with |FRAME: RXN-13185 "EC 1.10.99.3, violaxanthin de-epoxidase"|, this enzyme forms part of the |FRAME: PWY-5945 "xanthophyll (or violaxanthin) cycle"|, which is involved in protecting the plant against damage by excess light. It will also epoxidize lutein in some higher-plant species.
+DBLINKS - (METANETX-RXN "MNXR110671" NIL |kothari| 3789143035 NIL NIL)
+DBLINKS - (RHEA "14938" NIL |kothari| 3709310379 NIL NIL)
+DBLINKS - (LIGAND-RXN "R07200" NIL |taltman| 3537215940 NIL NIL)
+ENZYMATIC-REACTION - ENZRXNIO2-2044
+ENZYMATIC-REACTION - ENZRXN-12755
+ENZYMATIC-REACTION - ENZRXN-12753
+ENZYMATIC-REACTION - ENZRXN-12751
+GIBBS-0 - -67.95514    
+IN-PATHWAY - PWY-5945
+IN-PATHWAY - RXN-13193
+IN-PATHWAY - PWY-5174
+LEFT - CPD1F-131
+LEFT - Reduced-ferredoxins
+^COEFFICIENT - 2
+LEFT - PROTON
+^COEFFICIENT - 2
+LEFT - OXYGEN-MOLECULE
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD1F-133
+RIGHT - Oxidized-ferredoxins
+^COEFFICIENT - 2
+RIGHT - WATER
+SYNONYMS - Zea-epoxidase
+SYSTEMATIC-NAME - zeaxanthin,NAD(P)H:oxygen oxidoreductase

@@ -1,0 +1,20 @@
+UNIQUE-ID - RXN-7669
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :UNBALANCED
+CANNOT-BALANCE? - T
+COMMENT - Transfers a segment of a 1,4-&alpha;-D-glucan chain to a primary hydroxyl group in a similar glucan chain, forming a 1,6 branch point.
+DBLINKS - (METANETX-RXN "MNXR121995" NIL |kothari| 3789143035 NIL NIL)
+EC-NUMBER - EC-2.4.1.18
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN-12156
+GIBBS-0 - -5093.7803    
+IN-PATHWAY - PWY-5067
+LEFT - POLY-GLUCOSYLATED-GLYCOGENINS
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - Glycogens
+SYNONYMS - Amylo-(1,4-1,6)-transglycosylase
+SYNONYMS - Amylo-(1,4 to 1,6)transglucosidase

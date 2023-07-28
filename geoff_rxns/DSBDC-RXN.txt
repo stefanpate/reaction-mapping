@@ -1,0 +1,19 @@
+UNIQUE-ID - DSBDC-RXN
+TYPES - Membrane-Protein-Modification-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23) ((("a-reduced-DsbC-protein" 0 23) ("an-oxidized-DsbD-protein" 24 47)) (("a-reduced-DsbD-protein" 0 23) ("an-oxidized-DsbC-protein" 24 47))))
+COMMENT - The reduction of DsbC proceeds by a disulfide relay. DsbD contains 3 redox active disulfide motifs termed &alpha; (C122-C128), &beta; (C182-C304) and &gamma; (C480-C483). Electrons derived from the oxidation of thioredoxin are transferred via DsbD to reduce the oxidized form of DsbC. The relay proceeds via the following sub-reactions which are not specifically shown:<BR>a reduced thioredoxin  + DsbD<sub>&beta;-oxidized</sub> &rarr; an oxidized thioredoxin + DsbD<sub>&beta;-reduced</sub><BR>DsbD<sub>&beta;-reduced</sub> + DsbD<sub>&gamma;-oxidized</sub> &rarr; DsbD<sub>&beta;-oxidized</sub> + DsbD<sub>&gamma;-reduced</sub><BR>DsbD<sub>&gamma;-reduced</sub> + DsbD<sub>&alpha;-oxidized</sub> &rarr; DsbD<sub>&gamma;-oxidized</sub> + DsbD<sub>&alpha;-reduced</sub><BR>DsbD<sub>&alpha;-reduced</sub> + DsbC<sub>oxidized</sub> &rarr; DsbD<sub>&alpha;-oxidized</sub> + DsbC<sub>reduced</sub>
+CREDITS - O0-13
+CREDITS - amackie
+GIBBS-0 - 0.    
+LEFT - a-reduced-DsbD-protein
+^COMPARTMENT - CCO-MEMBRANE
+LEFT - an-oxidized-DsbC-protein
+^COMPARTMENT - CCO-OUT
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - an-oxidized-DsbD-protein
+^COMPARTMENT - CCO-MEMBRANE
+RIGHT - a-reduced-DsbC-protein
+^COMPARTMENT - CCO-OUT
+RXN-LOCATIONS - CCO-PM-BAC-NEG

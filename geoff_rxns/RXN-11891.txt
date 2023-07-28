@@ -1,0 +1,21 @@
+UNIQUE-ID - RXN-11891
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 9 1 10 2 11 3 12 13 14 15 16 4 17 5 18 19 20 21 6 23 7 8 22) ((("Proteins-L-Threonines" 0 8) ("N-acetyl-D-glucosamine" 9 23)) (("Protein-N-acetyl-D-glucosamine-L-thr" 0 22) ("WATER" 23 23))))
+COMMENT - Within higher eukaryotes post-translational modification of protein serines/threonine residues with O-linked N-acetylglucosamine (O-GlcNAc) is dynamic, inducible and abundant, regulating many cellular processes by interfering with protein phosphorylation. |FRAME: RXN-11890 "O-GlcNAc transferase (EC 2.4.1.255)"| transfers GlcNAc onto substrate proteins and O-GlcNAcase cleaves GlcNAc from the modified proteins.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR117213" NIL |kothari| 3789143036 NIL NIL)
+DBLINKS - (RHEA "48893" NIL |kothari| 3709310382 NIL NIL)
+EC-NUMBER - EC-3.2.1.169
+^OFFICIAL? - T
+ENZYMATIC-REACTION - ENZRXN-18385
+GIBBS-0 - 130.41156    
+LEFT - Protein-N-acetyl-D-glucosamine-L-thr
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - N-acetyl-D-glucosamine
+RIGHT - Proteins-L-Threonines

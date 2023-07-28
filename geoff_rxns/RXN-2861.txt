@@ -1,0 +1,29 @@
+UNIQUE-ID - RXN-2861
+TYPES - Protein-Modification-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5) (((FORMALDEHYDE 0 1) ((|Cytochromes-CL-Red| 1) 2 3) ((|Cytochromes-CL-Red| 2) 4 5)) ((METOH 0 1) ((|Cytochromes-CL-Ox| 1) 2 3) ((|Cytochromes-CL-Ox| 2) 4 5))))
+COMMENT - A periplasmic quinoprotein alcohol dehydrogenase that only occurs in methylotrophic bacteria. It uses the novel specific cytochrome cL as acceptor. Acts on a wide range of primary alcohols, including ethanol, duodecanol, chloroethanol, cinnamyl alcohol, and also formaldehyde. Activity is stimulated by ammonia or methylamine. It is usually assayed with phenazine methosulphate. Like all other quinoprotein alcohol dehydrogenases it has an 8-bladed propeller structure, a calcium ion bound to the PQQ in the active site and an unusual disulphide ring structure in close proximity to the PQQ. It differs from |FRAME: RXN-11333 "EC 1.1.2.8, alcohol dehydrogenase (cytochrome c)"|, in having a high affinity for methanol and in having a second essential small subunit (no known function).
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (LIGAND-RXN "R01146" NIL |kothari| 3789150532 NIL NIL)
+DBLINKS - (METANETX-RXN "MNXR106841" NIL |kothari| 3789143035 NIL NIL)
+DBLINKS - (RHEA "51009" NIL |kothari| 3709310383 NIL NIL)
+EC-NUMBER - EC-1.1.2.7
+EC-NUMBER - |EC-1.1.2.e|
+^OFFICIAL? - T
+ENZYMATIC-REACTION - ENZRXN-4004
+ENZYMATIC-REACTION - ENZRXN-4002
+ENZYMATIC-REACTION - ENZRXN-4001
+GIBBS-0 - -5.843526    
+IN-PATHWAY - PWY-6966
+LEFT - METOH
+LEFT - Cytochromes-CL-Ox
+^COEFFICIENT - 2
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - FORMALDEHYDE
+RIGHT - Cytochromes-CL-Red
+^COEFFICIENT - 2
+RIGHT - PROTON
+^COEFFICIENT - 2

@@ -1,0 +1,24 @@
+UNIQUE-ID - RXN-6242
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (3 0 5 12 13 1 2 4 6 7 8 15 16 9 11 10 14 17 18 19 20 21 25 22 24 23 26 27 28 29 31 30 32) (((CPD-8634 0 31) (WATER 32 32)) ((CPD-7390 0 30) (OXYGEN-MOLECULE 31 32))))
+COMMENT - A copper-containing glycoprotein that plays a key role in the yellow coloration of flowers such as snapdragon. The enzyme is a homologue of plant polyphenol oxidase |CITS: [11073455]| and catalyses two separate chemical transformations, i.e. 3-hydroxylation and oxidative cyclization (2',&alpha;-dehydrogenation). 
+/The enzyme can accept both |FRAME: CPD-20012| (|FRAME: RXN-8454 "reaction 1"|) and |FRAME: CPD-3021| (|FRAME: RXN-3102 "reaction 2"|) as substrates.
+/|FRAME: HYDROGEN-PEROXIDE "Hydrogen peroxide"| activates reaction 1 but inhibits reaction 2.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR121836" NIL |kothari| 3789143035 NIL NIL)
+EC-NUMBER - EC-1.21.3.6
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN-12698
+GIBBS-0 - -125.58598    
+IN-PATHWAY - PWY-1901
+LEFT - CPD-7390
+LEFT - OXYGEN-MOLECULE
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-8634
+RIGHT - WATER
+SYSTEMATIC-NAME - 2&prime;,4,4&prime;,6&prime;-tetrahydroxychalcone:oxygen oxidoreductase

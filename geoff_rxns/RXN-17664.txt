@@ -1,0 +1,20 @@
+UNIQUE-ID - RXN-17664
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (1 0 3 2 5 4) ((("CPD-19080" 0 4) ("WATER" 5 5)) (("CPD-18985" 0 3) ("OXYGEN-MOLECULE" 4 5))))
+COMMENT - The particulate methane monooxygenaseof |FRAME: TAX-595536| is enantiospecific when acting on butane and pentane, and produces mostly the (2R) diastereomers |CITS: [21744144]|.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR121077" NIL |kothari| 3789143035 NIL NIL)
+EC-NUMBER - EC-1.14.18.3
+GIBBS-0 - -95.388794    
+LEFT - CPD-18985
+LEFT - NADH
+LEFT - OXYGEN-MOLECULE
+LEFT - PROTON
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+RIGHT - CPD-19080
+RIGHT - NAD
+RIGHT - WATER

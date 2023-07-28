@@ -1,0 +1,17 @@
+UNIQUE-ID - RXN-11004
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+TYPES - Unknown-Conversions
+ATOM-MAPPINGS - :UNBALANCED
+CANNOT-BALANCE? - T
+COMMENT - This conversion represents a series of uncharacterized reactions that include dehydrogenation of |FRAME: CPD-11960| to a 13' carboxylate (probably via an aldehyde intermediate), followed by cycles of side chain &beta;-oxidation to produce |FRAME: CPD-11961| |CITS: [19819327] [11997390]|.
+CREDITS - SRI
+CREDITS - fulcher
+DBLINKS - (METANETX-RXN "MNXR116641" NIL |kothari| 3789143036 NIL NIL)
+GIBBS-0 - -273.96472    
+IN-PATHWAY - PWY-6377
+LEFT - CPD-11960
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-11961

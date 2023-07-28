@@ -1,0 +1,14 @@
+UNIQUE-ID - RXN0-7312
+TYPES - Protein-Modification-Reactions
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+COMMENT - In this reaction the DsbG protein sulfenyl reductase acts as a disulfide isomerase to reduce a periplasmic protein that contains incorrect disulfide bonds; the product of the reaction 'a protein with reduced sulfide groups' then becomes available as a substrate for the thiol:disulfide oxidoreductase |FRAME: MONOMER0-4152 "DsbA"|.
+CREDITS - O0-13
+CREDITS - amackie
+LEFT - a-reduced-DsbG-protein
+LEFT - Proteins-with-incorrect-disulfides
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNDETERMINED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - an-oxidized-DsbG-protein
+RIGHT - Protein-Red-Disulfides
+RXN-LOCATIONS - CCO-PERI-BAC

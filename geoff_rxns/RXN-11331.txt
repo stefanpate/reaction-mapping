@@ -1,0 +1,29 @@
+UNIQUE-ID - RXN-11331
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - 3,5-diiodo-L-tyrosine deiodinase
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 2 3 4 1 5 6 7 8 14 9 10 11 12 13) ((("CPD-12288" 0 13) ("CPD-387" 14 14)) (("DIIODO-L-TYROSINE" 0 14))))
+CITATIONS - 4394169
+CITATIONS - 15289438
+CITATIONS - 16316988
+CITATIONS - 19436071
+COMMENT - The enzyme activity has only been demonstrated in the direction of 3-deiodination. Present in a transmembrane flavoprotein. Requires FMN
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR112941" NIL |kothari| 3789143037 NIL NIL)
+DBLINKS - (LIGAND-RXN "R09522" NIL |kothari| 3713704088 NIL NIL)
+DBLINKS - (RHEA "27457" NIL |kothari| 3571758921 NIL NIL)
+GIBBS-0 - 19.133545    
+IN-PATHWAY - RXN-13402
+LEFT - CPD-12288
+LEFT - CPD-387
+LEFT - NADP
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-RIGHT-TO-LEFT
+RIGHT - DIIODO-L-TYROSINE
+RIGHT - NADPH
+RIGHT - PROTON
+SYNONYMS - iodotyrosine dehalogenase 1
+SYNONYMS - DEHAL1
+SYSTEMATIC-NAME - NADP<small><sup>+</sup></small>:<small>L</small>-tyrosine oxidoreductase (iodinating)

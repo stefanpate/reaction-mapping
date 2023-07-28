@@ -1,0 +1,17 @@
+UNIQUE-ID - NUCLEOSIDE-PHOSPHOTRANSFERASE-RXN
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (9 10 11 12 13 19 14 18 21 22 0 1 2 3 4 6 15 17 16 7 5 20 8) ((("Deoxy-Ribonucleosides" 0 8) ("Nucleoside-Monophosphates" 9 22)) (("Nucleosides" 0 9) ("Deoxy-Ribonucleoside-Monophosphates" 10 22))))
+DBLINKS - (METANETX-RXN "MNXR116097" NIL |kothari| 3789143034 NIL NIL)
+DBLINKS - (LIGAND-RXN "R07341" NIL |taltman| 3459474595 NIL NIL)
+EC-NUMBER - EC-2.7.1.77
+^OFFICIAL? - T
+GIBBS-0 - 0.    
+LEFT - Nucleoside-Monophosphates
+LEFT - Deoxy-Ribonucleosides
+ORPHAN? - :YES-CONFIRMED
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Nucleosides
+RIGHT - Deoxy-Ribonucleoside-Monophosphates

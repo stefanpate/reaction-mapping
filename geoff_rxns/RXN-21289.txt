@@ -1,0 +1,22 @@
+UNIQUE-ID - RXN-21289
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 33 13 14 15 16 17 18 27 19 20 21 22 23 24 25 26 28 29 30 31 32 34 35 36 37 38 42 39 40 41 44 45 46 47 43) ((("CPD-22994" 0 46) ("WATER" 47 47)) (("CPD-22993" 0 45) ("OXYGEN-MOLECULE" 46 47))))
+CITATIONS - 10468639
+CITATIONS - 8307032
+COMMENT - |FRAME: CHLOROPHYLL-B "Chlorophyll <i>b</i>"| is required for the assembly of stable light-harvesting complexes (LHCs) in the chloroplast of green algae, cyanobacteria and plants|CITS: [10758481][15086960]|. Contains a mononuclear iron centre |CITS: [15086960]|. The enzyme catalyses two successive hydroxylations at the 7-methyl group of |FRAME: CHLOROPHYLLIDE-A|. The second step yields the aldehyde hydrate, which loses H2O spontaneously to form |FRAME: CPD-7014| |CITS: [10758481]|. |FRAME: CHLOROPHYLL-A "Chlorophyll <i>a</i>"| and protochlorophyllide a are not substrates |CITS: [10758481]|.
+CREDITS - SRI
+CREDITS - caspi
+IN-PATHWAY - PWY-8127
+IN-PATHWAY - RXN-21287
+LEFT - CPD-22993
+LEFT - OXYGEN-MOLECULE
+LEFT - NADPH
+LEFT - PROTON
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-22994
+RIGHT - WATER
+RIGHT - NADP

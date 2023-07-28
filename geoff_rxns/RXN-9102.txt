@@ -1,0 +1,23 @@
+UNIQUE-ID - RXN-9102
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 33 6 7 8 9 10 34 11 12 13 35 36 15 16 37 14 17 18 19 38 20 21 39 22 23 24 25 40 41 27 28 42 29 30 31 32 44 26 43 45) (((CPD-9602 0 32) (|Glucosylated-Glucose-Acceptors| 33 45)) ((CPD-9603 0 43) (|Non-Glucosylated-Glucose-Acceptors| 44 45))))
+CANNOT-BALANCE? - NIL
+CITATIONS - Ostin95
+CITATIONS - 16653145
+COMMENT - This reaction is inferred from the identification of compounds |CITS: [OSTIN95]| generated through
+/radiotracer
+/feeding studies using radiolabeled IAA and partially purified radiolabeled IAA-Asp |CITS: [16653145]|.
+/It is unknown whether UDP-glucose acts as the sugar donor for this reaction and no enzymes have been
+/associated with this reaction to date.
+DBLINKS - (METANETX-RXN "MNXR122645" NIL |kothari| 3789143035 NIL NIL)
+EC-NUMBER - EC-2.4.1
+GIBBS-0 - 102.71126    
+IN-PATHWAY - PWY-5797
+LEFT - CPD-9602
+LEFT - Glucosylated-Glucose-Acceptors
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-9603
+RIGHT - Non-Glucosylated-Glucose-Acceptors

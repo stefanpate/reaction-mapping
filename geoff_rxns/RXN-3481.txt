@@ -1,0 +1,36 @@
+UNIQUE-ID - RXN-3481
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (28 27 30 29 31 32 33 34 35 36 37 38 39 40 41 42 44 43 45 26 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25) ((("ADENOSYL-HOMO-CYS" 0 25) ("CPD-3343" 26 45)) (("DAIDZEIN" 0 18) ("S-ADENOSYLMETHIONINE" 19 45))))
+CITATIONS - 8951042
+CITATIONS - 11006341
+CITATIONS - 12610212
+COMMENT - Isoflavone O-methylation is a key reaction for the formation of pterocarpan phytoalexins such as medicarpin. 
+/Isoflavone specific O-methyltransferases have been purified expressing a high in vitro affinity for the methylation of 
+/the A-ring 7-hydroxyl group of daidzein. 
+/
+/The resulting product, isoformononetin (7-O-methyldaidzein), is a rare naturally occurring compound which is unlikely
+/to be involved in the formation of medicarpin. No products of the 7-O-methylation of daidzein have been demonstrated 
+/to accumulate in elicited alfalfa cell cultures suggesting that this reaction may not occur <i>in vivo</i>. 
+/
+/Recently, a daidzein-7-O-methyltransferase (D7OMT) has been purified from <i>Glycyrrhiza echinata</i>. |CITS: [12610212]|
+/The distinct biochemistry of D7OMT and the distant phylogenetic relationship to another O-methyltransferase 
+/(2,7,4'-trihydroxyisoflavanone 4'-O-methyltransferase  - HI4'OMT)  acting specifically on 2,7,4'-trihydroxyisoflavanone 
+/implies a new scheme of formonetin biosynthesis  which excludes the 4-O-methylation of daidzein.
+DBLINKS - (METANETX-RXN "MNXR111317" NIL |kothari| 3789143028 NIL NIL)
+DBLINKS - (LIGAND-RXN "R07724" NIL |taltman| 3536627207 NIL NIL)
+EC-NUMBER - EC-2.1.1.150
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN-7662
+ENZYMATIC-REACTION - ENZRXN-5103
+GIBBS-0 - -4.3599854    
+IN-PATHWAY - PWY-2002
+LEFT - S-ADENOSYLMETHIONINE
+LEFT - DAIDZEIN
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - PROTON
+RIGHT - CPD-3343
+RIGHT - ADENOSYL-HOMO-CYS

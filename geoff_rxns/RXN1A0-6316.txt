@@ -1,0 +1,27 @@
+UNIQUE-ID - RXN1A0-6316
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20) (((CPD1A0-6111 0 20)) ((CPD1A0-6112 0 20))))
+CITATIONS - 10805574
+CITATIONS - 9209048
+CITATIONS - 7929165
+CITATIONS - KEGGsco01057
+COMMENT - The catalyzation of this reaction by ActVI-ORF2 and ActVI-ORF4 is still speculative.  Both resembled enoyl reductases,
+/but only disruption of <i>actVI-ORF2</i> effected actinorhodin production.  Since |FRAME: CPD1A0-6111| contains a
+/partial structure that is a known enoyl-reductase substrate, it was suggested that ActVI-ORF2 reduces the double
+/bond between C-14 and C-15 (within the partial structure) and ActVI-ORF4 helps in the chemically favored
+/isomerization |CITS: [7929165]||CITS: [10805574]|.
+/
+/
+DBLINKS - (METANETX-RXN "MNXR123435" NIL |kothari| 3789143034 NIL NIL)
+ENZYMATIC-REACTION - ENZRXN1UA-8153
+ENZYMATIC-REACTION - ENZRXN1A0-6320
+IN-PATHWAY - PWY1A0-6325
+LEFT - CPD1A0-6111
+LEFT - Donor-H2
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD1A0-6112
+RIGHT - Acceptor

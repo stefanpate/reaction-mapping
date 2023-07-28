@@ -1,0 +1,20 @@
+UNIQUE-ID - RXN-12059
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 17 13 14 15 20 16 18 19) ((("CPD-3713" 0 19) ("WATER" 20 20)) (("CPD-3710" 0 20))))
+COMMENT - The brain enzyme acts on 2',3'-cyclic AMP more rapidly than on the UMP or CMP derivatives. An enzyme from liver acts on 2',3'-cyclic CMP more rapidly than on the purine derivatives; it also hydrolyses the corresponding 3',5'-cyclic phosphates, but more slowly. This latter enzyme has been called cyclic-CMP phosphodiesterase.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR117326" NIL |kothari| 3789143036 NIL NIL)
+DBLINKS - (RHEA "41957" NIL |kothari| 3709310382 NIL NIL)
+EC-NUMBER - EC-3.1.4.37
+^OFFICIAL? - NIL
+GIBBS-0 - -179.51126    
+LEFT - CPD-3713
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - PROTON
+RIGHT - CPD-3710

@@ -1,0 +1,29 @@
+UNIQUE-ID - RXN-12769
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (52 53 54 0 1 2 55 3 4 5 6 7 8 9 56 57 10 11 12 13 14 15 16 59 58 17 60 18 19 21 22 23 24 25 26 28 29 20 27 30 31 32 33 61 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51) ((("CH33ADO" 0 17) ("CPD-13777" 18 51) ("MET" 52 60) ("AMMONIUM" 61 61)) (("S-ADENOSYLMETHIONINE" 0 26) ("CPD-472" 27 61))))
+CITATIONS - 17630700
+COMMENT - The enzyme is involved in biosynthesis of TDP-D-desosamine. It contains an [4Fe-4S] cluster |CITS: [19746907]|. This enzyme is a member of the AdoMet radical (radical SAM) family. The reaction starts by using an electron from the reduced form of the enzymes [4Fe-4S] cluster to split S-adenosyl-L-methionine into methionine and the radical 5-deoxyadenosin-5'-yl.	
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR117743" NIL |kothari| 3789143037 NIL NIL)
+DBLINKS - (RHEA "39648" NIL |kothari| 3709310382 NIL NIL)
+EC-NUMBER - EC-4.3.1.30
+^OFFICIAL? - T
+ENZYMATIC-REACTION - ENZRXN-19936
+ENZYMATIC-REACTION - ENZRXN-19755
+IN-PATHWAY - PWY-6942
+LEFT - S-ADENOSYLMETHIONINE
+LEFT - CPD-472
+LEFT - Donor-H2
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-13777
+RIGHT - AMMONIUM
+RIGHT - MET
+RIGHT - CH33ADO
+RIGHT - Acceptor
+RIGHT - PROTON
+SYNONYMS - DesII

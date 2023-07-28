@@ -1,0 +1,28 @@
+UNIQUE-ID - RXN-7677
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 33 13 14 15 16 17 18 27 19 20 21 22 23 24 25 26 28 29 30 31 32 34 35 36 37 38 42 39 40 41 44 45 46 47 43) ((("CPD-19759" 0 46) ("WATER" 47 47)) (("CPD-7015" 0 45) ("OXYGEN-MOLECULE" 46 47))))
+CITATIONS - 10468639
+CITATIONS - 8307032
+COMMENT - |FRAME: CHLOROPHYLL-B "Chlorophyll <i>b</i>"| is required for the assembly of stable light-harvesting complexes (LHCs) in the chloroplast of green algae, cyanobacteria and plants|CITS: [10758481][15086960]|. Contains a mononuclear iron centre |CITS: [15086960]|. The enzyme catalyses two successive hydroxylations at the 7-methyl group of |FRAME: CHLOROPHYLLIDE-A|. The second step yields the aldehyde hydrate, which loses H2O spontaneously to form |FRAME: CPD-7014| |CITS: [10758481]|. |FRAME: CHLOROPHYLL-A "Chlorophyll <i>a</i>"| and protochlorophyllide a are not substrates |CITS: [10758481]|.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR111774" NIL |kothari| 3789143027 NIL NIL)
+DBLINKS - (RHEA "22137" NIL |kothari| 3709310380 NIL NIL)
+DBLINKS - (LIGAND-RXN "R08204" NIL |kothari| 3496769951 NIL NIL)
+ENZYMATIC-REACTION - ENZRXN-17267
+GIBBS-0 - -90.46054    
+IN-PATHWAY - PWY-5068
+IN-PATHWAY - RXN-13398
+LEFT - CPD-7015
+LEFT - OXYGEN-MOLECULE
+LEFT - NADPH
+LEFT - PROTON
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-19759
+RIGHT - WATER
+RIGHT - NADP
+SYSTEMATIC-NAME - chlorophyllide-<em>a</em>:oxygen 7<small><sup>1</sup></small>-oxidoreductase

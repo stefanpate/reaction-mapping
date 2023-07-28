@@ -1,0 +1,14 @@
+UNIQUE-ID - RXN-9316
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :UNBALANCED
+CANNOT-BALANCE? - T
+COMMENT - The reaction is incomplete. It is still not clear what steps are involved in converting tryptophan to harmalol |CITS: [Berlin94]|.
+DBLINKS - (METANETX-RXN "MNXR122757" NIL |kothari| 3789143035 NIL NIL)
+GIBBS-0 - -37.889053    
+IN-PATHWAY - PWY-5877
+LEFT - TRYPTAMINE
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-9938

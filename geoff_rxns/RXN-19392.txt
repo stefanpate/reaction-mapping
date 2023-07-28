@@ -1,0 +1,23 @@
+UNIQUE-ID - RXN-19392
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12) ((("CPD-20959" 0 10) (("WATER" 1) 11 11) (("WATER" 2) 12 12)) (("CPD-20958" 0 10) ("OXYGEN-MOLECULE" 11 12))))
+COMMENT - The reaction proceeds as <i>N</i>-hydroxylation, producing an unstable <i>N,N</i>-dihydroxylated intermediate that dehydrates to produce mainly the <i>trans</i> oxime |CITS: [10027866]|.
+CREDITS - SRI
+CREDITS - caspi
+EC-NUMBER - EC-1.14.13.8
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN-26199
+GIBBS-0 - -108.98746    
+LEFT - CPD-20958
+LEFT - OXYGEN-MOLECULE
+LEFT - NADPH
+LEFT - PROTON
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-20959
+RIGHT - WATER
+^COEFFICIENT - 2
+RIGHT - NADP

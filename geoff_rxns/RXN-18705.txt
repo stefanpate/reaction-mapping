@@ -1,0 +1,20 @@
+UNIQUE-ID - RXN-18705
+TYPES - Protein-Modification-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (8 9 10 11 12 14 15 16 0 1 2 3 4 13 5 7 6) ((("TUM1-L-cysteine" 0 7) ("L-Cysteine-Desulfurase-persulfide" 8 16)) (("Cysteine-Desulfurase-L-cysteine" 0 7) ("TUM1-S-sulfanylcysteine" 8 16))))
+CREDITS - SRI
+CREDITS - caspi
+EC-NUMBER - EC-2.8.1
+ENZYMATIC-REACTION - ENZRXN-25685
+ENZYMATIC-REACTION - ENZRXN-25684
+GIBBS-0 - 0.    
+IN-PATHWAY - PWY-7891
+IN-PATHWAY - PWY-7889
+IN-PATHWAY - PWY-7888
+LEFT - L-Cysteine-Desulfurase-persulfide
+LEFT - TUM1-L-cysteine
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Cysteine-Desulfurase-L-cysteine
+RIGHT - TUM1-S-sulfanylcysteine

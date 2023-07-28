@@ -1,0 +1,26 @@
+UNIQUE-ID - RXN-11860
+TYPES - Chemical-Reactions
+TYPES - tRNA-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 1 2 3 4 5 7 6 8 9 10 11 12 20 13 14 15 16 17 18 19 21 22 23 24 25 26 27) ((("2-O-Methylcytidine-34-tRNAs" 0 27) ("ADENOSYL-HOMO-CYS" 28 53)) (("S-ADENOSYLMETHIONINE" 0 26) ("Cytidine-34-tRNAs" 27 53))))
+COMMENT - The enzyme from <i>Escherichia coli</i> catalyses the 2'-<i>O</i>-methylation of cytidine or 5-carboxymethylaminomethyluridine at the wobble position at nucleotide 34 in tRNA<sup>Leu</sup>CmAA and tRNA<sup>Leu</sup>Cmnm5UmAA. The enzyme is selective for the two tRNA<sup>Leu</sup> isoacceptors and only methylates these when they present the correct anticodon loop sequence and modification pattern. Specifically, YibK requires a pyrimidine nucleoside at position 34, it has a clear preference for an adenosine at position 35, and it fails to methylate without prior addition of the N<sup>6</sup>-(isopentenyl)-2-methylthioadenosine modification at position 37. 
+/
+/A second reaction catalyzed by this enzyme is:
+/
+/|FRAME:RXN-11865|
+CREDITS - SRI
+CREDITS - kothari
+DBLINKS - (METANETX-RXN "MNXR117199" NIL |kothari| 3789143028 NIL NIL)
+DBLINKS - (RHEA "43085" NIL |kothari| 3709310382 NIL NIL)
+EC-NUMBER - EC-2.1.1.207
+^OFFICIAL? - T
+ENZYMATIC-REACTION - ENZRXN0-7408
+GIBBS-0 - -24.902252    
+LEFT - S-ADENOSYLMETHIONINE
+LEFT - Cytidine-34-tRNAs
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - 2-O-Methylcytidine-34-tRNAs
+RIGHT - ADENOSYL-HOMO-CYS
+RIGHT - PROTON

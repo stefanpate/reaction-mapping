@@ -1,0 +1,17 @@
+UNIQUE-ID - RXN-17933
+TYPES - Chemical-Reactions
+TYPES - RNA-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (42 43 44 1 45 3 46 47 5 7 8 9 11 12 13 14 48 15 50 16 17 18 49 19 51 21 22 23 27 28 33 34 38 52 53 4 2 10 6 0 40 24 25 26 29 36 30 32 31 35 37 39 41 20) ((("RNA-with-3-prime-pp-5-prime-G-cap" 0 41) ("RNA-3-prime-P-cyclase-L-histidine" 42 53)) (("RNA-3-prime-P-cyclase-L-lysine-guanylate" 0 34) ("3-Prime-Phosphate-Terminated-RNAs" 35 53))))
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR121277" NIL |kothari| 3789143027 NIL NIL)
+GIBBS-0 - -16.036987    
+IN-PATHWAY - RXN-14708
+LEFT - RNA-3-prime-P-cyclase-L-lysine-guanylate
+LEFT - 3-Prime-Phosphate-Terminated-RNAs
+LEFT - PROTON
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - RNA-with-3-prime-pp-5-prime-G-cap
+RIGHT - RNA-3-prime-P-cyclase-L-histidine

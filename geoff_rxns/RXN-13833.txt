@@ -1,0 +1,22 @@
+UNIQUE-ID - RXN-13833
+TYPES - Complex-Processes
+TYPES - Protein-Modification-Reactions
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+CANNOT-BALANCE? - T
+CITATIONS - 19117946
+CITATIONS - 15667277
+CITATIONS - 15082711
+COMMENT - There are at least three classes of hydrogenases that have different metallic centers, different catalytic properties, and different propensities to consume or produce hydrogen under physiological conditions.
+/The iron [Fe] hydrogenases described in this class of protein have a [4Fe4S] cluster connected through a cysteinyl ligand to a binuclear [2Fe] center, known as the H-cluster, and they tend to produce, rather than consume hydrogen |CITS: [15082711]|. Like many complex metalloproteins, they require specific factors to facilitate the assembly and insertion of metal clusters in order to become active |CITS: [15082711]|. Their activation may also depend upon proteolytic processing 
+/|CITS: [8513797]|. Any process required for the activation of iron hydrogenases can be represented by this reaction.
+CREDITS - PMN
+CREDITS - dreher
+DBLINKS - (METANETX-RXN "MNXR118337" NIL |kothari| 3789143034 NIL NIL)
+ENZYMATIC-REACTION - ENZRXN-21059
+ENZYMATIC-REACTION - ENZRXN-21058
+LEFT - Apo-FeFe-hydrogenase-Subunits
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Active-FeFe-hydrogenase-Subunits

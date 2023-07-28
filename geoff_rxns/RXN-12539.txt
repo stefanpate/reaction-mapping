@@ -1,0 +1,21 @@
+UNIQUE-ID - RXN-12539
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (2 1 0 4 7 6 8 9 3 5) (((ETHYLENE-CMPD 0 1) (CPD-7671 2 3) (CARBON-DIOXIDE 4 6) ((CARBON-DIOXIDE 1) 7 9)) ((CPD-479 0 8) (CPD-12377 9 9))))
+CANNOT-BALANCE? - T
+COMMENT - This spontaneous reaction is driven by hydroxyl radicals, which are generated from molecular oxygen by the action of an |FRAME: MONOMER-16774| |CITS: [3541827][2792734][Ogawa90]|. It should be noted that the reaction is not balanced for charge, suggesting it is not complete.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR117618" NIL |kothari| 3789143035 NIL NIL)
+GIBBS-0 - -68.41794    
+IN-PATHWAY - PWY-6854
+LEFT - CPD-479
+LEFT - CPD-12377
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - ETHYLENE-CMPD
+RIGHT - CPD-7671
+RIGHT - CARBON-DIOXIDE
+^COEFFICIENT - 2
+SPONTANEOUS? - T

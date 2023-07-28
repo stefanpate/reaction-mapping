@@ -1,0 +1,23 @@
+UNIQUE-ID - RXN-13248
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (1 0 2 5 3 6 7 4) (((|Methylketones| 0 4) (CARBON-DIOXIDE 5 7)) ((CPD-12642 0 7))))
+CANNOT-BALANCE? - NIL
+CITATIONS - 20605911
+COMMENT - The inherently unstable 3-ketoacids undergo spontaneous decarboxylation in low rates, increased accumulation of straight chain methyketones in glandular trichomes of tomato indicate enzymatic decarboxylation, as shown in this study |CITS: [20605911]|.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR117971" NIL |kothari| 3789143036 NIL NIL)
+EC-NUMBER - EC-4.1.1
+ENZYMATIC-REACTION - ENZRXN-20229
+GIBBS-0 - -14.546997    
+IN-PATHWAY - PWY-7007
+LEFT - CPD-12642
+LEFT - PROTON
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - Methylketones
+RIGHT - CARBON-DIOXIDE
+SPONTANEOUS? - T

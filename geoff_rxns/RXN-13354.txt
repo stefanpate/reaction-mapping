@@ -1,0 +1,16 @@
+UNIQUE-ID - RXN-13354
+TYPES - Protein-Modification-Reactions
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+CITATIONS - Hardie86
+COMMENT - Upon absorption of a photon, the bound <i>all-trans</i> retinal cofactor of insect metarhodopsin is modified to an 11-cis isomer, restoring the molecule to an active rhodopsin.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR118039" NIL |kothari| 3789143036 NIL NIL)
+IN-PATHWAY - PWY-7042
+LEFT - Metarhodopsin-Rh1
+LEFT - Light
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - Rhodopsin-Rh1
+SPONTANEOUS? - T

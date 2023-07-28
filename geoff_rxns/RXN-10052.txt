@@ -1,0 +1,25 @@
+UNIQUE-ID - RXN-10052
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 15 13 16 14) (((CPD-10785 0 15) (WATER 16 16)) ((CPD-10805 0 16))))
+COMMENT - Acyl-homoserine lactones (AHLs) are produced by a number of bacterial species and are used by them to regulate the
+/expression of virulence genes in a process known as quorum-sensing.
+/Each bacterial cell has a basal level of AHL and, once the population density reaches a critical level, it triggers
+/AHL-signaling which, in turn, initiates the expression of particular virulence genes.
+/Plants or animals capable of degrading AHLs would have a therapeutic advantage in avoiding bacterial infection as
+/they could prevent AHL signaling and the expression of virulence genes in quorum-sensing bacteria.
+/ N-(3-oxohexanoyl)-L-homoserine lactone, N-(3-oxododecanoyl)-L homoserine lactone, N-butanoyl-L-homoserine lactone
+/and N-(3-oxooctanoyl)-L-homoserine lactone can act as substrates.
+DBLINKS - (METANETX-RXN "MNXR116296" NIL |kothari| 3789143028 NIL NIL)
+EC-NUMBER - EC-3.1.1.81
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN-16054
+GIBBS-0 - -9.947128    
+LEFT - CPD-10785
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - PROTON
+RIGHT - CPD-10805

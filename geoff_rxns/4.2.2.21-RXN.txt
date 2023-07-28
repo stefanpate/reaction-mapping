@@ -1,0 +1,27 @@
+UNIQUE-ID - 4.2.2.21-RXN
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :UNBALANCED
+CANNOT-BALANCE? - T
+COMMENT - This reaction is defined as the exolytic cleavage of disaccharide residues from the non-reducing ends of both polymeric chondroitin sulfates and their oligosaccharide fragments.
+/
+/Please note the diagram is for illustrative purposes only.
+/
+/The enzyme degrades a variety of glycosaminoglycans of the |FRAME: Chondroitin-sulfates| and |FRAME: Dermatan-Sulfate| type.  Chondroitin sulfate, chondroitin-sulfate proteoglycan and dermatan sulfate are the best substrates but the enzyme can also act on |FRAME: Hyaluronan| at a much lower rate.  |FRAME: KERATAN-6-SULFATE "Keratan sulfate"|, |FRAME: Heparan-Sulfate| and |FRAME: HEPARIN| are not substrates.
+/
+/The related enzyme |FRAME: 4.2.2.5-RXN "EC 4.2.2.20"| has the same substrate specificity but produces a mixture of Delta(4)-unsaturated oligosaccharides of different sizes that are ultimately degraded to Delta(4)-unsaturated tetra- and disaccharides |CITS: [9083041]|. Both enzymes act by the removal of a relatively acidic C-5 proton of the uronic acid followed by the elimination of a 4-linked hexosamine, resulting in the formation of an unsaturated C4-C5 bond on the hexuronic acid moiety of the products |CITS: [9083041][18992215]|.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR115612" NIL |kothari| 3789143035 NIL NIL)
+EC-NUMBER - EC-4.2.2.21
+^OFFICIAL? - T
+ENZYMATIC-REACTION - ENZRXN-18040
+GIBBS-0 - -261.79697    
+IN-PATHWAY - PWY-6572
+LEFT - Chondroitin-Sulfate-A
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - Chondroitin-Sulfate-A
+RIGHT - CPD-12563

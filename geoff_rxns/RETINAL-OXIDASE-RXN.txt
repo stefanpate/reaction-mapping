@@ -1,0 +1,26 @@
+UNIQUE-ID - RETINAL-OXIDASE-RXN
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - retinal oxidase
+CANNOT-BALANCE? - T
+COMMENT - Xanthine dehydrogenase (|FRAME: RXN0-901 "E.C. 1.17.1.4"|) is capable of oxidizing |FRAME: CPD-13524| bound to |FRAME: Cellular-Retinol-Binding-Proteins| (CRBP) directly to |FRAME: RETINOATE|. The NAD+ dependent retinol oxidation catalyzed by xanthine dehydrogenase is strictly dependent on cellular retinol binding proteins and is inhibited by oxypurinol |CITS:[17847715][18569334]|.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR116247" NIL |kothari| 3789143037 NIL NIL)
+DBLINKS - (LIGAND-RXN "R02125" NIL |taltman| 3459474596 NIL NIL)
+EC-NUMBER - EC-1.17.1
+ENZYMATIC-REACTION - ENZRXN-19511
+GIBBS-0 - 263.687    
+IN-PATHWAY - PWY-6875
+LEFT - CRPB-all-trans-Retinol
+LEFT - WATER
+LEFT - NAD
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - RETINOATE
+RIGHT - NADH
+RIGHT - PROTON
+SYNONYMS - retinene oxidase
+SYSTEMATIC-NAME - retinal:oxygen oxidoreductase

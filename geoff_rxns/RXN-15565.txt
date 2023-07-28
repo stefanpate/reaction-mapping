@@ -1,0 +1,21 @@
+UNIQUE-ID - RXN-15565
+TYPES - Composite-Reactions
+TYPES - Protein-Modification-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 8 11 12 13 6 9 14 15 7 16 17 18 10) (((|N-terminal-ubiquitinyl-proteins| 0 10) (|Ubiquitin-activating-protein-E1-L-cys| 11 18)) ((|N-terminal-Amino-Acids| 0 5) (|S-ubiquitinyl-UAP-E1-L-cysteine| 6 18))))
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR119453" NIL |kothari| 3789143034 NIL NIL)
+EC-NUMBER - EC-2.3.2.25
+^OFFICIAL? - T
+GIBBS-0 - 4.981121    
+LEFT - S-ubiquitinyl-UAP-E1-L-cysteine
+LEFT - N-terminal-Amino-Acids
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+REACTION-LIST - RXN-15563
+REACTION-LIST - RXN-15564
+RIGHT - N-terminal-ubiquitinyl-proteins
+RIGHT - Ubiquitin-activating-protein-E1-L-cys
+RIGHT - PROTON

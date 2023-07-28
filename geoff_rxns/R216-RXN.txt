@@ -1,0 +1,25 @@
+UNIQUE-ID - R216-RXN
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (1 0 3 2 4 6 7 8 5 9 10 11 12 13 14 15) (((CPD-319 0 14) (WATER 15 15)) ((CPD-301 0 15))))
+COMMENT - Requires a |FRAME: CPD-7| for activity.
+/In contrast to EC 4.2.1.36, |FRAME: ENZRXN-7008|, this enzyme can catalyze both the dehydration of |FRAME: HOMO-CIT|
+/to form |FRAME: HOMO-CIS-ACONITATE| and the subsequent hydration reaction that forms |FRAME: HOMO-I-CIT|.
+/In addition to |FRAME: HOMO-CIS-ACONITATE|, the enzyme can also catalyze the hydration of the physiological substrates
+/|FRAME: CPD-152| and |FRAME: CPD-301| as well as the non-physiological substrate |FRAME: CPD-10749|.
+/|FRAME: CIS-ACONITATE|, |FRAME: THREO-DS-ISO-CITRATE| and |FRAME: CPD-10745| cannot act as substrates,
+/and |FRAME: CPD-150| and |FRAME: CPD-149| act as inhibitors of the enzyme |CITS: [18765671]|.
+DBLINKS - (LIGAND-RXN "R10395" NIL |kothari| 3789150533 NIL NIL)
+DBLINKS - (METANETX-RXN "MNXR104019" NIL |kothari| 3789143037 NIL NIL)
+EC-NUMBER - EC-4.2.1.114
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN-2153
+GIBBS-0 - 1.472992    
+IN-PATHWAY - P241-PWY
+LEFT - CPD-301
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-319
+RIGHT - WATER

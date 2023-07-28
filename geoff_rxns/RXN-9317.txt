@@ -1,0 +1,14 @@
+UNIQUE-ID - RXN-9317
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 15 1 2 3 4 5 6 7 8 9 10 11 12 13 14 16) (((CPD-9938 0 14) (|Methylated-methyl-acceptors| 15 16)) ((CPD-9939 0 15) (|Demethylated-methyl-acceptors| 16 16))))
+DBLINKS - (METANETX-RXN "MNXR122758" NIL |kothari| 3789143034 NIL NIL)
+GIBBS-0 - 38.842216    
+IN-PATHWAY - PWY-5877
+LEFT - CPD-9938
+LEFT - Methylated-methyl-acceptors
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-9939
+RIGHT - Demethylated-methyl-acceptors

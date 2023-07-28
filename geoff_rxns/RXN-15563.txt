@@ -1,0 +1,19 @@
+UNIQUE-ID - RXN-15563
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (9 10 11 14 15 17 18 19 8 0 1 2 12 13 3 4 16 5 6 7 20) (((|N-terminal-specific-UCP-E2-L-cysteine| 0 7) (|S-ubiquitinyl-UAP-E1-L-cysteine| 8 20)) ((|Ubiquitin-activating-protein-E1-L-cys| 0 7) (|S-ubi-N-term-specific-UCP-E2-L-cysteine| 8 20))))
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR119451" NIL |kothari| 3789143036 NIL NIL)
+ENZYMATIC-REACTION - ENZRXN-23566
+GIBBS-0 - 0.    
+IN-PATHWAY - PWY-7511
+IN-PATHWAY - RXN-15565
+LEFT - S-ubiquitinyl-UAP-E1-L-cysteine
+LEFT - N-terminal-specific-UCP-E2-L-cysteine
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - Ubiquitin-activating-protein-E1-L-cys
+RIGHT - S-ubi-N-term-specific-UCP-E2-L-cysteine

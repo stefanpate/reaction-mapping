@@ -1,0 +1,18 @@
+UNIQUE-ID - RXN-20920
+TYPES - Small-Molecule-Reactions
+TYPES - Unknown-Conversions
+CANNOT-BALANCE? - T
+COMMENT - This hypothetical reaction has not been characterized. As written, it is not balanced for charge, indicating that it differs from the real transformation.
+CREDITS - SRI
+CREDITS - caspi
+ENZYMATIC-REACTION - ENZRXN-27327
+IN-PATHWAY - PWY-2421
+LEFT - DIOXINDOLE-3-ACETATE
+LEFT - OXYGEN-MOLECULE
+LEFT - NADH-P-OR-NOP
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CATECHOL
+RIGHT - NAD-P-OR-NOP

@@ -1,0 +1,17 @@
+UNIQUE-ID - RXN-8174
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 0 20) (((|Intracellular-Sulfur| 0 0) (GLUTATHIONE 1 20)) ((CPD-11281 0 20))))
+COMMENT - Elemental sulfur reacts non-enzymatically with glutathione, to form glutathionepolysulfanes with the general formula GS<sub>(n)</sub>H (with n>1), and predominantly persulfides (GSSH). The resulting glutathionepolysulfanes are the true substrates for |FRAME:RXN-13161 "EC 1.13.11.18, glutathione-dependent sulfur dioxygenase"| |CITS: [12855721]|.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR122166" NIL |kothari| 3789143037 NIL NIL)
+GIBBS-0 - -2.34    
+IN-PATHWAY - PWY-5294
+LEFT - GLUTATHIONE
+LEFT - Intracellular-Sulfur
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-11281
+SPONTANEOUS? - T

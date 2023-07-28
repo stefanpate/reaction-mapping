@@ -1,0 +1,23 @@
+UNIQUE-ID - RXN-11669
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 2 3 4 5 6 7 8 9 10 11 1 12 14 13 16 15) (((CPD-7901 0 13) (CARBON-DIOXIDE 14 16)) ((CPD-14242 0 16))))
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 2 3 4 5 6 7 8 9 10 11 1 12 14 13 15 16) (((CPD-7901 0 13) (CARBON-DIOXIDE 14 16)) ((CPD-14242 0 16))))
+CITATIONS - 20605911
+COMMENT - The inherently unstable 3-ketoacids undergo spontaneous decarboxylation in low rates, increased accumulation of straight chain methyketones in glandular trichomes of tomato indicate enzymatic decarboxylation, as shown in this study |CITS: [20605911]|.
+CREDITS - hartmut
+CREDITS - O-28
+CREDITS - pujar
+DBLINKS - (METANETX-RXN "MNXR117083" NIL |kothari| 3789143035 NIL NIL)
+EC-NUMBER - EC-4.1.1.56
+ENZYMATIC-REACTION - ENZRXN-18157
+GIBBS-0 - -4.2759094    
+IN-PATHWAY - PWY-6585
+LEFT - CPD-14242
+LEFT - PROTON
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-7901
+RIGHT - CARBON-DIOXIDE

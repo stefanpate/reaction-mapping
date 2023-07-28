@@ -1,0 +1,22 @@
+UNIQUE-ID - RXN-11973
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 20 3 7 4 5 6 19 21 22 8 9 23 24 25 26 27 28 29 30 31 32 14 15 13 10 11 12 16 18 17) (((CPD-461 0 18) (DELTA3-ISOPENTENYL-PP 19 32)) ((CPD-11293 0 23) (PPI 24 32))))
+CITATIONS - 19155349
+COMMENT - This enzyme, originally characterized from wild tomato, makes two sequential additions of |FRAME: DELTA3-ISOPENTENYL-PP| to |FRAME: CPD-4211| in <i>cis</i> configuration, forming |FRAME: CPD-11293|. The intermediate, |FRAME: CPD-461|, can also be used as a substrate for a single addition. In wild tomato it is involved in the biosynthesis of several sesquiterpenes. cf. |FRAME: 2.5.1.68-RXN "EC 2.5.1.68 ((2Z,6E)-farnesyl diphosphate synthase)"| and |FRAME: FPPSYN-RXN "EC 2.5.1.10 ((2E,6E)-farnesyl diphosphate synthase"|.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR117266" NIL |kothari| 3789143034 NIL NIL)
+EC-NUMBER - EC-2.5.1.92
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN-18468
+GIBBS-0 - -13.    
+IN-PATHWAY - RXN-18856
+LEFT - CPD-461
+LEFT - DELTA3-ISOPENTENYL-PP
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - PPI
+RIGHT - CPD-11293

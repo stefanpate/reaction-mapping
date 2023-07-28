@@ -1,0 +1,28 @@
+UNIQUE-ID - RXN-8991
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - 3-isopropylmalate dehydratase
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (1 0 3 4 2 6 5 11 10 9 8 7) (((CPD-9451 0 10) (WATER 11 11)) ((2-D-THREO-HYDROXY-3-CARBOXY-ISOCAPROATE 0 11))))
+COMMENT - Catalyzes the isomerization between (2R,3S)-3-isopropylmalate and
+/3-hydroxy-4-methyl-3-carboxypentanoate, via the formation of (2S)-2 isopropylmaleate.
+DBLINKS - (METANETX-RXN "MNXR100827" NIL |kothari| 3789143028 NIL NIL)
+DBLINKS - (RHEA "10676" NIL |kothari| 3571758670 NIL NIL)
+DBLINKS - (LIGAND-RXN "R04001" NIL |taltman| 3459474589 NIL NIL)
+ENZYMATIC-REACTION - ENZRXN-14548
+ENZYMATIC-REACTION - ENZRXN-14547
+GIBBS-0 - 5.299377400e-2
+IN-PATHWAY - LEUSYN-PWY
+IN-PATHWAY - PWY-6871
+IN-PATHWAY - RXN-13163
+LEFT - 2-D-THREO-HYDROXY-3-CARBOXY-ISOCAPROATE
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - REVERSIBLE
+RIGHT - CPD-9451
+RIGHT - WATER
+SYNONYMS - (2<em>R</em>,3<em>S</em>)-3-isopropylmalate hydro-lyase
+SYNONYMS - &beta;-isopropylmalate dehydratase
+SYNONYMS - &alpha;-isopropylmalate isomerase
+SYNONYMS - 3-isopropylmalate hydro-lyase
+SYSTEMATIC-NAME - (2<em>R</em>,3<em>S</em>)-3-isopropylmalate hydro-lyase (2-isopropylmaleate-forming)

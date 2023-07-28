@@ -1,0 +1,28 @@
+UNIQUE-ID - RXN-3585
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (48 49 50 51 52 53 54 57 56 58 59 60 61 62 63 64 67 68 69 70 71 81 72 76 77 78 79 80 82 83 0 1 2 3 4 5 55 6 7 8 9 10 11 65 66 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 73 74 75 29 30 31 32 33 34 36 35 38 37 39 40 41 42 43 44 45 46 47) ((("CO-A" 0 47) ("CPD-3425" 48 83)) (("CPD-3424" 0 29) ("MALONYL-COA" 30 83))))
+CITATIONS - 6497385
+CITATIONS - 6639051
+COMMENT - The malonylation of isoflavone glucosides has been suggested to be prerequisite for efficient passage of those 
+/compounds through the tonoplast. Malonylation renders the isoflavone glucosides more water soluble, consequently 
+/more suitable for vacuole storage. The malonylation step has been discussed as final step of the isoflavone conjugates
+/biosynthesis |CITS: [6639051]|.  However, the isoflavone-7-O-glucoside 6"-malonate malonyltransferase activity 
+/had been found strongly inhibited by distinct isoflavone-specific malonylesterase and glucohydrolase activities in 
+/crude extracts of <i>Cicer arietinum</i> which rather points to the existence of an isoflavone conjugate cycle with a 
+/subcellular compartmentation of the enzyme |CITS: [6497385]| .
+DBLINKS - (METANETX-RXN "MNXR111314" NIL |kothari| 3789143027 NIL NIL)
+DBLINKS - (LIGAND-RXN "R07721" RELATED-TO |kothari| 3502626999 NIL NIL)
+EC-NUMBER - EC-2.3.1.115
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN-5442
+GIBBS-0 - -1.1135254    
+IN-PATHWAY - PWY-2343
+LEFT - CPD-3424
+LEFT - MALONYL-COA
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-3425
+RIGHT - CO-A

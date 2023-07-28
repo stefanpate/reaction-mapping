@@ -1,0 +1,28 @@
+UNIQUE-ID - RXN-12091
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (6 1 0 7 3 2 9 8 10 5 4 11 13 12 14 15) (((PUTRESCINE 0 5) (CPD-10687 6 13) (HYDROGEN-PEROXIDE 14 15)) ((CPD-568 0 12) (WATER 13 13) (OXYGEN-MOLECULE 14 15))))
+COMMENT - A flavoprotein (FAD). The non-specific polyamine oxidases may differ from each other considerably. The enzyme from Saccharomyces cerevisiae shows a rather broad specificity and also oxidizes N8-acetylspermidine |CITS: [12670477]|. The enzyme from Ascaris suum shows high activity with spermine and spermidine, but also oxidizes norspermine |CITS: [1567380]|. The enzyme from Arabidopsis thaliana shows high activity with spermidine, but also oxidizes other polyamines |CITS: [18583528]|. The specific polyamine oxidases are classified as EC 1.5.3.13 (N1-acetylpolyamine oxidase), EC 1.5.3.14 (polyamine oxidase (propane-1,3-diamine-forming)), EC 1.5.3.15 (N8-acetylspermidine oxidase (propane-1,3-diamine-forming)) and EC 1.5.3.16 (spermine oxidase).
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR103519" NIL |kothari| 3789143034 NIL NIL)
+DBLINKS - (RHEA "25813" NIL |kothari| 3709310381 NIL NIL)
+DBLINKS - (LIGAND-RXN "R09074" NIL |kothari| 3497883066 NIL NIL)
+EC-NUMBER - EC-1.5.3.13
+^OFFICIAL? - T
+EC-NUMBER - EC-1.5.3.17
+^OFFICIAL? - T
+ENZYMATIC-REACTION - ENZRXN-15804
+ENZYMATIC-REACTION - ENZRXN-16489
+GIBBS-0 - -23.453003    
+IN-PATHWAY - PWY-6117
+LEFT - CPD-568
+LEFT - OXYGEN-MOLECULE
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - PUTRESCINE
+RIGHT - CPD-10687
+RIGHT - HYDROGEN-PEROXIDE

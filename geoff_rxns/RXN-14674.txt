@@ -1,0 +1,16 @@
+UNIQUE-ID - RXN-14674
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+TYPES - Unknown-Conversions
+CANNOT-BALANCE? - T
+COMMENT - This reaction type is classified as unknown conversions because it represents a series of undefined reactions as described in |CITS: [20837145]|.
+CREDITS - SRI
+CREDITS - fulcher
+DBLINKS - (METANETX-RXN "MNXR118845" NIL |kothari| 3789143034 NIL NIL)
+GIBBS-0 - -118.89447    
+IN-PATHWAY - PWY-7300
+LEFT - CPD-4187
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD-15501

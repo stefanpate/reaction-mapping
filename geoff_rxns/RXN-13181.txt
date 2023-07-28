@@ -1,0 +1,25 @@
+UNIQUE-ID - RXN-13181
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 21 1 2 3 22 5 4 6 7 8 9 10 11 12 13 23 15 16 17 18 19 24 20 14) (((N-ACETYLNEURAMINATE 0 20) (ACET 21 24)) ((CPD-414 0 23) (WATER 24 24))))
+CITATIONS - 1991039
+CITATIONS - Shukla82
+COMMENT - Acts on free and glycosidically bound N-acetyl- or N-glycoloyl-neuraminic acid; acts mainly on the 4-O- and 9-O-acetyl groups. Also acts on some other O-acetyl esters, both cyclic and acyclic compounds, which are not sialic acids.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR112121" NIL |kothari| 3789143028 NIL NIL)
+DBLINKS - (LIGAND-RXN "R08600" NIL |kothari| 3713704632 NIL NIL)
+DBLINKS - (RHEA "25567" NIL |kothari| 3571758009 NIL NIL)
+EC-NUMBER - EC-3.1.1.53
+^OFFICIAL? - T
+GIBBS-0 - -4.287094    
+LEFT - CPD-414
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - N-ACETYLNEURAMINATE
+RIGHT - PROTON
+RIGHT - ACET
+RXN-LOCATIONS - CCO-PERI-BAC

@@ -1,0 +1,26 @@
+UNIQUE-ID - RXN-15347
+TYPES - Protein-Modification-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 7 9 10 5 11 6 8) (((|SoxY-Systeine-Sulfinate| 0 10) (WATER 11 11)) ((|SoxZY-L-Cysteine| 0 7) (SO3 8 11))))
+COMMENT - An <i>in vitro</i> reconstituted Sox system mediates not only |FRAME: S2O3|, but also |FRAME: SO3|-dependent cytochrome <i>c</i> reduction |CITS: [9260941][11443084]|. 
+/While thiosulfate oxidation yields eight electrons, sulfite oxidation follows the following equation,
+/and yields only 2 electrons per mol substrate:
+/
+/|FRAME:SO3| + |FRAME:WATER| = |FRAME:SULFATE| + 2|FRAME:E-| + 2|FRAME:PROTON|
+/
+/Sulfite oxidation does not require the presence of the SoxCD protein. The product of bisulfite binding to |FRAME: SoxZY-L-Cysteine| is proposed to be a sulfinate derivative as shown here |CITS: [24030319]|. SoxY-sulfinate could then serve as
+/a substrate donor for an as-yet unknown sulfite transport system, releasing bisulfite inside the cytoplasm, which is then oxidized by |FRAME: CPLX-8835| via the reaction
+/
+/|FRAME: SULFITE-DEHYDROGENASE-RXN|
+/
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR119301" NIL |kothari| 3789143035 NIL NIL)
+GIBBS-0 - 31.342346    
+LEFT - SoxZY-L-Cysteine
+LEFT - SO3
+LEFT - PROTON
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+RIGHT - SoxY-Systeine-Sulfinate
+RIGHT - WATER

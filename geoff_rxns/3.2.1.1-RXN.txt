@@ -1,0 +1,22 @@
+UNIQUE-ID - 3.2.1.1-RXN
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :CPDS-LACK-STRUCTURE
+CANNOT-BALANCE? - T
+CITATIONS - SCHWIMMER49
+CITATIONS - MANNERS62
+CITATIONS - FISCHER60
+COMMENT - Endohydrolysis of (1&rarr;4)-&alpha;-D-glucosidic linkages in polysaccharides containing three or more (1&rarr;4)-&alpha;-linked D-glucose units.
+/
+/Acts on starch, glycogen and related polysaccharides and oligosaccharides in a random manner; reducing groups are liberated in the &alpha;-configuration. The term "&alpha;" relates to the initial anomeric configuration of the free sugar group released and not to the configuration of the linkage hydrolysed.
+DBLINKS - (METANETX-RXN "MNXR139962" NIL |kothari| 3789143037 NIL NIL)
+EC-NUMBER - EC-3.2.1.1
+^OFFICIAL? - T
+LEFT - Starch
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - MALTOSE
+RIGHT - Glucose

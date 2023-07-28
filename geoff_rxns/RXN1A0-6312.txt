@@ -1,0 +1,31 @@
+UNIQUE-ID - RXN1A0-6312
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 15 7 8 9 10 11 13 12 14 20 21 16 18 17 19) (((CPD1A0-6106 0 21)) ((CPD1A0-6105 0 21))))
+CITATIONS - Taguchi2007
+CITATIONS - 15498668
+CITATIONS - 10805574
+CITATIONS - 10091691
+CITATIONS - 7929165
+CITATIONS - KEGGsco01057
+COMMENT - Though this reaction can occur spontaneously, initial studies suggested that ActVI-ORF3 facilitates efficient ring
+/closure |CITS: [7929165]||CITS: [10091691]||CITS: [10805574]|.   However, a more recent study introduced the
+/possibility that this reaction could occur within the enzyme cavity of ActVI-ORF1, where His129 would activate the
+/hydroxyl group to attack the C-15 keto-group, thus initiating cyclization and re-generating the active amino acid
+/residues Glu141 and His129 (See |FRAME: SCO5072-MONOMER|) |CITS: [15498668]||CITS: [Taguchi2007]|.
+/
+/
+/
+DBLINKS - (LIGAND-RXN "R09307" NIL |kothari| 3789150533 NIL NIL)
+DBLINKS - (METANETX-RXN "MNXR112738" NIL |kothari| 3789143037 NIL NIL)
+EC-NUMBER - EC-5.5.1
+ENZYMATIC-REACTION - ENZRXN1A0-6313
+GIBBS-0 - 35.239998    
+IN-PATHWAY - PWY1A0-6325
+LEFT - CPD1A0-6105
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD1A0-6106
+SPONTANEOUS? - T

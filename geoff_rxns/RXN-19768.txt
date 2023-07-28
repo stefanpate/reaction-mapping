@@ -1,0 +1,19 @@
+UNIQUE-ID - RXN-19768
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (12 0 13 1 14 2 3 15 4 16 5 17 18 19 7 8 20 9 21 10 6 11 23 22) (((("D-galactopyranose" 1) 0 11) (("D-galactopyranose" 2) 12 23)) (("CPD-10299" 0 22) ("WATER" 23 23))))
+COMMENT - This reaction describes endo-hydrolysis of a polymeric compound. The substrate should be shown as (1,6-&beta;-D-galactosyl)<sub>(n+m)</sub>, while the two products should be (1,6-&beta;-D-galactosyl)<sub>n</sub> and (1,6-&beta;-D-galactosyl)<sub>m</sub>, respectively. These numbers are not displayed properly due to limitations in the software.
+CREDITS - SRI
+CREDITS - caspi
+EC-NUMBER - EC-3.2.1.M17
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN-26531
+GIBBS-0 - -3.112976    
+LEFT - CPD-10299
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - D-galactopyranose
+^COEFFICIENT - 2

@@ -1,0 +1,27 @@
+UNIQUE-ID - RXN-3584
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 21 7 8 9 10 11 12 13 23 14 26 28 30 32 36 15 17 38 40 42 18 16 50 19 20 22 24 25 27 29 31 33 34 35 37 39 41 43 46 51 47 44 45 48 49 52 54 53) ((("DAIDZEIN" 0 18) ("CPD-12575" 19 54)) (("CPD-3424" 0 29) ("UDP" 30 54))))
+CITATIONS - 6458246
+COMMENT - Plant glucosyltransferases are recognized to possess a pronounced capability to glucosylate a broad range of various
+/compounds, ranging from phenols, aromatic acids, coumarins, cyanogenic glucosides, glucosinolates  to flavonoids, 
+/anthocyanins and monolignols. The glucosylation of selected isoflavones is the first committed reaction towards the 
+/interconversion cycle of isoflavone conjugates. The remarkable high specificity of the purified glucosyltransferase for 
+/such isoflavones underlines the involvement of those conjugates in the flexible production of defense compounds in 
+/legumes.
+DBLINKS - (METANETX-RXN "MNXR143620" NIL |kothari| 3789143036 NIL NIL)
+DBLINKS - (LIGAND-RXN "R07720" NIL |kothari| 3502626941 NIL NIL)
+EC-NUMBER - EC-2.4.1.170
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN-5382
+GIBBS-0 - 6.897583    
+IN-PATHWAY - PWY-2343
+LEFT - CPD-12575
+LEFT - DAIDZEIN
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - PROTON
+RIGHT - CPD-3424
+RIGHT - UDP

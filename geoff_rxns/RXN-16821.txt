@@ -1,0 +1,26 @@
+UNIQUE-ID - RXN-16821
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 71 70 69 17 18 66 67 20 21 72 68 74 22 73 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 19 40 41 42 43 44 45 46 48 47 49 50 51 52 53 55 56 57 58 59 60 61 62 54 63 65 64) ((("AMP" 0 22) ("tRNA-with-5-taurinomethyl-2-thiouridine" 23 57) ("TUM1-L-cysteine" 58 65) ("PPI" 66 74)) (("ATP" 0 30) ("tRNA-containing-5-taurinomethyluridine" 31 65) ("TUM1-S-sulfanylcysteine" 66 74))))
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 71 69 70 17 18 66 68 20 21 72 19 74 22 73 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 67 40 41 42 43 44 45 46 48 47 49 50 51 52 53 55 56 57 58 59 60 61 62 54 63 65 64) ((("AMP" 0 22) ("tRNA-with-5-taurinomethyl-2-thiouridine" 23 57) ("TUM1-L-cysteine" 58 65) ("PPI" 66 74)) (("ATP" 0 30) ("tRNA-containing-5-taurinomethyluridine" 31 65) ("TUM1-S-sulfanylcysteine" 66 74))))
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR120408" NIL |kothari| 3789143036 NIL NIL)
+EC-NUMBER - EC-2.8.1.14
+^OFFICIAL? - T
+ENZYMATIC-REACTION - ENZRXN66-19551
+IN-PATHWAY - PWY-7889
+LEFT - TUM1-S-sulfanylcysteine
+LEFT - tRNA-containing-5-taurinomethyluridine
+LEFT - ATP
+LEFT - Donor-H2
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - tRNA-with-5-taurinomethyl-2-thiouridine
+RIGHT - TUM1-L-cysteine
+RIGHT - AMP
+RIGHT - PPI
+RIGHT - Acceptor
+RIGHT - PROTON

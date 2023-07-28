@@ -1,0 +1,22 @@
+UNIQUE-ID - RXN-7784
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22) ((("CPD-7087" 0 22)) (("CPD-7088" 0 22))))
+COMMENT - Also acts, in the reverse direction, on |FRAME: CPD-474| and |FRAME: CPD-7087|; each dihydroflavonol is reduced to the corresponding cis-flavan-3,4-diol. NAD+ can act instead of NADP+, but more slowly. Involved in the biosynthesis of anthocyanidins in plants.
+DBLINKS - (METANETX-RXN "MNXR140795" NIL |kothari| 3789143036 NIL NIL)
+DBLINKS - (LIGAND-RXN "R05038" NIL |kothari| 3502549563 NIL NIL)
+EC-NUMBER - EC-1.1.1.219
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN-12643
+GIBBS-0 - -4.630615    
+IN-PATHWAY - PWY-5152
+LEFT - CPD-7088
+LEFT - NADP
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - RIGHT-TO-LEFT
+RIGHT - CPD-7087
+RIGHT - NADPH
+RIGHT - PROTON
+^COEFFICIENT - 2

@@ -1,0 +1,17 @@
+UNIQUE-ID - RXN-15260
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+TYPES - Unknown-Conversions
+ATOM-MAPPINGS - :UNBALANCED
+CANNOT-BALANCE? - T
+COMMENT - The complete reaction equation has not been established. It is uncertain whether this reaction occurs spontaneously, or is enzymatically catalyzed |CITS: [19567870]|. It has been proposed that the analogous conversion of |FRAME: TETRA-H-BIOPTERIN| to |FRAME: CPD0-1718| occurs via nonenzymatic side chain release |CITS: [5543324][5809723]|.
+CREDITS - SRI
+CREDITS - fulcher
+DBLINKS - (METANETX-RXN "MNXR143936" NIL |kothari| 3789143035 NIL NIL)
+GIBBS-0 - 18.515522    
+IN-PATHWAY - PWY-7442
+LEFT - 6-PYRUVOYL-5678-TETRAHYDROPTERIN
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - CPD0-1718

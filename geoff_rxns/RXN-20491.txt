@@ -1,0 +1,14 @@
+UNIQUE-ID - RXN-20491
+TYPES - Small-Molecule-Reactions
+TYPES - Unknown-Conversions
+ATOM-MAPPINGS - :UNBALANCED
+CANNOT-BALANCE? - T
+COMMENT - This reaction describes the action of several enzymes, catalyzing two hydroxylation events and three methylations. Since the order in which these modifications occur, as well as the type of hydroxylation reactions involved, are still not known, this modification is present as a single undefined process.
+CREDITS - SRI
+CREDITS - caspi
+IN-PATHWAY - PWY-8049
+LEFT - CPD-22181
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - CPD-22182

@@ -1,0 +1,24 @@
+UNIQUE-ID - RXN-16388
+TYPES - Protein-Modification-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28) ((("1-acyl-2-palmitoleoyl-glycerolipids" 0 26) (("WATER" 1) 27 27) (("WATER" 2) 28 28)) (("1-acyl-2-palmitoyl-glycerolipids" 0 26) ("OXYGEN-MOLECULE" 27 28))))
+CANNOT-BALANCE? - NIL
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR120049" NIL |kothari| 3789143035 NIL NIL)
+EC-NUMBER - EC-1.14.19.27
+^OFFICIAL? - T
+GIBBS-0 - -56.58    
+LEFT - 1-acyl-2-palmitoyl-glycerolipids
+LEFT - Reduced-ferredoxins
+^COEFFICIENT - 2
+LEFT - OXYGEN-MOLECULE
+LEFT - PROTON
+^COEFFICIENT - 2
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+RIGHT - 1-acyl-2-palmitoleoyl-glycerolipids
+RIGHT - Oxidized-ferredoxins
+^COEFFICIENT - 2
+RIGHT - WATER
+^COEFFICIENT - 2

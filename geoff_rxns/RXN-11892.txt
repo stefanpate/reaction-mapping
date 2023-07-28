@@ -1,0 +1,18 @@
+UNIQUE-ID - RXN-11892
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (8 0 9 1 10 2 11 12 13 14 15 3 16 4 17 18 19 20 5 22 7 6 21) ((("Protein-L-serines" 0 7) ("N-acetyl-D-glucosamine" 8 22)) (("Protein-N-acetyl-D-glucosamin-L-serine" 0 21) ("WATER" 22 22))))
+DBLINKS - (METANETX-RXN "MNXR117214" NIL |kothari| 3789143027 NIL NIL)
+DBLINKS - (RHEA "48877" NIL |kothari| 3709310382 NIL NIL)
+EC-NUMBER - EC-3.2.1.169
+^OFFICIAL? - T
+ENZYMATIC-REACTION - ENZRXN-18386
+GIBBS-0 - 130.41156    
+LEFT - Protein-N-acetyl-D-glucosamin-L-serine
+LEFT - WATER
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - N-acetyl-D-glucosamine
+RIGHT - Protein-L-serines

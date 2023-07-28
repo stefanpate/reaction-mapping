@@ -1,0 +1,19 @@
+UNIQUE-ID - RXN-15564
+TYPES - Protein-Modification-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 8 11 12 13 6 9 14 15 7 16 17 18 10) (((|N-terminal-ubiquitinyl-proteins| 0 10) (|N-terminal-specific-UCP-E2-L-cysteine| 11 18)) ((|N-terminal-Amino-Acids| 0 5) (|S-ubi-N-term-specific-UCP-E2-L-cysteine| 6 18))))
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR119452" NIL |kothari| 3789143036 NIL NIL)
+ENZYMATIC-REACTION - ENZRXN-23567
+GIBBS-0 - 4.981121    
+IN-PATHWAY - PWY-7511
+IN-PATHWAY - RXN-15565
+LEFT - S-ubi-N-term-specific-UCP-E2-L-cysteine
+LEFT - N-terminal-Amino-Acids
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - N-terminal-specific-UCP-E2-L-cysteine
+RIGHT - N-terminal-ubiquitinyl-proteins
+RIGHT - PROTON

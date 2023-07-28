@@ -1,0 +1,14 @@
+UNIQUE-ID - RXN-16999
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 7 8 9 14 10 11 12 6 13 15) ((("GLC-1-P" 0 15)) (("D-glucopyranose-6-phosphate" 0 15))))
+CREDITS - SRI
+CREDITS - caspi
+EC-NUMBER - EC-5.4.2.5
+^OFFICIAL? - T
+GIBBS-0 - 0.    
+LEFT - GLC-1-P
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+RIGHT - D-glucopyranose-6-phosphate

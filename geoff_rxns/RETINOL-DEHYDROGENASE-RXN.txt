@@ -1,0 +1,35 @@
+UNIQUE-ID - RETINOL-DEHYDROGENASE-RXN
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - <i>all-trans</i>-retinol dehydrogenase (NAD)
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20) ((("RETINAL" 0 20)) (("CPD-13524" 0 20))))
+CITATIONS - 5972368
+CITATIONS - 12372410
+CITATIONS - 18926804
+COMMENT - The enzyme recognizes |FRAME: CPD-13524| and |FRAME: RETINAL| as substrates and exhibits a strong preference for NAD(+)/NADH as cofactors. Recognizes the substrate both in free form and when bound to cellular-retinol-binding-protein (CRBP1), but has higher affinity for the bound form |CITS: [9677409]|. No activity with 11-<i>cis</i>-retinol or 11-<i>cis</i>-retinal (c.f. |FRAME: RXN-12551 "EC 1.1.1.315, 11-<i>cis</i> retinol dehydrogenase"|). Also active with 3&alpha;-hydroxysteroids |CITS: [9677409]|.
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR103439" NIL |kothari| 3789143037 NIL NIL)
+DBLINKS - (RHEA "21287" NIL |kothari| 3709310380 NIL NIL)
+DBLINKS - (LIGAND-RXN "R02124" NIL |taltman| 3459474589 NIL NIL)
+DBLINKS - (UNIPROT "P50169" RELATED-TO |green| 3381008084 NIL NIL)
+DBLINKS - (UNIPROT "Q64437" RELATED-TO |paley| 3439827018 NIL NIL)
+DBLINKS - (UNIPROT "P40394" RELATED-TO |paley| 3439827017 NIL NIL)
+DBLINKS - (UNIPROT "P50170" RELATED-TO |green| 3381008084 NIL NIL)
+EC-NUMBER - EC-1.1.1.105
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN-19467
+ENZYMATIC-REACTION - ENZRXN-19433
+GIBBS-0 - 0.99183655    
+LEFT - CPD-13524
+LEFT - NAD
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - REVERSIBLE
+RIGHT - RETINAL
+RIGHT - NADH
+RIGHT - PROTON
+SYNONYMS - <em>all</em>-<em>trans</em> retinol dehydrogenase
+SYNONYMS - retinal reductase
+SYSTEMATIC-NAME - retinol:NAD<small><sup>+</sup></small> oxidoreductase

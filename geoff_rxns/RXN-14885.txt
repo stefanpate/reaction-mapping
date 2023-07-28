@@ -1,0 +1,20 @@
+UNIQUE-ID - RXN-14885
+TYPES - Chemical-Reactions
+TYPES - Complex-Processes
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - :UNBALANCED
+CANNOT-BALANCE? - T
+COMMENT - This unbalanced reaction is used for a display in a Glycan Builder-based pathway.
+CREDITS - SRI
+CREDITS - brito
+DBLINKS - (METANETX-RXN "MNXR118996" NIL |kothari| 3789143036 NIL NIL)
+GIBBS-0 - 636.8015    
+IN-PATHWAY - PWY-6791
+LEFT - Xyloglucan
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - Glucopyranose
+RIGHT - XYLOSE
+RIGHT - GALACTOSE
+RIGHT - L-Fucopyranoses

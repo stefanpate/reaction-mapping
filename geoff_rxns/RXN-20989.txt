@@ -1,0 +1,13 @@
+UNIQUE-ID - RXN-20989
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7) ((("CPD-8147" 0 7)) (("CPD-321" 0 7))))
+COMMENT - A physiological pH these two compounds exist in equilibrium with a pKa of 9.1 |CITS: [23893873]|.
+CREDITS - SRI
+CREDITS - caspi
+LEFT - CPD-321
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - REVERSIBLE
+RIGHT - CPD-8147
+SPONTANEOUS? - T

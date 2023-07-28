@@ -1,0 +1,18 @@
+UNIQUE-ID - RXN-1026
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - fatty acid elongation
+CANNOT-BALANCE? - T
+COMMENT - The substrate, fatty acyl-CoA is at least 18-carbons (C18) in length. The product, very long chain fatty acyl-CoA is longer than C18 in length and up to C32 in length.  The reaction adds a C2 to the substrate and extends its length by 2 carbons each reaction.  Different fatty acid elongases have different substrate specificities, i.e. they catalyze substrates having different carbon chain length  and different degrees of saturation |CITS: [10330468]|.
+DBLINKS - (METANETX-RXN "MNXR116352" NIL |kothari| 3789143036 NIL NIL)
+LEFT - Long-Chain-Acyl-CoAs
+LEFT - MALONYL-COA
+^COEFFICIENT - n
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :UNBALANCED-UNFIXABLE
+RIGHT - VERY-LONG-CHAIN-FATTY-ACYL-COA
+RIGHT - CARBON-DIOXIDE
+^COEFFICIENT - n
+RIGHT - CO-A
+^COEFFICIENT - n

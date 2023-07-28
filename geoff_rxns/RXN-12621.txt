@@ -1,0 +1,23 @@
+UNIQUE-ID - RXN-12621
+TYPES - Protein-Modification-Reactions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 19 18 20 21 22 34 38 32 36 33 37 31 35 40 23 24 25 26 27 39 28 29 30) ((("AMP" 0 22) ("Cysteine-Desulfurase-L-cysteine" 23 30) ("ThiS-CoASH-proteins" 31 40)) (("Adenylated-ThiS-Proteins" 0 31) ("L-Cysteine-Desulfurase-persulfide" 32 40))))
+CANNOT-BALANCE? - NIL
+CREDITS - SRI
+CREDITS - caspi
+DBLINKS - (METANETX-RXN "MNXR117663" NIL |kothari| 3789143036 NIL NIL)
+ENZYMATIC-REACTION - ENZRXN-19548
+IN-PATHWAY - PWY-6891
+IN-PATHWAY - RXN-20037
+LEFT - L-Cysteine-Desulfurase-persulfide
+LEFT - Adenylated-ThiS-Proteins
+LEFT - Donor-H2
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - ThiS-CoASH-proteins
+RIGHT - Cysteine-Desulfurase-L-cysteine
+RIGHT - AMP
+RIGHT - Acceptor
+RIGHT - PROTON
+^COEFFICIENT - 2

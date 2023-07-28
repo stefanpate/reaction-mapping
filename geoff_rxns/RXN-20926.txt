@@ -1,0 +1,19 @@
+UNIQUE-ID - RXN-20926
+TYPES - Small-Molecule-Reactions
+TYPES - Unknown-Conversions
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (4 5 0 6 1 9 12 15 10 11 13 14 7 8 2 3) ((("ACET" 0 3) ("PROPIONATE" 4 8) (("CARBON-DIOXIDE" 1) 9 11) (("CARBON-DIOXIDE" 2) 12 14) ("AMMONIUM" 15 15)) (("CPD-4841" 0 11) (("WATER" 1) 12 12) (("WATER" 2) 13 13) (("WATER" 3) 14 14) (("WATER" 4) 15 15))))
+COMMENT - A Gram-negative, non-sporeforming strictly anaerobic marine bacterium was reported to utilize |FRAME: CPD-4841| as sole source of carbon, energy, and nitrogen, fermenting it to acetate, propionate, ammonia, and 2 molecules of CO<sub>2</sub> |CITS: [1368138]|.
+CREDITS - SRI
+CREDITS - caspi
+LEFT - CPD-4841
+LEFT - WATER
+^COEFFICIENT - 4
+LEFT - PROTON
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+RIGHT - PROPIONATE
+RIGHT - ACET
+RIGHT - AMMONIUM
+RIGHT - CARBON-DIOXIDE
+^COEFFICIENT - 2

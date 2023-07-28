@@ -1,0 +1,19 @@
+UNIQUE-ID - RXN-9787
+TYPES - Composite-Reactions
+TYPES - Protein-Modification-Reactions
+COMMON-NAME - cysteine:[ThiI sulfur-carrier protein]-L-cysteine sulfurtransferase desulfurase
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (8 9 10 11 13 12 0 1 2 3 4 5 6 7 14) (((|Sulfur-Carrier-Proteins-ThiI| 0 7) (CYS 8 14)) ((L-ALPHA-ALANINE 0 5) (|Sulfurylated-ThiI| 6 14))))
+DBLINKS - (METANETX-RXN "MNXR122991" NIL |kothari| 3789143036 NIL NIL)
+EC-NUMBER - EC-2.8.1.7
+^OFFICIAL? - NIL
+GIBBS-0 - -1.0299988    
+LEFT - CYS
+LEFT - Sulfur-Carrier-Proteins-ThiI
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - PHYSIOL-LEFT-TO-RIGHT
+REACTION-LIST - RXN0-308
+REACTION-LIST - RXN-14382
+RIGHT - L-ALPHA-ALANINE
+RIGHT - Sulfurylated-ThiI

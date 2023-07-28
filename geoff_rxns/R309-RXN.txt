@@ -1,0 +1,26 @@
+UNIQUE-ID - R309-RXN
+TYPES - Chemical-Reactions
+TYPES - Small-Molecule-Reactions
+COMMON-NAME - Acrylonitrilase
+ATOM-MAPPINGS - (:NO-HYDROGEN-ENCODING (0 1 2 4 5 3) (((ACRYLONITRILE 0 3) ((WATER 1) 4 4) ((WATER 2) 5 5)) ((ACRYLATE 0 4) (AMMONIUM 5 5))))
+COMMENT - The enzyme preferentially hydrolyses aliphatic nitriles, some of which are apparently not substrates for
+/other known nitrilases (EC 3.5.5.1). Substrates include crotononitrile, acrylonitrile and glutaronitrile.
+/
+/This reaction is different from EC 3.5.5.1 in that the substrates for this reaction must be aliphatic. 
+/
+DBLINKS - (METANETX-RXN "MNXR109509" NIL |kothari| 3789143036 NIL NIL)
+DBLINKS - (LIGAND-RXN "R05358" NIL |taltman| 3536627203 NIL NIL)
+EC-NUMBER - EC-3.5.5.7
+^OFFICIAL? - NIL
+ENZYMATIC-REACTION - ENZRXN-2441
+GIBBS-0 - -3.7801266    
+IN-PATHWAY - PWY-7309
+LEFT - ACRYLONITRILE
+LEFT - WATER
+^COEFFICIENT - 2
+ORPHAN? - :NO
+PHYSIOLOGICALLY-RELEVANT? - T
+REACTION-BALANCE-STATUS - :BALANCED
+REACTION-DIRECTION - LEFT-TO-RIGHT
+RIGHT - ACRYLATE
+RIGHT - AMMONIUM
