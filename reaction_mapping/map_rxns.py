@@ -4,16 +4,15 @@ import numpy as np
 from mapping_fcns import *
 
 # Run from cmd
-# E.g., python map_rxns_to_rules_simple.py minimal1224_all_uniprot.tsv 200_random_metacyc_rxns_seed_1234.json temp_mapped_rxns.csv temp_rdkit_issues_mapping.csv
-# rules_path = sys.argv[1]
-# rxn_dict_path = sys.argv[2]
-# save_to = sys.argv[3]
-# rdkit_issues_path = sys.argv[4]
+# E.g., python map_rxns.py minimal1224_all_uniprot.tsv test_rxn.json test_mapping.csv
+rules_path = sys.argv[1]
+rxn_dict_path = sys.argv[2]
+save_to = sys.argv[3]
 
 # Set
-rules_path = 'test_rule.csv'
-save_to = 'test_mapping.csv'
-rxn_dict_path = 'test_rxn.json'
+# rules_path = 'JN3604IMT_rules.tsv'
+# rxn_dict_path = '10_random_metacyc_rxns_rnd_seed_1234.json'
+# save_to = 'test_mapping.csv'
 
 # Set and forget
 stoich_path = 'stoich_metacyc_rxns_directed_221214.json'
@@ -57,7 +56,7 @@ for k, rxn in rxn_dict.items():
         print(f"{mapped_rxn_binary.sum():.0f} / {rxn_ctr} reactions mapped") # Print progress
 
         # Save results
-        with open(save_to, 'w') as f:
+        with open(save_to, 'a') as f:
             writer = csv.writer(f)
             writer.writerows(rxn_to_rule)
 
