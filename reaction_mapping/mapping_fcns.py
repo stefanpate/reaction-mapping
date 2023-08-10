@@ -26,39 +26,41 @@ def map_rxn2rule(rxn, rule, max_products=10000):
     # Check for missing smiles
     if (None in pre_sani_reactants) or (None in pre_sani_products):
         missing_smiles = True
-    
-    reactants, products = sanitize(pre_sani_reactants), sanitize(pre_sani_products) # Remove stereochem
-    
-    if ((len(reactants) != len(pre_sani_reactants)) or (len(products) != len(pre_sani_products))) and (not missing_smiles) :
-        smiles_parse_issue = True
-    
-    products = sorted(products)
-    operator = Chem.rdChemReactions.ReactionFromSmarts(rule) # Make reaction object from smarts string
-    reactants_mol = tuple([Chem.MolFromSmiles(elt) for elt in reactants]) # Convert reactant smiles to mol obj
-    rule_substrate_cts = count_reactants(rule) # [n_reactants, n_products] in a rule
-    rxn_substrate_cts = [len(reactants), len(products)]
 
-    # Check if number of reactants / products strictly match
-    # rule to reaction
-    if rule_substrate_cts != rxn_substrate_cts:
-        return did_map, missing_smiles, smiles_parse_issue
+    else:
+    
+        reactants, products = sanitize(pre_sani_reactants), sanitize(pre_sani_products) # Remove stereochem, canonicalize
         
-    # For every permutation of that subset of reactants
-    for perm in permutations(reactants_mol):
-        outputs = operator.RunReactants(perm, maxProducts=max_products) # Apply rule to that permutation of reactants
+        if ((len(reactants) != len(pre_sani_reactants)) or (len(products) != len(pre_sani_products))) and (not missing_smiles) :
+            smiles_parse_issue = True
+        
+        products = sorted(products)
+        operator = Chem.rdChemReactions.ReactionFromSmarts(rule) # Make reaction object from smarts string
+        reactants_mol = tuple([Chem.MolFromSmiles(elt) for elt in reactants]) # Convert reactant smiles to mol obj
+        rule_substrate_cts = count_reactants(rule) # [n_reactants, n_products] in a rule
+        rxn_substrate_cts = [len(reactants), len(products)]
 
-        for output in outputs:
-            try:
-                output = [CanonSmiles(Chem.MolToSmiles(elt)) for elt in output] # Convert pred products to smiles
-            except:
-                output = [Chem.MolToSmiles(elt) for elt in output]
+        # Check if number of reactants / products strictly match
+        # rule to reaction
+        if rule_substrate_cts != rxn_substrate_cts:
+            return did_map, missing_smiles, smiles_parse_issue
             
-            output = sorted(output)
+        # For every permutation of that subset of reactants
+        for perm in permutations(reactants_mol):
+            outputs = operator.RunReactants(perm, maxProducts=max_products) # Apply rule to that permutation of reactants
 
-            # Compare predicted to actual products. If mapped, return
-            if output == products: 
-                did_map = True
-                return did_map, missing_smiles, smiles_parse_issue
+            for output in outputs:
+                try:
+                    output = [CanonSmiles(Chem.MolToSmiles(elt)) for elt in output] # Convert pred products to canonical smiles
+                except:
+                    output = [Chem.MolToSmiles(elt) for elt in output]
+                
+                output = sorted(output)
+
+                # Compare predicted to actual products. If mapped, return
+                if output == products: 
+                    did_map = True
+                    return did_map, missing_smiles, smiles_parse_issue
     
     return did_map, missing_smiles, smiles_parse_issue
 

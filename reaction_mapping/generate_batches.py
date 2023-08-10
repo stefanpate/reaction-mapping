@@ -2,13 +2,14 @@ from mapping_fcns import load_json, save_json
 
 # Set
 rules = 'JN3604IMT_rules.tsv' # Path to rules
-rxns_prefix = 'mc_rxns_batch_' # Prefix of path to reactions
-mapping_prefix = 'mapping_mc_rxns_imt_rules_batch_' # Prefix of path to save
+all_rxns_path = 'mc_v21_as_is.json'
+rxns_prefix = 'mc_v21_rxns_batch_' # Prefix of path to save reaction batches
+mapping_prefix = 'mapping_mc_v21_rxns_imt_rules_batch_' # Prefix of path to save
 submit_prefix = 'submit_batch_'
 n = 10 # Number of batches
 
 # Load reaction data
-mc_rxns = load_json('mc_rxns_final_221214.json')
+mc_rxns = load_json(all_rxns_path)
 
 default_text_1 = ['#!/bin/bash', '#SBATCH -A b1039', '#SBATCH -p b1039',
                     '#SBATCH -N 1', '#SBATCH -n 15', '#SBATCH --mem-per-cpu=8G',

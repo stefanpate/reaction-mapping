@@ -4,15 +4,13 @@ import numpy as np
 from mapping_fcns import *
 
 # Run from cmd
-# E.g., python map_rxns.py minimal1224_all_uniprot.tsv test_rxn.json test_mapping.csv
+# E.g., python map_rxns.py minimal1224_all_uniprot.tsv 10_random_mc_v21_rxns_rnd_seed_1234.json test_mapping.csv
 rules_path = sys.argv[1]
 rxn_dict_path = sys.argv[2]
 save_to = sys.argv[3]
-
-# Set
-# rules_path = 'JN3604IMT_rules.tsv'
-# rxn_dict_path = '10_random_metacyc_rxns_rnd_seed_1234.json'
-# save_to = 'test_mapping.csv'
+check_smiles = True # Whether or not to track missing smiles and parse_issues
+missing_smiles_path = 'missing_smiles_' + save_to.lstrip('mapping_')
+smiles_parse_path = 'smiles_parse_issues_' + save_to.lstrip('mapping_')
 
 # Set and forget
 stoich_path = 'stoich_metacyc_rxns_directed_221214.json'
@@ -34,6 +32,8 @@ n_rxns = len(list(rxn_dict.keys())) # Total no. reactions to map
 
 # Map reactions to rules
 rxn_to_rule = []
+rxns_missing_smiles = []
+rxns_w_smiles_parse_issues = []
 rxn_ctr = 0
 mapped_rxn_binary = np.zeros(shape=(n_rxns,))
 for k, rxn in rxn_dict.items():
@@ -41,12 +41,18 @@ for k, rxn in rxn_dict.items():
     rxn = apply_stoich(k, rxn, stoich_dict)
     for elt in rules:
         rule_name, rule_smarts = elt
-        found_match, _, _ = map_rxn2rule(rxn, rule_smarts)
+        found_match, missing_smiles, smiles_parse_issue = map_rxn2rule(rxn, rule_smarts)
 
         if found_match:
             print(f"{k} => {rule_name}")
             row.append(rule_name)
             mapped_rxn_binary[rxn_ctr] = 1
+
+        if missing_smiles & (k not in rxns_missing_smiles):
+            rxns_missing_smiles.append([k])
+
+        if smiles_parse_issue & (k not in rxns_w_smiles_parse_issues):
+            rxns_w_smiles_parse_issues.append([k])
         
     rxn_to_rule.append(row)
     rxn_ctr += 1 # Update progress
@@ -61,3 +67,19 @@ for k, rxn in rxn_dict.items():
             writer.writerows(rxn_to_rule)
 
         rxn_to_rule = [] # Empty list of mappings
+
+        if check_smiles:
+
+            # Save results
+            with open(missing_smiles_path, 'a') as f:
+                writer = csv.writer(f)
+                writer.writerows(rxns_missing_smiles)
+
+            # Save results
+            with open(smiles_parse_path, 'a') as f:
+                writer = csv.writer(f)
+                writer.writerows(rxns_w_smiles_parse_issues)
+
+            rxns_missing_smiles = []
+            rxns_w_smiles_parse_issues = []
+
