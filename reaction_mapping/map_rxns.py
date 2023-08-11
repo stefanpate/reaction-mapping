@@ -4,7 +4,7 @@ import numpy as np
 from mapping_fcns import *
 
 # Run from cmd
-# E.g., python map_rxns.py minimal1224_all_uniprot.tsv 10_random_mc_v21_rxns_rnd_seed_1234.json test_mapping.csv
+# E.g., python map_rxns.py JN3604IMT_rules.tsv ../../Tb/bottle/mevalonate_pathway.json ../../Tb/bottle/mapping_mevalonate_pathway_imt_rules.csv
 rules_path = sys.argv[1]
 rxn_dict_path = sys.argv[2]
 save_to = sys.argv[3]
