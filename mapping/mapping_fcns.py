@@ -65,51 +65,53 @@ def match_template(rxn, rule_reactants_template, rule_products_template, smi2pai
     Returns the permuted indices corresponding to
     a match between reactant and rule templates
     '''
-
     reactants_smi, products_smi = rxn
-    reactants_template = ['Any' for elt in reactants_smi]
-    products_template = ['Any' for elt in products_smi]
     rule_reactants_template = tuple(rule_reactants_template.split(';'))
     rule_products_template = tuple(rule_products_template.split(';'))
+    matched_idxs = [] # Return empty if no matches found
+    # First check the cardinality of reactants, products matches
+    if (len(rule_reactants_template) == len(reactants_smi)) & (len(rule_products_template) == len(products_smi)):
 
-    # Search for unpaired cofactors first
-    for i, r in enumerate(reactants_smi):
-        if r in smi2unpaired_cof:
-            reactants_template[i] = smi2unpaired_cof[r]
+        reactants_template = ['Any' for elt in reactants_smi]
+        products_template = ['Any' for elt in products_smi]
 
-    for i, p in enumerate(products_smi):
-        if p in smi2unpaired_cof:
-            products_template[i] = smi2unpaired_cof[p]
+        # Search for unpaired cofactors first
+        for i, r in enumerate(reactants_smi):
+            if r in smi2unpaired_cof:
+                reactants_template[i] = smi2unpaired_cof[r]
 
-    # Search for paired cofactors
-    # Only overwriting should be PPi/Pi as phosphate donor/acceptor
-    for i, r in enumerate(reactants_smi):
-        for j, p in enumerate(products_smi):
-            if (r, p) in smi2paired_cof:
-                reactants_template[i] = smi2paired_cof[(r, p)][0]
-                products_template[j] = smi2paired_cof[(r, p)][1]
-            elif (p, r) in smi2paired_cof:
-                reactants_template[i] = smi2paired_cof[(p, r)][1]
-                products_template[j] = smi2paired_cof[(p, r)][0]
+        for i, p in enumerate(products_smi):
+            if p in smi2unpaired_cof:
+                products_template[i] = smi2unpaired_cof[p]
 
-    reactants_idx_template = [(elt, i) for i, elt in enumerate(reactants_template)]
+        # Search for paired cofactors
+        # Only overwriting should be PPi/Pi as phosphate donor/acceptor
+        for i, r in enumerate(reactants_smi):
+            for j, p in enumerate(products_smi):
+                if (r, p) in smi2paired_cof:
+                    reactants_template[i] = smi2paired_cof[(r, p)][0]
+                    products_template[j] = smi2paired_cof[(r, p)][1]
+                elif (p, r) in smi2paired_cof:
+                    reactants_template[i] = smi2paired_cof[(p, r)][1]
+                    products_template[j] = smi2paired_cof[(p, r)][0]
 
-    # First try to products templates
-    product_template_match = False
-    for perm in permutations(products_template):
-        if perm == rule_products_template:
-            product_template_match = True
+        reactants_idx_template = [(elt, i) for i, elt in enumerate(reactants_template)]
 
-    # If product templates match
-    # find permutations of reactant template that match
-    # rule template and keep the indices of those good permutations
-    # Else return empty list
-    matched_idxs = []
-    if product_template_match:
-        for perm in permutations(reactants_idx_template):
-            this_template, this_idx = list(zip(*perm))
-            if this_template == rule_reactants_template:
-                matched_idxs.append(this_idx)
+        # First try to products templates
+        product_template_match = False
+        for perm in permutations(products_template):
+            if perm == rule_products_template:
+                product_template_match = True
+
+        # If product templates match
+        # find permutations of reactant template that match
+        # rule template and keep the indices of those good permutations
+        # Else return empty list
+        if product_template_match:
+            for perm in permutations(reactants_idx_template):
+                this_template, this_idx = list(zip(*perm))
+                if this_template == rule_reactants_template:
+                    matched_idxs.append(this_idx)
 
     return matched_idxs
 

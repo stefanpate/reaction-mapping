@@ -2,7 +2,7 @@ from mapping_fcns import load_json, save_json
 
 # Set
 rules = 'minimal1224_all_uniprot.tsv' # Path to rules
-all_rxns_path = '100_random_mc_v21_rxns_rnd_seed_1234.json'
+all_rxns_path = 'mc_v21_as_is.json'
 rxns_prefix = 'mc_v21_rxns_batch_' # Prefix of path to save reaction batches
 mapping_prefix = 'mapping_mc_v21_rxns_min_cof_rules_batch_' # Prefix of path to save
 submit_prefix = 'submit_batch_'

@@ -90,8 +90,8 @@ for k, rxn in rxn_dict.items(): # Iterate over rxns
             if smiles_parse_issue & ([k] not in rxns_w_smiles_parse_issues):
                 rxns_w_smiles_parse_issues.append([k])
             
-    rxn_to_rule.append(row)
-    rxn_ctr += 1 # Update progress
+    rxn_to_rule.append(row) # Only count parseable smiles to mapping list
+    rxn_ctr += 1 # Update progress in any case: missing, unparseable, map, did not map rxn
 
     # Periodically print progress, save results and empty list
     if (rxn_ctr % 50 == 0) | (rxn_ctr == n_rxns):
@@ -105,7 +105,6 @@ for k, rxn in rxn_dict.items(): # Iterate over rxns
         rxn_to_rule = [] # Empty list of mappings
 
         if check_smiles:
-
             # Save results
             with open(missing_smiles_path, 'a') as f:
                 writer = csv.writer(f)

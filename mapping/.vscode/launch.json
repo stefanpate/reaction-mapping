@@ -12,7 +12,7 @@
             "program": "${file}",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": ["test_rule.csv", "test_rxn.json", "mapping_single_test.csv"]
+            "args": ["minimal1224_all_uniprot.tsv", "10_true_pos_mc_v21_rxns_rnd_seed_1234.json", "mapping_test_batch_6.csv"]
         }
     ]
 }
