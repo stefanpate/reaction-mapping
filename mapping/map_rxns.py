@@ -8,7 +8,7 @@ from mapping_fcns import *
 rules_path = sys.argv[1]
 rxn_dict_path = sys.argv[2]
 save_to = sys.argv[3]
-check_smiles = True # Whether to save info abt missing smiles & parse_issues
+check_smiles = False # Whether to save info abt missing smiles & parse_issues
 do_template = True # Whether to enforce template matching, ie cofactors
 path_list = save_to.split('/')
 missing_smiles_path = 'missing_smiles' + path_list[-1].lstrip('mapping')
@@ -54,6 +54,8 @@ for k, rxn in rxn_dict.items(): # Iterate over rxns
     # Check for missing smiles
     if (None in rxn[0]) or (None in rxn[1]):
         missing_smiles = True
+        rxns_missing_smiles.append([k])
+
     else:
         # Try to sanitize and remove stereochem
         reactants, reactants_parse_issue = sanitize(rxn[0])
@@ -63,6 +65,7 @@ for k, rxn in rxn_dict.items(): # Iterate over rxns
         # Catch smiles parse issues
         if reactants_parse_issue or products_parse_issue:
             smiles_parse_issue = True
+            rxns_w_smiles_parse_issues.append([k])
     
     # If the data is okay, try to map
     if (not missing_smiles) & (not smiles_parse_issue):
@@ -83,14 +86,9 @@ for k, rxn in rxn_dict.items(): # Iterate over rxns
                 print(f"{k} => {rule_name}")
                 row.append(rule_name)
                 mapped_rxn_binary[rxn_ctr] = 1
-
-            if missing_smiles & ([k] not in rxns_missing_smiles):
-                rxns_missing_smiles.append([k])
-
-            if smiles_parse_issue & ([k] not in rxns_w_smiles_parse_issues):
-                rxns_w_smiles_parse_issues.append([k])
-            
-    rxn_to_rule.append(row) # Only count parseable smiles to mapping list
+                   
+        rxn_to_rule.append(row) # Only count parseable smiles to mapping list
+    
     rxn_ctr += 1 # Update progress in any case: missing, unparseable, map, did not map rxn
 
     # Periodically print progress, save results and empty list

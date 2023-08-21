@@ -1,0 +1,2 @@
+Name	Reactants	SMARTS	Products	Comments
+rule0677	Any;WATER;Ubiquinones_CoF	[#7:1].[#8:2].[#8:3]=[#6:4]1-[#6:5]=[#6:6]-[#6:7](=[#8:8])-[#6:9]=[#6:10]-1>>[#7+:1]-[#8:2].[#8:3]-[#6:4]1:[#6:10]:[#6:9]:[#6:7](-[#8:8]):[#6:6]:[#6:5]:1	Any;Ubiquinols_CoF

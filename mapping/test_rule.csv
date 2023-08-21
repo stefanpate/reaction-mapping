@@ -1,2 +1,0 @@
-Name,Reactants,SMARTS,Products,Comments				
-rule0086	CoA;Any	[#16:1].[#6:2]-[#6:3]>>[#6:2].[#6:3]-[#16:1]	ACETYL-COA;Any	D2I940;I3RA72;NCED52;P42765;Q64428;Q8VCH0;Q921H8
