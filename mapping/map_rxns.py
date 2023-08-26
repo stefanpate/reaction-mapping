@@ -8,7 +8,7 @@ from mapping_fcns import *
 rules_path = sys.argv[1]
 rxn_dict_path = sys.argv[2]
 save_to = sys.argv[3]
-check_smiles = False # Whether to save info abt missing smiles & parse_issues
+check_smiles = True # Whether to save info abt missing smiles & parse_issues
 do_template = True # Whether to enforce template matching, ie cofactors
 path_list = save_to.split('/')
 missing_smiles_path = 'missing_smiles' + path_list[-1].lstrip('mapping')
@@ -87,7 +87,7 @@ for k, rxn in rxn_dict.items(): # Iterate over rxns
                 row.append(rule_name)
                 mapped_rxn_binary[rxn_ctr] = 1
                    
-        rxn_to_rule.append(row) # Only count parseable smiles to mapping list
+        rxn_to_rule.append(row) # Only add parseable smiles to mapping list
     
     rxn_ctr += 1 # Update progress in any case: missing, unparseable, map, did not map rxn
 
