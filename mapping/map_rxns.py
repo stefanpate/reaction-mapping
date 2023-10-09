@@ -8,7 +8,7 @@ from mapping_fcns import *
 rules_path = sys.argv[1]
 rxn_dict_path = sys.argv[2]
 save_to = sys.argv[3]
-check_smiles = True # Whether to save info abt missing smiles & parse_issues
+check_smiles = False # Whether to save info abt missing smiles & parse_issues
 do_template = True # Whether to enforce template matching, ie cofactors
 path_list = save_to.split('/')
 missing_smiles_path = 'missing_smiles' + path_list[-1].lstrip('mapping')
