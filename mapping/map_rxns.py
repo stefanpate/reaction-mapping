@@ -16,8 +16,6 @@ smiles_parse_path = 'smiles_parse_issues' + path_list[-1].lstrip('mapping')
 
 # Set and forget
 stoich_path = 'stoich_metacyc_rxns_directed_221214.json'
-paired_cof_path = 'smi2paired_cof.json'
-unpaired_cof_path = 'smi2unpaired_cof.json'
 
 #################################################################################################
 # Read in rules
@@ -33,6 +31,16 @@ stoich_dict = load_json(stoich_path) # Read in stoichiometry
 n_rxns = len(list(rxn_dict.keys())) # Total no. reactions to map
 
 # Read in cofactor lookup tables
+if rules_path == 'minimal1224_all_uniprot.tsv':
+    paired_cof_path = 'smi2paired_cof_min.json'
+    unpaired_cof_path = 'smi2unpaired_cof_min.json'
+elif rules_path == 'JN3604IMT_rules.tsv':
+    paired_cof_path = 'smi2paired_cof_imt.json'
+    unpaired_cof_path = 'smi2unpaired_cof_imt.json'
+else:
+    paired_cof_path = 'smi2paired_cof.json'
+    unpaired_cof_path = 'smi2unpaired_cof.json'
+
 if do_template:
     smi2paired_cof = load_json(paired_cof_path)
     smi2unpaired_cof = load_json(unpaired_cof_path)
