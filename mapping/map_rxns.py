@@ -2,9 +2,10 @@ import csv
 import sys
 import numpy as np
 from mapping_fcns import *
+import pandas as pd
 
 # Run from cmd
-# E.g., python map_rxns.py minimal1224_all_uniprot.tsv 10_true_pos_mc_v21_rxns_rnd_seed_1234.json mapping_test_3.csv
+# E.g., python map_rxns.py JN3604IMT_rules.tsv swissprot_unmapped.json swissprot_unmapped.csv
 rules_path = sys.argv[1]
 rxn_dict_path = sys.argv[2]
 save_to = sys.argv[3]
@@ -51,6 +52,7 @@ rxns_missing_smiles = []
 rxns_w_smiles_parse_issues = []
 rxn_ctr = 0
 mapped_rxn_binary = np.zeros(shape=(n_rxns,))
+template_match_binary= np.zeros(shape=(n_rxns,))
 for k, rxn in rxn_dict.items(): # Iterate over rxns
     # Init data checking flags
     missing_smiles = False
@@ -85,6 +87,7 @@ for k, rxn in rxn_dict.items(): # Iterate over rxns
                 matched_idxs = match_template(rxn, rule_reactants_template, rule_products_template, smi2paired_cof, smi2unpaired_cof)
 
                 if len(matched_idxs) > 0:
+                    template_match_binary[rxn_ctr]= 1
                     did_map = map_rxn2rule(rxn, rule_smarts, matched_idxs=matched_idxs) # Map if have template matches
 
             else:
@@ -123,3 +126,7 @@ for k, rxn in rxn_dict.items(): # Iterate over rxns
 
             rxns_missing_smiles = []
             rxns_w_smiles_parse_issues = []
+
+# # Save failed templates
+# df = pd.DataFrame({'hashes': template_match_binary})
+# df.to_csv("found_template.csv", sep='\t', index=False)
