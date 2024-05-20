@@ -5,13 +5,23 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Current File",
-            "type": "python",
+            "name": "pydebug current file w/ args",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${fileDirname}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["minimal1224_all_uniprot.tsv", "test_rxn.json", "test_res_v5.json"]
+        },
+
+        {
+            "name": "pydebug current file ",
+            "type": "debugpy",
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "justMyCode": true,
-            "args": ["test_rule.tsv", "test_rxn.json", "test_mapping.csv"]
+            "justMyCode": true
         }
     ]
 }

@@ -1,21 +1,25 @@
 import json
 import numpy as np
-from itertools import permutations, product
+from itertools import permutations, product, chain
 from rdkit import Chem
 from rdkit.Chem import AllChem, CanonSmiles
+import re
 
-def map_rxn2rule(rxn, rule, matched_idxs=None, max_products=10000):
+def map_rxn2rule(rxn, rule, return_rc=False, matched_idxs=None, max_products=10000):
     '''
     Maps reactions to SMARTS-encoded reaction rule.
     Args:
         - rxn: List of lists, each sublist with smiles of 
         substrates with the correct multiplicity / stoichiometry
         - rule: smarts string
+        - return_rc: Return reaction center
+        - matched_idxs: Indices of reaction reactants in the order they match the smarts
+        reactants templates
     Returns:
         - did_map (bool)
-        - missing_smiles (bool)
-        - smiles_parse_issue (bool)
+        - rc: Tuple of w/ reaction center atoms for each reactant or empty tuple
     '''
+    did_map = False
     reactants, products = rxn
     
     # If neither missing nor unparseable smiles, continue with mapping
@@ -26,9 +30,9 @@ def map_rxn2rule(rxn, rule, matched_idxs=None, max_products=10000):
     rxn_substrate_cts = [len(reactants), len(products)]
 
     # Check if number of reactants / products strictly match
-    # rule to reaction
+    # rule to reaction. If not return false
     if rule_substrate_cts != rxn_substrate_cts:
-        return False
+        return did_map, tuple()
     
     # If not enforcing templates,
     # get all permutations of reactant
@@ -41,24 +45,53 @@ def map_rxn2rule(rxn, rule, matched_idxs=None, max_products=10000):
         perm = tuple([reactants_mol[idx] for idx in idx_perm]) # Re-order reactants based on allowable idx perms
         outputs = operator.RunReactants(perm, maxProducts=max_products) # Apply rule to that permutation of reactants
 
-        for output in outputs:
-            try:
-                output = [CanonSmiles(Chem.MolToSmiles(elt)) for elt in output] # Convert pred products to canonical smiles
-            except:
-                output = [Chem.MolToSmiles(elt) for elt in output]
-            
-            output = sorted(output)
+        did_map = compare_operator_outputs_w_products(outputs, products)
 
-            # Compare predicted to actual products. If mapped, return
-            if output == products: 
-                return True
+        if did_map:
+            break # out of permutations-of-matched-idxs loop
+
+    if did_map and not return_rc: # Mapped and don't want rc
+        return did_map, tuple()
+
+    elif did_map and return_rc: # Mapped and want rc
+        patts = get_lhs_patts_from_operator(rule)
+        patts = [Chem.MolFromSmarts(elt) for elt in patts]
+
+        if len(patts) != len(perm):
+            raise Exception("Something wrong. There should be same number of operator fragments as reaction reactants") # TODO This the right way to raise exceptions?
+        
+        substruct_matches = [perm[i].GetSubstructMatches(patts[i]) for i in range(len(patts))]
+        ss_match_combos = product(*substruct_matches) # All combos of putative rcs of n substrates
+        all_putative_rc_atoms = [set(chain(*elt)) for elt in substruct_matches] # ith element has set of all putative rc atoms of ith reactant
+
+        for smc in ss_match_combos:
+
+            # Protect all but rc currently considered in each reactant
+            for j, reactant_rc in enumerate(smc):
+                all_but = all_putative_rc_atoms[j] - set(reactant_rc) # To protect: "all but current rc"
+                for protect_idx in all_but:
+                    perm[j].GetAtomWithIdx(protect_idx).SetProp('_protected', '1')
+
+            outputs = operator.RunReactants(perm, maxProducts=max_products) # Run operator with protected atoms
+
+            # If found match
+            if compare_operator_outputs_w_products(outputs, products):
+                
+                # Re-order rcs back to order of original reaction smiles
+                rc = [None for elt in smc]
+                for i, idx in enumerate(idx_perm):
+                    rc[idx] = smc[i]
+
+                return did_map, tuple(rc)
             
-            # Last, try fixing kekulization issues
-            postsan_output = postsanitize_smiles(output)
-            for elt in postsan_output: # Iterate over sets of outputs w/ diff tautomers
-                if sorted(elt) == products:
-                    return True
-    return False
+            # Deprotect & try again
+            for j, reactant_rc in enumerate(smc):
+                all_but = all_putative_rc_atoms[j] - set(reactant_rc) # To protect: "all but current rc"
+                for protect_idx in all_but:
+                    perm[j].GetAtomWithIdx(protect_idx).ClearProp('_protected')
+
+    else: # Did not map
+        return did_map, tuple()
 
 def match_template(rxn, rule_reactants_template, rule_products_template, smi2paired_cof, smi2unpaired_cof):
     '''
@@ -114,33 +147,6 @@ def match_template(rxn, rule_reactants_template, rule_products_template, smi2pai
                     matched_idxs.append(this_idx)
 
     return matched_idxs
-
-def apply_stoich(rxn_id, rxn, stoich_dict):
-    '''
-    Take reaction list-of-dicts and append incremental smiles
-    according to stoichiometry.
-    Args:
-        - rxn_id: string metacyc identifier
-        - rxn: list of two dicts, with id:smi entries for substrates
-    Returns:
-        - reactants_smi, products_smi: two lists of substrate smiles w/ right multiplicity
-    '''
-    if rxn_id in stoich_dict.keys():
-        output = []
-        for i,elt in enumerate(rxn): # Each side of reaction
-            temp = []
-            for k,v in elt.items(): # Each id:smi
-                coeff = stoich_dict[rxn_id][i][k]
-                single_substrate = [v for i in range(coeff)]
-                temp += single_substrate
-
-            output.append(temp)
-
-    else: # Can't find stoich
-        output = [list(rxn[0].values()), list(rxn[1].values())]
-
-    return output
-
 
 def count_reactants(rule_smarts):
     '''
@@ -262,3 +268,63 @@ def postsanitize_smiles(smiles_list):
         sanitized_list.append(sorted(set(tautomer_smiles + [temp_smiles])))
 
     return list(product(*sanitized_list))
+
+def get_lhs_patts_from_operator(smarts_str):
+
+    # lhs smarts pattern
+    lhs_smarts = smarts_str.split('>>')[0]
+    lhs_smarts = re.sub(r':[0-9]+]', ']', lhs_smarts)
+
+    # identify each fragment
+    smarts_list = []
+    temp_fragment = []
+
+    # append complete fragments only
+    for fragment in lhs_smarts.split('.'):
+        temp_fragment += [fragment]
+        if '.'.join(temp_fragment).count('(') == '.'.join(temp_fragment).count(')'):
+            smarts_list.append('.'.join(temp_fragment))
+            temp_fragment = []
+
+            # remove component grouping for substructure matching
+            if '.' in smarts_list[-1]:
+                smarts_list[-1] = smarts_list[-1].replace('(', '', 1)[::-1].replace(')', '', 1)[::-1]
+
+    return smarts_list
+
+def compare_operator_outputs_w_products(outputs, products):
+    for output in outputs:
+        try:
+            output = [CanonSmiles(Chem.MolToSmiles(elt)) for elt in output] # Convert pred products to canonical smiles
+        except:
+            output = [Chem.MolToSmiles(elt) for elt in output]
+        
+        output = sorted(output)
+
+        # Compare predicted to actual products. If mapped, update did_map flag
+        if output == products: 
+            return True
+        
+        # Last, try fixing kekulization issues
+        postsan_output = postsanitize_smiles(output)
+        for elt in postsan_output: # Iterate over sets of outputs w/ diff tautomers
+            if sorted(elt) == products:
+                return True
+            
+    return False
+
+if __name__ == "__main__":
+
+    # Test extraction of mols from smarts
+    import pandas as pd
+    rules_path = "minimal1224_all_uniprot.tsv"
+    rules = pd.read_csv(rules_path, sep='\t')
+    rules.set_index("Name", inplace=True)
+    rules.drop('Comments', axis=1, inplace=True)
+
+    for name, row in rules.iterrows():
+        smarts = row["SMARTS"]
+        smarts_list = get_lhs_patts_from_operator(smarts)
+        patts = [Chem.MolFromSmarts(elt) for elt in smarts_list]
+        patts = [Chem.MolToSmarts(elt) for elt in patts]
+        print(name, patts)
