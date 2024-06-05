@@ -301,7 +301,7 @@ def compare_operator_outputs_w_products(outputs, products):
         
         output = sorted(output)
 
-        # Compare predicted to actual products. If mapped, update did_map flag
+        # Compare predicted to actual products. If mapped, return True
         if output == products: 
             return True
         
