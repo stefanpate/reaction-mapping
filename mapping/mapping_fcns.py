@@ -294,9 +294,11 @@ def get_lhs_patts_from_operator(smarts_str):
 
 def compare_operator_outputs_w_products(outputs, products):
     for output in outputs:
+        flag = False
         try:
             output = [CanonSmiles(Chem.MolToSmiles(elt)) for elt in output] # Convert pred products to canonical smiles
         except:
+            flag = True
             output = [Chem.MolToSmiles(elt) for elt in output]
         
         output = sorted(output)

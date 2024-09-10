@@ -12,7 +12,7 @@
             "cwd": "${fileDirname}",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": ["minimal1224_all_uniprot.tsv", "test_rxn.json", "test_res_v5.json"]
+            "args": ["minimal1224_all_uniprot.tsv", "krsv3_20_random.json", "operator_mapping_test_output_20.json"]
         },
 
         {
